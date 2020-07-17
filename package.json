@@ -1,0 +1,18 @@
+{
+  "name": "baldwin&",
+  "version": "0.0.1",
+  "description": "http://narrowdesign.github.io/baldwinand/",
+  "main": "index.html",
+  "dependencies": {
+    "grunt": "^1.2.1",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "*"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Nick Jones",
+  "license": ""
+}

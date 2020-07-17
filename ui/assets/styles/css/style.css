@@ -5627,7 +5627,7 @@ th {
 }
 .jsAri {
   background: #33222215;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
 }
 @media (min-width: 500px) and (max-width: 959px) {
   .jsHome .Header {

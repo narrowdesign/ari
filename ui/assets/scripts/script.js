@@ -10,8 +10,6 @@ let currentSection;
 let currentPerson;
 let currentClient;
 let currentCampaign;
-let currentStory;
-let currentNewsHeadline = 0;
 
 let currentImage = 0;
 
@@ -22,8 +20,6 @@ let sectionTops;
 let personTops;
 let storyTops;
 let clientTops;
-
-let newsInterval;
 
 let revealBuffer; // sections are revealed when they are scrolled this far into the screen
 
@@ -56,13 +52,6 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   $('.jsPressButton').on('click', sectionClickHandler);
   $('.jsContactButton').on('click', sectionClickHandler);
 
-  $('.jsNewsButton .jsText').on('click', newsClickHandler);
-  $('.jsNewsButton .jsNewsNumber').on('click', newsNumberClickHandler);
-  $('.jsNewsButton .jsNewsAll').on('click', newsClickHandler);
-
-  $('.jsOverlay').on('click', closeNews)
-  $('.jsOverlay').on('click', closeInfo)
-
   // WORK EVENTS
 
   $('.jsCampaignInfo').on('scroll', function(e){
@@ -73,10 +62,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     nextCampaign(e);
   })
 
-  $('.jsCloseNews').on('click', closeNews);
-
   // $('.jsClient .jsName').on('click', showWork);
-  $('.jsCloseInfo').on('click', closeInfo);
   $('.jsClient > .jsContent').on('click', function(){
     if (BODY.hasClass('is-work')) {
       hideWork();
@@ -151,43 +137,6 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       client_el.appendTo('#Section--work');
     })
     $('.jsClient').eq(0).remove(); // clean up the dummy
-
-    // NEWS INIT
-    $.each(news, function(i){
-      const story = $('.jsNews .jsStory').eq(0).clone();
-      const data = news[i];
-      $('.jsHeadline a', story).html(data.headline);
-      $('.jsSource', story).text(data.source)
-      $('.jsDate', story).text(data.date)
-      $('a', story).attr('href',data.link)
-      story.appendTo('.jsNews');
-    })
-    $('.jsStory').each(function(i){
-      $(this).css({
-        '-webkit-transition-delay': i/20 + 's'
-      });
-    });
-    $('.jsNews .jsStory').eq(0).remove();
-
-    updateNewsHeadline();
-    newsInterval = setInterval(
-      function(){
-        setTimeout(
-          function(){
-            if (currentSection === 0) {
-              $('.jsNewsNumber').eq(currentNewsHeadline).removeClass('current');
-              if (currentNewsHeadline >= 2) {
-                currentNewsHeadline = 0;
-              }else {
-                currentNewsHeadline++;
-              }
-              $('.jsNewsNumber').eq(currentNewsHeadline).addClass('current');
-              updateNewsHeadline();
-            }
-          }
-        ,3000);
-      }
-    ,5000);
   }
   function logoClickHandler(e) {
     BODY.stop();
@@ -201,41 +150,11 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const sectionNum = $(this).index()+1;
     BODY.stop();
     BODY.removeClass('is-work');
-    $('.jsNewsButton').removeClass('current')
     $('.jsCampaignInfo', $('.jsClient').eq(currentClient)).removeClass('in');
     BODY.addClass('current');
     currentClient = null;
     currentPerson = null;
     BODY.scrollTop(sectionTops[sectionNum]);
-  }
-
-  function newsClickHandler(e) {
-    BODY.addClass('is-news');
-    $('.jsNews .jsStory').each(function(i){
-      const story = $(this);
-      story.addClass('in')
-    })
-  }
-  function updateNewsHeadline() {
-    $('.jsNewsHeadline .jsHeadline').text(news[currentNewsHeadline].headline)
-    $('.jsNewsHeadline .jsSource').text(news[currentNewsHeadline].source)
-    $('.jsNewsHeadline .jsDate').text(news[currentNewsHeadline].date)
-    $('.jsNewsHeadline a').attr('href', news[currentNewsHeadline].link)
-  }
-  function newsNumberClickHandler(e) {
-    clearInterval(newsInterval);
-    $('.jsNewsNumber').eq(currentNewsHeadline).removeClass('current');
-    currentNewsHeadline = $(this).index();
-    $('.jsNewsNumber').eq(currentNewsHeadline).addClass('current');
-    updateNewsHeadline();
-  }
-  function closeNews(e) {
-    BODY.removeClass('is-news');
-    $('.jsNews .jsStory').removeClass('in')
-  }
-  function closeInfo(e) {
-    e.stopPropagation();
-    hideWork();
   }
 
   function alignTop() {
@@ -270,14 +189,16 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       BODY.removeClass('is-footer');
     }
 
+    // $('iframe').api("pause");
+
     
     const oldScrollTop = scrollTop;
     scrollTop = BODY.scrollTop();
     const scrollProgress = Math.min(scrollTop * .002, Math.PI * .5);
     $('.jsMenu').css({
-      transform: `translateY(-${Math.sin(scrollProgress) * $('.jsAri').height() * .59}px)`
+      transform: `translateY(-${Math.sin(scrollProgress) * $('.jsAri').height() * .65}px)`
     })
-    const logoScale = 1 - Math.sin(scrollProgress) * .666;
+    const logoScale = 1 - Math.sin(scrollProgress) * .75;
     if(oldScrollTop != scrollTop){
       $('.jsAri').css({
         transform: `scale(${logoScale})`

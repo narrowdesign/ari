@@ -26,6 +26,8 @@ let revealBuffer; // sections are revealed when they are scrolled this far into 
 $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   const WIN = $(window);
   const BODY = $("body");
+  const LOGO_VIDEO = $f(document.querySelector('.jsLogoVideo'));
+  let logoHeight = $('.jsAri').height();
   init();
 
   resizeHandler(); // Calculate sizes right away
@@ -188,17 +190,17 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       BODY.stop();
       BODY.removeClass('is-footer');
     }
-
-    // $('iframe').api("pause");
+    
+    LOGO_VIDEO.api("pause");
 
     
     const oldScrollTop = scrollTop;
     scrollTop = BODY.scrollTop();
     const scrollProgress = Math.min(scrollTop * .002, Math.PI * .5);
     $('.jsMenu').css({
-      transform: `translateY(-${Math.sin(scrollProgress) * $('.jsAri').height() * .65}px)`
+      transform: `translateY(-${Math.sin(scrollProgress) * logoHeight * (logoShrinkage - .1)}px)`
     })
-    const logoScale = 1 - Math.sin(scrollProgress) * .75;
+    const logoScale = 1 - Math.sin(scrollProgress) * logoShrinkage;
     if(oldScrollTop != scrollTop){
       $('.jsAri').css({
         transform: `scale(${logoScale})`
@@ -208,77 +210,77 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
 
   function shiftCovers() {
-    $('.jsPerson').each(function(i){
-      let myTop = personTops[i]
-      let nextTop;
-      if(oldPerson != i){
-        oldPerson = currentPerson;
-        if(i < $('.jsPerson').length-1){
-          nextTop = personTops[i+1] - revealBuffer;
-        }else{
-          nextTop = personTops[i] + _winH - revealBuffer;
-        }
-        if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
-          currentPerson = i;
-          if (!$(this).hasClass('current')) {
-            $(this).addClass('current');
-          }
-        }else{
-          if ($(this).hasClass('current')) {
-            $(this).removeClass('current');
-          }
-        }
-      }
-    });
+    // $('.jsPerson').each(function(i){
+    //   let myTop = personTops[i]
+    //   let nextTop;
+    //   if(oldPerson != i){
+    //     oldPerson = currentPerson;
+    //     if(i < $('.jsPerson').length-1){
+    //       nextTop = personTops[i+1] - revealBuffer;
+    //     }else{
+    //       nextTop = personTops[i] + _winH - revealBuffer;
+    //     }
+    //     if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
+    //       currentPerson = i;
+    //       if (!$(this).hasClass('current')) {
+    //         $(this).addClass('current');
+    //       }
+    //     }else{
+    //       if ($(this).hasClass('current')) {
+    //         $(this).removeClass('current');
+    //       }
+    //     }
+    //   }
+    // });
 
-    $('.jsClient').each(function(i){
-      const myTop = clientTops[i]
-        let nextTop;
-        if(i < $('.jsClient').length - 1){
-          nextTop = clientTops[i + 1] - revealBuffer;
-        }else{
-          nextTop = clientTops[i] + _winH - revealBuffer;
-        }
-        if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
-          if (!$(this).hasClass('current')) {
-            currentClient = i;
-            $(this).addClass('current');
-          }
-        }else{
-          if ($(this).hasClass('current')) {
-            $(this).removeClass('current')
-          }
-        }
-    });
+    // $('.jsClient').each(function(i){
+    //   const myTop = clientTops[i]
+    //     let nextTop;
+    //     if(i < $('.jsClient').length - 1){
+    //       nextTop = clientTops[i + 1] - revealBuffer;
+    //     }else{
+    //       nextTop = clientTops[i] + _winH - revealBuffer;
+    //     }
+    //     if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
+    //       if (!$(this).hasClass('current')) {
+    //         currentClient = i;
+    //         $(this).addClass('current');
+    //       }
+    //     }else{
+    //       if ($(this).hasClass('current')) {
+    //         $(this).removeClass('current')
+    //       }
+    //     }
+    // });
 
-    $('.jsSection').each(function(i){
-      const myTop = sectionTops[i]
-      let nextTop;
-      if(i < $('.jsSection').length - 1){
-        nextTop = sectionTops[i + 1] - revealBuffer;
-      }else{
-        nextTop = sectionTops[i] + _winH - revealBuffer;
-      }
-      if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
-        if (!$(this).hasClass('current')) {
-          currentSection = i;
-          $(this).addClass('current');
-          $('.jsMenuItem').removeClass('current');
+    // $('.jsSection').each(function(i){
+    //   const myTop = sectionTops[i]
+    //   let nextTop;
+    //   if(i < $('.jsSection').length - 1){
+    //     nextTop = sectionTops[i + 1] - revealBuffer;
+    //   }else{
+    //     nextTop = sectionTops[i] + _winH - revealBuffer;
+    //   }
+    //   if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
+    //     if (!$(this).hasClass('current')) {
+    //       currentSection = i;
+    //       $(this).addClass('current');
+    //       $('.jsMenuItem').removeClass('current');
 
-          if (i > 0) {
-            $('.jsMenuItem').eq(i - 1).addClass('current');
-          }
-        }
-      }else{
-        $(this).removeClass('current')
-      }
-    });
-    if (scrollTop < personTops[0] - revealBuffer) {
-      currentPerson = -1;
-    }
-    if (scrollTop < clientTops[0] - revealBuffer) {
-      currentClient = -1;
-    }
+    //       if (i > 0) {
+    //         $('.jsMenuItem').eq(i - 1).addClass('current');
+    //       }
+    //     }
+    //   }else{
+    //     $(this).removeClass('current')
+    //   }
+    // });
+    // if (scrollTop < personTops[0] - revealBuffer) {
+    //   currentPerson = -1;
+    // }
+    // if (scrollTop < clientTops[0] - revealBuffer) {
+    //   currentClient = -1;
+    // }
   }
 
   //////// WORK FUNCTIONS
@@ -402,5 +404,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     setTimeout(function(){
       setTops();
     },800);
+    logoHeight = $('.jsAri').height();
+    logoShrinkage = .3 + _winW / 1680 * .45;
   }
 })

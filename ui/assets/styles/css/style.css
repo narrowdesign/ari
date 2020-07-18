@@ -1252,6 +1252,9 @@ th {
 .p-t-30p {
   padding-top: 30%;
 }
+.p-t-36p {
+  padding-top: 36%;
+}
 .p-t-100p {
   padding-top: 100%;
 }
@@ -1420,7 +1423,7 @@ th {
   padding-right: 13rem;
 }
 .p-h-1vw {
-  padding-left: 1.5vw;
+  padding-left: 1vw;
   padding-right: 1vw;
 }
 .p-h-2vw {
@@ -5627,7 +5630,10 @@ th {
 }
 .jsAri {
   background: #33222215;
-  backdrop-filter: blur(15px);
+}
+.jsMenu {
+  padding-bottom: calc(8px + (30 - 8) * (100vw - 400px) / (1680 - 400));
+  bottom: calc(0px + (30 - 0) * (100vw - 400px) / (1680 - 400));
 }
 @media (min-width: 500px) and (max-width: 959px) {
   .jsHome .Header {

@@ -138,7 +138,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       if (client !== '') {
         $('.jsClientLogos').append(`
           <div class="w-25p">
-            <img class="w-100p" src="ui/assets/images/logos/${client}.svg" />
+            <img class="w-100p" src="ui/assets/images/clients/${client}.svg" />
           </div>
         `)
       } else {

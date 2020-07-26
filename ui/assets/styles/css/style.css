@@ -6182,7 +6182,7 @@ th {
 }
 .jsThumbnail {
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .jsThumbnail .jsThumbnail__info {
   z-index: 1;
@@ -6192,7 +6192,7 @@ th {
   right: 0;
   top: 0;
   bottom: 0;
-  transition: 0.6s;
+  transition: 0.5s;
   transform: scale(0.9);
 }
 .jsThumbnail .jsThumbnail__info:hover {

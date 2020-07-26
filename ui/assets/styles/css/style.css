@@ -5012,6 +5012,9 @@ th {
   .ls-w-720px {
     width: 720px;
   }
+  .ls-w-960px {
+    width: 960px;
+  }
   .ls-max-w-0,
   .ls-max-w-a {
     max-width: none;

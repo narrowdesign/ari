@@ -21,6 +21,10 @@ let personTops;
 let storyTops;
 let clientTops;
 
+let scrollTimeout;
+
+let isPaused = false;
+
 let revealBuffer; // sections are revealed when they are scrolled this far into the screen
 
 $(function() { // INITIALIZE AFTER JQUERY IS LOADED
@@ -191,7 +195,16 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       BODY.removeClass('is-footer');
     }
     
-    LOGO_VIDEO.api("pause");
+    if (!isPaused) {
+      isPaused = true;
+      LOGO_VIDEO.api("pause");
+
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        isPaused = false;
+        LOGO_VIDEO.api("play");
+      }, 400);
+    }
 
     
     const oldScrollTop = scrollTop;

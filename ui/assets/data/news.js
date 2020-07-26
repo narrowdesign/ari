@@ -1,4 +1,4 @@
-var news = [
+const news = [
   {
     headline: "Article headline here",
     link: "https://medium.com/",

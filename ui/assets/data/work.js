@@ -5,43 +5,96 @@
     image
     video
 */
-var work = [
+const work = [
   {
-    clientName: "Elmhurst",
-    folderName: "elmhurst", // Note: formatted like this so I can use it to reference file and folder names with this name
-    campaigns: [{
-      poster: "elmhurst_poster.jpg",
-      awards: [
-        "2018 One show pencil",
-        "2018 AICP winner",
-      ],
-      services: [
-        "Brand Messaging",
-        "Script Writing",
-      ],
-      content: [
-        {
-          type: "video",
-          src: "https://player.vimeo.com/video/402200729",
-        },
-        {
-          type: "title_and_text",
-          title: "Say Something Nobody Else Can",
-          text: "A culture of sustainability and dietary consciousness has brought plant-based diets and products into the spotlight. Elmhurst didn’t have a big budget or the marketing machine of its competitors. Then again, they didn’t have other things too. Like gums, oils and additives. It was time for this quiet little company to establish a voice and show plant-based fans why simpler is actually better."
-        },
-        {
-          type: "video",
-          src: "https://player.vimeo.com/video/402204658",
-        },
-        {
-          type: "video",
-          src: "https://player.vimeo.com/video/405134581",
-        },
-        {
-          type: "image",
-          src: "elmhurst_poster.jpg",
-        },
-      ],
-    }]
+    clientName: "MeWe Nut Butter",
+    title: "Say Something Purposeful",
+    description: "Can one product save millions suffering from malnutrition while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. We helped by creating MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and was chosen to join Chobani’s prestigious incubator program.",
+    folderName: "mewe",
+    poster: "mewe.jpg",
+    services: [
+      "STRATEGY",
+      "POSITIONING",
+      "NAMING",
+      "LOGO",
+      "ID SYSTEM DESIGN",
+      "BRAND MESSAGING",
+      "PACKAGE DESIGN",
+      "CREATIVE DEVELOPMENT",
+      "E-COMMERCE WEBSITE ",
+      "DIRECT MAIL",
+      "PR KIT",
+      "SOCIAL CONTENT",
+      "INVESTOR MATERIALS",
+      "TRADE SHOW BOOTH",
+    ],
+    awards: [
+      "2018 One show pencil",
+      "2018 AICP winner",
+    ],
+    content: [
+      {
+        type: "image",
+        src: "mewe.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "Metlife",
+    title: "Say Something Unifying",
+    description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it a violation of Ari’s non-compete (kidding).",
+    folderName: "metlife",
+    poster: "metlife.jpg",
+    services: [
+      "BRAND MESSAGING",
+      "CREATIVE DEVELOPMENT",
+      "VIDEO PRODUCTION AND POST PRODUCTION",
+    ],
+    awards: [
+      "2018 One show pencil",
+      "2018 AICP winner",
+    ],
+    content: [
+      {
+        title: "Superbowl Anthem:",
+        type: "video",
+        src: "https://player.vimeo.com/video/96031163",
+      },
+    ],
+  },
+  {
+    clientName: "Wishclouds",
+    title: "Say Something Entertaining",
+    description: "Our friend at Wishclouds said, “we need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on to launch the Wishclouds app with a fresh voice. “Jane” quickly racked up 2.5M views on Youtube, appearing in campaign, adage, shots, archive, creativity, best ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
+    folderName: "wishclouds",
+    poster: "wishclouds.jpg",
+    services: [
+      "CREATIVE DEVELOPMENT",
+      "FILM DIRECTION",
+      "VIDEO & POST PRODUCTION",
+      "INFLUENCER CONTENT",
+    ],
+    awards: [
+      "2018 One show pencil",
+      "2018 AICP winner",
+    ],
+    content: [
+      {
+        title: "Jane:",
+        type: "video",
+        src: "https://player.vimeo.com/video/340950970",
+      },
+    ],
   },
 ]
+
+
+// {
+//   type: "video",
+//   src: "https://player.vimeo.com/video/402200729",
+// },
+// {
+//   type: "title_and_text",
+//   title: "Say Something Purposeful",
+//   text: "Can one product save millions suffering from malnutrition while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. We helped by creating MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and was chosen to join Chobani’s prestigious incubator program."
+// },

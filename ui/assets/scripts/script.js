@@ -100,7 +100,6 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $('.jsPerson').eq(0).remove(); // clear the placeholder
 
     // WORK INIT
-    $('.jsClientsNum').html(work.length);
     $.each(work, function(i){
       const client_el = $('.jsClient').eq(0).clone();
       const data = work[i];
@@ -114,35 +113,38 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         });
       });
 
-      $.each(data.campaigns, function(j) {
-        $('.jsThumbnails', client_el).append(
-          `<div class="jsThumb--work pos-r w-100p">
-            <div class="pos-r w-100p ms-h-a cur-p hov">
-              <div class="jsThumb__cover w-100p h-a pos-r"><img class="pos-r w-100p"></div>
-              <div class="jsThumb__title pos-a w-66p b-0 ms-b-05rem l-0 p-1 f-s-xs ms-f-s-s w-s-w m-t-05 ms-m-l-05"></div>
-            </div>
-          </div>`
-        );
-        const thumbnail = $('.jsThumb--work', client_el).eq(j)
-        const cover = $('.jsThumb--work .jsThumb__cover img', client_el).eq(j)
-        const title = $('.jsThumb--work .jsThumb__title', client_el).eq(j)
-        cover.attr('src', 'ui/assets/images/work/' + folderName + '/' + data.campaigns[j].poster);
-        title.html(data.campaigns[j].title)
-        title.css({color: data.campaigns[j].textColor})
-        thumbnail.on('click', function(e){
-          e.stopPropagation();
-          currentClient = i;
-          showWork(e);
-          setCampaign(client_el, data, $(this).index(), 'campaign');
-        })
-        cover.css({
-          'transition-delay': (.5 + j/15) + 's'
-        })
+      $('.jsThumbnails').append(
+        `<div class="jsThumbnail pos-r w-100p grid-row-1 p-t-100p ov-h t-a-c">
+          <img src="ui/assets/images/work/${folderName}/${data.poster}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
+          <div class="jsThumbnail__info fx-c j-c-center a-i-center f-s-xl p-h-2">
+            <div class="jsThumbnail__client f-s-l">${data.clientName}</div>
+            <div class="jsThumbnail__title f-s-xl f-w-700">${data.title}</div>
+          </div>
+        </div>`
+      );
+      const thumbnail = $('.jsThumb--work', client_el).eq(i)
+      thumbnail.on('click', function(e){
+        e.stopPropagation();
+        currentClient = i;
+        showWork(e);
       })
-
       client_el.appendTo('#Section--work');
     })
+
     $('.jsClient').eq(0).remove(); // clean up the dummy
+
+    // CLIENTS INIT
+    $.each(clients, function(i, client) {
+      if (client !== '') {
+        $('.jsClientLogos').append(`
+          <div class="w-25p">
+            <img class="w-100p" src="ui/assets/images/logos/${client}.svg" />
+          </div>
+        `)
+      } else {
+        $('.jsClientLogos').append(`<div class="w-25p"></div>`);
+      }
+    })
   }
   function logoClickHandler(e) {
     BODY.stop();

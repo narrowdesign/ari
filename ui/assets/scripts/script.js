@@ -1,5 +1,5 @@
 let scrollTop = 0; // keeps track of scroll position
-let campaignScrollTop = 0;
+let projectScrollTop = 0;
 
 let _winW = 0; // width of the window
 let _winH = 0;
@@ -8,8 +8,7 @@ let mouseX = 0;
 
 let currentSection;
 let currentPerson;
-let currentClient;
-let currentCampaign;
+let currentProject;
 
 let currentImage = 0;
 
@@ -29,8 +28,9 @@ let revealBuffer; // sections are revealed when they are scrolled this far into 
 
 $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   const WIN = $(window);
-  const BODY = $("body");
-  const LOGO_VIDEO = $f(document.querySelector('.jsLogoVideo'));
+  const LOGO_VIDEO = $f(document.querySelector('.jsLogo__video'));
+  const WORK_IMAGES_FOLDER = 'ui/assets/images/work/';
+
   let logoHeight = $('.jsAri').height();
   init();
 
@@ -47,7 +47,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   })
   WIN.on('scroll', scrollHandler);
 
-  $('.jsCampaignInfo').on('scroll', campaignScrollHandler);
+  $('.jsProject').on('scroll', projectScrollHandler);
 
   $('.Logo').on('click',logoClickHandler);
 
@@ -57,22 +57,13 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   $('.jsWorkButton').on('click', sectionClickHandler);
   $('.jsPressButton').on('click', sectionClickHandler);
   $('.jsContactButton').on('click', sectionClickHandler);
+  $('.jsProject__close').on('click', hideProject);
 
   // WORK EVENTS
 
-  $('.jsCampaignInfo').on('scroll', function(e){
+  $('.jsProject').on('scroll', function(e){
     e.preventDefault();
     e.stopPropagation();
-  })
-  $('.jsNextCampaign').on('click', function(e){
-    nextCampaign(e);
-  })
-
-  // $('.jsClient .jsName').on('click', showWork);
-  $('.jsClient > .jsContent').on('click', function(){
-    if (BODY.hasClass('is-work')) {
-      hideWork();
-    }
   })
 
   // FUNCTIONS
@@ -87,10 +78,10 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       const person = $('.jsPerson').eq(0).clone();
       const data = people[i];
       const name = data.name;
-      $('.jsName', person).html(name);
-      $('.jsTitle span', person).html(data.title);
-      $('.jsBio', person).html(data.bio);
-      $('.jsCover', person).css({
+      $('.jsPerson__name', person).html(name);
+      $('.jsPerson__title', person).html(data.title);
+      $('.jsPerson__bio', person).html(data.bio);
+      $('.jsPerson__cover', person).css({
         backgroundImage: 'url(ui/assets/images/people/'+data.cover+')',
         backgroundPosition: data.focalPoint
       });
@@ -100,44 +91,31 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $('.jsPerson').eq(0).remove(); // clear the placeholder
 
     // WORK INIT
-    $.each(work, function(i){
-      const client_el = $('.jsClient').eq(0).clone();
-      const data = work[i];
-      const clientName = data.clientName;
-      const folderName = data.folderName
-      client_el.attr('id', data.clientName.toLowerCase());
-      $('.jsName span', client_el).html(clientName);
-      $('.jsName span > span', client_el).each(function(i){
-        $(this).css({
-          'transition-delay': i/15 + 's'
-        });
-      });
+    $.each(projects, function(i){
+      const project = projects[i];
+      const folder = `${WORK_IMAGES_FOLDER}${project.folderName}/`;
+      const thumbHTML = `<div class="jsThumbnail pos-r w-100p p-t-100p ov-h t-a-c">
+      <img src="${folder}${project.poster}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
+        <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2">
+          <div class="jsThumbnail__client f-s-m">${project.clientName}</div>
+          <div class="jsThumbnail__title f-s-l f-w-700">${project.title}</div>
+        </div>
+      </div>`
 
-      $('.jsThumbnails').append(
-        `<div class="jsThumbnail pos-r w-100p grid-row-1 p-t-100p ov-h t-a-c">
-          <img src="ui/assets/images/work/${folderName}/${data.poster}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
-          <div class="jsThumbnail__info fx-c j-c-center a-i-center f-s-xl p-h-2">
-            <div class="jsThumbnail__client f-s-l">${data.clientName}</div>
-            <div class="jsThumbnail__title f-s-xl f-w-700">${data.title}</div>
-          </div>
-        </div>`
-      );
-      const thumbnail = $('.jsThumb--work', client_el).eq(i)
-      thumbnail.on('click', function(e){
-        e.stopPropagation();
-        currentClient = i;
-        showWork(e);
-      })
-      client_el.appendTo('#Section--work');
+      $('.jsThumbnails').append(thumbHTML);
     })
 
-    $('.jsClient').eq(0).remove(); // clean up the dummy
+    $('.jsThumbnail').on('click', function(e){
+      e.stopPropagation();
+      console.log($(this).index())
+      showProject(e, $(this).index());
+    })
 
     // CLIENTS INIT
     $.each(clients, function(i, client) {
       if (client !== '') {
         $('.jsClientLogos').append(`
-          <div class="w-25p">
+          <div class="w-20p">
             <img class="w-100p" src="ui/assets/images/clients/${client}.svg" />
           </div>
         `)
@@ -147,43 +125,43 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     })
   }
   function logoClickHandler(e) {
-    BODY.stop();
+    $('body').stop();
     $('.jsMenuItem').removeClass('current');
     currentClient = null;
     currentPerson = null;
-    BODY.animate({scrollTop: 0}, '1000');
+    $('body').animate({scrollTop: 0}, '1000');
   }
 
   function sectionClickHandler(e) {
     const sectionNum = $(this).index()+1;
-    BODY.stop();
-    BODY.removeClass('is-work');
-    $('.jsCampaignInfo', $('.jsClient').eq(currentClient)).removeClass('in');
-    BODY.addClass('current');
+    $('body').stop();
+    $('body').removeClass('is-project-open');
+    $('.jsProject').removeClass('in');
+    $('body').addClass('current');
     currentClient = null;
     currentPerson = null;
-    BODY.scrollTop(sectionTops[sectionNum]);
+    $('body').scrollTop(sectionTops[sectionNum]);
   }
 
   function alignTop() {
     if (currentSection == 2) {
       setTimeout(function() {
-        BODY.animate({scrollTop: personTops[currentPerson]},'500');
+        $('body').animate({scrollTop: personTops[currentPerson]},'500');
       },1000)
     }else if(currentSection == 1){
       setTimeout(function() {
-        BODY.animate({scrollTop: clientTops[currentClient]},'500');
-        $('.jsCampaignInfo').scrollTop(0);
+        $('body').animate({scrollTop: clientTops[currentClient]},'500');
+        $('.jsProject').scrollTop(0);
       },1000)
     }
   }
 
-  function campaignScrollHandler() {
-    campaignScrollTop = $('.jsCampaignInfo').scrollTop();
+  function projectScrollHandler() {
+    projectScrollTop = $('.jsProject').scrollTop();
 
-    $('.jsCampaignImage').each(function(i) {
-      const image = $('.jsCampaignImage').eq(i);
-      const imageTop = image.offset().top - $('.jsCampaignInfo').offset().top;
+    $('.jsProjectImage').each(function(i) {
+      const image = $('.jsProjectImage').eq(i);
+      const imageTop = image.offset().top - $('.jsProject').offset().top;
       if (imageTop < _winH - _winH/5 && !image.hasClass('in')) {
         image.addClass('in');
       } else if (imageTop >= _winH - _winH/5) {
@@ -193,24 +171,22 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
   function scrollHandler(e) {
     if(e.type == 'wheel' || e.type == 'touchmove') {
-      BODY.stop();
-      BODY.removeClass('is-footer');
+      $('body').stop();
+      $('body').removeClass('is-footer');
     }
     
     if (!isPaused) {
-      isPaused = true;
-      LOGO_VIDEO.api("pause");
+      pauseLogoVideo();
 
       clearTimeout(scrollTimeout);
       scrollTimeout = setTimeout(() => {
-        isPaused = false;
-        LOGO_VIDEO.api("play");
+        unpauseLogoVideo();
       }, 400);
     }
 
     
     const oldScrollTop = scrollTop;
-    scrollTop = BODY.scrollTop();
+    scrollTop = $('body').scrollTop();
     const scrollProgress = Math.min(scrollTop * .002, Math.PI * .5);
     $('.jsMenu').css({
       transform: `translateY(-${Math.sin(scrollProgress) * logoHeight * (logoShrinkage - .1)}px)`
@@ -220,162 +196,91 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       $('.jsAri').css({
         transform: `scale(${logoScale})`
       })
-      shiftCovers();
     }
   }
 
-  function shiftCovers() {
-    // $('.jsPerson').each(function(i){
-    //   let myTop = personTops[i]
-    //   let nextTop;
-    //   if(oldPerson != i){
-    //     oldPerson = currentPerson;
-    //     if(i < $('.jsPerson').length-1){
-    //       nextTop = personTops[i+1] - revealBuffer;
-    //     }else{
-    //       nextTop = personTops[i] + _winH - revealBuffer;
-    //     }
-    //     if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
-    //       currentPerson = i;
-    //       if (!$(this).hasClass('current')) {
-    //         $(this).addClass('current');
-    //       }
-    //     }else{
-    //       if ($(this).hasClass('current')) {
-    //         $(this).removeClass('current');
-    //       }
-    //     }
-    //   }
-    // });
+  function pauseLogoVideo() {
+    isPaused = true;
+    LOGO_VIDEO.api("pause");
+  }
 
-    // $('.jsClient').each(function(i){
-    //   const myTop = clientTops[i]
-    //     let nextTop;
-    //     if(i < $('.jsClient').length - 1){
-    //       nextTop = clientTops[i + 1] - revealBuffer;
-    //     }else{
-    //       nextTop = clientTops[i] + _winH - revealBuffer;
-    //     }
-    //     if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
-    //       if (!$(this).hasClass('current')) {
-    //         currentClient = i;
-    //         $(this).addClass('current');
-    //       }
-    //     }else{
-    //       if ($(this).hasClass('current')) {
-    //         $(this).removeClass('current')
-    //       }
-    //     }
-    // });
-
-    // $('.jsSection').each(function(i){
-    //   const myTop = sectionTops[i]
-    //   let nextTop;
-    //   if(i < $('.jsSection').length - 1){
-    //     nextTop = sectionTops[i + 1] - revealBuffer;
-    //   }else{
-    //     nextTop = sectionTops[i] + _winH - revealBuffer;
-    //   }
-    //   if(scrollTop > myTop - revealBuffer && scrollTop < nextTop){
-    //     if (!$(this).hasClass('current')) {
-    //       currentSection = i;
-    //       $(this).addClass('current');
-    //       $('.jsMenuItem').removeClass('current');
-
-    //       if (i > 0) {
-    //         $('.jsMenuItem').eq(i - 1).addClass('current');
-    //       }
-    //     }
-    //   }else{
-    //     $(this).removeClass('current')
-    //   }
-    // });
-    // if (scrollTop < personTops[0] - revealBuffer) {
-    //   currentPerson = -1;
-    // }
-    // if (scrollTop < clientTops[0] - revealBuffer) {
-    //   currentClient = -1;
-    // }
+  function unpauseLogoVideo() {
+    isPaused = false;
+    LOGO_VIDEO.api("play");
   }
 
   //////// WORK FUNCTIONS
 
-  function showWork(e) {
-    alignTop();
+  function doTransition(delay, io, callback) {
+    pauseLogoVideo();
+    $('body').addClass('is-transitioning-' + io);
+    setTimeout(() => {
+      $('body').addClass('is-transitioned-' + io);
+      callback();
+    }, 500);
+    setTimeout(() => {
+      $('body').removeClass('is-transitioned-' + io);
+      $('body').removeClass('is-transitioning-' + io);
+    }, 2500);
+  }
+
+  function showProject(e, num) {
     e.stopPropagation();
     alignTop();
-    const client_el = $('.jsClient').eq(currentClient);
-    $('.jsCampaignInfo', client_el).addClass('in');
-    $('body').addClass('is-work');
-    setTimeout(function(){
-      $('.jsCampaignImage').eq(0).addClass('in');
-    },500)
-  }
-  function hideWork() {
-    const client_el = $('.jsClient').eq(currentClient);
-    $('.jsCampaignInfo', client_el).removeClass('in');
-    $('.jsClient.current .jsCampaignInfo .jsThumbnail').removeClass('in');
-    $('.jsCampaignImage').eq(0).removeClass('in');
-    BODY.removeClass('is-work');
+    doTransition(2500, 'in', () => {
+      setProject(num);
+      $('body').addClass('is-project-open');
+    })
   }
 
-  function nextCampaign(e) {
-    const client_el = $('.jsClient').eq(currentClient);
-    const data = work[currentClient]
-    const campaign = currentCampaign + 1;
-    if (campaign > work[currentClient].campaigns.length - 1 && currentClient == $('.jsClient').length - 1) {
-      hideWork();
-      return;
-    } else if (campaign > work[currentClient].campaigns.length - 1) {
-      BODY.stop();
-      client_el = $('.jsClient').eq(currentClient + 1);
-      data = work[currentClient + 1];
-      BODY.animate({scrollTop: client_el.offset().top}, 1000);
-      currentClient = currentClient + 1;
-      campaign = 0;
+  function hideProject() {
+    if (document.querySelector('.jsProject__video')) {
+      $f(document.querySelector('.jsProject__video')).api("pause");
     }
-    setCampaign(client, data, campaign, 'campaign');
+    doTransition(1500, 'out', () => {
+      $('body').removeClass('is-project-open');
+      unpauseLogoVideo();
+    })
   }
 
-  function setCampaign(client, data, num, type) {
-    const campaign = data.campaigns[num];
-    const content = campaign.content;
-    const clientName = work[currentClient].clientName;
-    const folderName = work[currentClient].folderName;
+  function setProject(num) {
+    currentProject = num;
+    const project = projects[num];
+    const content = project.content;
+    const clientName = project.clientName;
+    const title = project.title;
+    const description = project.description;
+    const folder = `${WORK_IMAGES_FOLDER}${project.folderName}/`;
+    const poster = `${folder}${project.poster}`;
 
-    $('.jsCampaignInfo').scrollTop(0);
-    
-    if (num < data.campaigns.length - 1) {
-      $('.jsNextCampaignName').html(data.campaigns[num+1].title);
-    } else if (currentClient < work.length - 1) {
-      clientName = work[currentClient + 1].client;
-      $('.jsNextCampaignName').html(work[currentClient + 1].campaigns[0].title);
-    } else {
-      $('.jsNextCampaignName').html("The End");
-    }
-    currentCampaign = num;
-    $('.jsCampaign__content').html('');
+    $('.jsProject__poster img').attr('src', poster)
+    $('.jsProject').scrollTop(0);
+    $('.jsProject__client').html(clientName);
+    $('.jsProject__title').html(title);
+    $('.jsProject__description').html(description);
+    $('.jsProject__content').html('');
     $.each(content, function(i){
-      if (content[i].type == "image") {
-        $('.jsCampaign__content').append(`<div class="jsCampaignImage pos-r d-b w-100p m-v-1"><img src=ui/assets/images/work/${folderName}/${content[i].src} class="pos-r d-b w-100p"></div>`)
-      } else if (content[i].type == "video") {
-        $('.jsCampaign__content').append(`<div class="pos-r jsCampaignImage jsVideoPlayer w-100p p-t-vid m-b-1">
-          <iframe class="pos-a l-0 t-0 w-100p h-100p" src="${content[i].src}?title=0&portrait=0&byline=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      const item = content[i];
+      if (item.type == "image") {
+        $('.jsProject__content').append(`<div class="jsProjectImage pos-r d-b w-100p m-v-1"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`)
+      } else if (item.type == "video") {
+        $('.jsProject__content').append(`<div class="pos-r jsProjectImage w-100p p-t-vid m-b-1">
+          <iframe class="jsProject__video pos-a l-0 t-0 w-100p h-100p" src="${item.src}?api=1&title=0&portrait=0&byline=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>`)
-      } else if (content[i].type == "title") {
-        $('.jsCampaign__content').append(`<div class="pos-r fx-c j-c-center a-i-center t-a-c a-i-start m-t-3">
-              <div class="f-s-l w-100p">
-                <div class="m-b-3">${content[i].title}</div>
-              </div>
-            </div>`)
-      } else if (content[i].type == "text") {
-        $('.jsCampaign__content').append(`<div class="f-s-s w-100p ms-w-50p pos-r m-b-3">${content[i].text}</div>`)
-      } else if (content[i].type == "title_and_text") {
-        $('.jsCampaign__content').append(`<div class="pos-r t-a-c m-b-3 max-w-720px m-h-a">
-              <div class="f-s-m m-b-1">${clientName}</div>      
-              <div class="f-s-xl m-b-1">${content[i].title}</div>
-              <div class="jsChallenge f-s-s ms-f-s-s">${content[i].text}</div>
-            </div>`)
+      } else if (item.type == "title") {
+        $('.jsProject__content').append(`<div class="pos-r fx-c j-c-center a-i-center t-a-c a-i-start m-t-3">
+          <div class="f-s-l w-100p">
+            <div class="m-b-3">${item.title}</div>
+          </div>
+        </div>`)
+      } else if (item.type == "text") {
+        $('.jsProject__content').append(`<div class="f-s-s w-100p ms-w-50p pos-r m-b-3">${item.text}</div>`)
+      } else if (item.type == "title_and_text") {
+        $('.jsProject__content').append(`<div class="pos-r t-a-c m-b-3 max-w-720px m-h-a">
+          <div class="f-s-m m-b-1">${clientName}</div>      
+          <div class="f-s-xl m-b-1">${item.title}</div>
+          <div class="jsChallenge f-s-s ms-f-s-s">${item.text}</div>
+        </div>`)
       }
     })
   }
@@ -403,7 +308,6 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $('.jsFinal').each(function(i){
       finalTops.push($(this).offset().top);
     })
-    shiftCovers();
   }
 
   function resizeHandler () { // Set the size of images and preload them

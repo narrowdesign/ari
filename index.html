@@ -9,13 +9,13 @@
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/froogaloop.js"></script>
   <script type="text/javascript" src="ui/assets/data/people.js"></script>
   <script type="text/javascript" src="ui/assets/data/news.js"></script>
-  <script type="text/javascript" src="ui/assets/data/work.js"></script>
+  <script type="text/javascript" src="ui/assets/data/projects.js"></script>
   <script type="text/javascript" src="ui/assets/data/clients.js"></script>
 </head>
 <body>
   <!-- <div class="Border"></div> -->
   <div class="pos-r jsVideoPlayer t-0 l-0 w-100p p-t-36p ov-h m-b-8">
-    <iframe class="jsLogoVideo pos-a l-0 t-0 w-100p h-100p" src="https://player.vimeo.com/video/439056084?api=1&title=0&portrait=0&byline=0&autoplay=1&loop=1&background=1&quality=400p" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe class="jsLogo__video pos-a l-0 t-0 w-100p h-100p" src="https://player.vimeo.com/video/439056084?api=1&title=0&portrait=0&byline=0&autoplay=1&loop=1&background=1&quality=400p" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
   <div class="jsHeader pos-f t-0 l-0 w-fs z-20 po-e-n">
     <div class="jsAri pos-r t-o-c d-f j-c-center">
@@ -39,28 +39,44 @@
     </div>
   </div>
   <div class="Container">
-    <section id="Section--work" class="jsSection jsWork p-h-1vw d-g gap-1vw">
-      <div class="jsThumbnails w-100p d-g gap-1vw">
+    <div class="jsProject p-h-3vw light-bg">
+      <div class="jsProject__close f-s-s d-f j-c-center a-i-center m-v-2">
+        <img src="ui/assets/images/home/ari_small.svg" class="w-8rem" />
+        <img src="ui/assets/images/common/close.svg" class="jsProject__x w-3rem pos-f r-3vw t-2rem" />
+      </div>
+      <div class="jsProject__poster">
+        <img class="w-100p" src="">
+      </div>
+      <div class="jsProject__header p-v-8">
+        <div class="jsProject__client f-s-m"></div>
+        <div class="jsProject__title f-s-l f-w-700 dark"></div>
+        <p class="jsProject__description t-a-c f-s-m m-t-05 w-100p max-w-960px m-h-a"></p>
+      </div>
+      <div class="jsProject__content"></div>
+      <div class="f-s-s p-1">More projects</div>
+      <div class="jsThumbnails w-100p"></div>
+
+    </div>
+    <section id="Section--work" class="jsSection jsWork p-h-3vw">
+      <div class="jsThumbnails w-100p light">
         
       </div>
     </section>
     <section id="Section--people" class="jsSection jsPeople">
       <div class="Header fx-c j-c-between p-v-2 ms-p-v-8 ls-p-v-13 pos-r w-100p max-w-480px ms-max-w-0 ms-w-560px ls-w-960px t-a-c m-h-a">
         <div class="jsName f-s-xl f-w-700 m-b-1 pos-r dark">Every brand has a voice.</div>
-        <p class="jsQuote f-s-s ls-f-s-m p-t-1">
+        <p class="jsQuote f-s-m p-t-1">
           Since 2012, we’ve been shaping messages and helping businesses make their voices heard. We have no offices, no conference rooms, no overhead costs clouding our objectivity. Just top-tier talent and a collaborative, time-tested approach for delivering the good stuff. That’s what friends are for.
         </p>
       </div>
       <div class="jsPerson ov-h pos-r d-f fx-r-a a-i-stretch white-bg">
-        <div class="jsCover w-50p bg-s-cv bg-p-c" style="background-image: url()">
+        <div class="jsPerson__cover w-50p bg-s-cv bg-p-c" style="background-image: url()">
         </div>
-        <div class="jsContent p-2 ms-p-4 ls-p-8 w-50p h-100p ov-h t-a-c">
-          <div class="jsPersonInfo m-h-a">
-            <div class="jsName f-s-xl f-w-700 m-b-1 pos-r dark"><span></span></div>
-            <div class="jsTitle f-s-m ls-f-s-l pos-r"><span></span></div>
-            <p class="jsBio t-a-c f-s-m list m-t-1o5 w-100p max-w-360px ms-w-480px ms-max-w-0 m-h-a">
-              
-            </p>
+        <div class="jsPerson__content p-2 ms-p-4 ls-p-8 w-50p h-100p ov-h t-a-c">
+          <div class="m-h-a">
+            <div class="jsPerson__name f-s-xl f-w-700 m-b-1 pos-r dark"></div>
+            <div class="jsPerson__title f-s-m ls-f-s-l pos-r"></div>
+            <p class="jsPerson__bio t-a-c f-s-m m-t-1o5 w-100p max-w-360px ms-w-480px ms-max-w-0 m-h-a"></p>
           </div>
         </div>
       </div>
@@ -107,7 +123,7 @@
       </div>
       <div class="white-bg p-t-2 ms-p-t-4 ls-p-t-8">
         <div class="f-s-xl w-100p f-w-700 dark t-a-c">Brand Experience</div>
-        <div class="d-f fx-w-w j-c-between p-t-2 ms-p-t-4 ls-p-t-8 jsClientLogos"></div>
+        <div class="d-f fx-w-w j-c-between a-i-baseline p-t-2 ms-p-t-4 ls-p-t-8 jsClientLogos"></div>
       </div>
     </section>
     <section id="Section--press" class="jsSection jsPress fs"></section>
@@ -135,6 +151,9 @@
         </a>
       </div>
     </section>
+  </div>
+  <div class="jsCover d-f j-c-center a-i-center">
+    <img src="ui/assets/images/home/ari_small_light.svg" class="jsCover__logo w-8rem" />
   </div>
 </body>
 <script type="text/javascript" src="ui/assets/scripts/script.js"></script>

@@ -1,3 +1,19 @@
+.jsCover {
+  position: fixed;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: @dark;
+  z-index: 100;
+  transform: translateY(100vh);
+  pointer-events: none;
+}
+
+.jsCover__logo {
+  opacity: 0;
+}
+
 .jsAri {
   background: #33222215;
   // backdrop-filter: blur(15px);
@@ -113,51 +129,10 @@
   color: #0F1E32;
 }
 
-.jsPerson,
-.jsClient,
-.jsNextCampaign {
+.jsPerson {
   transform-origin: 50% 100%;
   transition: .5s;
   // .transition(.5s,eease-out);
-  .jsCover {
-    .transition(.6s,ease-out,opacity,.05s);
-    // background-blend-mode: multiply;
-  }
-  .jsQuote{
-    // opacity: 0;
-    .transition(.3s,linear);
-  }
-  .jsName {
-    margin-left: -.6vw;
-    span > span {
-      color: @gold;
-      /*@media (min-width: 960px) {*/
-        .transform(perspective(400px) translate3d(1.2vw,0px,0) rotateY(90deg));
-      /*}*/
-      &.in {
-        opacity: 1;
-        color: #fff;
-        .transition(.6s,@easeOutBack);
-        /*@media (min-width: 960px) {*/
-          .transform(scale(1));
-        /*}*/
-      }
-    }
-    &:hover {
-      .transition(.1s);
-    }
-  }
-  .jsClientName.jsName {
-    span > span {
-      &.in {
-        color: @dark;
-      }
-    }
-  }
-  .jsCampaigns__label {
-    transform: perspective(1000px) rotateX(90deg);
-    transform-origin: 0% 50%;
-  }
 }
 
 .jsWork {
@@ -195,108 +170,28 @@
     top: 0;
     bottom: 0;
     transition: .5s;
-    transform: scale(0.9);
+    transform: translateY(100px);
   }
 
-  .jsThumbnail__info:hover {
-    backdrop-filter: blur(20px);
-    background: #000b;
-    transform: scale(1);
-  }
-
-  &:hover .jsThumbnail__info {
-    opacity: 1;
+  &:hover {
+    .jsThumbnail__info {
+      background: #000c;
+      transform: translateY(0);
+      opacity: 1;
+      transition: .3s ease-out;
+    }
   }
 }
 
 .jsThumbnails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
   transition: .4s ease-out;
-  .jsThumb__Cover img {
-    transition: .6s ease-out;
-  }
-
-  .jsThumb--work.current {
-    display: inline-block !important;
-  }
-
-  @media (min-width: 960px) {
-    .jsThumb--work:hover {
-      transition: .1s;
-      transform: scale(.995);
-      .jsThumb__cover {
-        transition: .1s;
-      }
-    }
-    .jsThumb__cover {
-      transition: .1s !important;
-    }
-  }
-}
-.jsCampaignInfo {
-  border: none;
-  a {
-    color: @dark;
-  }
-
-  .jsCampaignImage:after,
-  .jsCampaignVideo:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: @dark;
-    z-index: 100;
-    transition: 1s;
-  }
-  .jsCampaignImage.in:after,
-  .jsCampaignVideo.in:after {
-    opacity: 0;
-    visibility: hidden;
-  }
-  
-  .transition(.4s,ease-in);
-  .transform(translate3d(0,100%,0));
-  &.in {
-    opacity: 1;
-    .transform(scale(1));
-    pointer-events: auto;
-  }
-  .jsMore {
-    opacity: 0;
-    .transition(.3s,@easeOutBack,all,.5s);
-  }
-  .jsNextCampaign {
-    border: none;
-    background-size: cover;
-    background-position: 70% 0;
-    .jsNextArrow {
-      transform: translate3d(0,0,0);
-      transition: .3s ease-out;
-    }
-    &:hover {
-      .jsNextArrow {
-        transform: translate3d(10px,0,0);
-      }
-    }
-  }
-}
-.jsClient,
-.jsCampaignInfo {
-  .jsCover {
-    .transform(scale(1.1)) !important;
-    .transform-origin(50% 0);
-    .transition(.2s, @easeOut);
-    .jsImage {
-      background-size: cover;
-    }
-  }
 }
 
 .jsPerson.current,
-.jsNews.current,
-.jsClient.current {
+.jsNews.current {
   .jsQuote{
     opacity: 1;
   }
@@ -317,7 +212,7 @@
     visibility: visible;
     transform: scale(1);
   }
-  .jsCampaigns__label {
+  .jsProjects__label {
     transition-duration: .3s;
     transition-delay: .6s;
     transform: perspective(1000px) translate3d(0,0,0);
@@ -334,16 +229,6 @@
       border: none;
     }
   }
-  // .jsPhone {
-  //   &:hover {
-  //     &:after {
-  //       content: '919-680-0900';
-  //       position: absolute;
-  //       right: 0;
-  //       top: 0;
-  //     }
-  //   }
-  // }
   @media (max-width: 959px) {
     .jsSocialIcons {
       .transition(.3s, @easeOut);
@@ -388,59 +273,97 @@
   }
 }
 
+.jsProject {
+  position: fixed;
+  top: 0;
+  left: 100vw;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: white;
+  text-align: center;
+  opacity: 0;
+}
+
+.jsProject__x {
+  z-index: 1000;
+  transition: .2s;
+}
+.jsProject__x:hover {
+  cursor: pointer;
+  transform: scale(.8);
+  opacity: .5;
+}
+
+.is-transitioning-in {
+  .jsCover {
+    transition: .5s transform;
+    transform: translateY(0);
+  }
+  .jsCover__logo {
+    opacity: 1;
+    transition: 2s ease-out;
+  }
+}
+
+.is-transitioning-out {
+  .jsCover {
+    transition: .5s transform;
+    transform: translateY(0);
+  }
+  .jsCover__logo {
+    opacity: 1;
+    transition: 2s ease-out;
+  }
+}
+
+.is-transitioned-in {
+  .jsCover {
+    transition: 0.5s transform cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
+    transform: translateY(calc(-100vh - 100px));
+  }
+  .jsCover__logo {
+    transform: translateY(50vh);
+    transition: 0.5s cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
+  }
+}
+
+.is-transitioned-out {
+  .jsCover {
+    transition: 0.5s transform cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
+    transform: translateY(calc(-100vh - 100px));
+  }
+  .jsCover__logo {
+    transform: translateY(50vh);
+    transition: 0.5s cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
+  }
+}
+
 /* Site State */
 
-.is-work {
+.is-project-open {
+
   @media (max-width: 959px) {
     .Footer {
       pointer-events: none;
       opacity: 0;
     }
   }
+
+  .jsProject {
+    opacity: 1;
+    left: 0;
+  }
   .jsCloseInfo {
     visibility: visible;
     transform: scale(1);
     transition-delay: .7s;
   }
-  .jsCampaignLogo {
-    transition: .5s linear all 1s;
-    opacity: 1;
-    visibility: visible;
-  }
-  .jsCampaignInfo {
-    &:after {
-      visibility: hidden;
-      opacity: 0;
-      transition-delay: .7s;
-    }
-    .transition(.7s,ease-in-out);
-    .transform(translate3d(0,0,0));
-    .jsTitle {
-      .transform(translate3d(0,0,0));
-    }
-    .jsLogo {
-      transition-delay: 1s !important;
-      opacity: 1;
-      .transform(translate3d(0,0,0));
-    }
-    .jsDescription {
-      .transform(translate3d(0,0,0));
-      opacity: 1;
-    }
-    .jsMore {
-      opacity: 1;
-      .transform(translate3d(0,0,0));
-    }
-  }
   .jsWork {
     background-color: #fff;
     transition-delay: 0s;
     transition-duration: 0s;
-  }
-  .jsClient.current {
-    transition-delay: .01s;
-    transform: scale(.98);
-    transform-origin: 50% 100%;
   }
 }
 
@@ -472,8 +395,4 @@
 
 .yellow {
   color: #f9ae68;
-}
-
-.jsAbout {
-  background-color: @bgColor;
 }

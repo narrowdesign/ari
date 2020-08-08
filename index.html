@@ -11,40 +11,43 @@
   <script type="text/javascript" src="ui/assets/data/news.js"></script>
   <script type="text/javascript" src="ui/assets/data/projects.js"></script>
   <script type="text/javascript" src="ui/assets/data/clients.js"></script>
+  <script type="text/javascript" src="ui/assets/data/quotes.js"></script>
 </head>
 <body>
+  <div class="jsGrain pos-a t-0 l-0 w-100p"></div>
   <!-- <div class="Border"></div> -->
   <div class="pos-r jsVideoPlayer t-0 l-0 w-100p p-t-36p ov-h m-b-8">
     <iframe class="jsLogo__video pos-a l-0 t-0 w-100p h-100p" src="https://player.vimeo.com/video/439056084?api=1&title=0&portrait=0&byline=0&autoplay=1&loop=1&background=1&quality=400p" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
   <div class="jsHeader pos-f t-0 l-0 w-fs z-20 po-e-n">
-    <div class="jsAri pos-r t-o-c d-f j-c-center">
+    <div class="jsAri pos-r t-o-c d-f j-c-center ">
       <div class="pos-r w-150vw l-1rem fx-s-0 white-bg"></div>
-      <img class="w-fs fx-s-0 po-e-n" src="ui/assets/images/home/ari.svg" />
+      <img class="w-fs fx-s-0 po-e-a cur-p" src="ui/assets/images/home/ari.svg" />
       <div class="pos-r w-150vw r-1rem fx-s-0 white-bg"></div>
     </div>
-    <div class="jsMenu d-f j-c-center a-i-center pos-a w-fs white-bg po-e-a">
-      <div class="jsMenuItem jsWorkButton f-s-m p-h-05 pos-r">
-        <span>Work</span>
+    <div class="jsMenu d-f j-c-between a-i-center pos-a t-4rem w-fs op-0">
+
+      <div class="d-f j-c-end w-33p po-e-a">
+        <div class="jsMenuItem jsWorkButton f-s-m p-h-05 ls-p-h-2 pos-r">
+          <span>Work</span>
+        </div>
+        <div class="jsMenuItem jsAboutButton f-s-m p-h-05 ls-p-h-2 pos-r">
+          <span>About</span>
+        </div>
       </div>
-      <div class="jsMenuItem jsPeopleButton f-s-m p-h-05 pos-r">
-        <span>About</span>
-      </div>
-      <div class="jsMenuItem jsPressButton f-s-m p-h-05 pos-r">
-        <span>Press</span>
-      </div>
-      <div class="jsMenuItem jsContactButton f-s-m p-h-05 pos-r">
-        <span>Contact</span>
+      <div class="d-f j-c-start w-33p po-e-a">
+        <div class="jsMenuItem jsPressButton f-s-m p-h-05 ls-p-h-2 pos-r">
+          <span>Press</span>
+        </div>
+        <div class="jsMenuItem jsContactButton f-s-m p-h-05 ls-p-h-2 pos-r">
+          <span>Contact</span>
+        </div>
       </div>
     </div>
   </div>
   <div class="Container">
-    <div class="jsProject p-h-3vw light-bg">
-      <div class="jsProject__close f-s-s d-f j-c-center a-i-center m-v-2">
-        <img src="ui/assets/images/home/ari_small.svg" class="w-8rem" />
-        <img src="ui/assets/images/common/close.svg" class="jsProject__x w-3rem pos-f r-3vw t-2rem" />
-      </div>
-      <div class="jsProject__poster">
+    <div class="jsProject p-h-3vw light-bg p-t-10">
+      <div class="jsProject__hero">
         <img class="w-100p" src="">
       </div>
       <div class="jsProject__header p-v-8">
@@ -62,84 +65,131 @@
         
       </div>
     </section>
-    <section id="Section--people" class="jsSection jsPeople">
-      <div class="Header fx-c j-c-between p-v-2 ms-p-v-8 ls-p-v-13 pos-r w-100p max-w-480px ms-max-w-0 ms-w-560px ls-w-960px t-a-c m-h-a">
-        <div class="jsName f-s-xl f-w-700 m-b-1 pos-r dark">Every brand has a voice.</div>
-        <p class="jsQuote f-s-m p-t-1">
-          Since 2012, we’ve been shaping messages and helping businesses make their voices heard. We have no offices, no conference rooms, no overhead costs clouding our objectivity. Just top-tier talent and a collaborative, time-tested approach for delivering the good stuff. That’s what friends are for.
+    <section id="Section--people" class="jsSection jsAbout">
+      <div class="Header fx-c j-c-between p-h-4 p-v-2 ms-p-8 ls-p-v-13 pos-r w-100p t-a-c m-h-a">
+        <p class="f-s-l">
+          Every brand has a voice. Since 2012, we’ve been shaping messages and helping businesses make their voices heard. We have no offices, no conference rooms, no overhead costs clouding our objectivity. Just top-tier talent and a collaborative, time-tested approach for delivering the good stuff. That’s what friends are for.
         </p>
       </div>
-      <div class="jsPerson ov-h pos-r d-f fx-r-a a-i-stretch white-bg">
-        <div class="jsPerson__cover w-50p bg-s-cv bg-p-c" style="background-image: url()">
+      <div class="jsPerson ov-h pos-r ms-fx-r-a a-i-stretch white-bg">
+        <div class="jsPerson__cover pos-r ov-h ms-w-50p bg-s-cv bg-p-c pos-r p-t-100p ms-p-t-0" style="background-image: url()">
+          <div class="jsPerson__headshot w-100p h-100p image-fit pos-a t-0 l-0 op-0"><img src="" alt="" class="w-100p h-100p"></div>
         </div>
-        <div class="jsPerson__content p-2 ms-p-4 ls-p-8 w-50p h-100p ov-h t-a-c dark-bg">
+        <div class="jsPerson__content p-4 ls-p-8 ms-w-50p ms-h-100p ov-h t-a-c dark-bg">
           <div class="m-h-a">
             <div class="jsPerson__name f-s-xl f-w-700 m-b-1 pos-r light"></div>
             <div class="jsPerson__title f-s-m ls-f-s-l pos-r"></div>
-            <p class="jsPerson__bio t-a-c f-s-m m-t-1o5 w-100p max-w-360px ms-w-480px ms-max-w-0 m-h-a"></p>
+            <p class="jsPerson__bio t-a-c f-s-m m-t-1o5 w-100p ms-max-w-0 m-h-a"></p>
           </div>
         </div>
       </div>
-      <div class="Header fx-c j-c-between p-2 ms-p-4 ls-p-8 pos-r t-a-c">
+      <div class="white-bg fx-c j-c-between p-2 ms-p-4 ls-p-8 pos-r t-a-c">
         <div class="f-s-xl w-100p f-w-700 dark">What we do</div>
         <div class="pos-r w-100p f-s-m">
-          <div class="pos-r w-100p ms-d-f t-a-l j-c-center p-t-3">
-            <div class="ms-w-30p m-b-3">
-              <div class="m-v-2 f-w-700 f-s-l dark">Brand Platform</div>
-              <p class="m-v-05 p-0">Creative Positioning</p>
-              <p class="m-v-05 p-0">Messaging Design </p>
-              <p class="m-v-05 p-0">Brand Architecture</p>
-              <p class="m-v-05 p-0">ID System Design</p>
-              <p class="m-v-05 p-0">Package Design </p>
-              <p class="m-v-05 p-0">Naming</p>
+          <div class="pos-r w-100p t-a-l j-c-center p-t-4 m-h-a">
+            <div class="ms-d-f j-c-center">
+              <div class="ms-w-30p m-b-4 t-a-c">
+                <div class="m-v-2 f-w-700 f-s-l dark">Brand Platform</div>
+                <p class="m-v-05 p-0">Creative Positioning</p>
+                <p class="m-v-05 p-0">Messaging Design </p>
+                <p class="m-v-05 p-0">Brand Architecture</p>
+                <p class="m-v-05 p-0">ID System Design</p>
+                <p class="m-v-05 p-0">Package Design </p>
+                <p class="m-v-05 p-0">Naming</p>
+              </div>
+              <div class="ms-w-30p m-b-4 t-a-c">
+                <div class="m-v-2 f-w-700 f-s-l dark">Activation</div>
+                <p class="m-v-05 p-0">Campaign Development</p>
+                <p class="m-v-05 p-0">Experience Design</p>
+                <p class="m-v-05 p-0">E-commerce</p>
+                <p class="m-v-05 p-0">Retail Experience</p>
+                <p class="m-v-05 p-0">Experiential</p>
+              </div>
             </div>
-            <div class="ms-w-30p m-b-3">
-              <div class="m-v-2 f-w-700 f-s-l dark">Activation</div>
-              <p class="m-v-05 p-0">Campaign Development</p>
-              <p class="m-v-05 p-0">Experience Design</p>
-              <p class="m-v-05 p-0">E-commerce</p>
-              <p class="m-v-05 p-0">Retail Experience</p>
-              <p class="m-v-05 p-0">Experiential</p>
+            <div class="ms-d-f j-c-center">
+              <div class="ms-w-30p m-b-4 t-a-c">
+                <div class="m-v-2 f-w-700 f-s-l dark">Growth</div>
+                <p class="m-v-05 p-0">Performance marketing </p>
+                <p class="m-v-05 p-0">Customer Journey Mapping</p>
+                <p class="m-v-05 p-0">Insights & Data </p>
+                <p class="m-v-05 p-0">Media Planning</p>
+                <p class="m-v-05 p-0">Social & Influencer Strategy</p>
+              </div>
+              <div class="ms-w-30p m-b-4 t-a-c">
+                <div class="m-v-2 f-w-700 f-s-l dark">Implementation</div>
+                <p class="m-v-05 p-0">Video and Post Production</p>
+                <p class="m-v-05 p-0">Interactive Production</p>
+                <p class="m-v-05 p-0">Print Production</p>
+                <p class="m-v-05 p-0">Experiential Production</p>
+                <p class="m-v-05 p-0">Full Stack Development</p>
+              </div>
             </div>
-            <div class="ms-w-30p m-b-3">
-              <div class="m-v-2 f-w-700 f-s-l dark">Growth</div>
-              <p class="m-v-05 p-0">Performance marketing </p>
-              <p class="m-v-05 p-0">Customer Journey Mapping</p>
-              <p class="m-v-05 p-0">Insights & Data </p>
-              <p class="m-v-05 p-0">Media Planning</p>
-              <p class="m-v-05 p-0">Social & Influencer Strategy</p>
-            </div>
-            <div class="ms-w-30p m-b-3">
-              <div class="m-v-2 f-w-700 f-s-l dark">Implementation</div>
-              <p class="m-v-05 p-0">Video and Post Production</p>
-              <p class="m-v-05 p-0">Interactive Production</p>
-              <p class="m-v-05 p-0">Print Production</p>
-              <p class="m-v-05 p-0">Experiential Production</p>
-              <p class="m-v-05 p-0">Full Stack Development</p>
-            </div>
-            
           </div>
         </div>
       </div>
-      <div class="white-bg p-t-2 ms-p-t-4 ls-p-t-8">
+      <div class="p-t-2 ms-p-t-4 ls-p-t-8">
         <div class="f-s-xl w-100p f-w-700 dark t-a-c">Brand Experience</div>
-        <div class="d-f fx-w-w j-c-between a-i-baseline p-t-2 ms-p-t-4 ls-p-t-8 jsClientLogos"></div>
+        <div class="d-f fx-w-w j-c-start a-i-baseline p-t-2 ms-p-t-4 ls-p-t-8 jsClientLogos"></div>
       </div>
     </section>
-    <section id="Section--press" class="jsSection jsPress fs"></section>
+    <section class="jsQuotes col-2 p-4 ms-p-8 white-bg">
+
+    </section>
+    <img src="ui/assets/images/home/trophies.jpg" class="w-100p" alt="">
+    <section id="" class="jsSection jsPress p-4 ms-p-8 t-a-c">
+      <div class="jsNewsStory m-b-8">
+        <img src="ui/assets/images/news/superblue.jpg" class="w-100p m-b-2" alt="">
+        <div class="f-s-m">Ad Age : August 20, 2020</div>
+        <div class="f-w-700 f-s-l dark">Superblue Launch</div>
+        <p class="f-s-m">Superblue, a groundbreaking new enterprise dedicated to producing, presenting, and engaging the public with experiential art, today announced it will launch its first experiential art center in Miami this December. Superblue venues are designed to welcome a wide range of audiences and are specifically conceived for the presentation of large-scale works that immerse and engage visitors as part of the art itself. Miami, a global destination with a vibrant arts community, is the first of several cities internationally in which Superblue will open centers in the coming years—adding a completely new kind of venue to the cultural landscape in each city and expanding the audience for experiential art globally.</p>
+      </div>
+      <div class="jsNewsStory m-b-8">
+        <img src="ui/assets/images/news/superblue.jpg" class="w-100p m-b-2" alt="">
+        <div class="f-s-m">Ad Age : August 20, 2020</div>
+        <div class="f-w-700 f-s-l dark">Superblue Launch</div>
+        <p class="f-s-m">Superblue, a groundbreaking new enterprise dedicated to producing, presenting, and engaging the public with experiential art, today announced it will launch its first experiential art center in Miami this December. Superblue venues are designed to welcome a wide range of audiences and are specifically conceived for the presentation of large-scale works that immerse and engage visitors as part of the art itself. Miami, a global destination with a vibrant arts community, is the first of several cities internationally in which Superblue will open centers in the coming years—adding a completely new kind of venue to the cultural landscape in each city and expanding the audience for experiential art globally.</p>
+      </div>
+      <div class="jsNewsStory m-b-8">
+        <img src="ui/assets/images/news/superblue.jpg" class="w-100p m-b-2" alt="">
+        <div class="f-s-m">Ad Age : August 20, 2020</div>
+        <div class="f-w-700 f-s-l dark">Superblue Launch</div>
+        <p class="f-s-m">Superblue, a groundbreaking new enterprise dedicated to producing, presenting, and engaging the public with experiential art, today announced it will launch its first experiential art center in Miami this December. Superblue venues are designed to welcome a wide range of audiences and are specifically conceived for the presentation of large-scale works that immerse and engage visitors as part of the art itself. Miami, a global destination with a vibrant arts community, is the first of several cities internationally in which Superblue will open centers in the coming years—adding a completely new kind of venue to the cultural landscape in each city and expanding the audience for experiential art globally.</p>
+      </div>
+      <div class="jsNewsStory m-b-8">
+        <img src="ui/assets/images/news/superblue.jpg" class="w-100p m-b-2" alt="">
+        <div class="f-s-m">Ad Age : August 20, 2020</div>
+        <div class="f-w-700 f-s-l dark">Superblue Launch</div>
+        <p class="f-s-m">Superblue, a groundbreaking new enterprise dedicated to producing, presenting, and engaging the public with experiential art, today announced it will launch its first experiential art center in Miami this December. Superblue venues are designed to welcome a wide range of audiences and are specifically conceived for the presentation of large-scale works that immerse and engage visitors as part of the art itself. Miami, a global destination with a vibrant arts community, is the first of several cities internationally in which Superblue will open centers in the coming years—adding a completely new kind of venue to the cultural landscape in each city and expanding the audience for experiential art globally.</p>
+      </div>
+      <div class="jsNewsStory m-b-8">
+        <img src="ui/assets/images/news/superblue.jpg" class="w-100p m-b-2" alt="">
+        <div class="f-s-m">Ad Age : August 20, 2020</div>
+        <div class="f-w-700 f-s-l dark">Superblue Launch</div>
+        <p class="f-s-m">Superblue, a groundbreaking new enterprise dedicated to producing, presenting, and engaging the public with experiential art, today announced it will launch its first experiential art center in Miami this December. Superblue venues are designed to welcome a wide range of audiences and are specifically conceived for the presentation of large-scale works that immerse and engage visitors as part of the art itself. Miami, a global destination with a vibrant arts community, is the first of several cities internationally in which Superblue will open centers in the coming years—adding a completely new kind of venue to the cultural landscape in each city and expanding the audience for experiential art globally.</p>
+      </div>
+      <div class="jsNewsStory m-b-8">
+        <img src="ui/assets/images/news/superblue.jpg" class="w-100p m-b-2" alt="">
+        <div class="f-s-m">Ad Age : August 20, 2020</div>
+        <div class="f-w-700 f-s-l dark">Superblue Launch</div>
+        <p class="f-s-m">Superblue, a groundbreaking new enterprise dedicated to producing, presenting, and engaging the public with experiential art, today announced it will launch its first experiential art center in Miami this December. Superblue venues are designed to welcome a wide range of audiences and are specifically conceived for the presentation of large-scale works that immerse and engage visitors as part of the art itself. Miami, a global destination with a vibrant arts community, is the first of several cities internationally in which Superblue will open centers in the coming years—adding a completely new kind of venue to the cultural landscape in each city and expanding the audience for experiential art globally.</p>
+      </div>
+    </section>
     <section id="Section--contact" class="jsSection jsContact p-2 d-f fx-c a-i-center">
       <img src="ui/assets/images/home/ari_small.svg" class="w-8rem" />
-      <p class="m-b-1o5 f-s-m bd-b p-b-1o5">Every brand has a voice.</p>
-      <a href="mailto:beourfriend@ariandfriends.co?subject=Hello Ari & Friends," target="_blank" class="d-b bd-n">
-        beourfriend@ariandfriends.co
-      </a>
-      <div class="jsSocialIcons t-a-c d-f j-c-between a-i-center m-t-1 m-h-a">
-        <a href="http://twitter.com/ariandfriends" trget="_blank" class="bd-n">
+      <div class="m-t-05 f-s-m">Every brand has a voice.</div>
+
+      <div class="jsSocialIcons t-a-c d-f j-c-between a-i-center m-h-a">
+        <a href="http://linkedin.com/ariandfriends" trget="_blank" class="bd-n">
+          <span class="social-icon m-v-1 d-ib m-t-2 ms-m-t-075 w-2rem t-a-c">
+            <img src="ui/assets/images/home/linkedin.svg" />
+          </span>
+        </a>
+        <a href="http://twitter.com/ariandfriends" trget="_blank" class="bd-n m-l-1">
           <span class="social-icon m-v-1 d-ib m-t-2 ms-m-t-075 w-2rem t-a-c">
             <img src="ui/assets/images/home/facebook.svg" />
           </span>
         </a>
-        <a href="https://www.facebook.com/ariandfriends" trget="_blank" class="bd-n m-h-2">
+        <a href="https://www.facebook.com/ariandfriends" trget="_blank" class="bd-n m-h-1">
           <span class="social-icon m-v-1 d-ib m-t-2 ms-m-t-075 w-2rem t-a-c">
             <img src="ui/assets/images/home/twitter.svg" />
           </span>
@@ -157,5 +207,4 @@
   </div>
 </body>
 <script type="text/javascript" src="ui/assets/scripts/script.js"></script>
-
 </html>

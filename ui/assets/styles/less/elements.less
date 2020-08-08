@@ -1,11 +1,19 @@
+.jsGrain {
+  z-index: 1000;
+  background-image: url(../../images/common/grain.png);
+  opacity: 0;
+  pointer-events: none;
+  transition: 1s;
+  background-size: 50%;
+}
 .jsCover {
   position: fixed;
   left: 0; 
   top: 0;
   width: 100%;
-  height: 100%;
+  height: calc(100vh + 10px);
   background: @dark;
-  z-index: 100;
+  z-index: 101;
   transform: translateY(100vh);
   pointer-events: none;
 }
@@ -16,12 +24,16 @@
 
 .jsAri {
   background: #33222215;
-  // backdrop-filter: blur(15px);
-}
-
-.jsMenu {
-  padding-bottom: calc(8px + (30 - 8) * (100vw - 400px) / (1680 - 400));
-  bottom: calc(0px + (30 - 0) * (100vw - 400px) / (1680 - 400));
+  
+  &:after {
+    content: '';
+    position: absolute;
+    left: -150%;
+    top: 100%;
+    height: 20px;
+    background: linear-gradient(0deg, #0000, #0001);
+    width: 400%;
+  }
 }
 
 .jsHome {
@@ -42,6 +54,7 @@
 
 .jsVideoPlayer {
   border: none;
+  opacity: 0;
 }
 .jsCloseVideo {
   span {
@@ -68,7 +81,7 @@
     }
   }
 }
-.jsPeopleButton,
+.jsAboutButton,
 .jsWorkButton,
 .jsPressButton,
 .jsContactButton
@@ -133,6 +146,24 @@
   transform-origin: 50% 100%;
   transition: .5s;
   // .transition(.5s,eease-out);
+}
+
+.jsPerson__headshot {
+  transition: .5s;
+  transform: scale(1.001);
+}
+.jsPerson__cover:hover {
+  .jsPerson__headshot {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+}
+
+.jsQuotes {
+  column-gap: 8rem;
+}
+.jsQuote {
+  break-inside: avoid-column;
 }
 
 .jsWork {
@@ -273,6 +304,10 @@
   }
 }
 
+.jsHeader {
+  z-index: 101;
+}
+
 .jsProject {
   position: fixed;
   top: 0;
@@ -299,7 +334,7 @@
 .is-transitioning-in {
   .jsCover {
     transition: .5s transform;
-    transform: translateY(0);
+    transform: translateY(-2px);
   }
   .jsCover__logo {
     opacity: 1;
@@ -310,7 +345,7 @@
 .is-transitioning-out {
   .jsCover {
     transition: .5s transform;
-    transform: translateY(0);
+    transform: translateY(-2px);
   }
   .jsCover__logo {
     opacity: 1;
@@ -323,10 +358,6 @@
     transition: 0.5s transform cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
     transform: translateY(calc(-100vh - 100px));
   }
-  .jsCover__logo {
-    transform: translateY(50vh);
-    transition: 0.5s cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
-  }
 }
 
 .is-transitioned-out {
@@ -334,15 +365,12 @@
     transition: 0.5s transform cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
     transform: translateY(calc(-100vh - 100px));
   }
-  .jsCover__logo {
-    transform: translateY(50vh);
-    transition: 0.5s cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
-  }
 }
 
 /* Site State */
 
 .is-project-open {
+  overflow: hidden;
 
   @media (max-width: 959px) {
     .Footer {
@@ -395,4 +423,14 @@
 
 .yellow {
   color: #f9ae68;
+}
+
+.is-loaded {
+  .jsGrain {
+    opacity: .08;
+  }
+  .jsVideoPlayer {
+    transition: 1s;
+    opacity: 1;
+  }
 }

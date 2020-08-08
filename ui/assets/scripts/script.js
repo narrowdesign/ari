@@ -1,4 +1,5 @@
 let scrollTop = 0; // keeps track of scroll position
+let scrollProgress = 0;
 let projectScrollTop = 0;
 
 let _winW = 0; // width of the window
@@ -9,6 +10,7 @@ let mouseX = 0;
 let currentSection;
 let currentPerson;
 let currentProject;
+let isProjectOpen = false;
 
 let currentImage = 0;
 
@@ -35,6 +37,12 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   init();
 
   resizeHandler(); // Calculate sizes right away
+  setTimeout(() => {
+    $('body').addClass('is-loaded');
+    $('.jsGrain').css({
+      height: document.scrollingElement.scrollHeight
+    })
+  }, 1000);
 
 // EVENTS
 /////////
@@ -53,11 +61,20 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
 
   // MENU EVENTS
 
-  $('.jsPeopleButton').on('click', sectionClickHandler);
-  $('.jsWorkButton').on('click', sectionClickHandler);
-  $('.jsPressButton').on('click', sectionClickHandler);
-  $('.jsContactButton').on('click', sectionClickHandler);
-  $('.jsProject__close').on('click', hideProject);
+  $('.jsAboutButton').on('click', () => {
+    sectionClickHandler('about')
+  });
+  $('.jsWorkButton').on('click', () => {
+    sectionClickHandler('work')
+  });
+  $('.jsPressButton').on('click', () => {
+    sectionClickHandler('press')
+  });
+  $('.jsContactButton').on('click', () => {
+    sectionClickHandler('contact')
+  });
+  
+  $('.jsAri').on('click', homeClickHandler);
 
   // WORK EVENTS
 
@@ -82,9 +99,10 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       $('.jsPerson__title', person).html(data.title);
       $('.jsPerson__bio', person).html(data.bio);
       $('.jsPerson__cover', person).css({
-        backgroundImage: 'url(ui/assets/images/people/'+data.cover+')',
+        backgroundImage: `url(ui/assets/images/people/${data.throwback})`,
         backgroundPosition: data.focalPoint
       });
+      $('.jsPerson__headshot img', person).attr('src', `ui/assets/images/people/${data.headshot}`);
       $('.jsPerson').last().after(person);
     })
 
@@ -94,8 +112,8 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $.each(projects, function(i){
       const project = projects[i];
       const folder = `${WORK_IMAGES_FOLDER}${project.folderName}/`;
-      const thumbHTML = `<div class="jsThumbnail pos-r w-100p p-t-100p ov-h t-a-c">
-      <img src="${folder}${project.poster}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
+      const thumbHTML = `<div class="jsThumbnail pos-r w-100p p-t-100p ov-h t-a-c op-0">
+      <img src="${folder}${project.thumbnail}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
         <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2">
           <div class="jsThumbnail__client f-s-m">${project.clientName}</div>
           <div class="jsThumbnail__title f-s-l f-w-700">${project.title}</div>
@@ -103,6 +121,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       </div>`
 
       $('.jsThumbnails').append(thumbHTML);
+      revealThumbnail(i)
     })
 
     $('.jsThumbnail').on('click', function(e){
@@ -123,24 +142,61 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         $('.jsClientLogos').append(`<div class="w-25p"></div>`);
       }
     })
+
+    // QUOTES INIT
+    $.each(quotes, function(i, quote) {
+      $('.jsQuotes').append(`
+        <div class="m-h-a jsQuote max-w-560px m-t-0 m-b-4">
+          <p class="f-s-m d-b m-t-0">${quote.quote}</p>
+          <p class="f-s-m d-b op-60">${quote.author}</p>
+        </div>
+      `)
+    })
+  }
+
+  function revealThumbnail(num) {
+    setTimeout(() => {
+      $('.jsThumbnail').css({
+        opacity: 1,
+        transition: '1s'
+      })
+    }, 1500)
   }
   function logoClickHandler(e) {
     $('body').stop();
     $('.jsMenuItem').removeClass('current');
     currentClient = null;
     currentPerson = null;
-    $('body').animate({scrollTop: 0}, '1000');
+    $('body').animate({scrollTop: 400}, '1000');
   }
 
-  function sectionClickHandler(e) {
-    const sectionNum = $(this).index()+1;
+  function homeClickHandler() {
+    if (isProjectOpen) {
+      hideProject();
+    }
+    $('body').animate({scrollTop: 400}, '1000');
+  }
+
+  function sectionClickHandler(section) {
+    if (isProjectOpen) {
+      hideProject();
+    }
     $('body').stop();
     $('body').removeClass('is-project-open');
     $('.jsProject').removeClass('in');
     $('body').addClass('current');
     currentClient = null;
     currentPerson = null;
-    $('body').scrollTop(sectionTops[sectionNum]);
+
+    if (section === 'work') {
+      $('body').animate({scrollTop: sectionTops[0]}, '1000');
+    } else if (section === 'about') {
+      $('body').animate({scrollTop: sectionTops[1]}, '1000');
+    } else if (section === 'press') {
+      $('body').animate({scrollTop: sectionTops[2]}, '1000');
+    } else if (section === 'contact') {
+      $('body').animate({scrollTop: sectionTops[3]}, '1000');
+    }
   }
 
   function alignTop() {
@@ -170,6 +226,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     })
   }
   function scrollHandler(e) {
+    if (isProjectOpen) return;
     if(e.type == 'wheel' || e.type == 'touchmove') {
       $('body').stop();
       $('body').removeClass('is-footer');
@@ -187,13 +244,14 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     
     const oldScrollTop = scrollTop;
     scrollTop = $('body').scrollTop();
-    const scrollProgress = Math.min(scrollTop * .002, Math.PI * .5);
+    scrollProgress = Math.min(scrollTop * .002, Math.PI * .5);
     $('.jsMenu').css({
-      transform: `translateY(-${Math.sin(scrollProgress) * logoHeight * (logoShrinkage - .1)}px)`
+      opacity: scrollProgress
     })
     const logoScale = 1 - Math.sin(scrollProgress) * logoShrinkage;
     if(oldScrollTop != scrollTop){
       $('.jsAri').css({
+        transition: '0s',
         transform: `scale(${logoScale})`
       })
     }
@@ -225,21 +283,36 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
 
   function showProject(e, num) {
+    isProjectOpen = true;
     e.stopPropagation();
     alignTop();
     doTransition(2500, 'in', () => {
       setProject(num);
       $('body').addClass('is-project-open');
     })
+    $('.jsAri').css({
+      transform: `scale(${1 - logoShrinkage})`,
+      transition: '.5s',
+    })
+    $('.jsMenu').css({
+      transition: '.2s',
+      opacity: 1
+    })
   }
 
   function hideProject() {
-    if (document.querySelector('.jsProject__video')) {
-      $f(document.querySelector('.jsProject__video')).api("pause");
+    isProjectOpen = false;
+    if (document.querySelectorAll('.jsProject__video').length > 0) {
+      Array.from(document.querySelectorAll('.jsProject__video')).forEach((video) => {
+        $f(video).api("pause");
+      })
     }
     doTransition(1500, 'out', () => {
       $('body').removeClass('is-project-open');
       unpauseLogoVideo();
+    })
+    $('.jsAri').css({
+      transform: `scale(${1 - Math.sin(scrollProgress) * logoShrinkage})`
     })
   }
 
@@ -251,9 +324,18 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const title = project.title;
     const description = project.description;
     const folder = `${WORK_IMAGES_FOLDER}${project.folderName}/`;
-    const poster = `${folder}${project.poster}`;
+    const hero = `${folder}${project.hero}`;
 
-    $('.jsProject__poster img').attr('src', poster)
+    if (project.hero !== "") {
+      $('.jsProject__hero img').attr('src', hero)
+      $('.jsProject__hero img').css({
+        display: "block"
+      })
+    } else {
+      $('.jsProject__hero img').css({
+        display: "none"
+      })
+    }
     $('.jsProject').scrollTop(0);
     $('.jsProject__client').html(clientName);
     $('.jsProject__title').html(title);
@@ -288,26 +370,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   ////// UTIL
 
   function setTops() {
-    sectionTops = [];
-    $('.jsSection').each(function(i){
-      sectionTops.push($(this).offset().top);
-    })
-    personTops = [];
-    $('.jsPerson').each(function(i){
-      personTops.push($(this).offset().top);
-    })
-    storyTops = [];
-    $('.jsStory').each(function(i){
-      storyTops.push($(this).offset().top);
-    })
-    clientTops = [];
-    $('.jsClient').each(function(i){
-      clientTops.push($(this).offset().top);
-    })
-    finalTops = [];
-    $('.jsFinal').each(function(i){
-      finalTops.push($(this).offset().top);
-    })
+    sectionTops = [$('.jsWork').offset().top, $('.jsAbout').offset().top, $('.jsPress').offset().top, $('.jsContact').offset().top];
   }
 
   function resizeHandler () { // Set the size of images and preload them
@@ -324,6 +387,6 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       setTops();
     },800);
     logoHeight = $('.jsAri').height();
-    logoShrinkage = .3 + _winW / 1680 * .45;
+    logoShrinkage = Math.min(.75, .4 + _winW / 1680 * .45);
   }
 })

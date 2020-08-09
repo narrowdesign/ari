@@ -121,12 +121,13 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       </div>`
 
       $('.jsThumbnails').append(thumbHTML);
-      revealThumbnail(i)
+      setTimeout(() => {
+        revealThumbnail(i)
+      }, i * 100)
     })
 
     $('.jsThumbnail').on('click', function(e){
       e.stopPropagation();
-      console.log($(this).index())
       showProject(e, $(this).index());
     })
 
@@ -134,7 +135,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $.each(clients, function(i, client) {
       if (client !== '') {
         $('.jsClientLogos').append(`
-          <div class="w-20p">
+          <div class="w-50p ms-w-20p">
             <img class="w-100p" src="ui/assets/images/clients/${client}.svg" />
           </div>
         `)
@@ -155,12 +156,8 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
 
   function revealThumbnail(num) {
-    setTimeout(() => {
-      $('.jsThumbnail').css({
-        opacity: 1,
-        transition: '1s'
-      })
-    }, 1500)
+    $('.jsWork .jsThumbnail').eq(num).addClass('in');
+    $('.jsProject .jsThumbnail').eq(num).addClass('in');
   }
   function logoClickHandler(e) {
     $('body').stop();
@@ -343,8 +340,18 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $('.jsProject__content').html('');
     $.each(content, function(i){
       const item = content[i];
+      let imageHTML;
       if (item.type == "image") {
-        $('.jsProject__content').append(`<div class="jsProjectImage pos-r d-b w-100p m-v-1"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`)
+        if (typeof(item.src) === "object") {
+          imageHTML = `<div class="jsProjectImageRow ms-d-f">`
+          for (let i=0; i < item.src.length; i++) {
+            imageHTML += `<div class="jsProjectImage pos-r d-b m-v-1"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
+          }
+          imageHTML += `</div>`;
+        } else {
+          imageHTML = `<div class="jsProjectImage pos-r d-b w-100p m-v-1"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`;
+        }
+        $('.jsProject__content').append(imageHTML);
       } else if (item.type == "video") {
         $('.jsProject__content').append(`<div class="pos-r jsProjectImage w-100p p-t-vid m-b-1">
           <iframe class="jsProject__video pos-a l-0 t-0 w-100p h-100p" src="${item.src}?api=1&title=0&portrait=0&byline=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

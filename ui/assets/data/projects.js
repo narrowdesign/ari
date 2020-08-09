@@ -11,8 +11,8 @@ const projects = [
     title: "Say Something Purposeful",
     description: "Can one product save millions from malnutrition while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. We helped by creating MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and was chosen to join Chobani’s prestigious incubator program.",
     folderName: "mewe",
-    hero: "mewe.jpg",
-    thumbnail: "mewe.jpg",
+    hero: "pattern_1.jpg",
+    thumbnail: "pattern_1.jpg",
     services: [
       "STRATEGY",
       "POSITIONING",
@@ -35,13 +35,89 @@ const projects = [
     ],
     content: [
       {
-        type: "image",
-        src: "mewe.jpg",
+        type: "image_row",
+        src: [
+          "instagram_1.jpg",
+          "instagram_2.jpg",
+          "instagram_3.jpg",
+        ],
       },
       {
         type: "image",
-        src: "mewe.jpg",
+        src: [
+          "instagram_4.jpg",
+          "instagram_5.jpg",
+          "instagram_6.jpg",
+        ]
       },
+      {
+        type: "image",
+        src: [
+          "instagram_7.jpg",
+          "instagram_8.jpg",
+          "instagram_9.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: "logo_2.jpg"
+      },
+      {
+        type: "image",
+        src: "logo_3.jpg"
+      },
+      {
+        type: "image",
+        src: "logo_4.jpg"
+      },
+      {
+        type: "image",
+        src: "logo_5.jpg"
+      },
+      {
+        type: "image",
+        src: "logo_6.jpg"
+      },
+      {
+        type: "image",
+        src: "logo_7.jpg"
+      },
+      {
+        type: "image",
+        size: "small",
+        src: "package_1.jpg",
+      },
+      {
+        type: "image",
+        size: "small",
+        src: "package_2.jpg",
+      },
+      {
+        type: "image",
+        size: "small",
+        src: [
+          "package_1.jpg",
+          "package_2.jpg",
+          "package_3.jpg",
+        ]
+      },
+      {
+        type: "image",
+        size: "small",
+        src: [
+          "package_4.jpg",
+          "package_5.jpg",
+          "package_6.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: "pattern_1.jpg"
+      },
+      {
+        type: "image",
+        src: "print_1.jpg"
+      },  
     ],
   },
   {

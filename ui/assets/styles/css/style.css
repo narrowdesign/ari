@@ -6108,11 +6108,21 @@ th {
   opacity: 1;
   transition: 0.3s ease-out;
 }
-.jsThumbnails {
+.jsThumbnail.in {
+  opacity: 1;
+}
+.jsThumbnails,
+.jsProjectImageRow {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2vw;
   transition: 0.4s ease-out;
+}
+@media (min-width: 960px) {
+  .jsThumbnails,
+  .jsProjectImageRow {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .jsPerson.current .jsQuote,
 .jsNews.current .jsQuote {

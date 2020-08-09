@@ -27,9 +27,12 @@ const clients = [
   "diageo",
   "sears",
   "kraft",
-  "amwell",
   "elmhurst",
+  "amwell",
   "buoy",
   "say",
+  "si",
+  "mount_sinai",
+  "dave_and_busters",
   // to leave an empty space add an empty client above like this: "",
 ]

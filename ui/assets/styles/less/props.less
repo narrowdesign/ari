@@ -985,6 +985,22 @@
   gap: 1vw;
 }
 
+.gap-2vw {
+  gap: 2vw;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (min-width: 960px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .grid-row-1 {
   grid-row: 1;
 }
@@ -2119,6 +2135,9 @@
 }
 .m-t-2 {
   margin-top: 2rem;
+}
+.m-t-2vw {
+  margin-top: 2vw;
 }
 .m-t-3 {
   margin-top: 3rem;

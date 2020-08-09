@@ -186,13 +186,13 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     currentPerson = null;
 
     if (section === 'work') {
-      $('body').animate({scrollTop: sectionTops[0]}, '1000');
+      $('body').animate({scrollTop: Number(sectionTops[0] - 150)}, '1000');
     } else if (section === 'about') {
-      $('body').animate({scrollTop: sectionTops[1]}, '1000');
+      $('body').animate({scrollTop: Number(sectionTops[1] - 150)}, '1000');
     } else if (section === 'press') {
-      $('body').animate({scrollTop: sectionTops[2]}, '1000');
+      $('body').animate({scrollTop: Number(sectionTops[2] - 150)}, '1000');
     } else if (section === 'contact') {
-      $('body').animate({scrollTop: sectionTops[3]}, '1000');
+      $('body').animate({scrollTop: Number(sectionTops[3] - 150)}, '1000');
     }
   }
 
@@ -343,17 +343,17 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       let imageHTML;
       if (item.type == "image") {
         if (typeof(item.src) === "object") {
-          imageHTML = `<div class="jsProjectImageRow ms-d-f">`
+          imageHTML = `<div class="jsProjectImageRow d-g grid-${item.src.length} gap-2vw">`
           for (let i=0; i < item.src.length; i++) {
-            imageHTML += `<div class="jsProjectImage pos-r d-b m-v-1"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
+            imageHTML += `<div class="jsProjectImage pos-r d-b m-t-2vw"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
           }
           imageHTML += `</div>`;
         } else {
-          imageHTML = `<div class="jsProjectImage pos-r d-b w-100p m-v-1"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`;
+          imageHTML = `<div class="jsProjectImage pos-r d-b w-100p m-t-2vw"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`;
         }
         $('.jsProject__content').append(imageHTML);
       } else if (item.type == "video") {
-        $('.jsProject__content').append(`<div class="pos-r jsProjectImage w-100p p-t-vid m-b-1">
+        $('.jsProject__content').append(`<div class="pos-r jsProjectImage w-100p p-t-vid m-t-2vw">
           <iframe class="jsProject__video pos-a l-0 t-0 w-100p h-100p" src="${item.src}?api=1&title=0&portrait=0&byline=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>`)
       } else if (item.type == "title") {

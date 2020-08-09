@@ -22,7 +22,7 @@ const projects = [
       "BRAND MESSAGING",
       "PACKAGE DESIGN",
       "CREATIVE DEVELOPMENT",
-      "E-COMMERCE WEBSITE ",
+      "E-COMMERCE WEBSITE",
       "DIRECT MAIL",
       "PR KIT",
       "SOCIAL CONTENT",
@@ -182,7 +182,7 @@ const projects = [
       "ID SYSTEM DESIGN",
       "BRAND MESSAGING",
       "CREATIVE DEVELOPMENT",
-      "WEBSITES ",
+      "WEBSITES",
       "DIRECT MAIL",
       "FILM DIRECTION",
       "VIDEO PRODUCTION",
@@ -252,7 +252,7 @@ const projects = [
     services: [
       "STRATEGY",
     "POSITIONING",
-    "BRAND MESSAGING ",
+    "BRAND MESSAGING",
     "CREATIVE DEVELOPMENT",
     "VIDEO PRODUCTION"
     ],
@@ -278,14 +278,13 @@ const projects = [
       },
     ],
   },
-
   {
     clientName: "Binx “Stay Sexy”",
     title: "Say Something Provocative",
     description: "Sexually transmitted diseases on college campuses are spreading in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx easy, at-home test as a personal hygiene product – encouraging young men and women to check themselves even before they (sex metaphor here).",
-    folderName: "thindown",
-    hero: "header_1.jpg",
-    thumbnail: "header_1.jpg",
+    folderName: "binx",
+    hero: "bus_shelter_1.jpg",
+    thumbnail: "bus_shelter_1.jpg",
     services: [
       "STRATEGY & POSITIONING",
       "BRAND MESSAGING",
@@ -302,14 +301,161 @@ const projects = [
     ],
     content: [
       {
-        title: "Logos",
+        type: "image",
+        src: "wild_postings_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_1.jpg","poster_2.jpg"],
+      },
+      {
+        type: "image",
+        src: "bus_shelter_2.jpg",
+      },
+      {
+        type: "image",
+        src: ["sock_front_1.jpg","sock_back_1.jpg"],
+      },
+      {
+        type: "image",
+        src: "instagram_grid_1.png",
+      },
+    ],
+  },
+  {
+    clientName: "Nickel",
+    title: "Say Something Revolutionary",
+    description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We gave them Nickel. Our branding approach was simple: it was about putting people ahead of profits. No more greed. No more confusion. No more Americans paying the price for an industry that’s lost its way. Healthcare that costs what healthcare should cost. And not a nickel more.",
+    folderName: "nickel",
+    hero: "logos_1.jpg",
+    thumbnail: "logos_1.jpg",
+    services: [
+      "STRATEGY",
+      "NAMING",
+      "POSITIONING",
+      "BRAND PLATFORM",
+      "LOGO & BRAND ID",
+      "CREATIVE DEVELOPMENT",
+    ],
+    awards: [
+      "2018 One show pencil",
+      "2018 AICP winner",
+    ],
+    content: [
+      {
+        type: "image",
+        src: "ooh_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_1.jpg","poster_2.jpg"],
+      },
+      {
+        type: "image",
+        src: "ooh_2.jpg",
+      },
+      {
+        type: "image",
+        src: "business_cards_1.jpg",
+      },
+      {
+        type: "image",
+        src: "duratrans_1.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "Kmart",
+    title: "Say Something Buzz Worthy",
+    description: "Our friends at Kmart wanted to build buzz around Adam Levine’s new fashion line. We created the web series, “222”, which included experiential events, promotions and BTS stories. The series got millions of views – boosting sales for the six months it was posted. “The Rack” drew over 250MM impressions and was featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
+    folderName: "kmart",
+    hero: "",
+    thumbnail: "thumbnail.jpg",
+    services: [
+      "STRATEGY",
+      "POSITIONING",
+      "ID SYSTEM DESIGN",
+      "BRAND MESSAGING",
+      "SOCIAL MEDIA CREATIVE DEVELOPMENT",
+      "EXPERIENTIAL MARKETING",
+      "EVENT MARKETING",
+      "VIDEO PRODUCTION & POST",
+      "VIDEO DIRECTION",
+    ],
+    awards: [
+      "2018 One show pencil",
+      "2018 AICP winner",
+    ],
+    content: [
+      {
+        title: "Wow",
+        type: "video",
+        src: "https://player.vimeo.com/video/96916429",
+      },
+      {
+        title: "1925",
+        type: "video",
+        src: "https://player.vimeo.com/video/96914974",
+      },
+      {
+        title: "Nuts",
+        type: "video",
+        src: "https://player.vimeo.com/video/96917519",
+      },
+      {
+        title: "Nuts",
+        type: "video",
+        src: "https://player.vimeo.com/video/96915494",
+      },
+    ],
+  },
+  {
+    clientName: "Thindown",
+    title: "Say Something Game Changing",
+    description: "Thin was in and the demand for down had never been greater. Yet the process of using down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. Time to give voice to the world’s first and only fully seamless down fabric.",
+    folderName: "thindown",
+    hero: "header_1.jpg",
+    thumbnail: "header_1.jpg",
+    services: [
+      "STRATEGY",
+      "POSITIONING",
+      "LOGO",
+      "ID SYSTEM DESIGN",
+      "BRAND MESSAGING",
+      "CREATIVE DEVELOPMENT",
+      "WEBSITE",
+      "VIDEO & POST PRODUCTION",
+      "INVESTOR MATERIAL",
+      "CONTENT PRODUCTION",
+    ],
+    awards: [
+      "2018 One show pencil",
+      "2018 AICP winner",
+    ],
+    content: [
+      {
         type: "image",
         src: "logos_1.jpg",
       },
       {
-        title: "Jane:",
-        type: "video",
-        src: "https://player.vimeo.com/video/340950970",
+        type: "image",
+        src: ["hangtag_1.jpg", "headline_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["fluff_1.jpg", "model_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["headline_2.jpg", "hanger_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["model_2.jpg", "thindown_1.jpg"],
+      },
+      {
+        type: "image",
+        src: "video.jpg",
       },
     ],
   },

@@ -206,7 +206,7 @@
 
   &:hover {
     .jsThumbnail__info {
-      color: #ccc;
+      color: rgb(212, 208, 207);
       background: #000c;
       transform: translateY(0);
       opacity: 1;
@@ -337,6 +337,35 @@
   cursor: pointer;
   transform: scale(.8);
   opacity: .5;
+}
+
+.jsContact__form {
+
+  input[type="email"],
+  input[type="text"], 
+  textarea {
+    border: none;
+    background: white;
+    outline: none;
+    padding: 12px 16px;
+    width: 100%;
+    font-family: baskerville-urw, serif;
+  }
+
+  ::placeholder {
+    color: #aaa;
+  }
+
+  input[type="submit"] {
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
+    font-size: calc(20px + (26 - 20) * (100vw - 400px) / (1680 - 400));
+    padding: 1rem 12vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .is-transitioning-in {

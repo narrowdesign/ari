@@ -6120,7 +6120,7 @@ th {
   transform: translateY(100px);
 }
 .jsThumbnail:hover .jsThumbnail__info {
-  color: #ccc;
+  color: #d4d0cf;
   background: #000c;
   transform: translateY(0);
   opacity: 1;
@@ -6286,6 +6286,29 @@ th {
   cursor: pointer;
   transform: scale(0.8);
   opacity: 0.5;
+}
+.jsContact__form input[type="email"],
+.jsContact__form input[type="text"],
+.jsContact__form textarea {
+  border: none;
+  background: white;
+  outline: none;
+  padding: 12px 16px;
+  width: 100%;
+  font-family: baskerville-urw, serif;
+}
+.jsContact__form ::placeholder {
+  color: #aaa;
+}
+.jsContact__form input[type="submit"] {
+  outline: none;
+  border: none;
+  background: black;
+  color: white;
+  font-size: calc(20px + (26 - 20) * (100vw - 400px) / (1680 - 400));
+  padding: 1rem 12vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 .is-transitioning-in .jsCover {
   transition: 0.5s transform;

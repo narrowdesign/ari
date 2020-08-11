@@ -393,16 +393,6 @@ const projects = [
         src: "https://player.vimeo.com/video/96916429",
       },
       {
-        title: "1925",
-        type: "video",
-        src: "https://player.vimeo.com/video/96914974",
-      },
-      {
-        title: "Nuts",
-        type: "video",
-        src: "https://player.vimeo.com/video/96917519",
-      },
-      {
         title: "Nuts",
         type: "video",
         src: "https://player.vimeo.com/video/96915494",

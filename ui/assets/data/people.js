@@ -18,8 +18,8 @@ const people = [
     {
       name: "Nathaniel Perez",
       title: "Digital Strategy | Friend",
-      headshot: "ari_2.jpg",
-      throwback: "ari_1.jpg",
+      headshot: "nathaniel_2.jpg",
+      throwback: "nathaniel_1.jpg",
       bio: "A techie at heart, Nathaniel is an all-purpose digital pioneer. A former Global Head at SapientNitro, Nathaniel has helped over 100 global brands, including Coca-Cola, MARS, Kraft, Unilever, RedBull, ESPN, BK, Sprint, AT&T, T-Mobile, Verizon, Mercedes, Carnival Cruises, BlueCross, Metlife, Citi, to name a few. Dudes got chops. ",
     },
     {

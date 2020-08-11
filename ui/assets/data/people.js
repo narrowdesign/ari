@@ -6,7 +6,7 @@ const people = [
       title: "Founder | Creative",
       headshot: "ari_2.jpg",
       throwback: "ari_1.jpg",
-      bio: "This Cannes Grand Prix, Best of Show and Best of Century winning, AdAge 40 Under 40 was inducted into the Advertising Hall of Achievement has and has appeared on multiple top 10 creative lists. Ari prides himself on having earned the trust of countless business leaders. He enjoys family, dogs and writing films that never sell.",
+      bio: "This Cannes Grand Prix and Best of Century winning creative leader, was inducted into the Advertising Hall of Achievement, named one of AdAge’s 40 Under 40 and has appeared on multiple top 10 creative lists. Ari prides himself on having earned the trust of countless business leaders. He enjoys family, dogs and writing films that never sell.",
     },
     {
       name: "Scott Pridgen",

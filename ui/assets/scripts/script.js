@@ -31,9 +31,8 @@ let revealBuffer; // sections are revealed when they are scrolled this far into 
 $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   const WIN = $(window);
   const LOGO_VIDEO = $f(document.querySelector('.jsLogo__video'));
-  const WORK_IMAGES_FOLDER = 'ui/assets/images/work/';
+  const PROJECTS_IMAGE_FOLDER = 'ui/assets/images/projects/';
 
-  let logoHeight = $('.jsAri').height();
   init();
 
   resizeHandler(); // Calculate sizes right away
@@ -113,12 +112,12 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     // WORK INIT
     $.each(projects, function(i){
       const project = projects[i];
-      const folder = `${WORK_IMAGES_FOLDER}${project.folderName}/`;
+      const folder = `${PROJECTS_IMAGE_FOLDER}${project.folderName}/`;
       const thumbHTML = `<div class="jsThumbnail pos-r w-100p p-t-100p ov-h t-a-c op-0">
       <img src="${folder}${project.thumbnail}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
         <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2">
           <div class="jsThumbnail__client f-s-m">${project.clientName}</div>
-          <div class="jsThumbnail__title f-s-l f-w-700">${project.title}</div>
+          <div class="jsThumbnail__title f-w-700">${project.title}</div>
         </div>
       </div>`
 
@@ -322,7 +321,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const clientName = project.clientName;
     const title = project.title;
     const description = project.description;
-    const folder = `${WORK_IMAGES_FOLDER}${project.folderName}/`;
+    const folder = `${PROJECTS_IMAGE_FOLDER}${project.folderName}/`;
     const hero = `${folder}${project.hero}`;
 
     if (project.hero !== "") {
@@ -417,6 +416,6 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       setTops();
     },800);
     logoHeight = $('.jsAri').height();
-    logoShrinkage = Math.min(.75, .4 + _winW / 1680 * .45);
+    logoShrinkage = Math.min(.8, .4 + _winW / 1680 * .55);
   }
 })

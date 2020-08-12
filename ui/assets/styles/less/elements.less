@@ -191,6 +191,7 @@
 .jsThumbnail {
   cursor: pointer;
   transition: .3s;
+  overflow: hidden;
 
   .jsThumbnail__info {
     z-index: 1;
@@ -201,14 +202,14 @@
     top: 0;
     bottom: 0;
     transition: .5s;
-    transform: translateY(100px);
+    transform: scale(1.05);
   }
 
   &:hover {
     .jsThumbnail__info {
-      color: rgb(212, 208, 207);
+      color: white;
       background: #000c;
-      transform: translateY(0);
+      transform: scale(1.001);
       opacity: 1;
       transition: .3s ease-out;
     }

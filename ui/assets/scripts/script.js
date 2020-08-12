@@ -59,6 +59,8 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
 
   $('.Logo').on('click',logoClickHandler);
 
+  $('.jsContact__form input[type="checkbox"]').on('change', updateLikes);
+
   // MENU EVENTS
 
   $('.jsAboutButton').on('click', () => {
@@ -135,7 +137,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $.each(clients, function(i, client) {
       if (client !== '') {
         $('.jsClientLogos').append(`
-          <div class="w-50p ms-w-20p">
+          <div class="w-33p ms-w-20p">
             <img class="w-100p" src="ui/assets/images/clients/${client}.svg" />
           </div>
         `)
@@ -144,15 +146,15 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       }
     })
 
-    // QUOTES INIT
-    $.each(quotes, function(i, quote) {
-      $('.jsQuotes').append(`
-        <div class="m-h-a jsQuote max-w-560px m-t-0 m-b-4">
-          <p class="f-s-m d-b m-t-0">${quote.quote}</p>
-          <p class="f-s-m d-b op-60">${quote.author}</p>
-        </div>
-      `)
-    })
+    // // QUOTES INIT
+    // $.each(quotes, function(i, quote) {
+    //   $('.jsQuotes').append(`
+    //     <div class="m-h-a jsQuote max-w-560px m-t-0 m-b-4">
+    //       <p class="f-s-m d-b m-t-0">${quote.quote}</p>
+    //       <p class="f-s-m d-b op-60">${quote.author}</p>
+    //     </div>
+    //   `)
+    // })
   }
 
   function revealThumbnail(num) {
@@ -372,6 +374,27 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         </div>`)
       }
     })
+  }
+
+  function updateLikes(e) {
+    let likeCount = 0;
+    let el;
+    let index;
+    $('.jsContact__form input[type="checkbox"]').each((i) => {
+      el = $('.jsContact__form input[type="checkbox"]').eq(i);
+      if(el[0].checked) likeCount++;
+    })
+    if (likeCount > 2) {
+      if ($(this)[0].name === "great") {
+        index = 1;
+      } else if ($(this)[0].name === "fast") {
+        index = 2;
+      } else {
+        index = 0;
+      }
+      $('.jsContact__form input[type="checkbox"]').eq(index)[0].checked = false;
+    }
+    // if ($(this).name)
   }
 
   ////// UTIL

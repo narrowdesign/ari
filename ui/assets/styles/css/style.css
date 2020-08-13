@@ -6168,13 +6168,21 @@ th {
 }
 .jsNewsRow {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 2vw;
   transition: 0.4s ease-out;
 }
 @media (min-width: 960px) {
   .jsNewsRow {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+.jsNewsStory__title {
+  font-size: calc(26px + (33 - 26) * (100vw - 300px) / (960 - 300));
+  line-height: 1.25;
+}
+@media (min-width: 960px) {
+  .jsNewsStory__title {
+    font-size: calc(28px + (36 - 28) * (100vw - 960px) / (1680 - 960));
   }
 }
 .jsPerson.current .jsQuote,

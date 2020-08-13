@@ -254,12 +254,21 @@
 
 .jsNewsRow {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+
   @media (min-width: 960px) {
     grid-template-columns: repeat(3, 1fr);
   }
   gap: 2vw;
   transition: .4s ease-out;
+}
+
+.jsNewsStory__title {
+  font-size: calc(26px + (33 - 26) * (100vw - 300px) / (960 - 300));
+    line-height: 1.25;
+
+    @media (min-width: 960px) {
+      font-size: calc(28px + (36 - 28) * (100vw - 960px) / (1680 - 960));
+    }
 }
 
 .jsPerson.current,

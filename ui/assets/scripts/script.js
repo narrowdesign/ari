@@ -151,7 +151,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       const item = buzz[i];
       const folder = `${BUZZ_IMAGE_FOLDER}`;
       if (i === 0) {
-        buzzThumbsHTML += `<div class="jsThumbnail pos-r w-100p t-a-c op-0">
+        buzzThumbsHTML += `<div class="jsThumbnail pos-r w-100p t-a-c op-0 m-b-3">
           <a href="${item.link}" targt="_blank">
             <img src="${folder}${item.image}" class="image-fit w-100p" />
             <div class="jsStory__info fx-c j-c-center a-i-center p-2">

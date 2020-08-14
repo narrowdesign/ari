@@ -152,7 +152,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       const folder = `${BUZZ_IMAGE_FOLDER}`;
       if (i === 0) {
         buzzThumbsHTML += `<div class="jsThumbnail pos-r w-100p t-a-c op-0">
-          <a href="${item.link}">
+          <a href="${item.link}" targt="_blank">
             <img src="${folder}${item.image}" class="image-fit w-100p" />
             <div class="jsStory__info fx-c j-c-center a-i-center p-2">
               <div class="jsThumbnail__client f-s-m">${item.source}</div>
@@ -166,7 +166,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         }
 
         buzzThumbsHTML += `<div class="jsThumbnail pos-r w-100p p-t-100p ov-h t-a-c op-0">
-          <a href="${item.link}">
+          <a href="${item.link}" targt="_blank">
             <img src="${folder}${item.image}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
             <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2">
               <div class="jsThumbnail__client f-s-m">${item.source}</div>

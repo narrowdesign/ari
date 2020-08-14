@@ -7,6 +7,45 @@
 */
 const projects = [
   {
+    clientName: "Bouy",
+    title: "Say Something Endearing",
+    description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
+    folderName: "bouy",
+    hero: "header_1.jpg",
+    services: [
+      "STRATEGY",
+      "CREATIVE DEVELOPMENT",
+      "VIDEO AND PRINT PRODUCTION",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "logos_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["hangtag_1.jpg", "headline_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["fluff_1.jpg", "model_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["headline_2.jpg", "hanger_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["model_2.jpg", "thindown_1.jpg"],
+      },
+      {
+        type: "image",
+        src: "video.jpg",
+      },
+    ],
+  },
+  {
     clientName: "MeWe Nut Butter",
     title: "Say Something Purposeful",
     description: "Can one product save millions from malnutrition while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. We helped by creating MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and was chosen to join Chobani’s prestigious incubator program.",
@@ -114,116 +153,6 @@ const projects = [
         type: "image",
         src: "print_1.jpg"
       },  
-    ],
-  },
-  {
-    clientName: "Metlife",
-    title: "Say Something Unifying",
-    description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it a violation of Ari’s non-compete (kidding).",
-    folderName: "metlife_2",
-    hero: "",
-    services: [
-      "BRAND MESSAGING",
-      "CREATIVE DEVELOPMENT",
-      "VIDEO PRODUCTION AND POST PRODUCTION",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Superbowl Anthem:",
-        type: "video",
-        src: "https://player.vimeo.com/video/96031163",
-      },
-    ],
-  },
-  {
-    clientName: "Wishclouds",
-    title: "Say Something Entertaining",
-    description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on to launch the Wishclouds app with a fresh voice. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
-    folderName: "wishclouds",
-    hero: "",
-    services: [
-      "CREATIVE DEVELOPMENT",
-      "FILM DIRECTION",
-      "VIDEO & POST PRODUCTION",
-      "INFLUENCER CONTENT",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Jane:",
-        type: "video",
-        src: "https://player.vimeo.com/video/340950970",
-      },
-    ],
-  },
-  {
-    clientName: "Athenahealth",
-    title: "Say Something Honest",
-    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve that, he also understood that empathy would mean more to providers than empty promises. We created “Let doctors be doctors.“ The purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
-    folderName: "athenahealth",
-    hero: "",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "ID SYSTEM DESIGN",
-      "BRAND MESSAGING",
-      "CREATIVE DEVELOPMENT",
-      "WEBSITES",
-      "DIRECT MAIL",
-      "FILM DIRECTION",
-      "VIDEO PRODUCTION",
-      "VIDEO DIRECTION",
-      "TRADE SHOW BOOTH",
-      "CONTENT CREATION",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Cafeteria",
-        type: "video",
-        src: "https://player.vimeo.com/video/143286300",
-      },
-      {
-        title: "Communication",
-        type: "video",
-        src: "https://player.vimeo.com/video/156785219",
-      },
-      {
-        title: "Surgery",
-        type: "video",
-        src: "https://player.vimeo.com/video/141049242",
-      },
-      {
-        title: "Testimonial",
-        type: "video",
-        src: "https://player.vimeo.com/video/156785218",
-      },
-      {
-        title: "Computer",
-        type: "video",
-        src: "https://player.vimeo.com/video/141048854",
-      },
-      {
-        title: "Dr. Strings “Intro”",
-        type: "video",
-        src: "https://player.vimeo.com/video/156785227",
-      },
-      {
-        title: "Dr. Strings “Exam”",
-        type: "video",
-        src: "https://player.vimeo.com/video/157173208",
-      },
-      {
-        title: "Dr. Strings “Charts”",
-        type: "video",
-        src: "https://player.vimeo.com/video/156785230",
-      },
-      {
-        title: "Case study",
-        type: "video",
-        src: "https://player.vimeo.com/video/166037492",
-      },
     ],
   },
   {
@@ -337,141 +266,6 @@ const projects = [
     ],
   },
   {
-    clientName: "Kmart",
-    title: "Say Something Buzz Worthy",
-    description: "Our friends at Kmart wanted to build buzz around Adam Levine’s new fashion line. We created the web series, “222”, which included experiential events, promotions and BTS stories. The series got millions of views – boosting sales for the six months it was posted. “The Rack” drew over 250MM impressions and was featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
-    folderName: "kmart",
-    hero: "",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "ID SYSTEM DESIGN",
-      "BRAND MESSAGING",
-      "SOCIAL MEDIA CREATIVE DEVELOPMENT",
-      "EXPERIENTIAL MARKETING",
-      "EVENT MARKETING",
-      "VIDEO PRODUCTION & POST",
-      "VIDEO DIRECTION",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "The Rear",
-        type: "video",
-        src: "https://player.vimeo.com/video/96916429",
-      },
-      {
-        title: "The Band",
-        type: "video",
-        src: "https://player.vimeo.com/video/96915494",
-      },
-    ],
-  },
-  {
-    clientName: "Bouy",
-    title: "Say Something Endearing",
-    description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
-    folderName: "bouy",
-    hero: "header_1.jpg",
-    services: [
-      "STRATEGY",
-      "CREATIVE DEVELOPMENT",
-      "VIDEO AND PRINT PRODUCTION",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "logos_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["hangtag_1.jpg", "headline_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["fluff_1.jpg", "model_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["headline_2.jpg", "hanger_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["model_2.jpg", "thindown_1.jpg"],
-      },
-      {
-        type: "image",
-        src: "video.jpg",
-      },
-    ],
-  },
-  {
-    clientName: "Say & Company",
-    title: "Say Something Necessary",
-    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own, Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
-    folderName: "say",
-    hero: "header_1.jpg",
-    services: [
-      "NAMING","LOGO","ID SYSTEM DESIGN","BRAND MESSAGING","GO TO MARKET STRATEGY","CREATIVE DEVELOPMENT","E-COMMERCE WEBSITE","SOCIAL MEDIA MANAGEMENT",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "logos_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["hangtag_1.jpg", "headline_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["fluff_1.jpg", "model_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["headline_2.jpg", "hanger_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["model_2.jpg", "thindown_1.jpg"],
-      },
-      {
-        type: "image",
-        src: "video.jpg",
-      },
-    ],
-  },
-  {
-    clientName: "Tripadvisor",
-    title: "Say Something Reassuring",
-    description: "What do those reviews really mean? That was the question to answer for TripAdvisor’s first global brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations – leading to more video production, mass media spending and an exclusive CMO performance of “Rapper’s Delight” during a six-hour car ride from Croatia to Slovenia.",
-    folderName: "tripadvisor",
-    hero: "header_1.jpg",
-    services: [
-      "STRATEGY","POSITIONING","BRAND MESSAGING","CREATIVE DEVELOPMENT","VIDEO & POST PRODUCTION",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Vacation",
-        type: "video",
-        src: "https://player.vimeo.com/video/175623924",
-      },
-      {
-        title: "Toothpaste",
-        type: "video",
-        src: "https://player.vimeo.com/video/175634719",
-      },
-      {
-        title: "Pool",
-        type: "video",
-        src: "https://player.vimeo.com/video/175623922",
-      },
-    ],
-  },
-  {
     clientName: "Face The Music",
     title: "Say Something Heartbreaking",
     description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor's Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many, many others.",
@@ -490,6 +284,26 @@ const projects = [
         title: "I got this",
         type: "video",
         src: "https://player.vimeo.com/video/236263407",
+      },
+    ],
+  },
+  {
+    clientName: "Metlife",
+    title: "Say Something Unifying",
+    description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it a violation of Ari’s non-compete (kidding).",
+    folderName: "metlife_2",
+    hero: "",
+    services: [
+      "BRAND MESSAGING",
+      "CREATIVE DEVELOPMENT",
+      "VIDEO PRODUCTION AND POST PRODUCTION",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Superbowl Anthem:",
+        type: "video",
+        src: "https://player.vimeo.com/video/96031163",
       },
     ],
   },
@@ -540,6 +354,75 @@ const projects = [
     ],
   },
   {
+    clientName: "Athenahealth",
+    title: "Say Something Honest",
+    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve that, he also understood that empathy would mean more to providers than empty promises. We created “Let doctors be doctors.“ The purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
+    folderName: "athenahealth",
+    hero: "",
+    services: [
+      "STRATEGY",
+      "POSITIONING",
+      "ID SYSTEM DESIGN",
+      "BRAND MESSAGING",
+      "CREATIVE DEVELOPMENT",
+      "WEBSITES",
+      "DIRECT MAIL",
+      "FILM DIRECTION",
+      "VIDEO PRODUCTION",
+      "VIDEO DIRECTION",
+      "TRADE SHOW BOOTH",
+      "CONTENT CREATION",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Cafeteria",
+        type: "video",
+        src: "https://player.vimeo.com/video/143286300",
+      },
+      {
+        title: "Communication",
+        type: "video",
+        src: "https://player.vimeo.com/video/156785219",
+      },
+      {
+        title: "Surgery",
+        type: "video",
+        src: "https://player.vimeo.com/video/141049242",
+      },
+      {
+        title: "Testimonial",
+        type: "video",
+        src: "https://player.vimeo.com/video/156785218",
+      },
+      {
+        title: "Computer",
+        type: "video",
+        src: "https://player.vimeo.com/video/141048854",
+      },
+      {
+        title: "Dr. Strings “Intro”",
+        type: "video",
+        src: "https://player.vimeo.com/video/156785227",
+      },
+      {
+        title: "Dr. Strings “Exam”",
+        type: "video",
+        src: "https://player.vimeo.com/video/157173208",
+      },
+      {
+        title: "Dr. Strings “Charts”",
+        type: "video",
+        src: "https://player.vimeo.com/video/156785230",
+      },
+      {
+        title: "Case study",
+        type: "video",
+        src: "https://player.vimeo.com/video/166037492",
+      },
+    ],
+  },
+  {
     clientName: "Recovery Unplugged",
     title: "Say Something Empowering",
     description: "Our dear friend, Recovery Unplugged CEO, Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we created a simple mantra for those coping with this complicated problem: What track are you on?",
@@ -583,6 +466,180 @@ const projects = [
         title: "The 4th of July Independence",
         type: "video",
         src: "https://player.vimeo.com/video/277212759",
+      },
+    ],
+  },
+  {
+    clientName: "Wishclouds",
+    title: "Say Something Entertaining",
+    description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on to launch the Wishclouds app with a fresh voice. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
+    folderName: "wishclouds",
+    hero: "",
+    services: [
+      "CREATIVE DEVELOPMENT",
+      "FILM DIRECTION",
+      "VIDEO & POST PRODUCTION",
+      "INFLUENCER CONTENT",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Jane:",
+        type: "video",
+        src: "https://player.vimeo.com/video/340950970",
+      },
+    ],
+  },
+  {
+    clientName: "Say & Company",
+    title: "Say Something Necessary",
+    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own, Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
+    folderName: "say",
+    hero: "header_1.jpg",
+    services: [
+      "NAMING","LOGO","ID SYSTEM DESIGN","BRAND MESSAGING","GO TO MARKET STRATEGY","CREATIVE DEVELOPMENT","E-COMMERCE WEBSITE","SOCIAL MEDIA MANAGEMENT",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "logos_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["hangtag_1.jpg", "headline_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["fluff_1.jpg", "model_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["headline_2.jpg", "hanger_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["model_2.jpg", "thindown_1.jpg"],
+      },
+      {
+        type: "image",
+        src: "video.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "Virgin Mobile",
+    title: "Say Something Non-Corporate",
+    description: "No matter how good the plan, cell phone companies are getting the better end of the deal. So it’s no wonder audiences were numb to the endless barrage of incentives. This was the insight that drove our Virgin Mobile campaign centered around real, honest to goodness benefits. We said: Most cell phones take advantage of customers. At Virgin Mobile we let you take advantage of us.",
+    folderName: "virgin_mobile",
+    hero: "header_1.jpg",
+    services: [
+      "Ari Merkin",
+      "Co-Founder, CCO TOY NY",
+    ],
+    content: [
+      {
+        type: "video",
+        title: "Matt",
+        src: "https://player.vimeo.com/video/80571914",
+      },
+      {
+        type: "video",
+        title: "Janice",
+        src: "https://player.vimeo.com/video/80571812",
+      },
+      {
+        type: "video",
+        title: "Carl",
+        src: "https://player.vimeo.com/video/80571743",
+      },
+      {
+        type: "video",
+        title: "Steve",
+        src: "https://player.vimeo.com/video/80572269",
+      },
+    ]
+  },
+  {
+    clientName: "MetLife",
+    title: "Say Something Inclusive",
+    description: "For over 150 years, MetLife had been working to make sure everyone had access to health insurance. Yet the company was known more for Charles Schultz’s Peanuts characters than its own historic and powerful intentions. It was time to widen the cartoon universe and give the company the voice it deserved. For the first time in its history, MetLife was headed to the Superbowl.",
+    folderName: "metlife_1",
+    hero: "header_1.jpg",
+    services: [
+      "Ari Merkin, Writer, ECD",
+      "CP+B",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Everyone",
+        type: "video",
+        src: "https://player.vimeo.com/video/75739839",
+      },
+      {
+        title: "Five cents",
+        type: "video",
+        src: "https://player.vimeo.com/video/79645423",
+      },
+    ],
+  },
+  {
+    clientName: "Kmart",
+    title: "Say Something Buzz Worthy",
+    description: "Our friends at Kmart wanted to build buzz around Adam Levine’s new fashion line. We created the web series, “222”, which included experiential events, promotions and BTS stories. The series got millions of views – boosting sales for the six months it was posted. “The Rack” drew over 250MM impressions and was featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
+    folderName: "kmart",
+    hero: "",
+    services: [
+      "STRATEGY",
+      "POSITIONING",
+      "ID SYSTEM DESIGN",
+      "BRAND MESSAGING",
+      "SOCIAL MEDIA CREATIVE DEVELOPMENT",
+      "EXPERIENTIAL MARKETING",
+      "EVENT MARKETING",
+      "VIDEO PRODUCTION & POST",
+      "VIDEO DIRECTION",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "The Rear",
+        type: "video",
+        src: "https://player.vimeo.com/video/96916429",
+      },
+      {
+        title: "The Band",
+        type: "video",
+        src: "https://player.vimeo.com/video/96915494",
+      },
+    ],
+  },
+  {
+    clientName: "Tripadvisor",
+    title: "Say Something Reassuring",
+    description: "What do those reviews really mean? That was the question to answer for TripAdvisor’s first global brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations – leading to more video production, mass media spending and an exclusive CMO performance of “Rapper’s Delight” during a six-hour car ride from Croatia to Slovenia.",
+    folderName: "tripadvisor",
+    hero: "header_1.jpg",
+    services: [
+      "STRATEGY","POSITIONING","BRAND MESSAGING","CREATIVE DEVELOPMENT","VIDEO & POST PRODUCTION",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Vacation",
+        type: "video",
+        src: "https://player.vimeo.com/video/175623924",
+      },
+      {
+        title: "Toothpaste",
+        type: "video",
+        src: "https://player.vimeo.com/video/175634719",
+      },
+      {
+        title: "Pool",
+        type: "video",
+        src: "https://player.vimeo.com/video/175623922",
       },
     ],
   },
@@ -670,30 +727,6 @@ const projects = [
       {
         type: "image",
         src: "logos_1.jpg",
-      },
-    ],
-  },
-  {
-    clientName: "MetLife",
-    title: "Say Something Inclusive",
-    description: "For over 150 years, MetLife had been working to make sure everyone had access to health insurance. Yet the company was known more for Charles Schultz’s Peanuts characters than its own historic and powerful intentions. It was time to widen the cartoon universe and give the company the voice it deserved. For the first time in its history, MetLife was headed to the Superbowl.",
-    folderName: "metlife_1",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin, Writer, ECD",
-      "CP+B",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Everyone",
-        type: "video",
-        src: "https://player.vimeo.com/video/75739839",
-      },
-      {
-        title: "Five cents",
-        type: "video",
-        src: "https://player.vimeo.com/video/79645423",
       },
     ],
   },
@@ -844,39 +877,6 @@ const projects = [
       },
     ]
   
-  },
-  {
-    clientName: "Virgin Mobile",
-    title: "Say Something Non-Corporate",
-    description: "No matter how good the plan, cell phone companies are getting the better end of the deal. So it’s no wonder audiences were numb to the endless barrage of incentives. This was the insight that drove our Virgin Mobile campaign centered around real, honest to goodness benefits. We said: Most cell phones take advantage of customers. At Virgin Mobile we let you take advantage of us.",
-    folderName: "virgin_mobile",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin",
-      "Co-Founder, CCO TOY NY",
-    ],
-    content: [
-      {
-        type: "video",
-        title: "Matt",
-        src: "https://player.vimeo.com/video/80571914",
-      },
-      {
-        type: "video",
-        title: "Janice",
-        src: "https://player.vimeo.com/video/80571812",
-      },
-      {
-        type: "video",
-        title: "Carl",
-        src: "https://player.vimeo.com/video/80571743",
-      },
-      {
-        type: "video",
-        title: "Steve",
-        src: "https://player.vimeo.com/video/80572269",
-      },
-    ]
   },
   {
     clientName: "Past hits",

@@ -1475,6 +1475,10 @@ th {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.p-v-1vw {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
 .p-v-3 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -5813,7 +5817,7 @@ th {
 }
 .jsAboutButton,
 .jsWorkButton,
-.jsPressButton,
+.jsBuzzButton,
 .jsContactButton {
   cursor: pointer;
   -webkit-transition-duration: 0.1s;
@@ -5838,7 +5842,7 @@ th {
 }
 .jsAboutButton span,
 .jsWorkButton span,
-.jsPressButton span,
+.jsBuzzButton span,
 .jsContactButton span {
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
@@ -5862,7 +5866,7 @@ th {
 }
 .jsAboutButton.current,
 .jsWorkButton.current,
-.jsPressButton.current,
+.jsBuzzButton.current,
 .jsContactButton.current {
   color: #000;
 }
@@ -6165,6 +6169,12 @@ th {
   .jsThumbnails {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.jsBuzz .jsThumbnail {
+  padding-top: 56%;
+}
+.jsBuzz > .jsThumbnail {
+  padding-top: 0;
 }
 .jsNewsRow {
   display: grid;

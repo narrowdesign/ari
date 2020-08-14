@@ -32,6 +32,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   const WIN = $(window);
   const LOGO_VIDEO = $f(document.querySelector('.jsLogo__video'));
   const PROJECTS_IMAGE_FOLDER = 'ui/assets/images/projects/';
+  const BUZZ_IMAGE_FOLDER = 'ui/assets/images/buzz/'
 
   init();
 
@@ -68,8 +69,8 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   $('.jsWorkButton').on('click', () => {
     sectionClickHandler('work')
   });
-  $('.jsPressButton').on('click', () => {
-    sectionClickHandler('press')
+  $('.jsBuzzButton').on('click', () => {
+    sectionClickHandler('buzz')
   });
   $('.jsContactButton').on('click', () => {
     sectionClickHandler('contact')
@@ -145,20 +146,53 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       }
     })
 
-    // // QUOTES INIT
-    // $.each(quotes, function(i, quote) {
-    //   $('.jsQuotes').append(`
-    //     <div class="m-h-a jsQuote max-w-560px m-t-0 m-b-4">
-    //       <p class="f-s-m d-b m-t-0">${quote.quote}</p>
-    //       <p class="f-s-m d-b op-60">${quote.author}</p>
-    //     </div>
-    //   `)
-    // })
+    let buzzThumbsHTML = '';
+    $.each(buzz, function(i){
+      const item = buzz[i];
+      const folder = `${BUZZ_IMAGE_FOLDER}`;
+      if (i === 0) {
+        buzzThumbsHTML += `<div class="jsThumbnail pos-r w-100p t-a-c op-0">
+          <a href="${item.link}">
+            <img src="${folder}${item.image}" class="image-fit w-100p" />
+            <div class="jsStory__info fx-c j-c-center a-i-center p-2">
+              <div class="jsThumbnail__client f-s-m">${item.source}</div>
+              <div class="jsThumbnail__title f-w-700">${item.title}</div>
+            </div>
+          </a>
+        </div>`
+      } else {
+        if (i % 3 === 1) {
+          buzzThumbsHTML += '<div class="jsNewsRow p-v-1vw">';
+        }
+
+        buzzThumbsHTML += `<div class="jsThumbnail pos-r w-100p p-t-100p ov-h t-a-c op-0">
+          <a href="${item.link}">
+            <img src="${folder}${item.image}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
+            <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2">
+              <div class="jsThumbnail__client f-s-m">${item.source}</div>
+              <div class="jsThumbnail__title f-w-700">${item.title}</div>
+            </div>
+          </a>
+        </div>`
+
+        if (i % 3 === 0) {
+          buzzThumbsHTML += '</div>';
+        }
+      }
+      setTimeout(() => {
+        revealStory(i)
+      }, i * 100)
+    })
+    $('.jsBuzz').append(buzzThumbsHTML);
   }
 
   function revealThumbnail(num) {
     $('.jsWork .jsThumbnail').eq(num).addClass('in');
     $('.jsProject .jsThumbnail').eq(num).addClass('in');
+  }
+
+  function revealStory(num) {
+    $('.jsBuzz .jsThumbnail').eq(num).addClass('in');
   }
   function logoClickHandler(e) {
     $('body').stop();
@@ -190,7 +224,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       $('body').animate({scrollTop: Number(sectionTops[0] - 150)}, '1000');
     } else if (section === 'about') {
       $('body').animate({scrollTop: Number(sectionTops[1] - 150)}, '1000');
-    } else if (section === 'press') {
+    } else if (section === 'buzz') {
       $('body').animate({scrollTop: Number(sectionTops[2] - 150)}, '1000');
     } else if (section === 'contact') {
       $('body').animate({scrollTop: Number(sectionTops[3] - 150)}, '1000');
@@ -399,7 +433,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   ////// UTIL
 
   function setTops() {
-    sectionTops = [$('.jsWork').offset().top, $('.jsAbout').offset().top, $('.jsPress').offset().top, $('.jsContact').offset().top];
+    sectionTops = [$('.jsWork').offset().top, $('.jsAbout').offset().top, $('.jsBuzz').offset().top, $('.jsContact').offset().top];
   }
 
   function resizeHandler () { // Set the size of images and preload them

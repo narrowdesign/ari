@@ -8,7 +8,7 @@
   <script src="ui/assets/scripts/jquery-2.1.1.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/froogaloop.js"></script>
   <script type="text/javascript" src="ui/assets/data/people.js"></script>
-  <script type="text/javascript" src="ui/assets/data/news.js"></script>
+  <script type="text/javascript" src="ui/assets/data/buzz.js"></script>
   <script type="text/javascript" src="ui/assets/data/projects.js"></script>
   <script type="text/javascript" src="ui/assets/data/clients.js"></script>
   <!-- <script type="text/javascript" src="ui/assets/data/quotes.js"></script> -->
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="d-f j-c-start w-35p ls-w-42p po-e-a">
-        <div class="jsMenuItem jsPressButton f-s-m p-h-05 ms-p-h-1 ls-p-r-2 pos-r">
+        <div class="jsMenuItem jsBuzzButton f-s-m p-h-05 ms-p-h-1 ls-p-r-2 pos-r">
           <span>Buzz</span>
         </div>
         <div class="jsMenuItem jsContactButton f-s-m p-h-05 ms-p-h-1 pos-r">
@@ -46,6 +46,7 @@
     </div>
   </div>
   <div class="Container">
+    <!-- this is an empty project, populated by script.js -->
     <div class="jsProject p-h-3vw light-bg p-t-10 p-b-3">
       <div class="jsProject__hero">
         <img class="w-100p" src="">
@@ -55,14 +56,14 @@
         <div class="jsProject__title f-s-l f-w-700 dark"></div>
         <p class="jsProject__description t-a-c f-s-m m-t-05 w-100p max-w-960px m-h-a"></p>
       </div>
-      <div class="jsProject__content"></div>
-      <div class="f-s-m f-w-700 p-4 m-t-8 dark">More projects</div>
-      <div class="jsThumbnails w-100p">
+        <div class="jsProject__content"></div>
+        <div class="f-s-m f-w-700 p-4 m-t-8 dark">More projects</div>
+        <div class="jsThumbnails w-100p">
       </div>
-
     </div>
     <section id="Section--work" class="jsSection jsWork p-h-3vw">
       <div class="jsThumbnails w-100p light">
+        <!-- populated by script.js -->
       </div>
     </section>
     <section id="Section--people" class="jsSection jsAbout">
@@ -71,6 +72,7 @@
           Every brand has a voice. Since 2012, we’ve been a trusty megaphone helping companies stand out in a noisy crowd. We have no offices, no conference rooms, no overhead clouding our objectivity. Just a tight knit crew and a collaborative, time-tested approach for delivering the good stuff. That’s what friends are for. 
         </p>
       </div>
+      <!-- this is an empty person populated by script.js -->
       <div class="jsPerson ov-h pos-r ms-fx-r-a a-i-stretch white-bg">
         <div class="jsPerson__cover pos-r ov-h ms-w-50p bg-s-cv bg-p-c pos-r p-t-100p ms-p-t-0" style="background-image: url()">
           <div class="jsPerson__headshot w-100p h-100p image-fit pos-a t-0 l-0 op-0"><img src="" alt="" class="w-100p h-100p"></div>
@@ -128,57 +130,14 @@
       </div>
       <div class="p-t-2 ms-p-t-4 ls-p-t-8">
         <div class="f-s-l w-100p f-w-700 dark t-a-c">Brand Experience</div>
-        <div class="d-f fx-w-w j-c-start a-i-baseline p-t-2 ms-p-t-4 ls-p-t-8 jsClientLogos"></div>
+        <div class="d-f fx-w-w j-c-start a-i-baseline p-t-2 ms-p-t-4 ls-p-t-8 jsClientLogos">
+          <!-- populated by script.js -->
+        </div>
       </div>
     </section>
     <img src="ui/assets/images/home/trophies.jpg" class="w-100p" alt="">
-    <section id="" class="jsSection jsPress p-4 ms-p-8 t-a-c white-bg">
-      <div class="jsNewsStory">
-        <a href="http://bit.ly/2WpT1FL" target="_blank">
-          <img src="ui/assets/images/news/shots.jpg" class="w-100p m-b-2" alt="">
-          <div class="jsNewsStory__title f-w-700 dark">SHOTS AD ICON</div>
-          <p class="f-s-m">A deep, meaningful feature interview by Simon Waklin. As for why Ari chose to pose for it wearing this, that will forever remain a mystery. </p>
-        </a>
-      </div>
-      <div class="jsNewsRow m-v-8">
-        <div class="jsNewsStory">
-          <a href="http://shoutengine.com/IOFAwithAaronStarkman" target="_blank">
-            <img src="ui/assets/images/news/only_advertising.png" class="w-100p m-b-2" alt="">
-            <div class="jsNewsStory__title f-w-700 dark">IT’S ONLY F*IN ADVERTISING PODCAST</div>
-            <p class="f-s-m">Ari takes a walk down memory lane with Aaron Starkman on Adweek’s Podcast of the Year. Aptly named, It’s Only Fuckin’ Advertising. Enjoy.</p>
-          </a>
-        </div>
-        <div class="jsNewsStory">
-          <a href="https://vimeo.com/278735663" target="_blank">
-            <img src="ui/assets/images/news/story_of_cool.jpg" class="w-100p m-b-2" alt="">
-            <div class="jsNewsStory__title f-w-700 dark">MSNBC – MINI  DOCUSERIES “STORY OF COOL”</div>
-            <p class="f-s-m">Is anything cooler than talking about building cool brands, on a docu series about cool, hosted by LL Cool J? The answer is no. Just no.</p>
-          </a>
-        </div>
-        <div class="jsNewsStory">
-          <a href="https://www.billboard.com/articles/columns/rock/7981591/richie-supa-i-got-this-video-face-the-music-foundation" target="_blank">
-            <img src="ui/assets/images/news/billboard.jpg" class="w-100p m-b-2" alt="">
-            <div class="jsNewsStory__title f-w-700 dark">BILLBOARD: I GOT THIS</div>
-            <p class="f-s-m">When “get press” is essentially your campaign’s whole media strategy, it helps when you deliver major national coverage in pubs like this.</p>
-          </a>
-        </div>
-      </div>
-      <div class="jsNewsRow m-b-8">
-        <div class="jsNewsStory">
-          <a href="https://video.foxbusiness.com/v/4583769330001/?playlist_id=3166411554001#sp=show-clips" target="_blank">
-            <img src="ui/assets/images/news/fox_news.jpg" class="w-100p m-b-2" alt="">
-            <div class="jsNewsStory__title f-w-700 dark">FOX NEWS – ATHENAHEALTH</div>
-            <p class="f-s-m">It’s awesome when a major news network celebrates your new brand campaign. It’s even better when the company’s CEO joins in the fun.</p>
-          </a>
-        </div>
-        <div class="jsNewsStory">
-          <a href="https://adage.com/article/news/advertising-age-s-21st-century-ads-top-15-ad-campaigns/296525" target="_blank">
-            <img src="ui/assets/images/news/adage_best.jpg" class="w-100p m-b-2" alt="">
-            <div class="jsNewsStory__title f-w-700 dark">ADAGE: Best of the Century</div>
-            <p class="f-s-m">Advertising is great. What other industry celebrates you for dropping 1,200 body bags on the doorstep of the world’s biggest tobacco company?</p>
-          </a>
-        </div>
-      </div>
+    <section id="" class="jsSection jsBuzz p-4 ms-p-8 t-a-c white-bg">
+      <!-- populated by script.js -->
     </section>
     <section class="jsSection jsContact p-4 ms-p-8">
       <div class="jsContact__form w-100p">

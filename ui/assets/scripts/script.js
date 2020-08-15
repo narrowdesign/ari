@@ -11,6 +11,7 @@ let currentSection;
 let currentPerson;
 let currentProject;
 let isProjectOpen = false;
+let slideshowInterval;
 
 let currentImage = 0;
 
@@ -383,31 +384,37 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $.each(content, function(i){
       let projectHTML = '';
       const item = content[i];
-      let imageHTML;
-      if (item.type == "image") {
+      let isSlideShow;
+      if (item.type === "image") {
         if (typeof(item.src) === "object") {
-          imageHTML = `<div class="jsProjectImageRow d-g grid-${item.src.length} gap-2vw">`
+          projectHTML += `<div class="jsProjectImageRow d-g grid-${item.src.length} gap-2vw">`
           for (let i=0; i < item.src.length; i++) {
-            imageHTML += `<div class="jsProjectImage pos-r d-b m-t-2vw"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
+            projectHTML += `<div class="jsProjectImage pos-r d-b m-t-2vw"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
           }
-          imageHTML += `</div>`;
+          projectHTML += `</div>`;
         } else {
-          imageHTML = `<div class="jsProjectImage pos-r d-b w-100p m-t-2vw"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`;
+          projectHTML = `<div class="jsProjectImage pos-r d-b w-100p m-t-2vw"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`;
         }
-        projectHTML += imageHTML;
-      } else if (item.type == "video") {
+      } else if (item.type === "slideshow") {
+        isSlideShow = true;
+        projectHTML += `<div class="jsProjectSlideshow m-t-2vw">`
+        for (let i=0; i < item.src.length; i++) {
+          projectHTML += `<div class="jsProjectImage ${i === 0 ? 'pos-r' : 'pos-a'} d-b t-0 l-0"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
+        }
+        projectHTML += `</div>`;
+      } else if (item.type === "video") {
         projectHTML += `<div class="pos-r jsProjectImage w-100p p-t-vid m-t-2vw">
           <iframe class="jsProject__video pos-a l-0 t-0 w-100p h-100p" src="${item.src}?api=1&title=0&portrait=0&byline=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>`
-      } else if (item.type == "title") {
+      } else if (item.type === "title") {
         projectHTML += `<div class="pos-r fx-c j-c-center a-i-center t-a-c a-i-start m-t-3">
           <div class="f-s-l w-100p">
             <div class="m-b-3">${item.title}</div>
           </div>
         </div>`
-      } else if (item.type == "text") {
+      } else if (item.type === "text") {
         projectHTML += `<div class="f-s-s w-100p ms-w-50p pos-r m-b-3">${item.text}</div>`
-      } else if (item.type == "title_and_text") {
+      } else if (item.type === "title_and_text") {
         projectHTML += `<div class="pos-r t-a-c m-b-3 max-w-720px m-h-a">
           <div class="f-s-m m-b-1">${clientName}</div>      
           <div class="f-s-xl m-b-1">${item.title}</div>
@@ -419,7 +426,28 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       } else {
         $('.jsProject__content').append(projectHTML);
       }
+      if (isSlideShow) {
+        startSlideShow();
+      }
     })
+  }
+
+  function startSlideShow() {
+    let count = $('.jsProjectSlideshow .jsProjectImage').length;
+    let current = 0;
+    let z = count;
+    clearInterval(slideshowInterval);
+    slideshowInterval = setInterval(() => {
+      $('.jsProjectSlideshow .jsProjectImage').eq(current).css({
+        zIndex: z,
+      })
+      current++;
+      z++;
+      if (current >= count) {
+        current = 0;
+      }
+      console.log(current)
+    }, 1000)
   }
 
   function updateLikes(e) {

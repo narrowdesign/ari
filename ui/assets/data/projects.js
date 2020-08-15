@@ -11,7 +11,7 @@ const projects = [
     title: "Say Something Endearing",
     description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
     folderName: "buoy",
-    hero: "urinals.jpg",
+    hero: "copy_room_1.jpg",
     services: [
       "STRATEGY",
       "CREATIVE DEVELOPMENT",
@@ -21,23 +21,23 @@ const projects = [
     content: [
       {
         type: "image",
-        src: "copy_room_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["poster_1.jpg","poster_3.jpg","poster_2.jpg"],
-      },
-      {
-        type: "image",
-        src: ["fluff_1.jpg", "model_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["poster_4.jpg","poster_5.jpg","poster_6.jpg"],
+        src: ["poster_1.jpg","poster_2.jpg"],
       },
       {
         type: "image",
         src: "doorhanger_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_3.jpg","poster_4.jpg"],
+      },
+      {
+        type: "image",
+        src: "urinals_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_5.jpg","poster_6.jpg"],
       },
     ],
   },
@@ -66,7 +66,42 @@ const projects = [
     awards: [],
     content: [
       {
-        type: "image_row",
+        type: "slideshow",
+        src: [
+          "logo_2.jpg",
+          "logo_3.jpg",
+          "logo_4.jpg",
+          "logo_5.jpg",
+          "logo_6.jpg",
+          "logo_7.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "package_1.jpg",
+          "package_2.jpg",
+          "package_3.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "package_4.jpg",
+          "package_5.jpg",
+          "package_6.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: "pattern_1.jpg"
+      },
+      {
+        type: "image",
+        src: "print_1.jpg"
+      },
+      {
+        type: "image",
         src: [
           "instagram_1.jpg",
           "instagram_2.jpg",
@@ -88,67 +123,7 @@ const projects = [
           "instagram_8.jpg",
           "instagram_9.jpg",
         ]
-      },
-      {
-        type: "image",
-        src: "logo_2.jpg"
-      },
-      {
-        type: "image",
-        src: "logo_3.jpg"
-      },
-      {
-        type: "image",
-        src: "logo_4.jpg"
-      },
-      {
-        type: "image",
-        src: "logo_5.jpg"
-      },
-      {
-        type: "image",
-        src: "logo_6.jpg"
-      },
-      {
-        type: "image",
-        src: "logo_7.jpg"
-      },
-      {
-        type: "image",
-        size: "small",
-        src: "package_1.jpg",
-      },
-      {
-        type: "image",
-        size: "small",
-        src: "package_2.jpg",
-      },
-      {
-        type: "image",
-        size: "small",
-        src: [
-          "package_1.jpg",
-          "package_2.jpg",
-          "package_3.jpg",
-        ]
-      },
-      {
-        type: "image",
-        size: "small",
-        src: [
-          "package_4.jpg",
-          "package_5.jpg",
-          "package_6.jpg",
-        ]
-      },
-      {
-        type: "image",
-        src: "pattern_1.jpg"
-      },
-      {
-        type: "image",
-        src: "print_1.jpg"
-      },  
+      }, 
     ],
   },
   {
@@ -156,13 +131,13 @@ const projects = [
     title: "Say Something Competitive",
     description: "Our friends at Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things too, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. One that could show plant-based fans what its outspoken CEO had known all along: simpler is better.",
     folderName: "elmhurst",
-    hero: "",
+    hero: "ooh_1.jpg",
     services: [
       "STRATEGY",
-    "POSITIONING",
-    "BRAND MESSAGING",
-    "CREATIVE DEVELOPMENT",
-    "VIDEO PRODUCTION"
+      "POSITIONING",
+      "BRAND MESSAGING",
+      "CREATIVE DEVELOPMENT",
+      "VIDEO PRODUCTION"
     ],
     awards: [],
     content: [
@@ -180,6 +155,25 @@ const projects = [
         title: "Nuts",
         type: "video",
         src: "https://player.vimeo.com/video/405134581",
+      },
+      {
+        type: "image",
+        src: "ooh_2.jpg",
+      },
+      {
+        type: "image",
+        src: [
+          "poster_1.jpg",
+          "poster_2.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: "ooh_3.jpg",
+      },
+      {
+        type: "image",
+        src: "bus_shelter_1.jpg",
       },
     ],
   },

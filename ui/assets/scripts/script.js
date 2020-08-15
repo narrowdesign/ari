@@ -387,7 +387,8 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       let isSlideShow;
       if (item.type === "image") {
         if (typeof(item.src) === "object") {
-          projectHTML += `<div class="jsProjectImageRow d-g grid-${item.src.length} gap-2vw">`
+          const layout = item.layout ? item.layout : item.src.length;
+          projectHTML += `<div class="jsProjectImageRow d-g grid-${layout} gap-2vw">`
           for (let i=0; i < item.src.length; i++) {
             projectHTML += `<div class="jsProjectImage pos-r d-b m-t-2vw"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
           }

@@ -222,7 +222,7 @@ const projects = [
     title: "Say Something Revolutionary",
     description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We gave them Nickel. Our branding approach was simple: it was about putting people ahead of profits. No more greed. No more confusion. No more Americans paying the price for an industry that’s lost its way. Healthcare that costs what healthcare should cost. And not a nickel more.",
     folderName: "nickel",
-    hero: "logos_1.jpg",
+    hero: "ooh_1.jpg",
     services: [
       "STRATEGY",
       "NAMING",
@@ -235,11 +235,15 @@ const projects = [
     content: [
       {
         type: "image",
-        src: "ooh_1.jpg",
+        src: "logos_1.jpg",
       },
       {
         type: "image",
-        src: ["poster_1.jpg","poster_2.jpg"],
+        src: "duratrans_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_2.jpg","poster_1.jpg"],
       },
       {
         type: "image",
@@ -248,10 +252,6 @@ const projects = [
       {
         type: "image",
         src: "business_cards_1.jpg",
-      },
-      {
-        type: "image",
-        src: "duratrans_1.jpg",
       },
     ],
   },
@@ -323,6 +323,10 @@ const projects = [
       },
       {
         type: "image",
+        src: "video.jpg",
+      },
+      {
+        type: "image",
         src: ["hangtag_1.jpg", "headline_1.jpg"],
       },
       {
@@ -336,10 +340,6 @@ const projects = [
       {
         type: "image",
         src: ["model_2.jpg", "thindown_1.jpg"],
-      },
-      {
-        type: "image",
-        src: "video.jpg",
       },
     ],
   },
@@ -417,7 +417,7 @@ const projects = [
     title: "Say Something Empowering",
     description: "Our dear friend, Recovery Unplugged CEO, Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we created a simple mantra for those coping with this complicated problem: What track are you on?",
     folderName: "recovery_unplugged",
-    hero: "header_1.jpg",
+    hero: "recovery_unplugged_busshelter_1.jpg",
     services: [
       "STRATEGY",
       "POSITIONING",
@@ -433,29 +433,36 @@ const projects = [
     awards: [],
     content: [
       {
-        title: "Save Life",
-        type: "video",
-        src: "https://player.vimeo.com/video/258109894",
+        type: "image",
+        src: "recovery_unplugged_spread_1.jpg",
       },
       {
-        title: "Long Live",
-        type: "video",
-        src: "https://player.vimeo.com/video/283702044",
+        type: "image",
+        src: "recovery_unplugged_spread_3.jpg",
       },
       {
-        title: "Overdose",
-        type: "video",
-        src: "https://player.vimeo.com/video/258112863",
+        type: "image",
+        src: "recovery_unplugged_magazine_1.jpg",
       },
       {
-        title: "Heroin",
-        type: "video",
-        src: "https://player.vimeo.com/video/283702444",
+        type: "image",
+        src: ["recovery_unplugged_print_1.jpg","recovery_unplugged_print_2.jpg"],
       },
       {
-        title: "The 4th of July Independence",
-        type: "video",
-        src: "https://player.vimeo.com/video/277212759",
+        type: "image",
+        src: "recovery_unplugged_spread_2.jpg",
+      },
+      {
+        type: "image",
+        src: ["recovery_unplugged_print_3.jpg","recovery_unplugged_print_4.jpg"],
+      },
+      {
+        type: "image",
+        src: "recovery_unplugged_mug_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["recovery_unplugged_logo_1.jpg","recovery_unplugged_logo_2.jpg"],
       },
     ],
   },
@@ -676,7 +683,7 @@ const projects = [
     
     “Arguably the Most Successful Viral Campaign in History.” - The Age, 2013`,
     folderName: "officemax",
-    hero: "header_1.jpg",
+    hero: "elf_1.jpg",
     services: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
@@ -685,7 +692,31 @@ const projects = [
     content: [
       {
         type: "image",
-        src: "logos_1.jpg",
+        src: "elf_2.jpg",
+      },
+      {
+        type: "video",
+        src: "https://player.vimeo.com/video/444890779",
+      },
+      {
+        type: "image",
+        src: ["elf_3.jpg", "elf_4.jpg", "elf_5.jpg"],
+      },
+      {
+        type: "image",
+        src: ["elf_6.jpg", "elf_7.jpg", "elf_5.jpg"],
+      },
+      {
+        type: "image",
+        src: ["elf_9.jpg", "elf_10.jpg", "elf_11.jpg"],
+      },
+      {
+        type: "image",
+        src: ["elf_12.jpg", "elf_13.jpg", "elf_15.jpg"],
+      },
+      {
+        type: "image",
+        src: ["elf_8.jpg", "elf_16.jpg", "elf_17.jpg"],
       },
     ],
   },
@@ -755,7 +786,7 @@ const projects = [
     title: "Say Something Authentic",
     description: "When it comes to capturing the voice of a brand, nothing is more powerful than authenticity. What excited us most about working on this iconic NYC brand was its complete lack of big box retail polish. LPs sitting in old milk crates. Ripped commercial carpeting. Water stained ceilings. The passion and attitude of its oh-so-New-York-salesstaff. J&R was a branding goldmine and will remain forever in our hearts.",
     folderName: "j_and_r",
-    hero: "header_1.jpg",
+    hero: "j_and_r_5.jpg",
     services: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
@@ -781,6 +812,22 @@ const projects = [
         title: "Air Guitar",
         src: "https://player.vimeo.com/video/79741074",
       },
+      {
+        type: "image",
+        src: "j_and_r_7.jpg",
+      },
+      {
+        type: "image",
+        src: "j_and_r_6.jpg",
+      },
+      {
+        type: "image",
+        src: ["j_and_r_8.jpg", "j_and_r_9.jpg"],
+      },
+      {
+        type: "image",
+        src: "j_and_r_4.jpg",
+      },
     ],
   },
   {
@@ -788,11 +835,21 @@ const projects = [
     title: "Say Something <nobr>Bi-Partisan</nobr>",
     description: "While doing our watch on the legendary Time red border campaign, we decided to take it to the streets – bringing Time’s social commentary literally everywhere. Storefronts. Building sides. Construction sites. Yet it was this piece that got people talking, including David Letterman who complained about the traffic on the West Side Highway saying, “Every commuter slows to look at this blasted billboard.”",
     folderName: "time",
-    hero: "header_1.jpg",
+    hero: "time_3.jpg",
     services: [
       "Ari Merkin",
       "ECD, Fallon NY",
       "Cannes Gold Lion",
+    ],
+    content: [
+      {
+        type: "image",
+        src: "time_1.jpg",
+      },
+      {
+        type: "image",
+        src: "time_2.jpg",
+      },
     ],
   },
   {
@@ -800,7 +857,7 @@ const projects = [
     title: "Say Something Big",
     description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the U.S. launch of the MINI.`,
     folderName: "mini",
-    hero: "header_1.jpg",
+    hero: "mini_16.jpg",
     services: [
       "Ari Merkin",
       "Writer, CP+B",
@@ -810,7 +867,36 @@ const projects = [
     content: [
       {
         type: "image",
-        src: "logos_1.jpg",
+        src: "mini_14.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_13.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_15.jpg",
+      },
+      {
+        type: "image",
+        src: ["mini_10.jpg", "mini_8.jpg"],
+      },
+      {
+        type: "image",
+        src: "mini_1.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_2.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_3.jpg",
+      },
+      {
+        type: "image",
+        layout: "2_1",
+        src: ["mini_4.jpg", "mini_7.jpg"],
       },
     ],
   },
@@ -819,12 +905,27 @@ const projects = [
     title: "Say Something Historical",
     description: "Unlike its new crop of sexy competitors, Bell had been around for 66 years. Painstakingly handcrafted from metal type cast on an old timey letterpress, our campaign aimed to tell the company’s story – listing its deep generational roots as America’s most trusted helmet. After all, with that kind of staying power, the folks at Bell obviously know a thing or two about survival.",
     folderName: "bell",
-    hero: "header_1.jpg",
+    hero: "bell_3.jpg",
     services: [
       "Ari Merkin",
       "Writer, CP+B",
       "One Show Gold",
     ],
+    content: [
+      {
+        type: "image",
+        src: ["bell_1.jpg", "bell_2.jpg"],
+      },
+      {
+        type: "image",
+        src: "bell_4.jpg",
+      },
+      {
+        type: "image",
+        src: "bell_5.jpg",
+      },
+    ]
+
   },
   {
     clientName: "Ikea",
@@ -851,7 +952,7 @@ const projects = [
     title: "Say Something Rebellious",
     description: "As the seven-foot sacks piled up by the hundreds outside Phillip Morris, a horrified woman approached and asked what was going on. We shared with her the idea behind ‘Truth’ and she stared at us blankly. She said, “My sister died of lung cancer. Do you mind if I carry one of those bags?” For many, ‘Truth’ was life changing. Especially those of us who had the privilege of working on this campaign.",
     folderName: "truth",
-    hero: "header_1.jpg",
+    hero: "truth_4.jpg",
     services: [
       "WRITER, CP+B",
       "AdAge Magazine’s 15 Best Campaigns of the 21st Century",
@@ -863,29 +964,18 @@ const projects = [
         type: "video",
         src: "https://player.vimeo.com/video/79751978",
       },
-    ],
-  },
-  {
-    clientName: "Land Rover",
-    title: "Say Something <nobr>Self-Effacing</nobr>",
-    description: "When going downhill in a mudslide, you are told to genty accelerate your Land Rover, even when every bone in your body is telling you to brake. It’s counterintuitive. And so were the concepts in this long running ad campaign. A vehicle covered in mud? Pelted with snowballs? In an industry that glamorizes sheet metal, this campaign dared to focus on the most glamorous thing a product can be. Honest.",
-    folderName: "land_rover",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin",
-      "Writer",
-      "Grace and Rothschild",
-      "Comm Arts and One Show",
-    ],
-  },
-  {
-    clientName: "5th Ave Stamp Gallery",
-    title: "Say Something Funny",
-    description: "Great headline writing can involve a single, powerful thought. A flip on the usual. A word play or turn of phrase. For our friends at the 5th Avenue Stamp Gallery, a great headline was the funniest thing that could possibly be said at the intersection of celebrity and stamp. The result was a sales boost for our client. And thanks to its multi-year winning streak at the One Show, an ego boost for us.",
-    folderName: "stamps",
-    hero: "header_1.jpg",
-    services: [
-      "One Show Gold",
+      {
+        type: "image",
+        src: "truth_1.jpg",
+      },
+      {
+        type: "image",
+        src: "truth_2.jpg",
+      },
+      {
+        type: "image",
+        src: "truth_3.jpg",
+      },
     ],
   },
   {
@@ -893,12 +983,81 @@ const projects = [
     title: "Say Something <nobr>Self-centered</nobr>",
     description: "There’s a school of thought that says advertising has to be all about the customer, all the time. Nah, that’s silly. Product benefits can easily be expressed with a powerful statement about what your company stands for. So go ahead and beat your chest. Prattle on. Make it all about you. Just do it in a way that people want to hear.",
     folderName: "gt",
-    hero: "header_1.jpg",
+    hero: "gt_4.jpg",
     services: [
       "Ari Merkin",
       "Writer, CP+B",
       "Cannes Gold",
     ],
+    content: [
+      {
+        type: "image",
+        src: "gt_5.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_1.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_7.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_6.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_3.jpg",
+      },
+    ]
+  },
+  {
+    clientName: "Land Rover",
+    title: "Say Something <nobr>Self-Effacing</nobr>",
+    description: "When going downhill in a mudslide, you are told to genty accelerate your Land Rover, even when every bone in your body is telling you to brake. It’s counterintuitive. And so were the concepts in this long running ad campaign. A vehicle covered in mud? Pelted with snowballs? In an industry that glamorizes sheet metal, this campaign dared to focus on the most glamorous thing a product can be. Honest.",
+    folderName: "land_rover",
+    hero: "landrover_3.jpg",
+    services: [
+      "Ari Merkin",
+      "Writer",
+      "Grace and Rothschild",
+      "Comm Arts and One Show",
+    ],
+    content: [
+      {
+        type: "image",
+        src: "landrover_1.jpg",
+      },
+      {
+        type: "image",
+        src: "landrover_2.jpg",
+      },
+    ]
+  },
+  {
+    clientName: "5th Ave Stamp Gallery",
+    title: "Say Something Funny",
+    description: "Great headline writing can involve a single, powerful thought. A flip on the usual. A word play or turn of phrase. For our friends at the 5th Avenue Stamp Gallery, a great headline was the funniest thing that could possibly be said at the intersection of celebrity and stamp. The result was a sales boost for our client. And thanks to its multi-year winning streak at the One Show, an ego boost for us.",
+    folderName: "stamps",
+    hero: "stamps_2.jpg",
+    services: [
+      "One Show Gold",
+    ],
+    content: [
+      {
+        type: "image",
+        src: ["stamps_5.jpg","stamps_6.jpg"],
+      },
+      {
+        type: "image",
+        src: ["stamps_1.jpg","stamps_2.jpg"],
+      },
+      {
+        type: "image",
+        src: ["stamps_3.jpg","stamps_4.jpg"],
+      },
+    ]
   },
   // {
   //   clientName: "Past hits",

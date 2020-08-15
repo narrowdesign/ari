@@ -3148,7 +3148,7 @@ th {
   line-height: 1.5;
 }
 .f-s-s {
-  font-size: 1rem;
+  font-size: calc(12px + (18 - 12) * (100vw - 400px) / (1680 - 400));
   line-height: 1.4;
 }
 .f-s-ms {
@@ -5684,17 +5684,22 @@ th {
   opacity: 0;
 }
 .jsMenu {
-  top: calc(35px + (42 - 35) * (100vw - 600px) / (1680 - 600));
+  top: calc(38px + (55 - 38) * (100vw - 600px) / (1680 - 600));
 }
 @media (max-width: 600px) {
   .jsMenu {
-    top: calc(23px + (35 - 23) * (100vw - 300px) / (600 - 300));
+    top: calc(26px + (38 - 26) * (100vw - 300px) / (600 - 300));
   }
 }
 @media (min-width: 1680px) {
   .jsMenu {
-    top: calc(42px + (105 - 42) * (100vw - 1680px) / (3000 - 1680));
+    top: calc(55px + (105 - 55) * (100vw - 1680px) / (3000 - 1680));
   }
+}
+.jsMenuItem {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
 }
 .jsAri {
   background: #33222215;

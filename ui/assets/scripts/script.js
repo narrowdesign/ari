@@ -137,7 +137,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $.each(clients, function(i, client) {
       if (client !== '') {
         $('.jsClientLogos').append(`
-          <div class="w-33p ms-w-20p">
+          <div class="jsClientLogo w-33p ms-w-20p">
             <img class="w-100p" src="ui/assets/images/clients/${client}.svg" />
           </div>
         `)
@@ -168,7 +168,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         buzzThumbsHTML += `<div class="jsThumbnail pos-r w-100p p-t-100p ov-h t-a-c op-0">
           <a href="${item.link}" targt="_blank">
             <img src="${folder}${item.image}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
-            <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2">
+            <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2 gray">
               <div class="jsThumbnail__client f-s-m">${item.source}</div>
               <div class="jsThumbnail__title f-w-700">${item.title}</div>
             </div>
@@ -210,25 +210,30 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
 
   function sectionClickHandler(section) {
+    let delay = 0;
+    let duration = 1000;
     if (isProjectOpen) {
       hideProject();
+      delay = 500;
     }
     $('body').stop();
-    $('body').removeClass('is-project-open');
     $('.jsProject').removeClass('in');
     $('body').addClass('current');
     currentClient = null;
     currentPerson = null;
 
-    if (section === 'work') {
-      $('body').animate({scrollTop: Number(sectionTops[0] - 150)}, '1000');
-    } else if (section === 'about') {
-      $('body').animate({scrollTop: Number(sectionTops[1] - 150)}, '1000');
-    } else if (section === 'buzz') {
-      $('body').animate({scrollTop: Number(sectionTops[2] - 150)}, '1000');
-    } else if (section === 'contact') {
-      $('body').animate({scrollTop: Number(sectionTops[3] - 150)}, '1000');
-    }
+    setTimeout(() => {
+      $('body').removeClass('is-project-open');
+      if (section === 'work') {
+        $('body').animate({scrollTop: Number(sectionTops[0] - 150)}, duration);
+      } else if (section === 'about') {
+        $('body').animate({scrollTop: Number(sectionTops[1] - 150)}, duration);
+      } else if (section === 'buzz') {
+        $('body').animate({scrollTop: Number(sectionTops[2] - 150)}, duration);
+      } else if (section === 'contact') {
+        $('body').animate({scrollTop: Number(sectionTops[3] - 150)}, duration);
+      }
+    }, delay)
   }
 
   function alignTop() {
@@ -259,7 +264,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
   function scrollHandler(e) {
     if (isProjectOpen) return;
-    if(e.type == 'wheel' || e.type == 'touchmove') {
+    if(e && e.type == 'wheel' || e && e.type == 'touchmove') {
       $('body').stop();
       $('body').removeClass('is-footer');
     }

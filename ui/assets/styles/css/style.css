@@ -3160,7 +3160,7 @@ th {
   line-height: 1.5;
 }
 .f-s-l {
-  font-size: calc(28px + (42 - 28) * (100vw - 400px) / (1680 - 400));
+  font-size: calc(28px + (44 - 28) * (100vw - 400px) / (1680 - 400));
   line-height: 1.25;
 }
 .f-s-lxl {
@@ -5741,6 +5741,7 @@ th {
 .jsVideoPlayer {
   border: none;
   opacity: 0;
+  margin-bottom: calc(17px + (70 - 17) * (100vw - 375px) / (1680 - 375));
 }
 .jsCloseVideo span {
   opacity: 0;
@@ -5780,40 +5781,6 @@ th {
   -moz-transition-property: all;
   -ms-transition-property: all;
   transition-property: all;
-}
-.jsHeader .jsNewsMenu,
-.jsHeader .jsNewsHeadline {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transition-duration: 0.2s;
-  -moz-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  -ms-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-delay: 0.5s;
-  -moz-transition-delay: 0.5s;
-  -o-transition-delay: 0.5s;
-  -ms-transition-delay: 0.5s;
-  transition-delay: 0.5s;
-  -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -ms-transition-timing-function: ease-out;
-  transition-transition-timing-function: ease-out;
-  -webkit-transition-property: opacity;
-  -moz-transition-property: opacity;
-  -ms-transition-property: opacity;
-  transition-property: opacity;
-}
-.jsHeader .jsNewsNumber,
-.jsHeader .jsNewsAll {
-  opacity: 0.3;
-}
-.jsHeader .jsNewsNumber.current,
-.jsHeader .jsNewsAll.current,
-.jsHeader .jsNewsNumber:hover,
-.jsHeader .jsNewsAll:hover {
-  opacity: 1;
 }
 .jsAboutButton,
 .jsWorkButton,
@@ -5870,174 +5837,6 @@ th {
 .jsContactButton.current {
   color: #000;
 }
-.jsNewsButton {
-  cursor: pointer;
-  opacity: 0.5;
-  -webkit-transition-duration: 0.1s;
-  -moz-transition-duration: 0.1s;
-  -o-transition-duration: 0.1s;
-  -ms-transition-duration: 0.1s;
-  transition-duration: 0.1s;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  transition-delay: 0s;
-  -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -ms-transition-timing-function: ease-out;
-  transition-transition-timing-function: ease-out;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -ms-transition-property: all;
-  transition-property: all;
-}
-.jsNewsButton span {
-  -webkit-transition-duration: 0.2s;
-  -moz-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  -ms-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  transition-delay: 0s;
-  -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -ms-transition-timing-function: ease-out;
-  transition-transition-timing-function: ease-out;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -ms-transition-property: all;
-  transition-property: all;
-}
-.jsNewsButton:hover {
-  opacity: 1 !important;
-}
-.jsNewsButton.current {
-  opacity: 1;
-}
-.jsNews {
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -ms-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  transition-delay: 0s;
-  -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -ms-transition-timing-function: ease-out;
-  transition-transition-timing-function: ease-out;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -ms-transition-property: all;
-  transition-property: all;
-  -webkit-transform: translate3d(100%, 0, 0);
-  -moz-transform: translate3d(100%, 0, 0);
-  -ms-transform: translate3d(100%, 0, 0);
-  -o-transform: translate3d(100%, 0, 0);
-  transform: translate3d(100%, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.jsNews .jsTitle {
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -ms-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  transition-delay: 0s;
-  -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -ms-transition-timing-function: ease-out;
-  transition-transition-timing-function: ease-out;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -ms-transition-property: all;
-  transition-property: all;
-  -webkit-transform: translate3d(30px, 0, 0);
-  -moz-transform: translate3d(30px, 0, 0);
-  -ms-transform: translate3d(30px, 0, 0);
-  -o-transform: translate3d(30px, 0, 0);
-  transform: translate3d(30px, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.jsNews .jsStory {
-  opacity: 0;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -ms-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  transition-delay: 0s;
-  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -ms-transition-property: all;
-  transition-property: all;
-  -webkit-transform: translate3d(100px, 0, 0);
-  -moz-transform: translate3d(100px, 0, 0);
-  -ms-transform: translate3d(100px, 0, 0);
-  -o-transform: translate3d(100px, 0, 0);
-  transform: translate3d(100px, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.jsNews .jsStory.in {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.Button {
-  background: transparent;
-  border-radius: 9999px;
-  border: 3px solid #fff;
-  padding: 15px 25px;
-  color: #fff;
-}
-.Button.fill {
-  background: #fff;
-  color: #0F1E32;
-}
 .jsPerson {
   transform-origin: 50% 100%;
   transition: 0.5s;
@@ -6050,79 +5849,8 @@ th {
   opacity: 1;
   transform: scale(1.03);
 }
-.jsQuotes {
-  column-gap: 8rem;
-}
-.jsQuote {
-  break-inside: avoid-column;
-}
 .jsWork {
   transition-delay: 0.5s;
-}
-.jsCloseInfo,
-.jsCloseNews {
-  transform: scale(0.1);
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  -ms-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  transition-delay: 0s;
-  -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -ms-transition-timing-function: ease-out;
-  transition-transition-timing-function: ease-out;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -ms-transition-property: all;
-  transition-property: all;
-}
-.jsCloseInfo span,
-.jsCloseNews span {
-  width: 30px;
-  text-align: center;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  -ms-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  -o-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  transition-delay: 0s;
-  -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -o-transition-timing-function: ease-out;
-  -ms-transition-timing-function: ease-out;
-  transition-transition-timing-function: ease-out;
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -ms-transition-property: all;
-  transition-property: all;
-}
-.jsCloseInfo:hover,
-.jsCloseNews:hover {
-  opacity: 1 !important;
-  transition-delay: 0s !important;
-}
-.jsCloseInfo:hover span,
-.jsCloseNews:hover span {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 .jsThumbnail {
   cursor: pointer;
@@ -6150,11 +5878,13 @@ th {
   }
 }
 .jsThumbnail:hover .jsThumbnail__info {
-  color: white;
-  background: #000c;
+  background: #000000df;
   transform: scale(1.001);
   opacity: 1;
   transition: 0.3s ease-out;
+}
+.jsThumbnail:hover .jsThumbnail__title {
+  color: white;
 }
 .jsThumbnail.in {
   opacity: 1;
@@ -6195,16 +5925,13 @@ th {
     font-size: calc(28px + (36 - 28) * (100vw - 960px) / (1680 - 960));
   }
 }
-.jsPerson.current .jsQuote,
-.jsNews.current .jsQuote {
+.jsPerson.current .jsQuote {
   opacity: 1;
 }
-.jsPerson.current .jsName,
-.jsNews.current .jsName {
+.jsPerson.current .jsName {
   opacity: 1;
 }
-.jsPerson.current .jsTitle span,
-.jsNews.current .jsTitle span {
+.jsPerson.current .jsTitle span {
   transition-duration: 0.4s;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -6220,103 +5947,36 @@ th {
   transition-delay: 0.5s;
   cursor: pointer;
 }
-.jsPerson.current .jsThumb__cover img,
-.jsNews.current .jsThumb__cover img {
+.jsPerson.current .jsThumb__cover img {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
 }
-.jsPerson.current .jsProjects__label,
-.jsNews.current .jsProjects__label {
+.jsPerson.current .jsProjects__label {
   transition-duration: 0.3s;
   transition-delay: 0.6s;
   transform: perspective(1000px) translate3d(0, 0, 0);
-}
-@media (min-width: 960px) and (max-height: 500px) {
-  .Footer {
-    width: 140px !important;
-  }
-}
-@media (min-width: 960px) {
-  .Footer .social-icon {
-    opacity: 0;
-    border: none;
-  }
-}
-@media (max-width: 959px) {
-  .Footer .jsSocialIcons {
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    -ms-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    -ms-transition-delay: 0s;
-    transition-delay: 0s;
-    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    transition-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    -ms-transition-property: all;
-    transition-property: all;
-    width: 100vw !important;
-    height: 50vh !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0;
-    padding: 18% 18% 4rem;
-    background: #f9ae68;
-    position: fixed;
-    display: block !important;
-    -webkit-transform: translate3d(0, 100%, 0);
-    -moz-transform: translate3d(0, 100%, 0);
-    -ms-transform: translate3d(0, 100%, 0);
-    -o-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  .Footer .jsSocialIcons:after {
-    content: 'Get in Touch';
-    position: absolute;
-    bottom: 1.75rem;
-    font-size: 8vw;
-    padding-top: 5px;
-    margin: auto;
-    width: 50%;
-    border-top: 3px solid;
-    left: 0.25rem;
-    right: 0;
-    text-align: center;
-  }
-  .Footer .jsSocialIcons .social-icon {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  .Footer .jsSocialIcons a span {
-    margin: 1.5rem 1.5rem !important;
-  }
 }
 .jsClientLogos img {
   border-bottom: 2px dotted #999;
   border-right: 2px dotted #999;
   opacity: 0.5;
+}
+@media (max-width: 959px) {
+  .jsClientLogo:nth-of-type(3n) img {
+    border-right: none;
+  }
+  .jsClientLogo:nth-last-of-type(-n+2) img {
+    border-bottom: none;
+  }
+}
+@media (min-width: 960px) {
+  .jsClientLogo:nth-of-type(5n) img {
+    border-right: none;
+  }
+  .jsClientLogo:nth-last-of-type(-n+5) img {
+    border-bottom: none;
+  }
 }
 .jsHeader {
   z-index: 101;
@@ -6412,57 +6072,6 @@ th {
   background-color: #fff;
   transition-delay: 0s;
   transition-duration: 0s;
-}
-.is-news .jsOverlay {
-  left: 0;
-}
-.is-news .jsCloseNews {
-  visibility: visible;
-  transform: scale(1);
-  transition-delay: 0.7s;
-}
-.is-news .jsNews {
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.is-news .jsNews .jsTitle {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.is-news .jsNews .jsCloseNews:hover:hover {
-  opacity: 1 !important;
-}
-.is-news .jsNews .jsCloseNews:hover:hover span {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-.yellow {
-  color: #f9ae68;
 }
 .is-loaded .jsGrain {
   opacity: 0.08;
@@ -6857,7 +6466,7 @@ html {
   box-sizing: border-box;
 }
 html a {
-  color: #222;
+  color: #878a8d;
   text-decoration: none;
   font-size: 1em;
 }
@@ -6870,7 +6479,7 @@ html a:active {
 }
 body {
   margin: 0;
-  color: #6c6f72;
+  color: #878a8d;
   font-family: futura-pt, sans-serif;
   -webkit-overflow-scrolling: touch;
   font-weight: 400;

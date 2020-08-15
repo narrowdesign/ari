@@ -2,8 +2,8 @@ const buzz = [
   {
     link: "http://bit.ly/2WpT1FL",
     image: "press_1.jpg",
-    source: "Shots",
-    title: "Ad Icon",
+    source: "Shots | Ad Icon",
+    title: "Adventures of Ari Merkin",
     description: "A deep, meaningful feature interview by Simon Waklin. As for why Ari chose to pose for it wearing this, that will forever remain a mystery.",
   },
   {
@@ -23,8 +23,8 @@ const buzz = [
   {
     link: "https://vimeo.com/278735663",
     image: "press_4.jpg",
-    source: "Msnbc",
-    title: "Mini  Docuseries “story Of Cool”",
+    source: "MSNBC",
+    title: "Story of Cool",
     description: "Is anything cooler than talking about building cool brands, on a docu series about cool, hosted by LL Cool J? The answer is no. Just no.",
   },
   {

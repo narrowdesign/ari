@@ -46,7 +46,7 @@ const projects = [
     ],
   },
   {
-    clientName: "MeWe Nut Butter",
+    clientName: "MeWe",
     title: "Say Something Purposeful",
     description: "Can one product save millions from malnutrition while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. We helped by creating MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and was chosen to join Chobani’s prestigious incubator program.",
     folderName: "mewe",
@@ -529,7 +529,7 @@ const projects = [
   },
   {
     clientName: "Virgin Mobile",
-    title: "Say Something Non-Corporate",
+    title: "Say Something <nobr>Non-Corporate</nobr>",
     description: "No matter how good the plan, cell phone companies are getting the better end of the deal. So it’s no wonder audiences were numb to the endless barrage of incentives. This was the insight that drove our Virgin Mobile campaign centered around real, honest to goodness benefits. We said: Most cell phones take advantage of customers. At Virgin Mobile we let you take advantage of us.",
     folderName: "virgin_mobile",
     hero: "header_1.jpg",
@@ -770,7 +770,7 @@ const projects = [
     ],
   },
   {
-    clientName: "Activision’s “Wolverine”",
+    clientName: "Activision",
     title: "Say Something Surprising",
     description: "Video games based on movies that are based on comic books tend to, well, suck. Our friends at Activision challenged us to convince cynical gamers that the first person gameplay of “Wolverine” would exceed their expectations. Shot in a Mexican prison, this film showcases the realistic, rated M for mature, violent nature of the game – featuring in-camera action sequences in the POV of its title character.",
     folderName: "activision",
@@ -820,8 +820,8 @@ const projects = [
     ],
   },
   {
-    clientName: "LAND ROVER",
-    title: "Say Something Self-Effacing",
+    clientName: "Land Rover",
+    title: "Say Something <nobr>Self-Effacing</nobr>",
     description: "When going downhill in a mudslide, you are told to genty accelerate your Land Rover, even when every bone in your body is telling you to brake. It’s counterintuitive. And so were the concepts in this long running ad campaign. A vehicle covered in mud? Pelted with snowballs? In an industry that glamorizes sheet metal, this campaign dared to focus on the most glamorous thing a product can be. Honest.",
     folderName: "land_rover",
     hero: "header_1.jpg",
@@ -833,7 +833,7 @@ const projects = [
     ],
   },
   {
-    clientName: "5TH AVE STAMP GALLERY",
+    clientName: "5th Ave Stamp Gallery",
     title: "Say Something Funny",
     description: "Great headline writing can involve a single, powerful thought. A flip on the usual. A word play or turn of phrase. For our friends at the 5th Avenue Stamp Gallery, a great headline was the funniest thing that could possibly be said at the intersection of celebrity and stamp. The result was a sales boost for our client. And thanks to its multi-year winning streak at the One Show, an ego boost for us.",
     folderName: "stamps",
@@ -844,7 +844,7 @@ const projects = [
   },
   {
     clientName: "TIME",
-    title: "Say Something Bi-Partisan",
+    title: "Say Something <nobr>Bi-Partisan</nobr>",
     description: "While doing our watch on the legendary Time red border campaign, we decided to take it to the streets – bringing Time’s social commentary literally everywhere. Storefronts. Building sides. Construction sites. Yet it was this piece that got people talking, including David Letterman who complained about the traffic on the West Side Highway saying, “Every commuter slows to look at this blasted billboard.”",
     folderName: "time",
     hero: "header_1.jpg",
@@ -948,7 +948,7 @@ const projects = [
     ]
   },
   {
-    clientName: "Hanes & 360i",
+    clientName: "Hanes",
     title: "Say Something Chill",
     folderName: "hanes",
     hero: "header_1.jpg",
@@ -997,7 +997,7 @@ const projects = [
   },
   {
     clientName: "GT",
-    title: "Say Something Self-centered",
+    title: "Say Something <nobr>Self-centered</nobr>",
     description: "There’s a school of thought that says advertising has to be all about the customer, all the time. Nah, that’s silly. Product benefits can easily be expressed with a powerful statement about what your company stands for. So go ahead and beat your chest. Prattle on. Make it all about you. Just do it in a way that people want to hear. Nothing engages like an authentic brand voice.",
     folderName: "gt",
     hero: "header_1.jpg",

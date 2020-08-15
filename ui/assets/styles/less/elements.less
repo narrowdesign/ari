@@ -68,6 +68,7 @@
 .jsVideoPlayer {
   border: none;
   opacity: 0;
+  margin-bottom: calc(17px + (70 - 17) * (100vw - 375px) / (1680 - 375));
 }
 .jsCloseVideo {
   span {
@@ -79,20 +80,6 @@
 .jsHeader {
   .transform-origin(100% 8%);
   .transition(.3s, @easeOut);
-  .jsNewsMenu,
-  .jsNewsHeadline {
-    opacity: 1;
-    visibility: visible;
-    .transition(.2s,ease-out,opacity,.5s);
-  }
-  .jsNewsNumber,
-  .jsNewsAll {
-    opacity: .3;
-    &.current,
-    &:hover {
-      opacity: 1;
-    }
-  }
 }
 .jsAboutButton,
 .jsWorkButton,
@@ -109,51 +96,6 @@
   }
 }
 
-.jsNewsButton
-{
-  cursor: pointer;
-  opacity: .5;
-  .transition(.1s,ease-out);
-  span {
-    .transition(.2s,ease-out);
-  }
-  &:hover {
-    opacity: 1 !important;
-  }
-  &.current {
-    opacity: 1;
-  }
-}
-
-.jsNews {
-  .transition(.4s,ease-out);
-  .transform(translate3d(100%,0,0));
-  .jsTitle {
-    .transition(.4s,ease-out);
-    .transform(translate3d(30px,0,0));
-  }
-  .jsStory {
-    opacity: 0;
-    .transition(.5s, @easeOutBack);
-    .transform(translate3d(100px,0,0));
-    &.in {
-      opacity: 1;
-      .transform(translate3d(0,0,0));
-    }
-  }
-}
-.Button {
-  background: transparent;
-  border-radius: 9999px;
-  border: 3px solid #fff;
-  padding: 15px 25px;
-  color: #fff;
-}
-
-.Button.fill {
-  background: #fff;
-  color: #0F1E32;
-}
 
 .jsPerson {
   transform-origin: 50% 100%;
@@ -172,33 +114,8 @@
   }
 }
 
-.jsQuotes {
-  column-gap: 8rem;
-}
-.jsQuote {
-  break-inside: avoid-column;
-}
-
 .jsWork {
   transition-delay: .5s;
-}
-
-.jsCloseInfo,
-.jsCloseNews {
-  transform: scale(.1);
-  .transition(.3s,ease-out);
-  span{
-    width: 30px;
-    text-align: center;
-    .transition(.3s,ease-out);
-  }
-  &:hover {
-    opacity: 1 !important;
-    transition-delay: 0s !important;
-    span {
-      .transform(rotate(90deg));
-    }
-  }
 }
 
 .jsThumbnail {
@@ -229,11 +146,13 @@
 
   &:hover {
     .jsThumbnail__info {
-      color: white;
-      background: #000c;
+      background: #000000df;
       transform: scale(1.001);
       opacity: 1;
       transition: .3s ease-out;
+    }
+    .jsThumbnail__title {
+      color: white;
     }
   }
 
@@ -278,8 +197,7 @@
     }
 }
 
-.jsPerson.current,
-.jsNews.current {
+.jsPerson.current {
   .jsQuote{
     opacity: 1;
   }
@@ -307,57 +225,40 @@
   }
 }
 
-.Footer {
-  @media (min-width: 960px) and (max-height: 500px) {
-    width: 140px !important;
-  }
-  @media (min-width: 960px) {
-    .social-icon {
-      opacity: 0;
-      border: none;
-    }
-  }
-  @media (max-width: 959px) {
-    .jsSocialIcons {
-      .transition(.3s, @easeOut);
-      width: 100vw !important;
-      height: 50vh !important;
-      left: 0 !important;
-      right: 0 !important;
-      bottom: 0;
-      padding: 18% 18% 4rem;
-      background: @gold;
-      position: fixed;
-      display: block !important;
-      .transform(translate3d(0,100%,0));
-      &:after {
-        content: 'Get in Touch';
-        position: absolute;
-        bottom: 1.75rem;
-        font-size: 8vw;
-        padding-top: 5px;
-        margin: auto;
-        width: 50%;
-        border-top: 3px solid;
-        left: 0.25rem;
-        right: 0;
-        text-align: center;
-      }
-      .social-icon {
-        .transform(scale(1.2));
-      }
-      a span {
-        margin: 1.5rem 1.5rem !important;
-      }
-    }
-  }
-}
-
 .jsClientLogos {
   img {
     border-bottom: 2px dotted #999;
     border-right: 2px dotted #999;
     opacity: .5;
+  }
+}
+
+.jsClientLogo {
+  @media(max-width: 959px) {
+    &:nth-of-type(3n) {
+      img {
+        border-right: none;
+      }
+    }
+  
+    &:nth-last-of-type(-n+2) {
+      img {
+        border-bottom: none;
+      }
+    }
+  }
+  @media(min-width: 960px) {
+    &:nth-of-type(5n) {
+      img {
+        border-right: none;
+      }
+    }
+  
+    &:nth-last-of-type(-n+5) {
+      img {
+        border-bottom: none;
+      }
+    }
   }
 }
 
@@ -479,36 +380,6 @@
     transition-delay: 0s;
     transition-duration: 0s;
   }
-}
-
-.is-news {
-  .jsOverlay {
-    left: 0;
-  }
-  .jsCloseNews {
-    visibility: visible;
-    transform: scale(1);
-    transition-delay: .7s;
-  }
-  .jsNews {
-    .transform(translate3d(0,0,0));
-    .jsTitle {
-      opacity: 1;
-      .transform(translate3d(0,0,0));
-    }
-    .jsCloseNews:hover {
-      &:hover {
-        opacity: 1 !important;
-        span {
-          .transform(rotate(90deg));
-        }
-      }
-    }
-  }
-}
-
-.yellow {
-  color: #f9ae68;
 }
 
 .is-loaded {

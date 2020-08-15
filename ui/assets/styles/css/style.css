@@ -3338,6 +3338,9 @@ th {
 .f-w-500 {
   font-weight: 500;
 }
+.f-w-600 {
+  font-weight: 600;
+}
 .f-w-700 {
   font-weight: 700;
 }
@@ -5699,6 +5702,10 @@ th {
 .jsMenuItem {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
+  opacity: 0.5;
+}
+.jsMenuItem.active {
+  opacity: 1;
 }
 .jsAri {
   background: #33222215;

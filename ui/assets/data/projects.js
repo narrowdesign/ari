@@ -7,11 +7,11 @@
 */
 const projects = [
   {
-    clientName: "Bouy",
+    clientName: "Buoy",
     title: "Say Something Endearing",
     description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
-    folderName: "bouy",
-    hero: "header_1.jpg",
+    folderName: "buoy",
+    hero: "urinals.jpg",
     services: [
       "STRATEGY",
       "CREATIVE DEVELOPMENT",
@@ -21,11 +21,11 @@ const projects = [
     content: [
       {
         type: "image",
-        src: "logos_1.jpg",
+        src: "copy_room_1.jpg",
       },
       {
         type: "image",
-        src: ["hangtag_1.jpg", "headline_1.jpg"],
+        src: ["poster_1.jpg","poster_3.jpg","poster_2.jpg"],
       },
       {
         type: "image",
@@ -33,15 +33,11 @@ const projects = [
       },
       {
         type: "image",
-        src: ["headline_2.jpg", "hanger_1.jpg"],
+        src: ["poster_4.jpg","poster_5.jpg","poster_6.jpg"],
       },
       {
         type: "image",
-        src: ["model_2.jpg", "thindown_1.jpg"],
-      },
-      {
-        type: "image",
-        src: "video.jpg",
+        src: "doorhanger_1.jpg",
       },
     ],
   },
@@ -585,6 +581,68 @@ const projects = [
     ],
   },
   {
+    clientName: "Activision",
+    title: "Say Something Surprising",
+    description: "Video games based on movies that are based on comic books tend to, well, suck. Our friends at Activision challenged us to convince cynical gamers that the first person gameplay of “Wolverine” would exceed their expectations. Shot in a Mexican prison, this film showcases the realistic, rated M for mature, violent nature of the game – featuring in-camera action sequences in the POV of its title character.",
+    folderName: "activision",
+    hero: "header_1.jpg",
+    services: [
+      "Ari Merkin",
+      "Co-Founder, CCO TOY NY",
+    ],
+    content: [
+      {
+        title: "Wolverine",
+        src: "https://player.vimeo.com/video/79699295",
+      },
+    ],
+  },
+  {
+    clientName: "Hanes",
+    title: "Say Something Chill",
+    folderName: "hanes",
+    hero: "header_1.jpg",
+    description: "Michael Jordan is one of the most famous athletes of all time. Yet for some reason, we were just as excited to work with Facebook Canvas. When we were approached to direct this interactive mobile experience for Hanes and 360i, we jumped at the chance. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself.",
+    services: [
+      "FILM DIRECTION",
+    ],
+    content: [ 
+      {
+        type: "video",
+        title: "Hanes Interactive Film",
+        src: "https://player.vimeo.com/video/251409418",
+      }
+    ]
+  },
+  {
+    clientName: "Tripadvisor",
+    title: "Say Something Reassuring",
+    description: "What do those reviews really mean? That was the question to answer for TripAdvisor’s first global brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations – leading to more video production, mass media spending and an exclusive CMO performance of “Rapper’s Delight” during a six-hour car ride from Croatia to Slovenia.",
+    folderName: "tripadvisor",
+    hero: "header_1.jpg",
+    services: [
+      "STRATEGY","POSITIONING","BRAND MESSAGING","CREATIVE DEVELOPMENT","VIDEO & POST PRODUCTION",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Vacation",
+        type: "video",
+        src: "https://player.vimeo.com/video/175623924",
+      },
+      {
+        title: "Toothpaste",
+        type: "video",
+        src: "https://player.vimeo.com/video/175634719",
+      },
+      {
+        title: "Pool",
+        type: "video",
+        src: "https://player.vimeo.com/video/175623922",
+      },
+    ],
+  },
+  {
     clientName: "Kmart",
     title: "Say Something Buzz Worthy",
     description: "Our friends at Kmart wanted to build buzz around Adam Levine’s new fashion line. We created the web series, “222”, which included experiential events, promotions and BTS stories. The series got millions of views – boosting sales for the six months it was posted. “The Rack” drew over 250MM impressions and was featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
@@ -616,99 +674,6 @@ const projects = [
     ],
   },
   {
-    clientName: "Tripadvisor",
-    title: "Say Something Reassuring",
-    description: "What do those reviews really mean? That was the question to answer for TripAdvisor’s first global brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations – leading to more video production, mass media spending and an exclusive CMO performance of “Rapper’s Delight” during a six-hour car ride from Croatia to Slovenia.",
-    folderName: "tripadvisor",
-    hero: "header_1.jpg",
-    services: [
-      "STRATEGY","POSITIONING","BRAND MESSAGING","CREATIVE DEVELOPMENT","VIDEO & POST PRODUCTION",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Vacation",
-        type: "video",
-        src: "https://player.vimeo.com/video/175623924",
-      },
-      {
-        title: "Toothpaste",
-        type: "video",
-        src: "https://player.vimeo.com/video/175634719",
-      },
-      {
-        title: "Pool",
-        type: "video",
-        src: "https://player.vimeo.com/video/175623922",
-      },
-    ],
-  },
-  {
-    clientName: "Innovaccer",
-    title: "Say Something Powerful",
-    description: "“Righting the wrongs of healthcare technology.” This was Innovaccer’s bold claim, and one they could back up with confidence. The founders knew the only way to fix the problem was to put to use every piece of data providers have been working so hard to collect. For us, that meant no beating around the bush. It was time to claim a new era in health tech. Out with the old. In with Innovaccer.",
-    folderName: "innovaccer",
-    hero: "header_1.jpg",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "LOGO",
-      "ID SYSTEM DESIGN",
-      "BRAND MESSAGING",
-      "CREATIVE DEVELOPMENT",
-      "WEBSITE",
-      "VIDEO",
-      "CONTENT PRODUCTION",
-      "TRADE SHOW BOOTH",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "logos_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["hangtag_1.jpg", "headline_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["fluff_1.jpg", "model_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["headline_2.jpg", "hanger_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["model_2.jpg", "thindown_1.jpg"],
-      },
-      {
-        type: "image",
-        src: "video.jpg",
-      },
-    ],
-  },
-  {
-    clientName: "Truth",
-    title: "Say Something Rebellious",
-    description: "As the seven-foot sacks piled up by the hundreds outside Phillip Morris, a horrified woman approached and asked what was going on. We shared with her the idea behind ‘Truth’ and she stared at us blankly. She said, “My sister died of lung cancer. Do you mind if I carry one of those bags?” For many, ‘Truth’ was life changing. Especially those of us who had the privilege of working on this campaign.",
-    folderName: "truth",
-    hero: "header_1.jpg",
-    services: [
-      "WRITER, CP+B",
-      "AdAge Magazine’s 15 Best Campaigns of the 21st Century",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Body Bags",
-        type: "video",
-        src: "https://player.vimeo.com/video/79751978",
-      },
-    ],
-  },
-  {
     clientName: "OfficeMax",
     title: "Say Something Jolly",
     description: `“Holiday gifts at an office supply store?” From the start, we knew OfficeMax needed more than a traditional ad campaign. They needed to make a real and lasting connection with holiday shoppers. In 2005, our team at Toy created not one, but 20 holiday-themed websites. Elf Yourself became a phenomenon and has been a cornerstone of the OfficeMax holiday effort ever since. 
@@ -731,49 +696,47 @@ const projects = [
     ],
   },
   {
-    clientName: "Ikea",
-    title: "Say Something Crazy",
-    description: "Suggesting that people have an unnatural attachment to their furniture takes guts, especially when it’s the first ad announcing the U.S. arrival of Ikea. Lamp may well be “the best rug-pull in advertising history” (Adweek, 2017). It’s also a shining example of what can happen when everything goes right from strategy through production. And if you disagree, that is because you’re, well, y’know.",
-    folderName: "ikea",
+    clientName: "Starbucks",
+    title: "Say Something Motivational",
+    description: "“Glen” was presented standing on a conference table at Pepsi (Starbucks distributor). We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
+    folderName: "starbucks",
     hero: "header_1.jpg",
     services: [
       "Ari Merkin",
-      "Writer, CP+B",
-      "Winner of the Cannes Grand Prix and Grand Clio",
+      "ECD, Fallon NY",
+      "Creativity’s Spot of the Year",
     ],
-    awards: [],
-    content: [
+    content: [ 
       {
-        title: "IKEA Lamp",
         type: "video",
-        src: "https://player.vimeo.com/video/83556671",
-      },
-    ],
+        title: "Glen",
+        src: "https://player.vimeo.com/video/79852065",
+      }
+    ]
   },
   {
-    clientName: "MINI",
-    title: "Say Something Big",
-    description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the U.S. launch of the MINI.`,
-    folderName: "mini",
+    clientName: "Extended Stay Hotels",
+    title: "Say Something Outrageous",
+    description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
+    folderName: "extended_stay_hotels",
     hero: "header_1.jpg",
     services: [
       "Ari Merkin",
-      "Writer, CP+B",
-      "One Show Best of Show",
+      "Co-Founder, CCO TOY NY",
     ],
-    awards: [],
-    content: [
+    content: [ 
       {
-        type: "image",
-        src: "logos_1.jpg",
-      },
-    ],
+        type: "video",
+        title: "So Relaxed",
+        src: "https://player.vimeo.com/video/80569390",
+      }
+    ]
   },
   {
-    clientName: "Activision",
-    title: "Say Something Surprising",
-    description: "Video games based on movies that are based on comic books tend to, well, suck. Our friends at Activision challenged us to convince cynical gamers that the first person gameplay of “Wolverine” would exceed their expectations. Shot in a Mexican prison, this film showcases the realistic, rated M for mature, violent nature of the game – featuring in-camera action sequences in the POV of its title character.",
-    folderName: "activision",
+    clientName: "PDFK",
+    title: "Say Something Instructive",
+    description: "It was a simple observation about parents and kids. We’re all the same age. We listen to the same music. We watch the same shows. We even shop at the same clothing stores our kids do. So when our friends at PDFK were looking for a campaign to help parents respond to a culture of acceptance around marijuana use, we brought our observation to life in a way that seemed to truly resonate. DRUG FREE AMERICA",
+    folderName: "pdfk",
     hero: "header_1.jpg",
     services: [
       "Ari Merkin",
@@ -781,10 +744,17 @@ const projects = [
     ],
     content: [
       {
-        title: "Wolverine",
-        src: "https://player.vimeo.com/video/79699295",
+        type: "video",
+        title: "Closet",
+        src: "https://player.vimeo.com/video/397969499",
       },
-    ],
+      {
+        type: "video",
+        title: "Couch",
+        src: "https://player.vimeo.com/video/397969756",
+      },
+    ]
+  
   },
   {
     clientName: "J&R",
@@ -820,6 +790,88 @@ const projects = [
     ],
   },
   {
+    clientName: "TIME",
+    title: "Say Something <nobr>Bi-Partisan</nobr>",
+    description: "While doing our watch on the legendary Time red border campaign, we decided to take it to the streets – bringing Time’s social commentary literally everywhere. Storefronts. Building sides. Construction sites. Yet it was this piece that got people talking, including David Letterman who complained about the traffic on the West Side Highway saying, “Every commuter slows to look at this blasted billboard.”",
+    folderName: "time",
+    hero: "header_1.jpg",
+    services: [
+      "Ari Merkin",
+      "ECD, Fallon NY",
+      "Cannes Gold Lion",
+    ],
+  },
+  {
+    clientName: "MINI",
+    title: "Say Something Big",
+    description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the U.S. launch of the MINI.`,
+    folderName: "mini",
+    hero: "header_1.jpg",
+    services: [
+      "Ari Merkin",
+      "Writer, CP+B",
+      "One Show Best of Show",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "logos_1.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "Bell",
+    title: "Say Something Historical",
+    description: "Unlike its new crop of sexy competitors, Bell had been around for 66 years. Painstakingly handcrafted from metal type cast on an old timey letterpress, our campaign aimed to tell the company’s story – listing its deep generational roots as America’s most trusted helmet. After all, with that kind of staying power, the folks at Bell obviously know a thing or two about survival.",
+    folderName: "bell",
+    hero: "header_1.jpg",
+    services: [
+      "Ari Merkin",
+      "Writer, CP+B",
+      "One Show Gold",
+    ],
+  },
+  {
+    clientName: "Ikea",
+    title: "Say Something Crazy",
+    description: "Suggesting that people have an unnatural attachment to their furniture takes guts, especially when it’s the first ad announcing the U.S. arrival of Ikea. Lamp may well be “the best rug-pull in advertising history” (Adweek, 2017). It’s also a shining example of what can happen when everything goes right from strategy through production. And if you disagree, that is because you’re, well, y’know.",
+    folderName: "ikea",
+    hero: "header_1.jpg",
+    services: [
+      "Ari Merkin",
+      "Writer, CP+B",
+      "Winner of the Cannes Grand Prix and Grand Clio",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "IKEA Lamp",
+        type: "video",
+        src: "https://player.vimeo.com/video/83556671",
+      },
+    ],
+  },
+  {
+    clientName: "Truth",
+    title: "Say Something Rebellious",
+    description: "As the seven-foot sacks piled up by the hundreds outside Phillip Morris, a horrified woman approached and asked what was going on. We shared with her the idea behind ‘Truth’ and she stared at us blankly. She said, “My sister died of lung cancer. Do you mind if I carry one of those bags?” For many, ‘Truth’ was life changing. Especially those of us who had the privilege of working on this campaign.",
+    folderName: "truth",
+    hero: "header_1.jpg",
+    services: [
+      "WRITER, CP+B",
+      "AdAge Magazine’s 15 Best Campaigns of the 21st Century",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Body Bags",
+        type: "video",
+        src: "https://player.vimeo.com/video/79751978",
+      },
+    ],
+  },
+  {
     clientName: "Land Rover",
     title: "Say Something <nobr>Self-Effacing</nobr>",
     description: "When going downhill in a mudslide, you are told to genty accelerate your Land Rover, even when every bone in your body is telling you to brake. It’s counterintuitive. And so were the concepts in this long running ad campaign. A vehicle covered in mud? Pelted with snowballs? In an industry that glamorizes sheet metal, this campaign dared to focus on the most glamorous thing a product can be. Honest.",
@@ -843,162 +895,9 @@ const projects = [
     ],
   },
   {
-    clientName: "TIME",
-    title: "Say Something <nobr>Bi-Partisan</nobr>",
-    description: "While doing our watch on the legendary Time red border campaign, we decided to take it to the streets – bringing Time’s social commentary literally everywhere. Storefronts. Building sides. Construction sites. Yet it was this piece that got people talking, including David Letterman who complained about the traffic on the West Side Highway saying, “Every commuter slows to look at this blasted billboard.”",
-    folderName: "time",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin",
-      "ECD, Fallon NY",
-      "Cannes Gold Lion",
-    ],
-  },
-  {
-    clientName: "PDFK",
-    title: "Say Something Instructive",
-    description: "It was a simple observation about parents and kids. We’re all the same age. We listen to the same music. We watch the same shows. We even shop at the same clothing stores our kids do. So when our friends at PDFK were looking for a campaign to help parents respond to a culture of acceptance around marijuana use, we brought our observation to life in a way that seemed to truly resonate. DRUG FREE AMERICA",
-    folderName: "pdfk",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin",
-      "Co-Founder, CCO TOY NY",
-    ],
-    content: [
-      {
-        type: "video",
-        title: "Closet",
-        src: "https://player.vimeo.com/video/397969499",
-      },
-      {
-        type: "video",
-        title: "Couch",
-        src: "https://player.vimeo.com/video/397969756",
-      },
-    ]
-  
-  },
-  {
-    clientName: "Past hits",
-    title: "Say something",
-    description: "",
-    folderName: "past_hits",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin",
-      "ECD, Fallon NY",
-    ],
-    content: [ 
-      {
-        type: "video",
-        title: "Snowflakes",
-        src: "https://player.vimeo.com/video/79851634",
-      },
-      {
-        type: "title",
-        title: "Ringtone Campaign"
-      },
-      {
-        type: "video",
-        title: "Thing",
-        src: "https://player.vimeo.com/video/79787614",
-      },
-      {
-        type: "video",
-        title: "Shower",
-        src: "https://player.vimeo.com/video/79786775",
-      },
-      {
-        type: "title",
-        title: "Paygoism:"
-      }, 
-      {
-        type: "video",
-        title: "House of Paygoism",
-        src: "https://player.vimeo.com/video/226252030",
-      },
-      {
-        type: "video",
-        title: "Subway",
-        src: "https://player.vimeo.com/video/226251995",
-      },
-      {
-        type: "video",
-        title: "Cactus",
-        src: "https://player.vimeo.com/video/226251950",
-      },
-    ],
-  },
-  {
-    clientName: "Extended Stay Hotels",
-    title: "Say Something Outrageous",
-    description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
-    folderName: "extended_stay_hotels",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin",
-      "Co-Founder, CCO TOY NY",
-    ],
-    content: [ 
-      {
-        type: "video",
-        title: "So Relaxed",
-        src: "https://player.vimeo.com/video/80569390",
-      }
-    ]
-  },
-  {
-    clientName: "Hanes",
-    title: "Say Something Chill",
-    folderName: "hanes",
-    hero: "header_1.jpg",
-    description: "Michael Jordan is one of the most famous athletes of all time. Yet for some reason, we were just as excited to work with Facebook Canvas. When we were approached to direct this interactive mobile experience for Hanes and 360i, we jumped at the chance. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself.",
-    services: [
-      "FILM DIRECTION",
-    ],
-    content: [ 
-      {
-        type: "video",
-        title: "Hanes Interactive Film",
-        src: "https://player.vimeo.com/video/251409418",
-      }
-    ]
-  },
-  {
-    clientName: "Starbucks",
-    title: "Say Something Motivational",
-    description: "“Glen” was presented standing on a conference table at Pepsi (Starbucks distributor). We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
-    folderName: "starbucks",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin",
-      "ECD, Fallon NY",
-      "Creativity’s Spot of the Year",
-    ],
-    content: [ 
-      {
-        type: "video",
-        title: "Glen",
-        src: "https://player.vimeo.com/video/79852065",
-      }
-    ]
-  },
-  {
-    clientName: "Bell",
-    title: "Say Something Historical",
-    description: "Unlike its new crop of sexy competitors, Bell had been around for 66 years. Painstakingly handcrafted from metal type cast on an old timey letterpress, our campaign aimed to tell the company’s story – listing its deep generational roots as America’s most trusted helmet. After all, with that kind of staying power, the folks at Bell obviously know a thing or two about survival.",
-    folderName: "bell",
-    hero: "header_1.jpg",
-    services: [
-      "Ari Merkin",
-      "Writer, CP+B",
-      "One Show Gold",
-    ],
-  },
-  {
     clientName: "GT",
     title: "Say Something <nobr>Self-centered</nobr>",
-    description: "There’s a school of thought that says advertising has to be all about the customer, all the time. Nah, that’s silly. Product benefits can easily be expressed with a powerful statement about what your company stands for. So go ahead and beat your chest. Prattle on. Make it all about you. Just do it in a way that people want to hear. Nothing engages like an authentic brand voice.",
+    description: "There’s a school of thought that says advertising has to be all about the customer, all the time. Nah, that’s silly. Product benefits can easily be expressed with a powerful statement about what your company stands for. So go ahead and beat your chest. Prattle on. Make it all about you. Just do it in a way that people want to hear.",
     folderName: "gt",
     hero: "header_1.jpg",
     services: [
@@ -1007,4 +906,55 @@ const projects = [
       "Cannes Gold",
     ],
   },
+  // {
+  //   clientName: "Past hits",
+  //   title: "Say something",
+  //   description: "",
+  //   folderName: "past_hits",
+  //   hero: "header_1.jpg",
+  //   services: [
+  //     "Ari Merkin",
+  //     "ECD, Fallon NY",
+  //   ],
+  //   content: [ 
+  //     {
+  //       type: "video",
+  //       title: "Snowflakes",
+  //       src: "https://player.vimeo.com/video/79851634",
+  //     },
+  //     {
+  //       type: "title",
+  //       title: "Ringtone Campaign"
+  //     },
+  //     {
+  //       type: "video",
+  //       title: "Thing",
+  //       src: "https://player.vimeo.com/video/79787614",
+  //     },
+  //     {
+  //       type: "video",
+  //       title: "Shower",
+  //       src: "https://player.vimeo.com/video/79786775",
+  //     },
+  //     {
+  //       type: "title",
+  //       title: "Paygoism:"
+  //     }, 
+  //     {
+  //       type: "video",
+  //       title: "House of Paygoism",
+  //       src: "https://player.vimeo.com/video/226252030",
+  //     },
+  //     {
+  //       type: "video",
+  //       title: "Subway",
+  //       src: "https://player.vimeo.com/video/226251995",
+  //     },
+  //     {
+  //       type: "video",
+  //       title: "Cactus",
+  //       src: "https://player.vimeo.com/video/226251950",
+  //     },
+  //   ],
+  // },
 ]

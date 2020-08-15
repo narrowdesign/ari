@@ -64,16 +64,16 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   // MENU EVENTS
 
   $('.jsAboutButton').on('click', () => {
-    sectionClickHandler('about')
+    sectionClickHandler('.jsAboutButton')
   });
   $('.jsWorkButton').on('click', () => {
-    sectionClickHandler('work')
+    sectionClickHandler('.jsWorkButton')
   });
   $('.jsBuzzButton').on('click', () => {
-    sectionClickHandler('buzz')
+    sectionClickHandler('.jsBuzzButton')
   });
   $('.jsContactButton').on('click', () => {
-    sectionClickHandler('contact')
+    sectionClickHandler('.jsContactButton')
   });
   
   $('.jsAri').on('click', homeClickHandler);
@@ -209,7 +209,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $('body').animate({scrollTop: 400}, '1000');
   }
 
-  function sectionClickHandler(section) {
+  function sectionClickHandler(button) {
     let delay = 0;
     let duration = 1000;
     if (isProjectOpen) {
@@ -219,18 +219,20 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $('body').stop();
     $('.jsProject').removeClass('in');
     $('body').addClass('current');
+    $('.jsMenuItem.active').removeClass('active');
+    $(button).addClass('active');
     currentClient = null;
     currentPerson = null;
 
     setTimeout(() => {
       $('body').removeClass('is-project-open');
-      if (section === 'work') {
+      if (button === '.jsWorkButton') {
         $('body').animate({scrollTop: Number(sectionTops[0] - 150)}, duration);
-      } else if (section === 'about') {
+      } else if (button === '.jsAboutButton') {
         $('body').animate({scrollTop: Number(sectionTops[1] - 150)}, duration);
-      } else if (section === 'buzz') {
+      } else if (button === '.jsBuzzButton') {
         $('body').animate({scrollTop: Number(sectionTops[2] - 150)}, duration);
-      } else if (section === 'contact') {
+      } else if (button === '.jsContactButton') {
         $('body').animate({scrollTop: Number(sectionTops[3] - 150)}, duration);
       }
     }, delay)
@@ -364,21 +366,22 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const hero = `${folder}${project.hero}`;
 
     if (project.hero !== "") {
+      $('.jsProject__hero').html('<img class="w-100p" src="">');
       $('.jsProject__hero img').attr('src', hero)
       $('.jsProject__hero img').css({
         display: "block"
       })
     } else {
-      $('.jsProject__hero img').css({
-        display: "none"
-      })
+      $('.jsProject__hero').html('');
     }
     $('.jsProject').scrollTop(0);
     $('.jsProject__client').html(clientName);
     $('.jsProject__title').html(title);
     $('.jsProject__description').html(description);
     $('.jsProject__content').html('');
+    
     $.each(content, function(i){
+      let projectHTML = '';
       const item = content[i];
       let imageHTML;
       if (item.type == "image") {
@@ -391,25 +394,30 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         } else {
           imageHTML = `<div class="jsProjectImage pos-r d-b w-100p m-t-2vw"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`;
         }
-        $('.jsProject__content').append(imageHTML);
+        projectHTML += imageHTML;
       } else if (item.type == "video") {
-        $('.jsProject__content').append(`<div class="pos-r jsProjectImage w-100p p-t-vid m-t-2vw">
+        projectHTML += `<div class="pos-r jsProjectImage w-100p p-t-vid m-t-2vw">
           <iframe class="jsProject__video pos-a l-0 t-0 w-100p h-100p" src="${item.src}?api=1&title=0&portrait=0&byline=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>`)
+        </div>`
       } else if (item.type == "title") {
-        $('.jsProject__content').append(`<div class="pos-r fx-c j-c-center a-i-center t-a-c a-i-start m-t-3">
+        projectHTML += `<div class="pos-r fx-c j-c-center a-i-center t-a-c a-i-start m-t-3">
           <div class="f-s-l w-100p">
             <div class="m-b-3">${item.title}</div>
           </div>
-        </div>`)
+        </div>`
       } else if (item.type == "text") {
-        $('.jsProject__content').append(`<div class="f-s-s w-100p ms-w-50p pos-r m-b-3">${item.text}</div>`)
+        projectHTML += `<div class="f-s-s w-100p ms-w-50p pos-r m-b-3">${item.text}</div>`
       } else if (item.type == "title_and_text") {
-        $('.jsProject__content').append(`<div class="pos-r t-a-c m-b-3 max-w-720px m-h-a">
+        projectHTML += `<div class="pos-r t-a-c m-b-3 max-w-720px m-h-a">
           <div class="f-s-m m-b-1">${clientName}</div>      
           <div class="f-s-xl m-b-1">${item.title}</div>
           <div class="jsChallenge f-s-s ms-f-s-s">${item.text}</div>
-        </div>`)
+        </div>`
+      }
+      if (project.hero === "" && i === 0) {
+        $('.jsProject__hero').append(projectHTML);
+      } else {
+        $('.jsProject__content').append(projectHTML);
       }
     })
   }

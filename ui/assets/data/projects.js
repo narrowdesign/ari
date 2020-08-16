@@ -1041,7 +1041,7 @@ const projects = [
     saySomething: "Funny",
     description: "Great headline writing can involve a single, powerful thought. A flip on the usual. A word play or turn of phrase. For our friends at the 5th Avenue Stamp Gallery, a great headline was the funniest thing that could possibly be said at the intersection of celebrity and stamp. The result was a sales boost for our client. And thanks to its multi-year winning streak at the One Show, an ego boost for us.",
     folderName: "stamps",
-    hero: "stamps_2.jpg",
+    hero: "stamps_7.jpg",
     meta: [
       "One Show Gold",
     ],

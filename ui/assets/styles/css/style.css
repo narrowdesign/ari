@@ -5672,6 +5672,9 @@ th {
 .bg-trans {
   background-color: transparent;
 }
+.apostrophe {
+  letter-spacing: calc(-4px + (-7 - -4) * (100vw - 370px) / (1680 - 370));
+}
 .jsGrain {
   z-index: 1000;
   background-image: url(../../images/common/grain.png);
@@ -5686,7 +5689,7 @@ th {
   top: 0;
   width: 100%;
   height: calc(100vh + 10px);
-  background: #000;
+  background: #010101;
   z-index: 101;
   transform: translateY(100vh);
   pointer-events: none;
@@ -5901,9 +5904,6 @@ th {
   transform: scale(1.001);
   opacity: 1;
   transition: 0.3s ease-out;
-}
-.jsThumbnail:hover .jsThumbnail__title {
-  color: white;
 }
 .jsThumbnail.in {
   opacity: 1;
@@ -6542,7 +6542,7 @@ li {
   padding: 0;
 }
 .dark {
-  color: #000;
+  color: #010101;
 }
 .light {
   color: #f1eeeb;
@@ -6550,19 +6550,8 @@ li {
 .white {
   color: #fff;
 }
-.hr {
-  width: 3vw;
-  border-bottom: 2px solid;
-  position: relative;
-}
 .light-bg {
   background-color: #f1eeeb;
-}
-.purple-bg {
-  background-color: purple;
-}
-.gold-bg {
-  background-color: #f9ae68;
 }
 .white-bg {
   background-color: #FCFBFB;
@@ -6570,79 +6559,9 @@ li {
 .dark-bg {
   background-color: #0a0a0a;
 }
-.red-bg {
-  background-color: tomato;
-}
-.white-bg-70 {
-  background-color: rgba(255, 255, 255, 0.7);
-}
-.blue-bg {
-  background-color: #000;
-}
 section {
   position: relative;
   display: inline-block;
   width: 100%;
   transition: 0.2s;
-}
-.Menu {
-  z-index: 2;
-}
-@media (min-width: 960px) {
-  .ms-dark {
-    color: #000;
-  }
-  .ms-gold {
-    color: #f9ae68;
-  }
-  .ms-blue {
-    color: #0844A5;
-  }
-  .ms-white {
-    color: #fff;
-  }
-  .ms-purple-bg {
-    background: purple;
-  }
-  .ms-gold-bg {
-    background: #FFA100;
-  }
-  .ms-white-bg {
-    background: #fff;
-  }
-  .ms-white-bg-70 {
-    background: rgba(255, 255, 255, 0.7);
-  }
-  .ms-blue-bg {
-    background: #000;
-  }
-}
-@media (min-width: 1200px) {
-  .ls-dark {
-    color: #000;
-  }
-  .ls-gold {
-    color: #f9ae68;
-  }
-  .ls-blue {
-    color: #0844A5;
-  }
-  .ls-white {
-    color: #fff;
-  }
-  .ls-purple-bg {
-    background: purple;
-  }
-  .ls-gold-bg {
-    background: #FFA100;
-  }
-  .ls-white-bg {
-    background: #fff;
-  }
-  .ls-white-bg-70 {
-    background: rgba(255, 255, 255, 0.7);
-  }
-  .ls-blue-bg {
-    background: #000;
-  }
 }

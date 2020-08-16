@@ -44,7 +44,7 @@ const buzz = [
   {
     link: "http://shoutengine.com/IOFAwithAaronStarkman",
     image: "press_7.jpg",
-    title: "It’s Only F*In Advertising Podcast",
+    title: "It<span class='apostrophe'>’</span>s Only F*In Advertising Podcast",
     description: "Ari takes a walk down memory lane with Aaron Starkman on Adweek’s Podcast of the Year. Aptly named, It’s Only Fuckin’ Advertising. Enjoy.",
   },
 

@@ -119,7 +119,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       <img src="${folder}thumbnail.jpg" class="image-fit center-hv pos-a h-100p t-0 l-0" />
         <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2">
           <div class="jsThumbnail__client f-s-m">${project.clientName}</div>
-          <div class="jsThumbnail__title f-w-700">${project.title}</div>
+          <div class="jsThumbnail__title f-w-700 white">Say Something<br>${project.saySomething}</div>
         </div>
       </div>`
 
@@ -157,7 +157,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
             <img src="${folder}${item.image}" class="image-fit w-100p" />
             <div class="jsStory__info fx-c j-c-center a-i-center p-2">
               <div class="jsThumbnail__client f-s-m">${item.source}</div>
-              <div class="jsThumbnail__title f-w-700">${item.title}</div>
+              <div class="jsThumbnail__title f-w-700 dark">${item.title}</div>
             </div>
           </a>
         </div>`
@@ -171,7 +171,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
             <img src="${folder}${item.image}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
             <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2 gray">
               <div class="jsThumbnail__client f-s-m">${item.source}</div>
-              <div class="jsThumbnail__title f-w-700">${item.title}</div>
+              <div class="jsThumbnail__title f-w-700 white">${item.title}</div>
             </div>
           </a>
         </div>`

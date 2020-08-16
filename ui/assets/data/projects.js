@@ -8,7 +8,7 @@
 const projects = [
   {
     clientName: "Buoy",
-    title: "Say Something Endearing",
+    saySomething: "Endearing",
     description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
     folderName: "buoy",
     hero: "copy_room_1.jpg",
@@ -43,7 +43,7 @@ const projects = [
   },
   {
     clientName: "MeWe",
-    title: "Say Something Purposeful",
+    saySomething: "Purposeful",
     description: "Can one product save millions from malnutrition while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. We helped by creating MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and was chosen to join Chobani’s prestigious incubator program.",
     folderName: "mewe",
     hero: "pattern_1.jpg",
@@ -128,7 +128,7 @@ const projects = [
   },
   {
     clientName: "Elmhurst",
-    title: "Say Something Competitive",
+    saySomething: "Competitive",
     description: "Our friends at Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things too, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. One that could show plant-based fans what its outspoken CEO had known all along: simpler is better.",
     folderName: "elmhurst",
     hero: "ooh_1.jpg",
@@ -179,7 +179,7 @@ const projects = [
   },
   {
     clientName: "Binx “Stay Sexy”",
-    title: "Say Something Provocative",
+    saySomething: "Provocative",
     description: "Sexually transmitted diseases on college campuses are spreading in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx easy, at-home test as a personal hygiene product – encouraging young men and women to check themselves even before they (sex metaphor here).",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
@@ -219,7 +219,7 @@ const projects = [
   },
   {
     clientName: "Nickel",
-    title: "Say Something Revolutionary",
+    saySomething: "Revolutionary",
     description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We gave them Nickel. Our branding approach was simple: it was about putting people ahead of profits. No more greed. No more confusion. No more Americans paying the price for an industry that’s lost its way. Healthcare that costs what healthcare should cost. And not a nickel more.",
     folderName: "nickel",
     hero: "ooh_1.jpg",
@@ -257,7 +257,7 @@ const projects = [
   },
   {
     clientName: "Face The Music",
-    title: "Say Something Heartbreaking",
+    saySomething: "Heartbreaking",
     description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor's Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many, many others.",
     folderName: "face_the_music",
     hero: "header_1.jpg",
@@ -279,7 +279,7 @@ const projects = [
   },
   {
     clientName: "Metlife",
-    title: "Say Something Unifying",
+    saySomething: "Unifying",
     description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it a violation of Ari’s non-compete (kidding).",
     folderName: "metlife_2",
     hero: "",
@@ -299,7 +299,7 @@ const projects = [
   },
   {
     clientName: "Thindown",
-    title: "Say Something Game Changing",
+    saySomething: "Game Changing",
     description: "Thin was in and the demand for down had never been greater. Yet the process of using down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. Time to give voice to the world’s first and only fully seamless down fabric.",
     folderName: "thindown",
     hero: "header_1.jpg",
@@ -345,7 +345,7 @@ const projects = [
   },
   {
     clientName: "Athenahealth",
-    title: "Say Something Honest",
+    saySomething: "Honest",
     description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve that, he also understood that empathy would mean more to providers than empty promises. We created “Let doctors be doctors.“ The purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
@@ -414,7 +414,7 @@ const projects = [
   },
   {
     clientName: "Recovery Unplugged",
-    title: "Say Something Empowering",
+    saySomething: "Empowering",
     description: "Our dear friend, Recovery Unplugged CEO, Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we created a simple mantra for those coping with this complicated problem: What track are you on?",
     folderName: "recovery_unplugged",
     hero: "recovery_unplugged_busshelter_1.jpg",
@@ -468,7 +468,7 @@ const projects = [
   },
   {
     clientName: "Wishclouds",
-    title: "Say Something Entertaining",
+    saySomething: "Entertaining",
     description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on to launch the Wishclouds app with a fresh voice. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
     folderName: "wishclouds",
     hero: "",
@@ -489,7 +489,7 @@ const projects = [
   },
   {
     clientName: "Say & Company",
-    title: "Say Something Necessary",
+    saySomething: "Necessary",
     description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own, Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
     folderName: "say",
     hero: "header_1.jpg",
@@ -526,7 +526,7 @@ const projects = [
   },
   {
     clientName: "Virgin Mobile",
-    title: "Say Something <nobr>Non-Corporate</nobr>",
+    saySomething: "<nobr>Non-Corporate</nobr>",
     description: "No matter how good the plan, cell phone companies are getting the better end of the deal. So it’s no wonder audiences were numb to the endless barrage of incentives. This was the insight that drove our Virgin Mobile campaign centered around real, honest to goodness benefits. We said: Most cell phones take advantage of customers. At Virgin Mobile we let you take advantage of us.",
     folderName: "virgin_mobile",
     hero: "header_1.jpg",
@@ -559,7 +559,7 @@ const projects = [
   },
   {
     clientName: "MetLife",
-    title: "Say Something Inclusive",
+    saySomething: "Inclusive",
     description: "For over 150 years, MetLife had been working to make sure everyone had access to health insurance. Yet the company was known more for Charles Schultz’s Peanuts characters than its own historic and powerful intentions. It was time to widen the cartoon universe and give the company the voice it deserved. For the first time in its history, MetLife was headed to the Superbowl.",
     folderName: "metlife_1",
     hero: "header_1.jpg",
@@ -583,7 +583,7 @@ const projects = [
   },
   {
     clientName: "Activision",
-    title: "Say Something Surprising",
+    saySomething: "Surprising",
     description: "Video games based on movies that are based on comic books tend to, well, suck. Our friends at Activision challenged us to convince cynical gamers that the first person gameplay of “Wolverine” would exceed their expectations. Shot in a Mexican prison, this film showcases the realistic, rated M for mature, violent nature of the game – featuring in-camera action sequences in the POV of its title character.",
     folderName: "activision",
     hero: "header_1.jpg",
@@ -600,7 +600,7 @@ const projects = [
   },
   {
     clientName: "Hanes",
-    title: "Say Something Chill",
+    saySomething: "Chill",
     folderName: "hanes",
     hero: "header_1.jpg",
     description: "Michael Jordan is one of the most famous athletes of all time. Yet for some reason, we were just as excited to work with Facebook Canvas. When we were approached to direct this interactive mobile experience for Hanes and 360i, we jumped at the chance. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself.",
@@ -617,7 +617,7 @@ const projects = [
   },
   {
     clientName: "Tripadvisor",
-    title: "Say Something Reassuring",
+    saySomething: "Reassuring",
     description: "What do those reviews really mean? That was the question to answer for TripAdvisor’s first global brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations – leading to more video production, mass media spending and an exclusive CMO performance of “Rapper’s Delight” during a six-hour car ride from Croatia to Slovenia.",
     folderName: "tripadvisor",
     hero: "header_1.jpg",
@@ -645,7 +645,7 @@ const projects = [
   },
   {
     clientName: "Kmart",
-    title: "Say Something Buzz Worthy",
+    saySomething: "Buzz Worthy",
     description: "Our friends at Kmart wanted to build buzz around Adam Levine’s new fashion line. We created the web series, “222”, which included experiential events, promotions and BTS stories. The series got millions of views – boosting sales for the six months it was posted. “The Rack” drew over 250MM impressions and was featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
     folderName: "kmart",
     hero: "",
@@ -676,7 +676,7 @@ const projects = [
   },
   {
     clientName: "OfficeMax",
-    title: "Say Something Jolly",
+    saySomething: "Jolly",
     description: `“Holiday gifts at an office supply store?” From the start, we knew OfficeMax needed more than a traditional ad campaign. They needed to make a real and lasting connection with holiday shoppers. In 2005, our team at Toy created not one, but 20 holiday-themed websites. Elf Yourself became a phenomenon and has been a cornerstone of the OfficeMax holiday effort ever since. 
 
     “Best Ever Social Media Campaigns” - Forbes, 2010 
@@ -722,7 +722,7 @@ const projects = [
   },
   {
     clientName: "Starbucks",
-    title: "Say Something Motivational",
+    saySomething: "Motivational",
     description: "“Glen” was presented standing on a conference table at Pepsi (Starbucks distributor). We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
     folderName: "starbucks",
     hero: "header_1.jpg",
@@ -741,7 +741,7 @@ const projects = [
   },
   {
     clientName: "Extended Stay Hotels",
-    title: "Say Something Outrageous",
+    saySomething: "Outrageous",
     description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
     folderName: "extended_stay_hotels",
     hero: "header_1.jpg",
@@ -759,7 +759,7 @@ const projects = [
   },
   {
     clientName: "PDFK",
-    title: "Say Something Instructive",
+    saySomething: "Instructive",
     description: "It was a simple observation about parents and kids. We’re all the same age. We listen to the same music. We watch the same shows. We even shop at the same clothing stores our kids do. So when our friends at PDFK were looking for a campaign to help parents respond to a culture of acceptance around marijuana use, we brought our observation to life in a way that seemed to truly resonate. DRUG FREE AMERICA",
     folderName: "pdfk",
     hero: "header_1.jpg",
@@ -783,7 +783,7 @@ const projects = [
   },
   {
     clientName: "J&R",
-    title: "Say Something Authentic",
+    saySomething: "Authentic",
     description: "When it comes to capturing the voice of a brand, nothing is more powerful than authenticity. What excited us most about working on this iconic NYC brand was its complete lack of big box retail polish. LPs sitting in old milk crates. Ripped commercial carpeting. Water stained ceilings. The passion and attitude of its oh-so-New-York-salesstaff. J&R was a branding goldmine and will remain forever in our hearts.",
     folderName: "j_and_r",
     hero: "j_and_r_5.jpg",
@@ -832,7 +832,7 @@ const projects = [
   },
   {
     clientName: "TIME",
-    title: "Say Something <nobr>Bi-Partisan</nobr>",
+    saySomething: "<nobr>Bi-Partisan</nobr>",
     description: "While doing our watch on the legendary Time red border campaign, we decided to take it to the streets – bringing Time’s social commentary literally everywhere. Storefronts. Building sides. Construction sites. Yet it was this piece that got people talking, including David Letterman who complained about the traffic on the West Side Highway saying, “Every commuter slows to look at this blasted billboard.”",
     folderName: "time",
     hero: "time_3.jpg",
@@ -854,7 +854,7 @@ const projects = [
   },
   {
     clientName: "MINI",
-    title: "Say Something Big",
+    saySomething: "Big",
     description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the U.S. launch of the MINI.`,
     folderName: "mini",
     hero: "mini_16.jpg",
@@ -902,7 +902,7 @@ const projects = [
   },
   {
     clientName: "Bell",
-    title: "Say Something Historical",
+    saySomething: "Historical",
     description: "Unlike its new crop of sexy competitors, Bell had been around for 66 years. Painstakingly handcrafted from metal type cast on an old timey letterpress, our campaign aimed to tell the company’s story – listing its deep generational roots as America’s most trusted helmet. After all, with that kind of staying power, the folks at Bell obviously know a thing or two about survival.",
     folderName: "bell",
     hero: "bell_3.jpg",
@@ -929,7 +929,7 @@ const projects = [
   },
   {
     clientName: "Ikea",
-    title: "Say Something Crazy",
+    saySomething: "Crazy",
     description: "Suggesting that people have an unnatural attachment to their furniture takes guts, especially when it’s the first ad announcing the U.S. arrival of Ikea. Lamp may well be “the best rug-pull in advertising history” (Adweek, 2017). It’s also a shining example of what can happen when everything goes right from strategy through production. And if you disagree, that is because you’re, well, y’know.",
     folderName: "ikea",
     hero: "header_1.jpg",
@@ -949,7 +949,7 @@ const projects = [
   },
   {
     clientName: "Truth",
-    title: "Say Something Rebellious",
+    saySomething: "Rebellious",
     description: "As the seven-foot sacks piled up by the hundreds outside Phillip Morris, a horrified woman approached and asked what was going on. We shared with her the idea behind ‘Truth’ and she stared at us blankly. She said, “My sister died of lung cancer. Do you mind if I carry one of those bags?” For many, ‘Truth’ was life changing. Especially those of us who had the privilege of working on this campaign.",
     folderName: "truth",
     hero: "truth_4.jpg",
@@ -980,7 +980,7 @@ const projects = [
   },
   {
     clientName: "GT",
-    title: "Say Something <nobr>Self-centered</nobr>",
+    saySomething: "<nobr>Self-centered</nobr>",
     description: "There’s a school of thought that says advertising has to be all about the customer, all the time. Nah, that’s silly. Product benefits can easily be expressed with a powerful statement about what your company stands for. So go ahead and beat your chest. Prattle on. Make it all about you. Just do it in a way that people want to hear.",
     folderName: "gt",
     hero: "gt_4.jpg",
@@ -1014,7 +1014,7 @@ const projects = [
   },
   {
     clientName: "Land Rover",
-    title: "Say Something <nobr>Self-Effacing</nobr>",
+    saySomething: "<nobr>Self-Effacing</nobr>",
     description: "When going downhill in a mudslide, you are told to genty accelerate your Land Rover, even when every bone in your body is telling you to brake. It’s counterintuitive. And so were the concepts in this long running ad campaign. A vehicle covered in mud? Pelted with snowballs? In an industry that glamorizes sheet metal, this campaign dared to focus on the most glamorous thing a product can be. Honest.",
     folderName: "land_rover",
     hero: "landrover_3.jpg",
@@ -1037,7 +1037,7 @@ const projects = [
   },
   {
     clientName: "5th Ave Stamp Gallery",
-    title: "Say Something Funny",
+    saySomething: "Funny",
     description: "Great headline writing can involve a single, powerful thought. A flip on the usual. A word play or turn of phrase. For our friends at the 5th Avenue Stamp Gallery, a great headline was the funniest thing that could possibly be said at the intersection of celebrity and stamp. The result was a sales boost for our client. And thanks to its multi-year winning streak at the One Show, an ego boost for us.",
     folderName: "stamps",
     hero: "stamps_2.jpg",

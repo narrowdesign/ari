@@ -1,3 +1,8 @@
+
+.apostrophe {
+  letter-spacing: calc(-4px + (-7 - -4) * (100vw - 370px) / (1680 - 370));
+}
+
 .jsGrain {
   z-index: 1000;
   background-image: url(../../images/common/grain.png);
@@ -160,9 +165,6 @@
       opacity: 1;
       transition: .3s ease-out;
     }
-    .jsThumbnail__title {
-      color: white;
-    }
   }
 
   &.in {
@@ -185,6 +187,7 @@
 }
 .jsBuzz > .jsThumbnail {
   padding-top: 0;
+  
 }
 
 .jsNewsRow {

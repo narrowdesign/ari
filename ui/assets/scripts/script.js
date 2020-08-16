@@ -279,9 +279,9 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const oldScrollTop = scrollTop;
     scrollTop = $('body').scrollTop();
     scrollProgress = Math.min(scrollTop * scrollFraction, Math.PI * .5);
-    // $('.jsMenu').css({
-    //   opacity: scrollProgress
-    // })
+    $('.jsMenu').css({
+      opacity: scrollProgress
+    })
     const logoScale = 1 - Math.sin(scrollProgress) * logoShrinkage;
     if(oldScrollTop != scrollTop){
       $('.jsAri').css({

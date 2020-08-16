@@ -278,6 +278,16 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     
     const oldScrollTop = scrollTop;
     scrollTop = $('body').scrollTop();
+
+    let activeButton;
+    for (let i=sectionTops.length - 1; i>=0 ;i--) {
+      if (scrollTop > sectionTops[i] - _winH && !activeButton) {
+        $('.jsMenuItem').eq(i).addClass('active');
+        activeButton = i;
+      } else {
+        $('.jsMenuItem').eq(i).removeClass('active');
+      }
+    }
     scrollProgress = Math.min(scrollTop * scrollFraction, Math.PI * .5);
     $('.jsMenu').css({
       opacity: scrollProgress
@@ -450,7 +460,6 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       if (current >= count) {
         current = 0;
       }
-      console.log(current)
     }, 1000)
   }
 
@@ -478,7 +487,12 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   ////// UTIL
 
   function setTops() {
-    sectionTops = [$('.jsWork').offset().top, $('.jsAbout').offset().top, $('.jsBuzz').offset().top, $('.jsContact').offset().top];
+    sectionTops = [
+      $('.jsWork').offset().top, 
+      $('.jsAbout').offset().top, 
+      $('.jsBuzz').offset().top, 
+      $('.jsContact').offset().top
+    ];
   }
 
   function resizeHandler () { // Set the size of images and preload them
@@ -493,7 +507,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     setTops();
     setTimeout(function(){
       setTops();
-    },800);
+    }, 2000);
     logoHeight = $('.jsAri').height();
     logoShrinkage = Math.min(.8, .4 + _winW / 1680 * .55);
     scrollFraction = .002 * (1680 / _winW);

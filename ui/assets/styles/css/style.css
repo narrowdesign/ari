@@ -5722,7 +5722,8 @@ th {
   letter-spacing: 0.05rem;
   opacity: 0.5;
 }
-.jsMenuItem.active {
+.jsMenuItem.active,
+.jsMenuItem:hover {
   opacity: 1;
 }
 .jsAri {

@@ -403,7 +403,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         }
       } else if (item.type === "slideshow") {
         isSlideShow = true;
-        projectHTML += `<div class="jsProjectSlideshow m-t-2vw">`
+        projectHTML += `<div class="jsProjectSlideshow m-t-2vw pos-r">`
         for (let i=0; i < item.src.length; i++) {
           projectHTML += `<div class="jsProjectImage ${i === 0 ? 'pos-r' : 'pos-a'} d-b t-0 l-0"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
         }

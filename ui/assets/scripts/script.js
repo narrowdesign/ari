@@ -267,27 +267,21 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
   function scrollHandler(e) {
     if (isProjectOpen) return;
-    if(e && e.type == 'wheel' || e && e.type == 'touchmove') {
-      $('body').stop();
-      $('body').removeClass('is-footer');
-    }
     
+    clearTimeout(scrollTimeout);
+    scrollTimeout = setTimeout(() => {
+      unpauseLogoVideo();
+    }, 400);
     if (!isPaused) {
       pauseLogoVideo();
-
-      clearTimeout(scrollTimeout);
-      scrollTimeout = setTimeout(() => {
-        unpauseLogoVideo();
-      }, 400);
     }
-
     
     const oldScrollTop = scrollTop;
     scrollTop = $('body').scrollTop();
-    scrollProgress = Math.min(scrollTop * .002, Math.PI * .5);
-    $('.jsMenu').css({
-      opacity: scrollProgress
-    })
+    scrollProgress = Math.min(scrollTop * scrollFraction, Math.PI * .5);
+    // $('.jsMenu').css({
+    //   opacity: scrollProgress
+    // })
     const logoScale = 1 - Math.sin(scrollProgress) * logoShrinkage;
     if(oldScrollTop != scrollTop){
       $('.jsAri').css({
@@ -364,6 +358,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const title = project.saySomething;
     const description = project.description;
     const meta = project.meta;
+    const metaFooter = project.metaFooter;
     const folder = `${PROJECTS_IMAGE_FOLDER}${project.folderName}/`;
     const hero = `${folder}${project.hero}`;
 
@@ -384,6 +379,9 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
 
     if (meta) {
       $('.jsProject__meta').html(meta.join(' | '));
+    }
+    if (metaFooter) {
+      $('.jsProject__metaFooter').html(metaFooter.join(' | '));
     }
     
     $.each(content, function(i){
@@ -498,5 +496,6 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     },800);
     logoHeight = $('.jsAri').height();
     logoShrinkage = Math.min(.8, .4 + _winW / 1680 * .55);
+    scrollFraction = .002 * (1680 / _winW);
   }
 })

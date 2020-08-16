@@ -12,10 +12,10 @@ const projects = [
     description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
     folderName: "buoy",
     hero: "copy_room_1.jpg",
-    services: [
-      "STRATEGY",
-      "CREATIVE DEVELOPMENT",
-      "VIDEO AND PRINT PRODUCTION",
+    metaFooter: [
+      "Strategy",
+      "Creative Development",
+      "Video And Print Production",
     ],
     awards: [],
     content: [
@@ -47,21 +47,21 @@ const projects = [
     description: "Can one product save millions from malnutrition while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. We helped by creating MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and was chosen to join Chobani’s prestigious incubator program.",
     folderName: "mewe",
     hero: "pattern_1.jpg",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "NAMING",
-      "LOGO",
-      "ID SYSTEM DESIGN",
-      "BRAND MESSAGING",
-      "PACKAGE DESIGN",
-      "CREATIVE DEVELOPMENT",
-      "E-COMMERCE WEBSITE",
-      "DIRECT MAIL",
-      "PR KIT",
-      "SOCIAL CONTENT",
-      "INVESTOR MATERIALS",
-      "TRADE SHOW BOOTH",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Naming",
+      "Logo",
+      "Id System Design",
+      "Brand Messaging",
+      "Package Design",
+      "Creative Development",
+      "E-Commerce Website",
+      "Direct Mail",
+      "Pr Kit",
+      "Social Content",
+      "Investor Materials",
+      "Trade Show Booth",
     ],
     awards: [],
     content: [
@@ -132,12 +132,12 @@ const projects = [
     description: "Our friends at Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things too, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. One that could show plant-based fans what its outspoken CEO had known all along: simpler is better.",
     folderName: "elmhurst",
     hero: "ooh_1.jpg",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "BRAND MESSAGING",
-      "CREATIVE DEVELOPMENT",
-      "VIDEO PRODUCTION"
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Brand Messaging",
+      "Creative Development",
+      "Video Production"
     ],
     awards: [],
     content: [
@@ -183,15 +183,15 @@ const projects = [
     description: "Sexually transmitted diseases on college campuses are spreading in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx easy, at-home test as a personal hygiene product – encouraging young men and women to check themselves even before they (sex metaphor here).",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
-    services: [
-      "STRATEGY & POSITIONING",
-      "BRAND MESSAGING",
-      "ID SYSTEM DESIGN",
-      "CAMPAIGN DEVELOPMENT",
-      "VIDEO & POST PRODUCTION",
-      "DIRECTING",
-      "OUT OF HOME",
-      "SOCIAL CONTENT",
+    metaFooter: [
+      "Strategy & Positioning",
+      "Brand Messaging",
+      "Id System Design",
+      "Campaign Development",
+      "Video & Post Production",
+      "Directing",
+      "Out Of Home",
+      "Social Content",
     ],
     awards: [],
     content: [
@@ -223,13 +223,13 @@ const projects = [
     description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We gave them Nickel. Our branding approach was simple: it was about putting people ahead of profits. No more greed. No more confusion. No more Americans paying the price for an industry that’s lost its way. Healthcare that costs what healthcare should cost. And not a nickel more.",
     folderName: "nickel",
     hero: "ooh_1.jpg",
-    services: [
-      "STRATEGY",
-      "NAMING",
-      "POSITIONING",
-      "BRAND PLATFORM",
-      "LOGO & BRAND ID",
-      "CREATIVE DEVELOPMENT",
+    metaFooter: [
+      "Strategy",
+      "Naming",
+      "Positioning",
+      "Brand Platform",
+      "Logo & Brand Id",
+      "Creative Development",
     ],
     awards: [],
     content: [
@@ -261,8 +261,8 @@ const projects = [
     description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor's Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many, many others.",
     folderName: "face_the_music",
     hero: "header_1.jpg",
-    services: [
-      "BRAND MESSAGING","SCRIPT WRITING","PRODUCTION AND POST PRODUCTION","DIGITAL & MEDIA STRATEGY",
+    metaFooter: [
+      "Brand Messaging","Script Writing","Production And Post Production","Digital & Media Strategy",
     ],
     awards: [
       "2018 One Show pencil",
@@ -283,10 +283,10 @@ const projects = [
     description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it a violation of Ari’s non-compete (kidding).",
     folderName: "metlife_2",
     hero: "",
-    services: [
-      "BRAND MESSAGING",
-      "CREATIVE DEVELOPMENT",
-      "VIDEO PRODUCTION AND POST PRODUCTION",
+    metaFooter: [
+      "Brand Messaging",
+      "Creative Development",
+      "Video Production And Post Production",
     ],
     awards: [],
     content: [
@@ -303,17 +303,17 @@ const projects = [
     description: "Thin was in and the demand for down had never been greater. Yet the process of using down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. Time to give voice to the world’s first and only fully seamless down fabric.",
     folderName: "thindown",
     hero: "header_1.jpg",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "LOGO",
-      "ID SYSTEM DESIGN",
-      "BRAND MESSAGING",
-      "CREATIVE DEVELOPMENT",
-      "WEBSITE",
-      "VIDEO & POST PRODUCTION",
-      "INVESTOR MATERIAL",
-      "CONTENT PRODUCTION",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Logo",
+      "Id System Design",
+      "Brand Messaging",
+      "Creative Development",
+      "Website",
+      "Video & Post Production",
+      "Investor Material",
+      "Content Production",
     ],
     awards: [],
     content: [
@@ -349,19 +349,19 @@ const projects = [
     description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve that, he also understood that empathy would mean more to providers than empty promises. We created “Let doctors be doctors.“ The purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "ID SYSTEM DESIGN",
-      "BRAND MESSAGING",
-      "CREATIVE DEVELOPMENT",
-      "WEBSITES",
-      "DIRECT MAIL",
-      "FILM DIRECTION",
-      "VIDEO PRODUCTION",
-      "VIDEO DIRECTION",
-      "TRADE SHOW BOOTH",
-      "CONTENT CREATION",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Id System Design",
+      "Brand Messaging",
+      "Creative Development",
+      "Websites",
+      "Direct Mail",
+      "Film Direction",
+      "Video Production",
+      "Video Direction",
+      "Trade Show Booth",
+      "Content Creation",
     ],
     awards: [],
     content: [
@@ -418,17 +418,17 @@ const projects = [
     description: "Our dear friend, Recovery Unplugged CEO, Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we created a simple mantra for those coping with this complicated problem: What track are you on?",
     folderName: "recovery_unplugged",
     hero: "recovery_unplugged_busshelter_1.jpg",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "LOGO",
-      "ID SYSTEM DESIGN",
-      "BRAND MESSAGING",
-      "CREATIVE DEVELOPMENT",
-      "WEBSITE",
-      "INVESTOR MATERIALS",
-      "CONTENT CREATION",
-      "VIDEO & POST PRODUCTION",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Logo",
+      "Id System Design",
+      "Brand Messaging",
+      "Creative Development",
+      "Website",
+      "Investor Materials",
+      "Content Creation",
+      "Video & Post Production",
     ],
     awards: [],
     content: [
@@ -472,11 +472,11 @@ const projects = [
     description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on to launch the Wishclouds app with a fresh voice. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
     folderName: "wishclouds",
     hero: "",
-    services: [
-      "CREATIVE DEVELOPMENT",
-      "FILM DIRECTION",
-      "VIDEO & POST PRODUCTION",
-      "INFLUENCER CONTENT",
+    metaFooter: [
+      "Creative Development",
+      "Film Direction",
+      "Video & Post Production",
+      "Influencer Content",
     ],
     awards: [],
     content: [
@@ -493,8 +493,8 @@ const projects = [
     description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own, Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
     folderName: "say",
     hero: "header_1.jpg",
-    services: [
-      "NAMING","LOGO","ID SYSTEM DESIGN","BRAND MESSAGING","GO TO MARKET STRATEGY","CREATIVE DEVELOPMENT","E-COMMERCE WEBSITE","SOCIAL MEDIA MANAGEMENT",
+    metaFooter: [
+      "Naming","Logo","Id System Design","Brand Messaging","Go To Market Strategy","Creative Development","E-Commerce Website","Social Media Management",
     ],
     awards: [],
     content: [
@@ -604,8 +604,8 @@ const projects = [
     folderName: "hanes",
     hero: "header_1.jpg",
     description: "Michael Jordan is one of the most famous athletes of all time. Yet for some reason, we were just as excited to work with Facebook Canvas. When we were approached to direct this interactive mobile experience for Hanes and 360i, we jumped at the chance. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself.",
-    services: [
-      "FILM DIRECTION",
+    metaFooter: [
+      "Film Direction",
     ],
     content: [ 
       {
@@ -621,8 +621,8 @@ const projects = [
     description: "What do those reviews really mean? That was the question to answer for TripAdvisor’s first global brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations – leading to more video production, mass media spending and an exclusive CMO performance of “Rapper’s Delight” during a six-hour car ride from Croatia to Slovenia.",
     folderName: "tripadvisor",
     hero: "header_1.jpg",
-    services: [
-      "STRATEGY","POSITIONING","BRAND MESSAGING","CREATIVE DEVELOPMENT","VIDEO & POST PRODUCTION",
+    metaFooter: [
+      "Strategy","Positioning","Brand Messaging","Creative Development","Video & Post Production",
     ],
     awards: [],
     content: [
@@ -649,16 +649,16 @@ const projects = [
     description: "Our friends at Kmart wanted to build buzz around Adam Levine’s new fashion line. We created the web series, “222”, which included experiential events, promotions and BTS stories. The series got millions of views – boosting sales for the six months it was posted. “The Rack” drew over 250MM impressions and was featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
     folderName: "kmart",
     hero: "",
-    services: [
-      "STRATEGY",
-      "POSITIONING",
-      "ID SYSTEM DESIGN",
-      "BRAND MESSAGING",
-      "SOCIAL MEDIA CREATIVE DEVELOPMENT",
-      "EXPERIENTIAL MARKETING",
-      "EVENT MARKETING",
-      "VIDEO PRODUCTION & POST",
-      "VIDEO DIRECTION",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Id System Design",
+      "Brand Messaging",
+      "Social Media Creative Development",
+      "Experiential Marketing",
+      "Event Marketing",
+      "Video Production & Post",
+      "Video Direction",
     ],
     awards: [],
     content: [
@@ -677,16 +677,15 @@ const projects = [
   {
     clientName: "OfficeMax",
     saySomething: "Jolly",
-    description: `“Holiday gifts at an office supply store?” From the start, we knew OfficeMax needed more than a traditional ad campaign. They needed to make a real and lasting connection with holiday shoppers. In 2005, our team at Toy created not one, but 20 holiday-themed websites. Elf Yourself became a phenomenon and has been a cornerstone of the OfficeMax holiday effort ever since. 
-
-    “Best Ever Social Media Campaigns” - Forbes, 2010 
-    
-    “Arguably the Most Successful Viral Campaign in History.” - The Age, 2013`,
+    description: `“Holiday gifts at an office supply store?” From the start, we knew OfficeMax needed more than a traditional ad campaign. They needed to make a real and lasting connection with holiday shoppers. In 2005, our team at Toy created not one, but 20 holiday-themed websites. Elf Yourself became a phenomenon and has been a cornerstone of the OfficeMax holiday effort ever since.`,
     folderName: "officemax",
     hero: "elf_1.jpg",
     meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
+    ],
+    metaFooter: [
+      `“Best Ever Social Media Campaigns” - Forbes, 2010<br><br>“Arguably the Most Successful Viral Campaign in History.” - The Age, 2013`
     ],
     awards: [],
     content: [
@@ -1066,7 +1065,7 @@ const projects = [
   //   description: "",
   //   folderName: "past_hits",
   //   hero: "header_1.jpg",
-  //   services: [
+  //   metaFooter: [
   //     "Ari Merkin",
   //     "ECD, Fallon NY",
   //   ],

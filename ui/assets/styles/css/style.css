@@ -4308,6 +4308,9 @@ th {
 .w-s-w {
   white-space: normal;
 }
+.t-t-l {
+  text-transform: lowercase;
+}
 @media (min-width: 960px) {
   .ms-w-s-nowrap {
     white-space: nowrap;
@@ -6047,6 +6050,18 @@ th {
   padding: 1rem 12vw;
   margin-left: auto;
   margin-right: auto;
+  transition: 0.2s;
+}
+.jsContact__form input[type="submit"]:hover {
+  background: #333;
+}
+.jsSocialIcon {
+  transition: 0.2s;
+  transform: scale(1.001);
+}
+.jsSocialIcon:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
 }
 .is-transitioning-in .jsCover {
   transition: 0.5s transform;
@@ -6075,12 +6090,6 @@ th {
 /* Site State */
 .is-project-open {
   overflow: hidden;
-}
-@media (max-width: 959px) {
-  .is-project-open .Footer {
-    pointer-events: none;
-    opacity: 0;
-  }
 }
 .is-project-open .jsProject {
   opacity: 1;

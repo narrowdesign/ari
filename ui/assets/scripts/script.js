@@ -361,8 +361,9 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const project = projects[num];
     const content = project.content;
     const clientName = project.clientName;
-    const title = project.title;
+    const title = project.saySomething;
     const description = project.description;
+    const meta = project.meta;
     const folder = `${PROJECTS_IMAGE_FOLDER}${project.folderName}/`;
     const hero = `${folder}${project.hero}`;
 
@@ -377,9 +378,13 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     }
     $('.jsProject').scrollTop(0);
     $('.jsProject__client').html(clientName);
-    $('.jsProject__title').html(title);
+    $('.jsProject__title').html(`Say something ${title}`);
     $('.jsProject__description').html(description);
     $('.jsProject__content').html('');
+
+    if (meta) {
+      $('.jsProject__meta').html(meta.join(' | '));
+    }
     
     $.each(content, function(i){
       let projectHTML = '';

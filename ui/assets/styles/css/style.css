@@ -1467,6 +1467,10 @@ th {
   padding-left: 8vw;
   padding-right: 8vw;
 }
+.p-h-12vw {
+  padding-left: 12vw;
+  padding-right: 12vw;
+}
 .p-h-13vw {
   padding-left: 13vw;
   padding-right: 13vw;

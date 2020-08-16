@@ -530,7 +530,7 @@ const projects = [
     description: "No matter how good the plan, cell phone companies are getting the better end of the deal. So it’s no wonder audiences were numb to the endless barrage of incentives. This was the insight that drove our Virgin Mobile campaign centered around real, honest to goodness benefits. We said: Most cell phones take advantage of customers. At Virgin Mobile we let you take advantage of us.",
     folderName: "virgin_mobile",
     hero: "header_1.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
     ],
@@ -563,7 +563,7 @@ const projects = [
     description: "For over 150 years, MetLife had been working to make sure everyone had access to health insurance. Yet the company was known more for Charles Schultz’s Peanuts characters than its own historic and powerful intentions. It was time to widen the cartoon universe and give the company the voice it deserved. For the first time in its history, MetLife was headed to the Superbowl.",
     folderName: "metlife_1",
     hero: "header_1.jpg",
-    services: [
+    meta: [
       "Ari Merkin, Writer, ECD",
       "CP+B",
     ],
@@ -587,7 +587,7 @@ const projects = [
     description: "Video games based on movies that are based on comic books tend to, well, suck. Our friends at Activision challenged us to convince cynical gamers that the first person gameplay of “Wolverine” would exceed their expectations. Shot in a Mexican prison, this film showcases the realistic, rated M for mature, violent nature of the game – featuring in-camera action sequences in the POV of its title character.",
     folderName: "activision",
     hero: "header_1.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
     ],
@@ -684,7 +684,7 @@ const projects = [
     “Arguably the Most Successful Viral Campaign in History.” - The Age, 2013`,
     folderName: "officemax",
     hero: "elf_1.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
     ],
@@ -696,27 +696,28 @@ const projects = [
       },
       {
         type: "video",
+        title: "elf",
         src: "https://player.vimeo.com/video/444890779",
       },
       {
         type: "image",
-        src: ["elf_3.jpg", "elf_4.jpg", "elf_5.jpg"],
+        src: ["elf_3.png", "elf_4.png", "elf_5.png"],
       },
       {
         type: "image",
-        src: ["elf_6.jpg", "elf_7.jpg", "elf_5.jpg"],
+        src: ["elf_6.png", "elf_7.png", "elf_5.png"],
       },
       {
         type: "image",
-        src: ["elf_9.jpg", "elf_10.jpg", "elf_11.jpg"],
+        src: ["elf_9.png", "elf_10.png", "elf_11.png"],
       },
       {
         type: "image",
-        src: ["elf_12.jpg", "elf_13.jpg", "elf_15.jpg"],
+        src: ["elf_12.png", "elf_13.png", "elf_15.png"],
       },
       {
         type: "image",
-        src: ["elf_8.jpg", "elf_16.jpg", "elf_17.jpg"],
+        src: ["elf_8.png", "elf_16.png", "elf_17.png"],
       },
     ],
   },
@@ -726,7 +727,7 @@ const projects = [
     description: "“Glen” was presented standing on a conference table at Pepsi (Starbucks distributor). We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
     folderName: "starbucks",
     hero: "header_1.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "ECD, Fallon NY",
       "Creativity’s Spot of the Year",
@@ -745,7 +746,7 @@ const projects = [
     description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
     folderName: "extended_stay_hotels",
     hero: "header_1.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
     ],
@@ -763,7 +764,7 @@ const projects = [
     description: "It was a simple observation about parents and kids. We’re all the same age. We listen to the same music. We watch the same shows. We even shop at the same clothing stores our kids do. So when our friends at PDFK were looking for a campaign to help parents respond to a culture of acceptance around marijuana use, we brought our observation to life in a way that seemed to truly resonate. DRUG FREE AMERICA",
     folderName: "pdfk",
     hero: "header_1.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
     ],
@@ -787,7 +788,7 @@ const projects = [
     description: "When it comes to capturing the voice of a brand, nothing is more powerful than authenticity. What excited us most about working on this iconic NYC brand was its complete lack of big box retail polish. LPs sitting in old milk crates. Ripped commercial carpeting. Water stained ceilings. The passion and attitude of its oh-so-New-York-salesstaff. J&R was a branding goldmine and will remain forever in our hearts.",
     folderName: "j_and_r",
     hero: "j_and_r_5.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
     ],  
@@ -836,7 +837,7 @@ const projects = [
     description: "While doing our watch on the legendary Time red border campaign, we decided to take it to the streets – bringing Time’s social commentary literally everywhere. Storefronts. Building sides. Construction sites. Yet it was this piece that got people talking, including David Letterman who complained about the traffic on the West Side Highway saying, “Every commuter slows to look at this blasted billboard.”",
     folderName: "time",
     hero: "time_3.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "ECD, Fallon NY",
       "Cannes Gold Lion",
@@ -858,7 +859,7 @@ const projects = [
     description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the U.S. launch of the MINI.`,
     folderName: "mini",
     hero: "mini_16.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Writer, CP+B",
       "One Show Best of Show",
@@ -906,7 +907,7 @@ const projects = [
     description: "Unlike its new crop of sexy competitors, Bell had been around for 66 years. Painstakingly handcrafted from metal type cast on an old timey letterpress, our campaign aimed to tell the company’s story – listing its deep generational roots as America’s most trusted helmet. After all, with that kind of staying power, the folks at Bell obviously know a thing or two about survival.",
     folderName: "bell",
     hero: "bell_3.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Writer, CP+B",
       "One Show Gold",
@@ -933,7 +934,7 @@ const projects = [
     description: "Suggesting that people have an unnatural attachment to their furniture takes guts, especially when it’s the first ad announcing the U.S. arrival of Ikea. Lamp may well be “the best rug-pull in advertising history” (Adweek, 2017). It’s also a shining example of what can happen when everything goes right from strategy through production. And if you disagree, that is because you’re, well, y’know.",
     folderName: "ikea",
     hero: "header_1.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Writer, CP+B",
       "Winner of the Cannes Grand Prix and Grand Clio",
@@ -953,8 +954,8 @@ const projects = [
     description: "As the seven-foot sacks piled up by the hundreds outside Phillip Morris, a horrified woman approached and asked what was going on. We shared with her the idea behind ‘Truth’ and she stared at us blankly. She said, “My sister died of lung cancer. Do you mind if I carry one of those bags?” For many, ‘Truth’ was life changing. Especially those of us who had the privilege of working on this campaign.",
     folderName: "truth",
     hero: "truth_4.jpg",
-    services: [
-      "WRITER, CP+B",
+    meta: [
+      "Writer, CP+B",
       "AdAge Magazine’s 15 Best Campaigns of the 21st Century",
     ],
     awards: [],
@@ -984,7 +985,7 @@ const projects = [
     description: "There’s a school of thought that says advertising has to be all about the customer, all the time. Nah, that’s silly. Product benefits can easily be expressed with a powerful statement about what your company stands for. So go ahead and beat your chest. Prattle on. Make it all about you. Just do it in a way that people want to hear.",
     folderName: "gt",
     hero: "gt_4.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Writer, CP+B",
       "Cannes Gold",
@@ -1018,7 +1019,7 @@ const projects = [
     description: "When going downhill in a mudslide, you are told to genty accelerate your Land Rover, even when every bone in your body is telling you to brake. It’s counterintuitive. And so were the concepts in this long running ad campaign. A vehicle covered in mud? Pelted with snowballs? In an industry that glamorizes sheet metal, this campaign dared to focus on the most glamorous thing a product can be. Honest.",
     folderName: "land_rover",
     hero: "landrover_3.jpg",
-    services: [
+    meta: [
       "Ari Merkin",
       "Writer",
       "Grace and Rothschild",
@@ -1041,7 +1042,7 @@ const projects = [
     description: "Great headline writing can involve a single, powerful thought. A flip on the usual. A word play or turn of phrase. For our friends at the 5th Avenue Stamp Gallery, a great headline was the funniest thing that could possibly be said at the intersection of celebrity and stamp. The result was a sales boost for our client. And thanks to its multi-year winning streak at the One Show, an ego boost for us.",
     folderName: "stamps",
     hero: "stamps_2.jpg",
-    services: [
+    meta: [
       "One Show Gold",
     ],
     content: [

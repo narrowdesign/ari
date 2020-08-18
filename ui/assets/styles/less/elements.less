@@ -8,7 +8,7 @@
   background-image: url(../../images/common/grain.png);
   opacity: 0;
   pointer-events: none;
-  transition: 1s;
+  // transition: 1s;
   background-size: 50%;
 }
 .jsCover {
@@ -67,7 +67,7 @@
 
 .jsHome {
   .Header {
-    @media (min-width: 500px) and (max-width: 959px) {
+    @media (min-width: 500px) and (max-width: 799px) {
       padding-bottom: 2rem !important;
     }
   }
@@ -195,7 +195,7 @@
 .jsNewsRow {
   display: grid;
 
-  @media (min-width: 960px) {
+  @media (min-width: 800px) {
     grid-template-columns: repeat(3, 1fr);
   }
   gap: 2vw;
@@ -206,7 +206,7 @@
   font-size: calc(26px + (33 - 26) * (100vw - 300px) / (960 - 300));
     line-height: 1.25;
 
-    @media (min-width: 960px) {
+    @media (min-width: 800px) {
       font-size: calc(28px + (36 - 28) * (100vw - 960px) / (1680 - 960));
     }
 }
@@ -248,7 +248,7 @@
 }
 
 .jsClientLogo {
-  @media(max-width: 959px) {
+  @media(max-width: 799px) {
     &:nth-of-type(3n) {
       img {
         border-right: none;
@@ -261,7 +261,7 @@
       }
     }
   }
-  @media(min-width: 960px) {
+  @media(min-width: 800px) {
     &:nth-of-type(5n) {
       img {
         border-right: none;
@@ -291,6 +291,7 @@
   background: white;
   text-align: center;
   opacity: 0;
+  padding-top: calc(72px + (134 - 72) * (100vw - 400px) / (1680 - 400));
 }
 
 .jsProject__x {

@@ -94,10 +94,6 @@ const projects = [
       },
       {
         type: "image",
-        src: "pattern_1.jpg"
-      },
-      {
-        type: "image",
         src: "print_1.jpg"
       },
       {
@@ -178,7 +174,7 @@ const projects = [
     ],
   },
   {
-    clientName: "Binx “Stay Sexy”",
+    clientName: "Binx",
     saySomething: "Provocative",
     description: "Sexually transmitted diseases on college campuses are spreading in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx easy, at-home test as a personal hygiene product – encouraging young men and women to check themselves even before they (sex metaphor here).",
     folderName: "binx",
@@ -260,7 +256,7 @@ const projects = [
     saySomething: "Heartbreaking",
     description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor's Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many, many others.",
     folderName: "face_the_music",
-    hero: "header_1.jpg",
+    hero: "",
     metaFooter: [
       "Brand Messaging","Script Writing","Production And Post Production","Digital & Media Strategy",
     ],
@@ -492,35 +488,39 @@ const projects = [
     saySomething: "Necessary",
     description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own, Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
     folderName: "say",
-    hero: "header_1.jpg",
+    hero: "say_hero.jpg",
     metaFooter: [
-      "Naming","Logo","Id System Design","Brand Messaging","Go To Market Strategy","Creative Development","E-Commerce Website","Social Media Management",
+      "Naming","Logo","Id System Design","Brand Messaging","Go To Market Strategy","Creative Development","<nobr>E-Commerce</nobr> Website","Social Media Management",
     ],
     awards: [],
     content: [
       {
         type: "image",
-        src: "logos_1.jpg",
+        src: "say_1.jpg",
       },
       {
         type: "image",
-        src: ["hangtag_1.jpg", "headline_1.jpg"],
+        src: ["say_2.jpg","say_3.jpg","say_4.jpg"],
       },
       {
         type: "image",
-        src: ["fluff_1.jpg", "model_1.jpg"],
+        src: ["say_5.jpg","say_6.jpg","say_7.jpg"],
       },
       {
         type: "image",
-        src: ["headline_2.jpg", "hanger_1.jpg"],
+        src: "say_8.jpg",
       },
       {
         type: "image",
-        src: ["model_2.jpg", "thindown_1.jpg"],
+        src: ["say_9.jpg","say_10.jpg","say_11.jpg"],
       },
       {
         type: "image",
-        src: "video.jpg",
+        src: ["say_12.jpg","say_13.jpg","say_14.jpg"],
+      },
+      {
+        type: "image",
+        src: "say_15.jpg",
       },
     ],
   },
@@ -529,7 +529,7 @@ const projects = [
     saySomething: "<nobr>Non-Corporate</nobr>",
     description: "No matter how good the plan, cell phone companies are getting the better end of the deal. So it’s no wonder audiences were numb to the endless barrage of incentives. This was the insight that drove our Virgin Mobile campaign centered around real, honest to goodness benefits. We said: Most cell phones take advantage of customers. At Virgin Mobile we let you take advantage of us.",
     folderName: "virgin_mobile",
-    hero: "header_1.jpg",
+    hero: "",
     meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
@@ -562,7 +562,7 @@ const projects = [
     saySomething: "Inclusive",
     description: "For over 150 years, MetLife had been working to make sure everyone had access to health insurance. Yet the company was known more for Charles Schultz’s Peanuts characters than its own historic and powerful intentions. It was time to widen the cartoon universe and give the company the voice it deserved. For the first time in its history, MetLife was headed to the Superbowl.",
     folderName: "metlife_1",
-    hero: "header_1.jpg",
+    hero: "",
     meta: [
       "Ari Merkin, Writer, ECD",
       "CP+B",
@@ -586,7 +586,7 @@ const projects = [
     saySomething: "Surprising",
     description: "Video games based on movies that are based on comic books tend to, well, suck. Our friends at Activision challenged us to convince cynical gamers that the first person gameplay of “Wolverine” would exceed their expectations. Shot in a Mexican prison, this film showcases the realistic, rated M for mature, violent nature of the game – featuring in-camera action sequences in the POV of its title character.",
     folderName: "activision",
-    hero: "header_1.jpg",
+    hero: "",
     meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
@@ -594,6 +594,7 @@ const projects = [
     content: [
       {
         title: "Wolverine",
+        type: "video",
         src: "https://player.vimeo.com/video/79699295",
       },
     ],
@@ -602,7 +603,7 @@ const projects = [
     clientName: "Hanes",
     saySomething: "Chill",
     folderName: "hanes",
-    hero: "header_1.jpg",
+    hero: "",
     description: "Michael Jordan is one of the most famous athletes of all time. Yet for some reason, we were just as excited to work with Facebook Canvas. When we were approached to direct this interactive mobile experience for Hanes and 360i, we jumped at the chance. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself.",
     metaFooter: [
       "Film Direction",
@@ -620,7 +621,7 @@ const projects = [
     saySomething: "Reassuring",
     description: "What do those reviews really mean? That was the question to answer for TripAdvisor’s first global brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations – leading to more video production, mass media spending and an exclusive CMO performance of “Rapper’s Delight” during a six-hour car ride from Croatia to Slovenia.",
     folderName: "tripadvisor",
-    hero: "header_1.jpg",
+    hero: "",
     metaFooter: [
       "Strategy","Positioning","Brand Messaging","Creative Development","Video & Post Production",
     ],
@@ -690,13 +691,14 @@ const projects = [
     awards: [],
     content: [
       {
-        type: "image",
-        src: "elf_2.jpg",
-      },
-      {
         type: "video",
         title: "elf",
+        aspect: "3_4",
         src: "https://player.vimeo.com/video/444890779",
+      },
+      {
+        type: "image",
+        src: "elf_2.jpg",
       },
       {
         type: "image",
@@ -725,7 +727,7 @@ const projects = [
     saySomething: "Motivational",
     description: "“Glen” was presented standing on a conference table at Pepsi (Starbucks distributor). We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
     folderName: "starbucks",
-    hero: "header_1.jpg",
+    hero: "",
     meta: [
       "Ari Merkin",
       "ECD, Fallon NY",
@@ -744,7 +746,7 @@ const projects = [
     saySomething: "Outrageous",
     description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
     folderName: "extended_stay_hotels",
-    hero: "header_1.jpg",
+    hero: "",
     meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
@@ -757,30 +759,30 @@ const projects = [
       }
     ]
   },
-  {
-    clientName: "PDFK",
-    saySomething: "Instructive",
-    description: "It was a simple observation about parents and kids. We’re all the same age. We listen to the same music. We watch the same shows. We even shop at the same clothing stores our kids do. So when our friends at PDFK were looking for a campaign to help parents respond to a culture of acceptance around marijuana use, we brought our observation to life in a way that seemed to truly resonate. DRUG FREE AMERICA",
-    folderName: "pdfk",
-    hero: "header_1.jpg",
-    meta: [
-      "Ari Merkin",
-      "Co-Founder, CCO TOY NY",
-    ],
-    content: [
-      {
-        type: "video",
-        title: "Closet",
-        src: "https://player.vimeo.com/video/397969499",
-      },
-      {
-        type: "video",
-        title: "Couch",
-        src: "https://player.vimeo.com/video/397969756",
-      },
-    ]
+  // {
+  //   clientName: "PDFK",
+  //   saySomething: "Instructive",
+  //   description: "It was a simple observation about parents and kids. We’re all the same age. We listen to the same music. We watch the same shows. We even shop at the same clothing stores our kids do. So when our friends at PDFK were looking for a campaign to help parents respond to a culture of acceptance around marijuana use, we brought our observation to life in a way that seemed to truly resonate. DRUG FREE AMERICA",
+  //   folderName: "pdfk",
+  //   hero: "",
+  //   meta: [
+  //     "Ari Merkin",
+  //     "Co-Founder, CCO TOY NY",
+  //   ],
+  //   content: [
+  //     {
+  //       type: "video",
+  //       title: "Closet",
+  //       src: "https://player.vimeo.com/video/397969499",
+  //     },
+  //     {
+  //       type: "video",
+  //       title: "Couch",
+  //       src: "https://player.vimeo.com/video/397969756",
+  //     },
+  //   ]
   
-  },
+  // },
   {
     clientName: "J&R",
     saySomething: "Authentic",
@@ -857,7 +859,7 @@ const projects = [
     saySomething: "Big",
     description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the U.S. launch of the MINI.`,
     folderName: "mini",
-    hero: "mini_16.jpg",
+    hero: "mini_2.jpg",
     meta: [
       "Ari Merkin",
       "Writer, CP+B",
@@ -887,7 +889,7 @@ const projects = [
       },
       {
         type: "image",
-        src: "mini_2.jpg",
+        src: "mini_16.jpg",
       },
       {
         type: "image",
@@ -932,7 +934,7 @@ const projects = [
     saySomething: "Crazy",
     description: "Suggesting that people have an unnatural attachment to their furniture takes guts, especially when it’s the first ad announcing the U.S. arrival of Ikea. Lamp may well be “the best rug-pull in advertising history” (Adweek, 2017). It’s also a shining example of what can happen when everything goes right from strategy through production. And if you disagree, that is because you’re, well, y’know.",
     folderName: "ikea",
-    hero: "header_1.jpg",
+    hero: "",
     meta: [
       "Ari Merkin",
       "Writer, CP+B",
@@ -1064,7 +1066,7 @@ const projects = [
   //   title: "Say something",
   //   description: "",
   //   folderName: "past_hits",
-  //   hero: "header_1.jpg",
+  //   hero: "",
   //   metaFooter: [
   //     "Ari Merkin",
   //     "ECD, Fallon NY",

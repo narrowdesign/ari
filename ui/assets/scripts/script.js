@@ -6,6 +6,8 @@ let _winW = 0; // width of the window
 let _winH = 0;
 let smallScreen; // boolean for < 960px
 let mouseX = 0;
+let vidPadding = 'p-t-vid';
+let isResizing = false;
 
 let currentSection;
 let currentPerson;
@@ -24,6 +26,8 @@ let storyTops;
 let clientTops;
 
 let scrollTimeout;
+let resizeTimeout;
+let initialResize = true;
 
 let isPaused = false;
 
@@ -266,7 +270,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     })
   }
   function scrollHandler(e) {
-    if (isProjectOpen) return;
+    if (isProjectOpen && !isResizing) return;
     
     clearTimeout(scrollTimeout);
     scrollTimeout = setTimeout(() => {
@@ -403,21 +407,24 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
           const layout = item.layout ? item.layout : item.src.length;
           projectHTML += `<div class="jsProjectImageRow d-g grid-${layout} gap-2vw">`
           for (let i=0; i < item.src.length; i++) {
-            projectHTML += `<div class="jsProjectImage pos-r d-b m-t-2vw"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
+            projectHTML += `<div class="jsProjectImage pos-r d-b m-b-2vw"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
           }
           projectHTML += `</div>`;
         } else {
-          projectHTML = `<div class="jsProjectImage pos-r d-b w-100p m-t-2vw"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`;
+          projectHTML = `<div class="jsProjectImage pos-r d-b w-100p m-b-2vw"><img src=${folder}${item.src} class="pos-r d-b w-100p"></div>`;
         }
       } else if (item.type === "slideshow") {
         isSlideShow = true;
-        projectHTML += `<div class="jsProjectSlideshow m-t-2vw pos-r">`
+        projectHTML += `<div class="jsProjectSlideshow m-b-2vw pos-r">`
         for (let i=0; i < item.src.length; i++) {
           projectHTML += `<div class="jsProjectImage ${i === 0 ? 'pos-r' : 'pos-a'} d-b t-0 l-0"><img src=${folder}${item.src[i]} class="pos-r d-b w-100p"></div>`;
         }
         projectHTML += `</div>`;
       } else if (item.type === "video") {
-        projectHTML += `<div class="pos-r jsProjectImage w-100p p-t-vid m-t-2vw">
+        if (item.aspect && item.aspect === '3_4') {
+          vidPadding = 'p-t-vid-3-4'
+        }
+        projectHTML += `<div class="pos-r jsProjectImage w-100p ${vidPadding} m-b-2vw">
           <iframe class="jsProject__video pos-a l-0 t-0 w-100p h-100p" src="${item.src}?api=1&title=0&portrait=0&byline=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>`
       } else if (item.type === "title") {
@@ -511,5 +518,26 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     logoHeight = $('.jsAri').height();
     logoShrinkage = Math.min(.8, .4 + _winW / 1680 * .55);
     scrollFraction = .002 * (1680 / _winW);
+
+    if (!initialResize) {
+      isResizing = true;
+      $('.jsGrain').css({
+        position: 'fixed',
+        transition: 'none',
+        height: 0,
+      })
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        const scrollHeight = document.scrollingElement.scrollHeight;
+        $('.jsGrain').css({
+          position: 'absolute',
+          transition: 'none',
+          height: scrollHeight
+        })
+        isResizing = false;
+      }, 200)
+    }
+    
+    initialResize = false;
   }
 })

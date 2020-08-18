@@ -38,13 +38,14 @@ const buzz = [
     link: "https://www.fastcompany.com/90322424/chobanis-secret-ingredient-for-backing-new-food-companies",
     image: "press_6.jpg",
     source: "Fast Company",
-    title: "Mewe Article",
+    title: "Chobani Selects MeWe",
     description: "https://www.fastcompany.com/90322424/chobanis-secret-ingredient-for-backing-new-food-companies",
   },
   {
     link: "http://shoutengine.com/IOFAwithAaronStarkman",
     image: "press_7.jpg",
-    title: "It<span class='apostrophe'>’</span>s Only F*In Advertising Podcast",
+    source: "IOFA",
+    title: "Ari Merkin Podcast",
     description: "Ari takes a walk down memory lane with Aaron Starkman on Adweek’s Podcast of the Year. Aptly named, It’s Only Fuckin’ Advertising. Enjoy.",
   },
 

@@ -424,8 +424,9 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         if (item.aspect && item.aspect === '3_4') {
           vidPadding = 'p-t-vid-3-4'
         }
+        const autoplay = item.autoplay ? 'autoplay=1&loop=1&background=1' : '&autoplay=0';
         projectHTML += `<div class="pos-r jsProjectImage w-100p ${vidPadding} m-b-2vw">
-          <iframe class="jsProject__video pos-a l-0 t-0 w-100p h-100p" src="${item.src}?api=1&title=0&portrait=0&byline=0&autoplay=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <iframe class="jsProject__video pos-a l-0 t-0 w-100p h-100p" src="${item.src}?api=1&title=0&portrait=0&byline=0${autoplay}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>`
       } else if (item.type === "title") {
         projectHTML += `<div class="pos-r fx-c j-c-center a-i-center t-a-c a-i-start m-t-3">

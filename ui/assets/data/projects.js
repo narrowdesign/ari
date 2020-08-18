@@ -318,8 +318,10 @@ const projects = [
         src: "logos_1.jpg",
       },
       {
-        type: "image",
-        src: "video.jpg",
+        type: "video",
+        autoplay: true,
+        title: "man",
+        src: "https://player.vimeo.com/video/448925255",
       },
       {
         type: "image",

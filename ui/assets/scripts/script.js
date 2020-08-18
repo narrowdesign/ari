@@ -387,7 +387,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     }
     $('.jsProject').scrollTop(0);
     $('.jsProject__client').html(clientName);
-    $('.jsProject__title').html(`Say something ${title}`);
+    $('.jsProject__title').html(`Say Something ${title}`);
     $('.jsProject__description').html(description);
     $('.jsProject__content').html('');
 

@@ -526,20 +526,26 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       isResizing = true;
       $('.jsGrain').css({
         position: 'fixed',
-        transition: 'none',
-        height: 0,
+        transition: '0s',
       })
       clearTimeout(resizeTimeout);
       resizeTimeout = setTimeout(() => {
-        const scrollHeight = document.scrollingElement.scrollHeight;
-        $('.jsGrain').css({
-          position: 'absolute',
-          transition: 'none',
-          height: scrollHeight
-        })
+        
+        setTimeout(() => {
+          const scrollHeight = document.scrollingElement.scrollHeight;
+          $('.jsGrain').css({
+            position: 'absolute',
+            transition: '0s',
+            height: scrollHeight
+          })
+        }, 500)
         isResizing = false;
+        
       }, 200)
     }
+    window.addEventListener('click', () => {
+      console.log(document.scrollingElement.scrollHeight)
+    })
     
     initialResize = false;
   }

@@ -364,6 +364,11 @@ const projects = [
     awards: [],
     content: [
       {
+        title: "Surgery",
+        type: "video",
+        src: "https://player.vimeo.com/video/141049242",
+      },
+      {
         title: "Cafeteria",
         type: "video",
         src: "https://player.vimeo.com/video/143286300",
@@ -372,11 +377,6 @@ const projects = [
         title: "Communication",
         type: "video",
         src: "https://player.vimeo.com/video/156785219",
-      },
-      {
-        title: "Surgery",
-        type: "video",
-        src: "https://player.vimeo.com/video/141049242",
       },
       {
         title: "Testimonial",
@@ -739,6 +739,7 @@ const projects = [
       {
         type: "video",
         title: "Glen",
+        aspect: "3_4",
         src: "https://player.vimeo.com/video/79852065",
       }
     ]
@@ -1051,15 +1052,15 @@ const projects = [
     content: [
       {
         type: "image",
-        src: ["stamps_5.jpg","stamps_6.jpg"],
+        src: ["stamps_6.jpg","stamps_4.jpg"],
       },
       {
         type: "image",
-        src: ["stamps_1.jpg","stamps_2.jpg"],
+        src: ["stamps_1.jpg","stamps_5.jpg"],
       },
       {
         type: "image",
-        src: ["stamps_3.jpg","stamps_4.jpg"],
+        src: ["stamps_3.jpg","stamps_2.jpg"],
       },
     ]
   },

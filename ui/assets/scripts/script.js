@@ -423,6 +423,8 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       } else if (item.type === "video") {
         if (item.aspect && item.aspect === '3_4') {
           vidPadding = 'p-t-vid-3-4'
+        } else {
+          vidPadding = 'p-t-vid';
         }
         const autoplay = item.autoplay ? 'autoplay=1&loop=1&background=1' : '&autoplay=0';
         projectHTML += `<div class="pos-r jsProjectImage w-100p ${vidPadding} m-b-2vw">

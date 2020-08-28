@@ -345,7 +345,7 @@ const projects = [
   {
     clientName: "Athenahealth",
     saySomething: "Honest",
-    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve for that, he also understood that an empathetic approach would mean more to providers than empty promises. We created “Let doctors be doctors.“ This purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
+    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve for that, he also understood that an empathetic approach would mean more to providers than empty promises. We created “Let doctors be doctors.” This purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
     metaFooter: [

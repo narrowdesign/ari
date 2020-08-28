@@ -655,8 +655,8 @@ const projects = [
       "Social Media Creative Development",
       "Experiential Marketing",
       "Event Marketing",
-      "Video Production & Post",
-      "Video Direction",
+      "Video & Post Production",
+      "Film Direction",
     ],
     awards: [],
     content: [

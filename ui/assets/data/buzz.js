@@ -45,7 +45,7 @@ const buzz = [
     link: "http://shoutengine.com/IOFAwithAaronStarkman",
     image: "press_7.jpg",
     source: "IOFA",
-    title: "Ari Merkin Podcast",
+    title: "Podcast Guest",
     description: "Ari takes a walk down memory lane with Aaron Starkman on Adweek’s Podcast of the Year. Aptly named, It’s Only Fuckin’ Advertising. Enjoy.",
   },
 

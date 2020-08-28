@@ -15,7 +15,8 @@ const projects = [
     metaFooter: [
       "Strategy",
       "Creative Development",
-      "Video And Print Production",
+      "Video, Post & Print Production",
+      "Social Content",
     ],
     awards: [],
     content: [
@@ -61,7 +62,7 @@ const projects = [
       "Pr Kit",
       "Social Content",
       "Investor Materials",
-      "Trade Show Booth",
+      "Trade Show Booths",
     ],
     awards: [],
     content: [
@@ -125,7 +126,7 @@ const projects = [
   {
     clientName: "Elmhurst",
     saySomething: "Competitive",
-    description: "Our friends at Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things too, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. One that could show plant-based fans what its outspoken CEO had known all along: simpler is better.",
+    description: "Our friends at Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things either, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. One that could show plant-based fans what its outspoken CEO had known all along: simpler is better.",
     folderName: "elmhurst",
     hero: "ooh_1.jpg",
     metaFooter: [
@@ -133,7 +134,7 @@ const projects = [
       "Positioning",
       "Brand Messaging",
       "Creative Development",
-      "Video Production"
+      "Video & Post Production"
     ],
     awards: [],
     content: [
@@ -176,7 +177,7 @@ const projects = [
   {
     clientName: "Binx",
     saySomething: "Provocative",
-    description: "Sexually transmitted diseases on college campuses are spreading in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx easy, at-home test as a personal hygiene product – encouraging young men and women to check themselves even before they (sex metaphor here).",
+    description: "Sexually transmitted diseases on college campuses are spreading in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx easy, at-home test as a personal hygiene product – encouraging young men and women to check themselves even before they (sex metaphor goes here).",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
     metaFooter: [
@@ -226,6 +227,7 @@ const projects = [
       "Brand Platform",
       "Logo & Brand Id",
       "Creative Development",
+      "Social Content",
     ],
     awards: [],
     content: [
@@ -282,7 +284,7 @@ const projects = [
     metaFooter: [
       "Brand Messaging",
       "Creative Development",
-      "Video Production And Post Production",
+      "Production And Post Production",
     ],
     awards: [],
     content: [
@@ -302,7 +304,6 @@ const projects = [
     metaFooter: [
       "Strategy",
       "Positioning",
-      "Logo",
       "Id System Design",
       "Brand Messaging",
       "Creative Development",
@@ -344,7 +345,7 @@ const projects = [
   {
     clientName: "Athenahealth",
     saySomething: "Honest",
-    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve that, he also understood that empathy would mean more to providers than empty promises. We created “Let doctors be doctors.“ The purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
+    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve for that, he also understood that an empathetic approach would mean more to providers than empty promises. We created “Let doctors be doctors.“ This purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
     metaFooter: [
@@ -356,8 +357,7 @@ const projects = [
       "Websites",
       "Direct Mail",
       "Film Direction",
-      "Video Production",
-      "Video Direction",
+      "Video & Post Production",
       "Trade Show Booth",
       "Content Creation",
     ],
@@ -413,13 +413,12 @@ const projects = [
   {
     clientName: "Recovery Unplugged",
     saySomething: "Empowering",
-    description: "Our dear friend, Recovery Unplugged CEO, Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we created a simple mantra for those coping with this complicated problem: What track are you on?",
+    description: "Our dear friend, Recovery Unplugged CEO, Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we asked a simple question of those coping with the complicated issues of addiction: What track are you on?",
     folderName: "recovery_unplugged",
     hero: "recovery_unplugged_busshelter_1.jpg",
     metaFooter: [
       "Strategy",
       "Positioning",
-      "Logo",
       "Id System Design",
       "Brand Messaging",
       "Creative Development",

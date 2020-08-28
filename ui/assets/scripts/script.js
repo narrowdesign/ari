@@ -171,7 +171,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         }
 
         buzzThumbsHTML += `<div class="jsThumbnail pos-r w-100p p-t-100p ov-h t-a-c op-0">
-          <a href="${item.link}" targt="_blank">
+          <a href="${item.link}" target="_blank">
             <img src="${folder}${item.image}" class="image-fit center-hv pos-a h-100p t-0 l-0" />
             <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2 gray">
               <div class="jsThumbnail__client f-s-m">${item.source}</div>
@@ -383,6 +383,9 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
         display: "block"
       })
     } else {
+      $('.jsProject__hero img').css({
+        display: "none"
+      })
       $('.jsProject__hero').html('');
     }
     $('.jsProject').scrollTop(0);
@@ -392,10 +395,18 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $('.jsProject__content').html('');
 
     if (meta) {
+      $('.jsProject__metaContainer').css({display: 'block'})
       $('.jsProject__meta').html(meta.join(' | '));
+    } else {
+      $('.jsProject__metaContainer').css({display: 'none'})
+      $('.jsProject__meta').html('');
     }
     if (metaFooter) {
+      $('.jsProject__metaFooter').css({display: 'block'})
       $('.jsProject__metaFooter').html(metaFooter.join(' | '));
+    } else {
+      $('.jsProject__metaFooter').css({display: 'none'})
+      $('.jsProject__metaFooter').html('');
     }
     
     $.each(content, function(i){
@@ -447,8 +458,10 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       }
       if (project.hero === "" && i === 0) {
         $('.jsProject__hero').append(projectHTML);
+        $('.jsProject__content').css({display: 'none'})
       } else {
         $('.jsProject__content').append(projectHTML);
+        $('.jsProject__content').css({display: 'block'})
       }
       if (isSlideShow) {
         startSlideShow();

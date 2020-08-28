@@ -588,6 +588,11 @@ const projects = [
     description: "Video games based on movies that are based on comic books tend to, well, suck. Our friends at Activision challenged us to convince cynical gamers that the first person gameplay of “Wolverine” would exceed their expectations. Shot in a Mexican prison, this film showcases the realistic, rated M for mature, violent nature of the game – featuring in-camera action sequences in the POV of its title character.",
     folderName: "activision",
     hero: "",
+    meta: [
+      "Ari Merkin",
+      "Co-Founder, CCO TOY NY",
+    ],
+
     content: [
       {
         title: "Wolverine",

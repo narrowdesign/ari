@@ -688,7 +688,7 @@ const projects = [
       "Co-Founder, CCO TOY NY",
     ],
     metaFooter: [
-      `“Best Ever Social Media Campaigns” - Forbes, 2010<br><br>“Arguably the Most Successful Viral Campaign in History.” - The Age, 2013`
+      `“Best Ever Social Media Campaigns” - Forbes, 2010<br>“Arguably the Most Successful Viral Campaign in History.” - The Age, 2013`
     ],
     awards: [],
     content: [

@@ -256,7 +256,7 @@ const projects = [
   {
     clientName: "Face The Music",
     saySomething: "Heartbreaking",
-    description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor's Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many, many others.",
+    description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor's Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many others. Warning: “I Got This” isn’t easy viewing.",
     folderName: "face_the_music",
     hero: "",
     metaFooter: [
@@ -278,7 +278,7 @@ const projects = [
   {
     clientName: "Metlife",
     saySomething: "Unifying",
-    description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it a violation of Ari’s non-compete (kidding).",
+    description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of Ari’s non-compete (kidding).",
     folderName: "metlife_2",
     hero: "",
     metaFooter: [
@@ -298,7 +298,7 @@ const projects = [
   {
     clientName: "Thindown",
     saySomething: "Game Changing",
-    description: "Thin was in and the demand for down had never been greater. Yet the process of using down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. Time to give voice to the world’s first and only fully seamless down fabric.",
+    description: "Thin was in, and the demand for down had never been greater. Yet the process of using down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. Time to give voice to the world’s first and only fully seamless down fabric.",
     folderName: "thindown",
     hero: "header_1.jpg",
     metaFooter: [
@@ -345,7 +345,7 @@ const projects = [
   {
     clientName: "Athenahealth",
     saySomething: "Honest",
-    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve for that, he also understood that an empathetic approach would mean more to providers than empty promises. We created “Let doctors be doctors.” This purpose driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
+    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve for that, he also understood that an empathetic approach would mean more to providers than empty promises. We created “Let doctors be doctors.” This purpose-driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
     metaFooter: [
@@ -413,7 +413,7 @@ const projects = [
   {
     clientName: "Recovery Unplugged",
     saySomething: "Empowering",
-    description: "Our dear friend, Recovery Unplugged CEO, Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we asked a simple question of those coping with the complicated issues of addiction: What track are you on?",
+    description: "Our dear friend, Recovery Unplugged CEO Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we asked a simple question of those coping with the complicated issues of addiction: What track are you on?",
     folderName: "recovery_unplugged",
     hero: "recovery_unplugged_busshelter_1.jpg",
     metaFooter: [
@@ -487,7 +487,7 @@ const projects = [
   {
     clientName: "Say & Company",
     saySomething: "Necessary",
-    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own, Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
+    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own: Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
     folderName: "say",
     hero: "say_hero.jpg",
     metaFooter: [
@@ -727,7 +727,7 @@ const projects = [
   {
     clientName: "Starbucks",
     saySomething: "Motivational",
-    description: "“Glen” was presented standing on a conference table at Pepsi (Starbucks distributor). We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
+    description: "We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers’ convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
     folderName: "starbucks",
     hero: "",
     meta: [
@@ -860,7 +860,7 @@ const projects = [
   {
     clientName: "MINI",
     saySomething: "Big",
-    description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the U.S. launch of the MINI.`,
+    description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the US launch of the MINI.`,
     folderName: "mini",
     hero: "mini_2.jpg",
     meta: [
@@ -908,7 +908,7 @@ const projects = [
   {
     clientName: "Bell",
     saySomething: "Historical",
-    description: "Unlike its new crop of sexy competitors, Bell had been around for 66 years. Painstakingly handcrafted from metal type cast on an old timey letterpress, our campaign aimed to tell the company’s story – listing its deep generational roots as America’s most trusted helmet. After all, with that kind of staying power, the folks at Bell obviously know a thing or two about survival.",
+    description: "Unlike its new crop of sexy competitors, Bell had been around for 66 years. Painstakingly handcrafted from metal-type cast on an old timey letterpress, our campaign aimed to tell the company’s story – listing its deep generational roots as America’s most trusted helmet. After all, with that kind of staying power, the folks at Bell obviously know a thing or two about survival.",
     folderName: "bell",
     hero: "bell_3.jpg",
     meta: [
@@ -935,7 +935,7 @@ const projects = [
   {
     clientName: "Ikea",
     saySomething: "Crazy",
-    description: "Suggesting that people have an unnatural attachment to their furniture takes guts, especially when it’s the first ad announcing the U.S. arrival of Ikea. Lamp may well be “the best rug-pull in advertising history” (Adweek, 2017). It’s also a shining example of what can happen when everything goes right from strategy through production. And if you disagree, that is because you’re, well, y’know.",
+    description: "Suggesting that people have an unnatural attachment to their furniture takes guts, especially when it’s the first ad announcing the US arrival of Ikea. Lamp may well be “the best rug-pull in advertising history” (Adweek, 2017). It’s also a shining example of what can happen when everything goes right from strategy through production. And if you disagree, that is because you’re, well, y’know.",
     folderName: "ikea",
     hero: "",
     meta: [
@@ -955,7 +955,7 @@ const projects = [
   {
     clientName: "Truth",
     saySomething: "Rebellious",
-    description: "As the seven-foot sacks piled up by the hundreds outside Phillip Morris, a horrified woman approached and asked what was going on. We shared with her the idea behind ‘Truth’ and she stared at us blankly. She said, “My sister died of lung cancer. Do you mind if I carry one of those bags?” For many, ‘Truth’ was life changing. Especially those of us who had the privilege of working on this campaign.",
+    description: "As the seven-foot sacks piled up by the hundreds outside Phillip Morris, a horrified woman approached and asked what was going on. We shared with her the idea behind ‘Truth’, and she stared at us blankly. She said, “My sister died of lung cancer. Do you mind if I carry one of those bags?” For many, ‘Truth’ was life changing. Especially those of us who had the privilege of working on this campaign.",
     folderName: "truth",
     hero: "truth_4.jpg",
     meta: [

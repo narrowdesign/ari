@@ -520,7 +520,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
 
   function resizeHandler () { // Set the size of images and preload them
     _winW = window.innerWidth;
-    _winH = window.innerHeight;
+    _winH = window.clientHeight;
     revealBuffer = 230;
     if(_winW > 960){
       smallScreen = false;

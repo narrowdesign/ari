@@ -5753,6 +5753,9 @@ th {
 .jsAri {
   background: #33222215;
 }
+.jsAri img {
+  height: 40.48vw;
+}
 .jsAri:after {
   content: '';
   position: absolute;

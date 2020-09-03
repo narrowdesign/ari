@@ -16,24 +16,24 @@ const people = [
       bio: "The formerly CP+B, McKinney, Sandstrom, Republik, West & Vaughan creative has done it all and won it all. One Show, Cannes, D&AD, you name it. Scott’s exceptional design talents have been tapped by brands such as Nike, American Airlines, Domino’s and Virgin Atlantic. He lives in Colorado with his wife, two kids and two talented cats.",
     },
     {
+      name: "Roneet Merkin",
+      title: "Managing Partner | Friend",
+      headshot: "roneet_2.jpg",
+      throwback: "roneet_1.jpg",
+      bio: "As the Chief Operating Officer of Ari & Friends, Roneet has earned a reputation for fairness, integrity, speed, maintaining healthy business relationships and getting people paid on time. What makes that even more impressive is she balances that with her other jobs: Running the math lab at FIU, teaching Precalculus and raising four children.",
+    },
+    {
       name: "Clair Grupp",
-      title: "Executive Producer | Friend",
+      title: "Executive Producer | Frequent Friend",
       headshot: "clair_2.jpg",
       throwback: "clair_1.jpg",
       bio: "Clair is one of our industry’s most awarded integrated producers, and one of the most highly regarded. A good combo. Her guidance has been instrumental to boutique and global agencies alike. With vast production experience across all media. Clair has produced thousands of hours of film and one great filmmaker. Her son, Edwin.",
     },
     {
       name: "Nathaniel Perez",
-      title: "Digital Strategy | Friend",
+      title: "Digital Strategy | Frequent Friend",
       headshot: "nathaniel_2.jpg",
       throwback: "nathaniel_1.jpg",
       bio: "A techie at heart, Nathaniel is an all-purpose digital pioneer. A former Global Head at SapientNitro, Nathaniel has helped over 100 global brands, including Coca-Cola, MARS, Kraft, Unilever, RedBull, ESPN, BK, Sprint, AT&T, T-Mobile, Verizon, Mercedes, Carnival Cruises, BlueCross, Metlife, Citi, to name a few. Dudes got chops. ",
-    },
-    {
-      name: "Roneet Merkin",
-      title: "Managing Partner | Friend",
-      headshot: "roneet_2.jpg",
-      throwback: "roneet_1.jpg",
-      bio: "As the Chief Operating Officer of Ari & Friends, Roneet has earned a reputation for fairness, integrity, speed, maintaining healthy business relationships and getting people paid on time. What makes that even more impressive is she balances that with her other jobs: Running the math lab at FIU, teaching Precalculus and raising four children.",
     },
 ]

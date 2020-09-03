@@ -34,7 +34,7 @@ const people = [
       title: "Advisor | Frequent Friend",
       headshot: "mona_2.jpg",
       throwback: "mona_1.jpg",
-      bio: "Clair is one of our industry’s most awarded integrated producers, and one of the most highly regarded. A good combo. Her guidance has been instrumental to boutique and global agencies alike. With vast production experience across all media. Clair has produced thousands of hours of film and one great filmmaker. Her son, Edwin.",
+      bio: "Founder of MOCO Global, an advisory firm and marketing network. Mona is an experienced CMO who has held leadership positions at multi billion dollar public companies, VC backed startups, and global advertising agencies. She’s received 5 medals for running the Boston marathon and boatload more for being a fantastic mother of three.",
     },
     {
       name: "Nathaniel Perez",

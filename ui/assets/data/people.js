@@ -30,6 +30,13 @@ const people = [
       bio: "Clair is one of our industry’s most awarded integrated producers, and one of the most highly regarded. A good combo. Her guidance has been instrumental to boutique and global agencies alike. With vast production experience across all media. Clair has produced thousands of hours of film and one great filmmaker. Her son, Edwin.",
     },
     {
+      name: "Mona Marimow",
+      title: "Advisor | Frequent Friend",
+      headshot: "mona_2.jpg",
+      throwback: "mona_1.jpg",
+      bio: "Clair is one of our industry’s most awarded integrated producers, and one of the most highly regarded. A good combo. Her guidance has been instrumental to boutique and global agencies alike. With vast production experience across all media. Clair has produced thousands of hours of film and one great filmmaker. Her son, Edwin.",
+    },
+    {
       name: "Nathaniel Perez",
       title: "Digital Strategy | Frequent Friend",
       headshot: "nathaniel_2.jpg",

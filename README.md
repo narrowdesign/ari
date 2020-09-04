@@ -19,4 +19,4 @@ To force a line break in some copy, add a `<br>` tag where you want the break. T
 
 _Like this:_ 
 
-`Break right here<br>And break twice right here<br><br>Cool thanks.</nobr>`
+`Break right here<br>And break twice right here<br><br>Cool thanks!`

@@ -13,3 +13,5 @@ Like this: `<nobr>high-tech</nobr>`
 
 
 To force a line break in some copy, add a `<br>` tag where you want the break. To simulate a new paragraph, do it twice `<br><br>`
+
+Like this: `Break right here<br>And break twice right here<br><br>Cool thanks.</nobr>`

@@ -323,7 +323,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     setTimeout(() => {
       $('body').addClass('is-transitioned-' + io);
       callback();
-    }, 500);
+    }, 600);
     setTimeout(() => {
       $('body').removeClass('is-transitioned-' + io);
       $('body').removeClass('is-transitioning-' + io);

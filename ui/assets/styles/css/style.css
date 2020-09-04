@@ -6110,11 +6110,11 @@ th {
 }
 .is-transitioned-in .jsCover {
   transition: 0.5s transform cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
-  transform: translateY(calc(-100vh - 100px));
+  transform: translateY(calc(-100vh - 80px));
 }
 .is-transitioned-out .jsCover {
   transition: 0.5s transform cubic-bezier(0.59, 0.02, 0.94, 0.74) 1s;
-  transform: translateY(calc(-100vh - 100px));
+  transform: translateY(calc(-100vh - 80px));
 }
 /* Site State */
 .is-project-open {

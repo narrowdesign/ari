@@ -34,7 +34,7 @@ const people = [
       title: "Advisor | Frequent Friend",
       headshot: "mona_2.jpg",
       throwback: "mona_1.jpg",
-      bio: "Founder of MOCO Global, an advisory firm and marketing network. Mona is an experienced CMO who has held leadership positions at multi billion dollar public companies, VC backed startups, and global advertising agencies. She’s received 5 medals for running the Boston marathon and boatload more for being a fantastic mother of three.",
+      bio: "Founder of MOCO Global, an advisory firm and marketing network. Mona is an experienced CMO who has held leadership positions at multi billion dollar public companies, VC backed startups, and global advertising agencies. She’s received five medals for running the Boston marathon and a boatload more for being a fantastic mother of three.",
     },
     {
       name: "Nathaniel Perez",

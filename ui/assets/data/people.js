@@ -45,7 +45,7 @@ const people = [
     },
     {
       name: "Jersey",
-      title: "Executive Mutt | Best Friend",
+      title: "Executive Mutt | Man's Best Friend",
       headshot: "jersey_2.jpg",
       throwback: "jersey_1.jpg",
       bio: "Working from home is easy with a friend like Jersey. Though his prior experience is unknown, his gift for companionship was clear from the start. A natural in his role, Jersey has served many important functions within the company. Sit, stay and paw to name a few. When he’s not working, Jersey enjoys naps, swims and demanding snacks.",

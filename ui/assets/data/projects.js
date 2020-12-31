@@ -256,7 +256,7 @@ const projects = [
   {
     clientName: "Face The Music",
     saySomething: "Heartbreaking",
-    description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor's Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many others. Warning: “I Got This” isn’t easy viewing.",
+    description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor’s Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many others. Warning: “I Got This” isn’t easy viewing.",
     folderName: "face_the_music",
     hero: "",
     metaFooter: [

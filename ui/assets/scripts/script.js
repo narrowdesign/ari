@@ -1,6 +1,7 @@
 let scrollTop = 0; // keeps track of scroll position
 let scrollProgress = 0;
 let projectScrollTop = 0;
+let isScrolling = false;
 
 let _winW = 0; // width of the window
 let _winH = 0;
@@ -69,16 +70,16 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   // MENU EVENTS
 
   $('.jsAboutButton').on('click', () => {
-    sectionClickHandler('.jsAboutButton')
+    sectionClickHandler('.jsAboutButton', 'About')
   });
   $('.jsWorkButton').on('click', () => {
-    sectionClickHandler('.jsWorkButton')
+    sectionClickHandler('.jsWorkButton', 'Work')
   });
   $('.jsBuzzButton').on('click', () => {
-    sectionClickHandler('.jsBuzzButton')
+    sectionClickHandler('.jsBuzzButton', 'Buzz')
   });
   $('.jsContactButton').on('click', () => {
-    sectionClickHandler('.jsContactButton')
+    sectionClickHandler('.jsContactButton', 'Hello')
   });
   
   $('.jsAri').on('click', homeClickHandler);
@@ -199,12 +200,16 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   function revealStory(num) {
     $('.jsBuzz .jsThumbnail').eq(num).addClass('in');
   }
-  function logoClickHandler(e) {
+  function logoClickHandler() {
     $('body').stop();
     $('.jsMenuItem').removeClass('current');
     currentClient = null;
     currentPerson = null;
     $('body').animate({scrollTop: 400}, '1000');
+    ga('send', {
+      'hitType': 'pageview',
+      'page': `/home`
+    });
   }
 
   function homeClickHandler() {
@@ -212,9 +217,17 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       hideProject();
     }
     $('body').animate({scrollTop: 400}, '1000');
+    ga('send', {
+      'hitType': 'pageview',
+      'page': `/home`
+    });
   }
 
-  function sectionClickHandler(button) {
+  function sectionClickHandler(button, sectionName) {
+    ga('send', {
+      'hitType': 'pageview',
+      'page': `/${sectionName}`
+    });
     let delay = 0;
     let duration = 1000;
     if (isProjectOpen) {
@@ -228,7 +241,11 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $(button).addClass('active');
     currentClient = null;
     currentPerson = null;
-
+    
+    isScrolling = true;
+    setTimeout(() => {
+      isScrolling = false;
+    }, 1000)
     setTimeout(() => {
       $('body').removeClass('is-project-open');
       if (button === '.jsWorkButton') {
@@ -281,11 +298,17 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     }
     
     const oldScrollTop = scrollTop;
+    let activeButton;
     scrollTop = $('body').scrollTop();
 
-    let activeButton;
     for (let i=sectionTops.length - 1; i>=0 ;i--) {
       if (scrollTop > sectionTops[i] - _winH && !activeButton) {
+        if (!$('.jsMenuItem').eq(i).hasClass('active') && !isScrolling) {
+          ga('send', {
+            'hitType': 'pageview',
+            'page': `/${$('.jsMenuItem').eq(i)[0].innerText}`
+          });
+        };
         $('.jsMenuItem').eq(i).addClass('active');
         activeButton = i;
       } else {
@@ -375,6 +398,10 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const metaFooter = project.metaFooter;
     const folder = `${PROJECTS_IMAGE_FOLDER}${project.folderName}/`;
     const hero = `${folder}${project.hero}`;
+    ga('send', {
+      'hitType': 'pageview',
+      'page': `/projects/${clientName}}`
+    });
 
     if (project.hero !== "") {
       $('.jsProject__hero').html('<img class="w-100p" src="">');
@@ -494,16 +521,21 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       el = $('.jsContact__form input[type="checkbox"]').eq(i);
       if(el[0].checked) likeCount++;
     })
+    let type = $(this)[0].name;
     if (likeCount > 2) {
-      if ($(this)[0].name === "great") {
+      if (type === "great") {
         index = 1;
-      } else if ($(this)[0].name === "fast") {
+      } else if (type === "fast") {
         index = 2;
       } else {
         index = 0;
       }
       $('.jsContact__form input[type="checkbox"]').eq(index)[0].checked = false;
     }
+    ga('send', 'event', {
+      'eventCategory': 'Great/Fast/Cheap',
+      'eventAction': type
+    });
     // if ($(this).name)
   }
 
@@ -557,7 +589,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       }, 200)
     }
     window.addEventListener('click', () => {
-      console.log(document.scrollingElement.scrollHeight)
+      // console.log(document.scrollingElement.scrollHeight)
     })
     
     initialResize = false;

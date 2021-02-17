@@ -38,16 +38,35 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   const WIN = $(window);
   const LOGO_VIDEO = $f(document.querySelector('.jsLogo__video'));
   const PROJECTS_IMAGE_FOLDER = 'ui/assets/images/projects/';
-  const BUZZ_IMAGE_FOLDER = 'ui/assets/images/buzz/'
+  const BUZZ_IMAGE_FOLDER = 'ui/assets/images/buzz/';
 
   init();
 
   resizeHandler(); // Calculate sizes right away
+
   setTimeout(() => {
     $('body').addClass('is-loaded');
     $('.jsGrain').css({
       height: document.scrollingElement.scrollHeight
     })
+
+    if (window.location.hash) {
+      if (window.location.hash.substr(1) === 'about') {
+        sectionClickHandler('.jsAboutButton', 'About')
+      } else if (window.location.hash.substr(1) === 'work') {
+        sectionClickHandler('.jsWorkButton', 'Work')
+      } else if (window.location.hash.substr(1) === 'buzz') {
+        sectionClickHandler('.jsBuzzButton', 'Buzz')
+      } else if (window.location.hash.substr(1) === 'hello') {
+        sectionClickHandler('.jsContactButton', 'Hello')
+      } else {
+        projects.forEach((project, i) => {
+          if (window.location.hash.substr(1) === project.folderName) {
+            showProject(null, i);
+          }
+        })
+      }
+    }
   }, 1000);
 
 // EVENTS
@@ -201,6 +220,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     $('.jsBuzz .jsThumbnail').eq(num).addClass('in');
   }
   function logoClickHandler() {
+    window.location.hash = ``;
     $('body').stop();
     $('.jsMenuItem').removeClass('current');
     currentClient = null;
@@ -213,6 +233,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
 
   function homeClickHandler() {
+    window.location.hash = ``;
     if (isProjectOpen) {
       hideProject();
     }
@@ -224,6 +245,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
   }
 
   function sectionClickHandler(button, sectionName) {
+    window.location.hash = `#${sectionName.toLowerCase()}`;
     ga('send', {
       'hitType': 'pageview',
       'page': `/${sectionName}`
@@ -355,7 +377,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
 
   function showProject(e, num) {
     isProjectOpen = true;
-    e.stopPropagation();
+    if (e) e.stopPropagation();
     alignTop();
     doTransition(2500, 'in', () => {
       setProject(num);
@@ -398,6 +420,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     const metaFooter = project.metaFooter;
     const folder = `${PROJECTS_IMAGE_FOLDER}${project.folderName}/`;
     const hero = `${folder}${project.hero}`;
+    window.location.hash = `#${project.folderName}`
     ga('send', {
       'hitType': 'pageview',
       'page': `/projects/${clientName}}`

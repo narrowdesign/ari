@@ -22,7 +22,7 @@ const projects = [
       {
         title: "Nothing Stops a Doctor",
         type: "video",
-        src: "https://vimeo.com/526948128",
+        src: "https://player.vimeo.com/video/526947300",
       },
     ],
   },

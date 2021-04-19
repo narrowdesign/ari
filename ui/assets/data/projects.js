@@ -20,9 +20,9 @@ const projects = [
     awards: [],
     content: [
       {
-        title: "Nothing Stops a Doctor:",
+        title: "Nothing Stops a Doctor",
         type: "video",
-        src: "https://vimeo.com/526948128/ccf7acaa5b",
+        src: "https://vimeo.com/526948128",
       },
     ],
   },

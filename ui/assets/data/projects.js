@@ -18,7 +18,7 @@ const projects = [
       "Brand Messaging",
       "Creative Development",
       "Film Direction",  
-      "Production And Post Production",
+      "Video & Post Production",
     ],
     awards: [],
     content: [

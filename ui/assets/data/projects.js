@@ -8,13 +8,16 @@
 const projects = [
   {
     clientName: "Amwell",
-    saySomething: "Unifying",
-    description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of Ari’s non-compete (kidding).",
+    saySomething: "Grateful",
+    description: "Amwell is here to empower care under any circumstances. That’s why our campaign aimed to tap the most potent force driving medicine today. The determination and resilience of doctors. Their willingness and ability to stop everything and care for patients, even when it’s not convenient, even when it’s life threatening and even when it’s seemingly impossible. Nothing stops a doctor.",
     folderName: "amwell",
     hero: "",
     metaFooter: [
+      "Strategy",
+      "Positioning",
       "Brand Messaging",
       "Creative Development",
+      "Film Direction",  
       "Production And Post Production",
     ],
     awards: [],
@@ -22,7 +25,7 @@ const projects = [
       {
         title: "Nothing Stops a Doctor",
         type: "video",
-        src: "https://player.vimeo.com/video/526947300",
+        src: "https://player.vimeo.com/video/526948128",
       },
     ],
   },

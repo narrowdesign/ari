@@ -7,6 +7,26 @@
 */
 const projects = [
   {
+    clientName: "Amwell",
+    saySomething: "Unifying",
+    description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of Ari’s non-compete (kidding).",
+    folderName: "amwell",
+    hero: "",
+    metaFooter: [
+      "Brand Messaging",
+      "Creative Development",
+      "Production And Post Production",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Nothing Stops a Doctor:",
+        type: "video",
+        src: "https://vimeo.com/526948128/ccf7acaa5b",
+      },
+    ],
+  },
+  {
     clientName: "Buoy",
     saySomething: "Endearing",
     description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",

@@ -10,7 +10,7 @@ const projects = [
     clientName: "BigOilBigLies.com",
     saySomething: "Dishonest",
     description: "Celebrities are always willing to speak up for a worthy cause. We wanted to tap into that convention to make our point about climate change. With so much misinformation out there, it’s harder than ever to know who to trust. We figured we could make it easier by making the lies more obvious, finally calling out the bullshit and course correcting the narrative around climate.",
-    folderName: "bigoil",
+    folderName: "bigoilbiglies",
     hero: "",
     metaFooter: [
       "Brand Messaging",

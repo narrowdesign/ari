@@ -7,6 +7,43 @@
 */
 const projects = [
   {
+    clientName: "Superblue",
+    saySomething: "Inclusive",
+    description: "It was a revolutionary new idea from Pace Galleries. Our challenge was letting ticket buyers know that this immersive new experience was more than just another art exhibit. We started by letting visitors know they’re more than just guests. They’re collaborators helping to redefine the way artwork can work. Welcome to Superblue. The art movement that moves you.",
+    folderName: "superblue",
+    hero: "superblue_ooh_1.jpg",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Brand Messaging",
+      "Creative Development",
+      "Film Direction",
+      "Video & Post Production",
+      "Print Production",
+      "Web Design & Development",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Teaser",
+        type: "video",
+        src: "https://player.vimeo.com/video/515972251",
+      },
+      {
+        type: "image",
+        src: "teaser_1.jpg",
+      },
+      {
+        type: "image",
+        src: "superblue_ooh_2.jpg",
+      },
+      {
+        type: "image",
+        src: "superblue_ooh_3.jpg",
+      },
+    ],
+  },
+  {
     clientName: "Amwell",
     saySomething: "Grateful",
     description: "Amwell is here to empower care under any circumstances. That’s why our campaign aimed to tap the most potent force driving medicine today. The determination and resilience of doctors. Their willingness and ability to stop everything and care for patients, even when it’s not convenient, even when it’s life threatening and even when it’s seemingly impossible. Nothing stops a doctor.",

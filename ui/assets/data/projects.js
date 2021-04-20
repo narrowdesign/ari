@@ -75,6 +75,11 @@ const projects = [
         type: "image",
         src: "superblue_ooh_3.jpg",
       },
+      {
+        title: "Sizzle",
+        type: "video",
+        src: "https://player.vimeo.com/video/465207471",
+      },
     ],
   },
   {

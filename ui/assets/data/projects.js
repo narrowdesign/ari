@@ -7,6 +7,36 @@
 */
 const projects = [
   {
+    clientName: "BigOilBigLies.com",
+    saySomething: "Dishonest",
+    description: "Celebrities are always willing to speak up for a worthy cause. We wanted to tap into that convention to make our point about climate change. With so much misinformation out there, it’s harder than ever to know who to trust. We figured we could make it easier by making the lies more obvious, finally calling out the bullshit and course correcting the narrative around climate.",
+    folderName: "bigoil",
+    hero: "",
+    metaFooter: [
+      "Brand Messaging",
+      "Creative Development",
+      "Video & Post Production",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Dwayne",
+        type: "video",
+        src: "https://player.vimeo.com/video/539171279",
+      },
+      {
+        title: "Meryl",
+        type: "video",
+        src: "https://player.vimeo.com/video/539171640",
+      },
+      {
+        title: "Leo",
+        type: "video",
+        src: "https://player.vimeo.com/video/539171430",
+      },
+    ],
+  },
+  {
     clientName: "Superblue",
     saySomething: "Inclusive",
     description: "It was a revolutionary new idea from Pace Galleries. Our challenge was letting ticket buyers know that this immersive new experience was more than just another art exhibit. We started by letting visitors know they’re more than just guests, they’re collaborators helping to redefine the way artwork can work. Welcome to Superblue. The art movement that moves you.",

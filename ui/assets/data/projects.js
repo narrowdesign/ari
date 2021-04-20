@@ -41,7 +41,7 @@ const projects = [
     saySomething: "Inclusive",
     description: "It was a revolutionary new idea from Pace Galleries. Our challenge was letting ticket buyers know that this immersive new experience was more than just another art exhibit. We started by letting visitors know they’re more than just guests, they’re collaborators helping to redefine the way artwork can work. Welcome to Superblue. The art movement that moves you.",
     folderName: "superblue",
-    hero: "superblue_ooh_1.jpg",
+    hero: "",
     metaFooter: [
       "Strategy",
       "Positioning",
@@ -62,6 +62,10 @@ const projects = [
       {
         type: "image",
         src: "teaser_1.jpg",
+      },
+      {
+        type: "image",
+        src: "superblue_ooh_1.jpg",
       },
       {
         type: "image",

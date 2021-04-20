@@ -7,7 +7,7 @@
 */
 const projects = [
   {
-    clientName: "BigOilBigLies.com",
+    clientName: "Big Oil BigLies",
     saySomething: "Dishonest",
     description: "Celebrities are always willing to speak up for a worthy cause. We wanted to tap into that convention to make our point about climate change. With so much misinformation out there, it’s harder than ever to know who to trust. We figured we could make it easier by making the lies more obvious, finally calling out the bullshit and course correcting the narrative around climate.",
     folderName: "bigoilbiglies",
@@ -83,7 +83,7 @@ const projects = [
     ],
   },
   {
-    clientName: "Amwell",
+    clientName: "Amwell + Google",
     saySomething: "Grateful",
     description: "Amwell is here to empower care under any circumstances. That’s why our campaign aimed to tap the most potent force driving medicine today. The determination and resilience of doctors. Their willingness and ability to stop everything and care for patients, even when it’s not convenient, even when it’s life threatening and even when it’s seemingly impossible. Nothing stops a doctor.",
     folderName: "amwell",

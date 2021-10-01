@@ -655,7 +655,7 @@ const projects = [
   },
   {
     clientName: "MetLife",
-    saySomething: "Inclusive",
+    saySomething: "Unifying",
     description: "For over 150 years, MetLife had been working to make sure everyone had access to health insurance. Yet the company was known more for Charles Schultz’s Peanuts characters than its own historic and powerful intentions. It was time to widen the cartoon universe and give the company the voice it deserved. For the first time in its history, MetLife was headed to the Superbowl.",
     folderName: "metlife_1",
     hero: "",

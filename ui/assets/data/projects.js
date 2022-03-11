@@ -86,7 +86,7 @@ const projects = [
     awards: [],
     content: [
       {
-        title: "ItsTime",
+        title: "Dwayne",
         type: "video",
         src: "https://player.vimeo.com/video/539171279",
       },

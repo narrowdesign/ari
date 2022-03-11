@@ -131,7 +131,7 @@ const projects = [
   {
     clientName: "Together Labs",
     saySomething: "Experimental",
-    description: "With all the promise of the metaverse looming large over our digital landscape, the company that created the wildly popular avatar platform, IMVU was looking to expand its digital horizons. They created an umbrella company and called it, Together Labs. A brand at the intersection of today’s hottest technological trends and all that makes us human. Our platform was simple: Life is an experiment. Welcome to the lab.",
+    description: "With all the promise of the Metaverse looming large over our digital landscape, the company that created the wildly popular avatar platform, IMVU was looking to expand its digital horizons. They created an umbrella company and called it, Together Labs. A brand at the intersection of today’s hottest technological trends and all that makes us human. Our platform was simple: Life is an experiment. Welcome to the lab.",
     folderName: "together",
     hero: "",
     metaFooter: [

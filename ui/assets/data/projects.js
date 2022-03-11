@@ -39,7 +39,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["docgo_pattern_1.jpg","docgo_tag.jpg"],
+        src: ["docgo_animation_3.gif","docgo_tag.jpg"],
       },
       {
         type: "image",
@@ -47,7 +47,7 @@ const projects = [
       },
       {
         type: "image",
-        src: "docgo_pattern_2.jpg",
+        src: "docgo_animation_4.gif",
       },
       {
         type: "image",

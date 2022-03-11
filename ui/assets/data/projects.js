@@ -7,6 +7,213 @@
 */
 const projects = [
   {
+    clientName: "DocGo",
+    saySomething: "Urgent",
+    description: "As the COVID-19 pandemic raged on, one company was mobilizing to bring testing and vaccines to countless people in need. This would be the first time many people heard the name DocGo, but it would be far from the last. For Ari&Friends, it was a chance to give a remarkable company the image it so richly deserved. The project turned us into more than just a marketing partner. It turned us into fans. Go, DocGo.",
+    folderName: "docgo",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+      "Vehicle Design",
+      "Web Design & Development",
+      "Photography",
+      "Copywriting",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "docgo_header.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_logo_2.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_image_1.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_logo_1.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_pattern_1.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_tag.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_web_1.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_pattern_2.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_web_2.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_animation_1.gif",
+      },
+      {
+        type: "image",
+        src: "docgo_image_3.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_image_2.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_van.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "Modivcare",
+    saySomething: "Reassuring",
+    description: "Six months before they brought us in, the nearly 30,000 person company had gotten a new logo, ID system and brand platform. So you can imagine our surprise when the marketing team asked Ari&Friends to change all of it as our first order of business. In fact, they even gave us a less than 10% chance at getting the exec leadership team to agree to the change. Well, they did. We’re pretty proud of that.",
+    folderName: "modivcare",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Postioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+      "Creative Development",
+      "Web Design",
+      "Collateral Design",
+      "Copywriting",
+      "Social Media",
+      "Video & Post Production",
+      "Content Creation",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Dwayne",
+        type: "video",
+        src: "https://player.vimeo.com/video/539171279",
+      },
+      {
+        type: "image",
+        src: "modivcare_logo.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_roadlogo.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_pattern_1.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_tag.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_animation_2.gif",
+      },
+      {
+        type: "image",
+        src: "modivcare_pattern_2.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_web.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_bizcards.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_animation_1.gif",
+      },
+      {
+        type: "image",
+        src: "modivcare_twitter.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_pencils.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_social_1.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_social_2.jpg",
+      },  
+    ],
+  },
+  {
+    clientName: "Together Labs",
+    saySomething: "Experimental",
+    description: "With all the promise of the metaverse looming large over our digital landscape, the company that created the wildly popular avatar platform, IMVU was looking to expand its digital horizons. They created an umbrella company and called it, Together Labs. A brand at the intersection of today’s hottest technological trends and all that makes us human. Our platform was simple: Life is an experiment. Welcome to the lab.",
+    folderName: "together",
+    hero: "",
+    metaFooter: [
+      "Logo",
+      "ID System",
+      "Logo",
+      "Web Design",
+      "Video & Post Production",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "together_header.jpg",
+      },
+      {
+        type: "image",
+        src: "together_logo.jpg",
+      },
+      {
+        type: "image",
+        src: "together_animation_1.gif",
+      },
+      {
+        type: "image",
+        src: "together_pattern.jpg",
+      },
+      {
+        type: "image",
+        src: "together_withme.jpg",
+      },
+      {
+        type: "image",
+        src: "together_imvu1.jpg",
+      },
+      {
+        type: "image",
+        src: "together_animation_2.gif",
+      },
+      {
+        type: "image",
+        src: "together_tag.jpg",
+      },
+      {
+        type: "image",
+        src: "together_imvu2.jpg",
+      },
+    ],
+  },
+  {
     clientName: "Big Oil Big Lies",
     saySomething: "Dishonest",
     description: "Celebrities are always willing to speak up for a worthy cause. We wanted to tap into that convention to make our point about climate change. With so much misinformation out there, it’s harder than ever to know who to trust. We figured we could make it easier by making the lies more obvious, finally calling out the bullshit and course correcting the narrative around climate.",
@@ -148,7 +355,7 @@ const projects = [
       "Positioning",
       "Naming",
       "Logo",
-      "Id System Design",
+      "Id System",
       "Brand Messaging",
       "Package Design",
       "Creative Development",

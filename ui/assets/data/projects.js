@@ -88,7 +88,7 @@ const projects = [
       {
         title: "ItsTime",
         type: "video",
-        src: "https://player.vimeo.com/video/622742093?",
+        src: "https://player.vimeo.com/video/622742093",
       },
       {
         type: "image",

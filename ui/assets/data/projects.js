@@ -100,7 +100,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["modivcare_tag.jpg","modivcare_animation_2.gif"],
+        src: ["modivcare_tag.jpg","modivcare_animation_3.gif"],
       },
       {
         type: "image",

@@ -35,19 +35,11 @@ const projects = [
       },
       {
         type: "image",
-        src: "docgo_image_1.jpg",
+        src: ["docgo_image_1.jpg","docgo_logo_1.jpg"],
       },
       {
         type: "image",
-        src: "docgo_logo_1.jpg",
-      },
-      {
-        type: "image",
-        src: "docgo_pattern_1.jpg",
-      },
-      {
-        type: "image",
-        src: "docgo_tag.jpg",
+        src: ["docgo_pattern_1.jpg","docgo_tag.jpg"],
       },
       {
         type: "image",
@@ -59,19 +51,11 @@ const projects = [
       },
       {
         type: "image",
-        src: "docgo_web_2.jpg",
+        src: ["docgo_web_2.jpg","docgo_animation_1.gif"],
       },
       {
         type: "image",
-        src: "docgo_animation_1.gif",
-      },
-      {
-        type: "image",
-        src: "docgo_image_3.jpg",
-      },
-      {
-        type: "image",
-        src: "docgo_image_2.jpg",
+        src: ["docgo_image_3.jpg","docgo_image_2.jpg"],
       },
       {
         type: "image",
@@ -112,19 +96,11 @@ const projects = [
       },
       {
         type: "image",
-        src: "modivcare_roadlogo.jpg",
+        src: ["modivcare_roadlogo.jpg","modivcare_pattern_1.jpg"],
       },
       {
         type: "image",
-        src: "modivcare_pattern_1.jpg",
-      },
-      {
-        type: "image",
-        src: "modivcare_tag.jpg",
-      },
-      {
-        type: "image",
-        src: "modivcare_animation_2.gif",
+        src: ["modivcare_tag.jpg","modivcare_animation_2.gif"],
       },
       {
         type: "image",
@@ -136,19 +112,11 @@ const projects = [
       },
       {
         type: "image",
-        src: "modivcare_bizcards.jpg",
+        src: ["modivcare_bizcards.jpg","modivcare_animation_1.gif"],
       },
       {
         type: "image",
-        src: "modivcare_animation_1.gif",
-      },
-      {
-        type: "image",
-        src: "modivcare_twitter.jpg",
-      },
-      {
-        type: "image",
-        src: "modivcare_pencils.jpg",
+        src: ["modivcare_twitter.jpg","modivcare_pencils.jpg"],
       },
       {
         type: "image",
@@ -189,27 +157,15 @@ const projects = [
       },
       {
         type: "image",
-        src: "together_pattern.jpg",
+        src: ["together_pattern.jpg","together_withme.jpg"],
       },
       {
         type: "image",
-        src: "together_withme.jpg",
+        src: ["together_imvu1.jpg","together_animation_2.gif"],
       },
       {
         type: "image",
-        src: "together_imvu1.jpg",
-      },
-      {
-        type: "image",
-        src: "together_animation_2.gif",
-      },
-      {
-        type: "image",
-        src: "together_tag.jpg",
-      },
-      {
-        type: "image",
-        src: "together_imvu2.jpg",
+        src: ["together_tag.jpg","together_imvu2.jpg"],
       },
     ],
   },

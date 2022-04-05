@@ -31,7 +31,7 @@ const projects = [
       },
       {
         type: "image",
-        src: "docgo_logo_2.jpg",
+        src: "docgo_logo_2.jpg ",
       },
       {
         type: "image",

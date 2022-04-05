@@ -131,7 +131,7 @@ const projects = [
   {
     clientName: "Together Labs",
     saySomething: "Experimental",
-    description: "With all the promise of the Metaverse looming large over our digital landscape, the company that created the wildly popular avatar platform, IMVU was looking to expand its digital horizons. They created an umbrella company and called it, Together Labs. A brand at the intersection of today’s hottest technological trends and all that makes us human. Our platform was simple: Life is an experiment. Welcome to the lab.",
+    description: "With the promise of the Metaverse looming large, the company that created the wildly popular avatar platform, IMVU was looking to expand its horizons with an umbrella company called, Together Labs. We created the identity system, messaging platform and given Together Labs just made the list of Time’s “100 Most Influential companies”, quite possibly a monster.",
     folderName: "together",
     hero: "",
     metaFooter: [

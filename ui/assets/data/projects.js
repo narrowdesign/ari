@@ -202,7 +202,7 @@ const projects = [
   {
     clientName: "Superblue",
     saySomething: "Inclusive",
-    description: "It was a revolutionary new idea from Pace Galleries. Our challenge was letting ticket buyers know that this immersive new experience was more than just another art exhibit. We started by letting visitors know they’re more than just guests, they’re collaborators helping to redefine the way artwork can work. Welcome to Superblue. The art movement that moves you.",
+    description: "It was a revolutionary idea from Pace Galleries. Our challenge was letting ticket buyers know that this immersive new experience was more than just another exhibit. So we started by letting visitors know they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said welcome to Superblue, the art movement that moves you.",
     folderName: "superblue",
     hero: "",
     metaFooter: [
@@ -536,7 +536,7 @@ const projects = [
   {
     clientName: "Metlife",
     saySomething: "Unifying",
-    description: "Our friends at MetLife gave us four days for ideas, four weeks for production and sixty seconds to win America’s hearts. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of Ari’s non-compete (kidding about that last one).",
+    description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s hearts. After the game, The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of Ari’s non-compete (kidding about that last one). Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours.",
     folderName: "metlife_2",
     hero: "",
     metaFooter: [
@@ -556,7 +556,7 @@ const projects = [
   {
     clientName: "Thindown",
     saySomething: "Game Changing",
-    description: "Thin was in, and the demand for down had never been greater. Yet the process of using down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. Time to give voice to the world’s first and only fully seamless down fabric.",
+    description: "Thin was in, and the demand for down had never been greater. Yet the process of using down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. We presented the world’s first down fabric.",
     folderName: "thindown",
     hero: "header_1.jpg",
     metaFooter: [
@@ -603,7 +603,7 @@ const projects = [
   {
     clientName: "Athenahealth",
     saySomething: "Honest",
-    description: "EMRs aren’t exactly what you’d call user friendly. While Athenahealth’s CEO was helping to solve for that, he also understood that an empathetic approach would mean more to providers than empty promises. We created “Let doctors be doctors.” This purpose-driven campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
+    description: "EMRs aren’t exactly user friendly. While Athenahealth was helping to solve for that, they also understood that empathy meant more than empty promises. We created “Let doctors be doctors.” A purpose-driven, activism-based campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
     metaFooter: [

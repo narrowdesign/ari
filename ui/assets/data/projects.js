@@ -9,7 +9,7 @@ const projects = [
   {
     clientName: "DocGo",
     saySomething: "Urgent",
-    description: "As the COVID-19 pandemic raged on, one company was mobilizing to bring testing and vaccines to countless people in need. This would be the first time many people heard the name DocGo, but it would be far from the last. For Ari&Friends, it was a chance to give a remarkable company the image it so richly deserved. The project turned us into more than just a marketing partner. It turned us into fans. Go, DocGo.",
+    description: "As the COVID-19 pandemic raged on, one company was mobilizing to bring testing and vaccines to countless people in need. This would be the first time many people heard the name DocGo, but it would be far from the last. For us, it was a chance to give a remarkable company the image it so richly deserved. The project turned us into more than just a marketing partner. It turned us into fans. Go, DocGo.",
     folderName: "docgo",
     hero: "",
     metaFooter: [
@@ -131,7 +131,7 @@ const projects = [
   {
     clientName: "Together Labs",
     saySomething: "Experimental",
-    description: "With the promise of the Metaverse looming large, the company that created the wildly popular avatar platform, IMVU was looking to expand its horizons with an umbrella company called, Together Labs. We created the identity system, messaging platform and given Together Labs just made the list of Time’s “100 Most Influential companies”, quite possibly a monster.",
+    description: "With the promise of the Metaverse looming large, the company that created the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity system, messaging platform and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
     folderName: "together",
     hero: "",
     metaFooter: [
@@ -202,7 +202,7 @@ const projects = [
   {
     clientName: "Superblue",
     saySomething: "Inclusive",
-    description: "It was a revolutionary idea from Pace Galleries. Our challenge was letting ticket buyers know that this immersive new experience was more than just another exhibit. So we started by letting visitors know they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said welcome to Superblue, the art movement that moves you.",
+    description: "It was a revolutionary idea from Pace Galleries. Our challenge was letting ticket buyers know that this immersive new experience was more than just another exhibit. So we started by letting visitors know they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.",
     folderName: "superblue",
     hero: "",
     metaFooter: [
@@ -303,7 +303,7 @@ const projects = [
   {
     clientName: "MeWe",
     saySomething: "Purposeful",
-    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. Ari&Friends named it MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and began a partnership with Chobani only months later.",
+    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. Ari&Friends named it MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March, 2019, MeWe quickly secured major retail distribution and began a partnership with Chobani only months later.",
     folderName: "mewe",
     hero: "pattern_1.jpg",
     metaFooter: [
@@ -384,7 +384,7 @@ const projects = [
   {
     clientName: "Elmhurst",
     saySomething: "Competitive",
-    description: "Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things either, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. In the early days of COVID, the campaign helped Elmhurst achieve a 70% lift in sales.",
+    description: "Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things either, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. In the early days of COVID, our campaign helped Elmhurst achieve a 70% lift in sales.",
     folderName: "elmhurst",
     hero: "ooh_1.jpg",
     metaFooter: [
@@ -603,7 +603,7 @@ const projects = [
   {
     clientName: "Athenahealth",
     saySomething: "Honest",
-    description: "EMRs aren’t exactly user friendly. While Athenahealth was helping to solve for that, they also understood that empathy meant more than empty promises. We created “Let doctors be doctors.” A purpose-driven, activism-based campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
+    description: "EMRs aren’t exactly user friendly. While Athenahealth was helping to solve for that, they also understood that empathy meant more than empty promises. We created “Let doctors be doctors.” This purpose-driven, activism-based campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
     metaFooter: [

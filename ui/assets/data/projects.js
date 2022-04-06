@@ -475,7 +475,7 @@ const projects = [
   {
     clientName: "Nickel",
     saySomething: "Revolutionary",
-    description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We gave them Nickel. Our branding approach was simple: it was about putting people ahead of profits. No more greed. No more confusion. No more Americans paying the price for an industry that’s lost its way. Healthcare that costs what healthcare should cost. And not a nickel more.",
+    description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We gave them the name Nickel. Our branding idea was simple. Put people ahead of profits. No greed. No confusion. No Americans paying the price for an industry that’s lost its way. We introduced healthcare that costs what healthcare should cost. Not a nickel more.",
     folderName: "nickel",
     hero: "ooh_1.jpg",
     metaFooter: [

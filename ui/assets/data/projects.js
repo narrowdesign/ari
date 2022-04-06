@@ -879,7 +879,7 @@ const projects = [
   {
     clientName: "Tripadvisor",
     saySomething: "Trustworthy",
-    description: "What do those reviews really mean? That was the question to answer for TripAdvisor’s first global brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations – leading to more video production, mass media spending and an exclusive CMO performance of “Rapper’s Delight” during a six-hour car ride from Croatia to Slovenia.",
+    description: "What do the reviews really mean? That was the question to answer for TripAdvisor’s first brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations, leading to more production, global media spending and an exclusive CMO performance of “Rapper’s Delight” on a six-hour car ride to Slovenia.",
     folderName: "tripadvisor",
     hero: "",
     metaFooter: [

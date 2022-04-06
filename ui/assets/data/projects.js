@@ -303,7 +303,7 @@ const projects = [
   {
     clientName: "MeWe",
     saySomething: "Purposeful",
-    description: "Can one product save millions from malnutrition while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. We helped by creating MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and was chosen to join Chobani’s prestigious incubator program.",
+    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. Ari&Friends created MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and began a partnership with Chobani only months later.",
     folderName: "mewe",
     hero: "pattern_1.jpg",
     metaFooter: [
@@ -435,7 +435,7 @@ const projects = [
   {
     clientName: "Binx",
     saySomething: "Provocative",
-    description: "Sexually transmitted diseases on college campuses are spreading in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx easy, at-home test as a personal hygiene product – encouraging young men and women to check themselves even before they (sex metaphor goes here).",
+    description: "Sexually transmitted diseases on college campuses are reported in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx at-home test as a personal hygiene product – encouraging young men and women to check themselves before they (sex metaphor goes here).",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
     metaFooter: [

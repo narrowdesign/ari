@@ -303,7 +303,7 @@ const projects = [
   {
     clientName: "MeWe",
     saySomething: "Purposeful",
-    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. Ari&Friends created MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and began a partnership with Chobani only months later.",
+    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend Navyn Salem was determined to find out. Ari&Friends named it MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March of 2019, MeWe quickly secured major retail distribution and began a partnership with Chobani only months later.",
     folderName: "mewe",
     hero: "pattern_1.jpg",
     metaFooter: [

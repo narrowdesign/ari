@@ -66,7 +66,7 @@ const projects = [
   {
     clientName: "Modivcare",
     saySomething: "Reassuring",
-    description: "Six months before they brought us in, the nearly 30,000 person company had gotten a new logo, ID system and brand platform. So you can imagine our surprise when the marketing team asked Ari&Friends to change all of it as our first order of business. In fact, they even gave us a less than 10% chance at getting the exec leadership team to agree to the change. Well, they did. We’re pretty proud of that.",
+    description: "The nearly 30,000 person company had just gone through a rebranding only six month earlier. As our first order of business, we were asked to create a new logo, ID system and brand platform that showed the strength and stability of a company committed to doing genuine good in the world. We decided to relaunch Modivcare with a bang instead of a whisper.",
     folderName: "modivcare",
     hero: "",
     metaFooter: [
@@ -384,7 +384,7 @@ const projects = [
   {
     clientName: "Elmhurst",
     saySomething: "Competitive",
-    description: "Our friends at Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things either, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. One that could show plant-based fans what its outspoken CEO had known all along: simpler is better.",
+    description: "Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things either, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. In the early days of COVID, the campaign helped Elmhurst achieve a 70% lift in sales.",
     folderName: "elmhurst",
     hero: "ooh_1.jpg",
     metaFooter: [

@@ -384,7 +384,7 @@ const projects = [
   {
     clientName: "Elmhurst",
     saySomething: "Competitive",
-    description: "Elmhurst didn’t have the budget of their competitors. Then again, they didn’t have other things either, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this quiet little company to establish a voice of its own. In the early days of COVID, our campaign helped Elmhurst achieve a 70% lift in sales.",
+    description: "Elmhurst didn’t have the hype of their competitors. Then again, they didn’t have other things either, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this Elmhurst to establish a voice of its own. Our campaign helped the company achieve a 70% lift in sales.",
     folderName: "elmhurst",
     hero: "ooh_1.jpg",
     metaFooter: [

@@ -244,7 +244,7 @@ const projects = [
   {
     clientName: "Amwell + Google",
     saySomething: "Grateful",
-    description: "Amwell is here to empower care under any circumstances. That’s why our campaign aimed to tap the most potent force driving medicine today. The determination and resilience of doctors. Their willingness and ability to stop everything and care for patients, even when it’s not convenient, even when it’s life threatening and even when it’s seemingly impossible. Nothing stops a doctor.",
+    description: "Our campaign was a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many were deserving of praise, this piece focused on doctors and their willingness to drop everything for patients. Even when it’s inconvenient, even when it’s life threatening and even when all seems lost, the fact is, nothing stops a doctor.",
     folderName: "amwell",
     hero: "",
     metaFooter: [

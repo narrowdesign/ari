@@ -907,7 +907,7 @@ const projects = [
   {
     clientName: "Kmart",
     saySomething: "Buzz Worthy",
-    description: "Our friends at Kmart wanted to build buzz around Adam Levine’s new fashion line. We created the web series, “222”, which included experiential events, promotions and BTS stories. The series got millions of views – boosting sales for the six months it was posted. “The Rack” drew over 250MM impressions and was featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
+    description: "Our friends at Kmart wanted to build buzz around Adam Levine’s fashion line. We created “222”, a web series which included experiential events, promotions and BTS stories. The campaign got millions of views, boosted sales and drew over 250MM impressions – getting featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
     folderName: "kmart",
     hero: "",
     metaFooter: [

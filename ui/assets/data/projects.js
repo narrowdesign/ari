@@ -244,7 +244,7 @@ const projects = [
   {
     clientName: "Amwell + Google",
     saySomething: "Grateful",
-    description: "Our campaign was a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many were deserving of praise, this piece focused on doctors and their willingness to drop everything for patients. Even when it’s inconvenient, even when it’s life threatening and even when all seems lost, the fact is, nothing stops a doctor.",
+    description: "Our campaign is a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many are deserving of praise, this piece focused on doctors and the willingness to drop everything for patients. Even when it’s inconvenient, even when it’s life threatening and even when all seems lost, the fact is, nothing stops a doctor.",
     folderName: "amwell",
     hero: "",
     metaFooter: [

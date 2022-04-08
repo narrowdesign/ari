@@ -202,7 +202,7 @@ const projects = [
   {
     clientName: "Superblue",
     saySomething: "Inclusive",
-    description: "It was a revolutionary idea from Pace Galleries. Our challenge was letting ticket buyers know that this immersive new experience was more than just another exhibit. So we started by letting visitors know they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.”",
+    description: "It was a revolutionary idea from Pace Galleries. Our challenge was letting ticket buyers know this immersive new experience was more than just another exhibit. We started by letting visitors know they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.”",
     folderName: "superblue",
     hero: "",
     metaFooter: [
@@ -244,7 +244,7 @@ const projects = [
   {
     clientName: "Amwell + Google",
     saySomething: "Grateful",
-    description: "Our campaign is a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many are deserving of praise, this piece focused on doctors and the willingness to drop everything for patients. Even when it’s inconvenient, even when it’s life threatening and even when all seems lost, the fact is, nothing stops a doctor.",
+    description: "Our campaign is a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many are deserving of praise, this piece focuses on a doctor’s willingness to drop everything for a patient. Even when it’s inconvenient, even when it’s life threatening, even when all seems lost, nothing stops a doctor.",
     folderName: "amwell",
     hero: "",
     metaFooter: [
@@ -435,7 +435,7 @@ const projects = [
   {
     clientName: "Binx",
     saySomething: "Provocative",
-    description: "Sexually transmitted diseases on college campuses are reported in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx at-home test as a personal hygiene product – encouraging young men and women to check themselves before they (sex metaphor goes here).",
+    description: "Sexually transmitted diseases on college campuses are now being reported in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx at-home test as a personal hygiene product – encouraging young men and women to check themselves before they (sex metaphor goes here).",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
     metaFooter: [
@@ -475,7 +475,7 @@ const projects = [
   {
     clientName: "Nickel",
     saySomething: "Revolutionary",
-    description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We gave them the name Nickel. Our branding idea was simple. Put people ahead of profits. No greed. No confusion. No Americans paying the price for an industry that’s lost its way. We introduced healthcare that costs what healthcare should cost. Not a nickel more.",
+    description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We named them Nickel. Our branding idea was simple. Put people ahead of profits. No greed. No confusion. No Americans paying the price for an industry that’s lost its way. We introduced healthcare that costs what healthcare should cost. Not a nickel more.",
     folderName: "nickel",
     hero: "ooh_1.jpg",
     metaFooter: [
@@ -514,7 +514,7 @@ const projects = [
   {
     clientName: "Face The Music",
     saySomething: "Heartbreaking",
-    description: "This video was created for those who suffer from addiction and those looking for a way to help others through theirs. Even before any media dollars were spent, “I got this” got this: an article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor’s Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora and many others. Warning: “I Got This” isn’t easy viewing.",
+    description: "Warning: “I Got This” isn’t easy viewing. We created the video on behalf of a charity organization that provides scholarships and supports music-based recovery. It won AICP and One Show awards. Even before media dollars were spent, “I Got This” got this: An article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor’s Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora.",
     folderName: "face_the_music",
     hero: "",
     metaFooter: [
@@ -556,7 +556,7 @@ const projects = [
   {
     clientName: "Thindown",
     saySomething: "Game Changing",
-    description: "Thin was in, and the demand for down had never been greater. Yet the process of using down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. We presented the world’s first down fabric.",
+    description: "Thin was in, and the demand for down had never been greater. Yet the process of working with down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. We introduced the world’s first down fabric.",
     folderName: "thindown",
     hero: "header_1.jpg",
     metaFooter: [
@@ -864,7 +864,7 @@ const projects = [
     saySomething: "Chill",
     folderName: "hanes",
     hero: "",
-    description: "Michael Jordan is one of the most famous athletes of all time. Yet for some reason, we were just as excited to work with Facebook Canvas. When we were approached to direct this interactive mobile experience for Hanes and 360i, we jumped at the chance. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself.",
+    description: "Michael Jordan is one of the most famous athletes of all time. Yet for some reason, we were just as excited to work with Facebook Canvas. We jumped at the chance to direct this interactive mobile experience for Hanes and 360i. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself. The effort was featured in Creativity, USA Today, SmartBrief and Printwear.",
     metaFooter: [
       "Film Direction",
     ],

@@ -8,7 +8,7 @@
 const projects = [
   {
     clientName: "DocGo",
-    "Heroic Friend",
+    saySomething: "Urgent",
     description: "As the COVID-19 pandemic raged on, one company was mobilizing to bring testing and vaccines to countless people in need. This would be the first time many people heard the name DocGo, but it would be far from the last. For us, it was a chance to give a remarkable company the image it so richly deserved. The project turned us into more than just a marketing partner. It turned us into fans. Go, DocGo.",
     folderName: "docgo",
     hero: "",

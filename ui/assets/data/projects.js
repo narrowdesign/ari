@@ -201,7 +201,7 @@ const projects = [
   {
     clientName: "Superblue",
     saySomething: "Inclusive",
-    description: "It was a revolutionary idea from Pace Galleries. Our challenge was letting ticket buyers know this immersive new experience was more than just another exhibit. We started by letting visitors know they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.”",
+    description: "It was a revolutionary idea from Pace Galleries. Our challenge was letting ticket buyers know this immersive experience was more than just an exhibit. So we started by letting visitors know they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.”",
     folderName: "superblue",
     hero: "",
     metaFooter: [

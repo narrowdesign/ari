@@ -137,7 +137,6 @@ const projects = [
     metaFooter: [
       "Logo",
       "ID System",
-      "Logo",
       "Web Design",
       "Video & Post Production",
     ],

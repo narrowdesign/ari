@@ -7,6 +7,45 @@
 */
 const projects = [
   {
+    clientName: "Quil",
+    saySomething: "Liberating",
+    description: For seniors who value their privacy and freedom, the idea of home monitoring can be a tough pill to swallow. So to launch Quil, we flipped the script and put the seniors in control. The message to caregivers was clear. “Look after us, without being on top of us. Stay in our lives and out of our hair. Quit hoverin’ and start Quillin’.”,
+    folderName: "quil",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "ID System Design",
+      "Brand Messaging",
+      "Package Design",
+      "Interim CMO",
+      "Creative Development",
+      "UX, Web Design & Development",
+      "Go To Market Strategy",
+      "Social Media",
+      "Film Direction",
+      "Video & Post Production",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Hoverin",
+        type: "video",
+        src: "https://vimeo.com/653972055/50484b4776",
+      },
+      {
+        title: "Wine",
+        type: "video",
+        src: "https://vimeo.com/653971016",
+      },
+      {
+        title: "Meds",
+        type: "video",
+        src: "https://vimeo.com/653972188/0dc8097612",
+      },
+    ],
+  },
+  {
     clientName: "DocGo",
     saySomething: "Urgent",
     description: "As the COVID-19 pandemic raged on, one company was mobilizing to bring testing and vaccines to countless people in need. This would be the first time many people heard the name DocGo, but it would be far from the last. For us, it was a chance to give a remarkable company the image it so richly deserved. The project turned us into more than just a marketing partner. It turned us into fans. Go, DocGo.",

@@ -9,7 +9,7 @@ const projects = [
   {
     clientName: "Quil",
     saySomething: "Liberating",
-    description: For seniors who value their privacy and freedom, the idea of home monitoring can be a tough pill to swallow. So to launch Quil, we flipped the script and put the seniors in control. The message to caregivers was clear. “Look after us, without being on top of us. Stay in our lives and out of our hair. Quit hoverin’ and start Quillin’.”,
+    description: "For seniors who value their privacy and freedom, the idea of home monitoring can be a tough pill to swallow. So to launch Quil, we flipped the script and put the seniors in control. The message to caregivers was clear. “Look after us, without being on top of us. Stay in our lives and out of our hair. Quit hoverin’ and start Quillin’.”",
     folderName: "quil",
     hero: "",
     metaFooter: [

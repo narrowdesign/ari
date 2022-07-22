@@ -31,17 +31,17 @@ const projects = [
       {
         title: "Hoverin",
         type: "video",
-        src: "https://vimeo.com/653972055/50484b4776",
+        src: "https://player.vimeo.com/video/653972055",
       },
       {
         title: "Wine",
         type: "video",
-        src: "https://vimeo.com/653971016",
+        src: "https://player.vimeo.com/video/653971016",
       },
       {
         title: "Meds",
         type: "video",
-        src: "https://vimeo.com/653972188/0dc8097612",
+        src: "https://player.vimeo.com/video/653972188",
       },
     ],
   },

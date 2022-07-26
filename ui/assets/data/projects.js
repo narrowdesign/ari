@@ -149,6 +149,7 @@ const projects = [
       {
         type: "image",
         src: ["together_tag.jpg","together_imvu2.jpg"],
+      },
       {
         title: "Escape",
         type: "video",

@@ -590,7 +590,7 @@ const projects = [
   },
   {
     clientName: "Athenahealth",
-    saySomething: "Honest",
+    saySomething: "Truthful",
     description: "EMRs aren’t exactly user friendly. While Athenahealth was helping to solve for that, they also understood that empathy meant more than empty promises. We created “Let doctors be doctors.” This purpose-driven, activism-based campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",

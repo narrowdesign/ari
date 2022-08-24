@@ -47,14 +47,6 @@ const projects = [
       },
       {
         type: "image",
-        src: "docgo_animation_4.gif",
-      },
-      {
-        type: "image",
-        src: ["docgo_web_2.jpg","docgo_animation_1.gif"],
-      },
-      {
-        type: "image",
         src: ["seewhatpropsup.jpg","foamfinger.jpg"],
       },
     ],

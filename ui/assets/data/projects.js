@@ -31,7 +31,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["logo_animation.gif","logo_animation.gif"],
+        src: ["logo_animation.gif","phone.jpg"],
       },
       {
         type: "image",

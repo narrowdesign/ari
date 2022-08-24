@@ -7,6 +7,59 @@
 */
 const projects = [
   {
+    clientName: "Propshop",
+    saySomething: "Urgent",
+    description: "As the COVID-19 pandemic raged on, one company was mobilizing to bring testing and vaccines to countless people in need. This would be the first time many people heard the name DocGo, but it would be far from the last. For us, it was a chance to give a remarkable company the image it so richly deserved. The project turned us into more than just a marketing partner. It turned us into fans. Go, DocGo.",
+    folderName: "propshop",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+      "Vehicle Design",
+      "Web Design & Development",
+      "Photography",
+      "Copywriting",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "big_logo.jpg",
+      },
+      {
+        type: "image",
+        src: ["logo_animation.gif","logo_animation.gif"],
+      },
+      {
+        type: "image",
+        src: "onestopshop.jpg",
+      },
+      {
+        type: "image",
+        src: "business_cards_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["cup.jpg","tshirt_animation_1.gif"],
+      },
+      {
+        type: "image",
+        src: "docgo_animation_4.gif",
+      },
+      {
+        type: "image",
+        src: ["docgo_web_2.jpg","docgo_animation_1.gif"],
+      },
+      {
+        type: "image",
+        src: ["seewhatpropsup.jpg","foamfinger.jpg"],
+      },
+    ],
+  },
+  {
     clientName: "Quil",
     saySomething: "Liberating",
     description: "For seniors who value their privacy and freedom, the idea of home monitoring can be a tough pill to swallow. So to launch Quil, we flipped the script and put the seniors in control. The message to caregivers was clear. “Look after us, without being on top of us. Stay in our lives and out of our hair. Quit hoverin’ and start Quillin’.”",

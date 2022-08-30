@@ -48,6 +48,64 @@ const projects = [
     ],
   },
   {
+    clientName: "The Big Plan",
+    saySomething: "Promising",
+    description: "When our new friends told us what they were building, we thought, “Now that’s big.” It was the first and only platform using realtime data to serve up an ideal health insurance plan in minutes. InsureTech that actually solves the biggest headaches in health insurance. We started by coming up with a brand name and messaging platform worthy of this game-changing technology. Because as you know, a big change requires a big plan.",
+    folderName: "thebigplan",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+      "UX",
+      "Website Servces",
+      "Copywriting",
+      "Interim CMO Services",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "header_image.jpg",
+      },
+      {
+        type: "image",
+        src: ["instagram_headline.gif","squirrel_headgear.gif"],
+      },
+      {
+        type: "image",
+        src: ["blacklogo.jpg","headline.jpg"],
+      },
+      {
+        type: "image",
+        src: "businesscards.jpg",
+      },
+      {
+        type: "image",
+        src: "website_headlines.gif",
+      },
+      {
+        type: "image",
+        src: ["tshirt.jpg","illustrations.gif"],
+      },
+      {
+        type: "image",
+        src: "lounging.jpg",
+      },
+      {
+        type: "video",
+        autoplay: true,
+        title: "man",
+        src: ["https://player.vimeo.com/video/744787895"],
+      {
+        type: "image",
+        src: "ruby_logo.jpg",
+      },
+    ],
+  },
+  {
     clientName: "Quil",
     saySomething: "Liberating",
     description: "For seniors who value their privacy and freedom, the idea of home monitoring can be a tough pill to swallow. So to launch Quil, we flipped the script and put the seniors in control. The message to caregivers was clear. “Look after us, without being on top of us. Stay in our lives and out of our hair. Quit hoverin’ and start Quillin’.”",

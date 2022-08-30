@@ -7,6 +7,47 @@
 */
 const projects = [
   {
+    clientName: "Propshop",
+    saySomething: "Cheer-Worthy",
+    description: "There’s an expression in the gambling world that says, “The house always wins.” In a category controlled by casinos, Propshop is the sports betting app that makes sure you’re the one with the advantages. Propshop is more immersive and more social. Which means it’s way more fun than those other, larger sports betting platforms. How do we know? For starters, we had a ton of fun working on it.",
+    folderName: "propshop",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "big_logo.jpg",
+      },
+      {
+        type: "image",
+        src: ["logo_animation.gif","phone.jpg"],
+      },
+      {
+        type: "image",
+        src: "onestopshop.jpg",
+      },
+      {
+        type: "image",
+        src: "business_cards_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["cup.jpg","tshirt_animation_1.gif"],
+      },
+      {
+        type: "image",
+        src: ["seewhatpropsup.jpg","foamfinger.jpg"],
+      },
+    ],
+  },
+  {
     clientName: "Quil",
     saySomething: "Liberating",
     description: "For seniors who value their privacy and freedom, the idea of home monitoring can be a tough pill to swallow. So to launch Quil, we flipped the script and put the seniors in control. The message to caregivers was clear. “Look after us, without being on top of us. Stay in our lives and out of our hair. Quit hoverin’ and start Quillin’.”",

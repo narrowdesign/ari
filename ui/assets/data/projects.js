@@ -95,14 +95,12 @@ const projects = [
         src: "lounging.jpg",
       },
       {
-        type: "video",
-        autoplay: true,
-        title: "phone",
-        src: ["https://player.vimeo.com/video/744787895","https://player.vimeo.com/video/744787895"],
+        type: “image”,
+        src: [“ruby_logo.jpg”],
       },
       {
-        type: "image",
-        src: ["ruby_logo.jpg","ruby_logo.jpg"],
+        type: “image”,
+        src: [“ruby_logo.jpg”],
       },
     ],
   },

@@ -98,11 +98,11 @@ const projects = [
         type: "video",
         autoplay: true,
         title: "man",
-        src: ["https://player.vimeo.com/video/744787895"],
+        src: ["https://player.vimeo.com/video/744787895",
       },
       {
         type: "image",
-        src: ["ruby_logo.jpg"],
+        src: "ruby_logo.jpg"],
       },
     ],
   },

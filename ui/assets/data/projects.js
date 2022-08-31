@@ -99,6 +99,7 @@ const projects = [
         autoplay: true,
         title: "man",
         src: ["https://player.vimeo.com/video/744787895"],
+      },
       {
         type: "image",
         src: "ruby_logo.jpg",

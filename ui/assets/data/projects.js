@@ -52,7 +52,7 @@ const projects = [
     saySomething: "Promising",
     description: "When our new friends told us what they were building, we thought, “Now that’s big.” It was the first and only platform using realtime data to serve up an ideal health insurance plan in minutes. InsureTech that actually solves the biggest headaches in health insurance. We started by coming up with a brand name and messaging platform worthy of this game-changing technology. Because as you know, a big change requires a big plan.",
     folderName: "thebigplan",
-    hero: "",
+    hero: "header_image.jpg",
     metaFooter: [
       "Strategy",
       "Positioning",
@@ -68,8 +68,8 @@ const projects = [
     content: [
       {
         type: "image",
-        src: "header_image.jpg",
-      },
+        src: "website_headlines.gif",
+      },      
       {
         type: "image",
         src: ["instagram_headline.gif","squirrel_headgear.gif"],
@@ -84,15 +84,15 @@ const projects = [
       },
       {
         type: "image",
-        src: "website_headlines.gif",
-      },
-      {
-        type: "image",
         src: ["tshirt.jpg","illustrations.gif"],
       },
       {
         type: "image",
         src: "lounging.jpg",
+      },
+      {
+        type: "image",
+        src: ["mobile_animation.gif","ruby_logo.jpg"],
       },
     ],
   },

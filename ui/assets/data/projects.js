@@ -94,13 +94,13 @@ const projects = [
         type: "image",
         src: "lounging.jpg",
       },
-      {
-        type: “image”,
-        src: [“ruby_logo.jpg”],
+      { 
+        type: "image",
+        src: ["ruby_logo.jpg"],
       },
       {
-        type: “image”,
-        src: [“ruby_logo.jpg”],
+        type: "image",
+        src: ["ruby_logo.jpg"],
       },
     ],
   },

@@ -88,7 +88,7 @@ const projects = [
       },
       {
         type: "image",
-        src: "lounging.jpg",
+        src: "loungingblack.jpg",
       },
       {
         type: "image",

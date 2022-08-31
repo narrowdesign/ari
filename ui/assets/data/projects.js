@@ -102,7 +102,7 @@ const projects = [
       },
       {
         type: "image",
-        src: "ruby_logo.jpg",
+        src: ["ruby_logo.jpg"],
       },
     ],
   },

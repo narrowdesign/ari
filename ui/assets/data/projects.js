@@ -76,7 +76,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["blacklogo.jpg","mobile_animation.gif"],
+        src: ["headline_1.jpg","mobile_animation.gif"],
       },
       {
         type: "image",
@@ -92,7 +92,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["ruby_logo.jpg","headline.jpg"],
+        src: ["ruby_logo.jpg","headline_2.jpg"],
       },
     ],
   },

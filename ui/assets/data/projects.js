@@ -97,8 +97,12 @@ const projects = [
       {
         type: "video",
         autoplay: true,
-        title: "man",
-        src: ["https://player.vimeo.com/video/744787895","ruby_logo.jpg"],
+        title: "phone",
+        src: ["https://player.vimeo.com/video/744787895","https://player.vimeo.com/video/744787895"],
+      },
+      {
+        type: "image",
+        src: ["ruby_logo.jpg","ruby_logo.jpg"],
       },
     ],
   },

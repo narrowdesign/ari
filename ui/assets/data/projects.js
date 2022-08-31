@@ -88,7 +88,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["headline_2.jpg","instagram_headline.gif"],
+        src: ["instagram_headline.gif","headline_2.jpg"],
       },
     ],
   },

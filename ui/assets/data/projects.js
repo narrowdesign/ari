@@ -72,11 +72,15 @@ const projects = [
       },      
       {
         type: "image",
-        src: ["instagram_headline.gif","squirrel_headgear.gif"],
+        src: ["mobile_animation.gif","squirrel_headgear.gif"],
       },
       {
         type: "image",
-        src: ["headline_1.jpg","mobile_animation.gif"],
+        src: "headline_3.jpg",
+      },
+      {
+        type: "image",
+        src: ["illustrations.gif","tshirt.jpg"],
       },
       {
         type: "image",
@@ -84,15 +88,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["tshirt.jpg","illustrations.gif"],
-      },
-      {
-        type: "image",
-        src: "loungingblack.jpg",
-      },
-      {
-        type: "image",
-        src: ["ruby_logo.jpg","headline_2.jpg"],
+        src: ["headline_2.jpg","instagram_headline.gif"],
       },
     ],
   },

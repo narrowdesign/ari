@@ -50,7 +50,7 @@ const projects = [
   {
     clientName: "The Big Plan",
     saySomething: "Promising",
-    description: "When our new friends told us what they were building, we thought, “Now that’s big.” It was the first and only platform using realtime data to serve up an ideal health insurance plan in minutes. InsureTech that actually solves the biggest headaches in health insurance. We started by coming up with a brand name and messaging platform worthy of this game-changing technology. Because as you know, a big change requires a big plan.",
+    description: "When our new friends told us what they were building, we said, “That’s big.” It was the first and only platform using realtime data to serve up an ideal health insurance plan in minutes. InsureTech that solves the biggest headaches in health insurance. We came up with a brand name and messaging platform worthy of this game-changing technology. Because a big change requires a big plan.",
     folderName: "thebigplan",
     hero: "",
     metaFooter: [

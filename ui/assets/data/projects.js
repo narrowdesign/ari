@@ -67,9 +67,11 @@ const projects = [
     awards: [],
     content: [
       {
-        type: "image",
-        src: "website_headlines.gif",
-      },      
+        type: "video",
+        autoplay: true,
+        title: "web",
+        src: "https://player.vimeo.com/video/745540735",
+      }, 
       {
         type: "image",
         src: ["mobile_animation.gif","squirrel_headgear.gif"],

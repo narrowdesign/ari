@@ -52,7 +52,7 @@ const projects = [
     saySomething: "Promising",
     description: "When our new friends told us what they were building, we thought, “Now that’s big.” It was the first and only platform using realtime data to serve up an ideal health insurance plan in minutes. InsureTech that actually solves the biggest headaches in health insurance. We started by coming up with a brand name and messaging platform worthy of this game-changing technology. Because as you know, a big change requires a big plan.",
     folderName: "thebigplan",
-    hero: "header_image.jpg",
+    hero: "",
     metaFooter: [
       "Strategy",
       "Positioning",
@@ -71,7 +71,11 @@ const projects = [
         autoplay: true,
         title: "web",
         src: "https://player.vimeo.com/video/745540735",
-      }, 
+      },
+      {
+        type: "image",
+        src: "header_image.jpg",
+      },
       {
         type: "image",
         src: ["mobile_animation.gif","squirrel_headgear.gif"],

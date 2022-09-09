@@ -65,8 +65,9 @@ const projects = [
     awards: [],
     content: [
       {
-        title: "web",
         type: "video",
+        autoplay: true,
+        title: "web",
         src: "https://player.vimeo.com/video/744437510",
       },
       {

@@ -72,19 +72,11 @@ const projects = [
       },
       {
         type: "image",
-        src: "wellmobile3.jpg",
+        src: ["wellmobile3.jpg","wellmobile2.jpg"],
       },
       {
         type: "image",
-        src: "wellmobile2.jpg",
-      },
-      {
-        type: "image",
-        src: "wellmobile1.jpg",
-      },
-      {
-        type: "image",
-        src: "wellmobile4.jpg",
+        src: ["wellmobile1.jpg","wellmobile4.jpg"],
       },
     ],
   },

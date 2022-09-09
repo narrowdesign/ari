@@ -48,6 +48,46 @@ const projects = [
     ],
   },
   {
+    clientName: "Well",
+    saySomething: "Well",
+    description: "There’s nothing more important than your health, right? Seems somebody forgot to tell that to the American healthcare industry, where today’s systems are more focused on process than, well, you. Along comes WELL. A dynamic platform to empower health with personalized guidance that keeps every member well motivated, well organized and well cared for.",
+    folderName: "well",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "ID System",
+      "Brand Messaging",
+      "UX",
+      "Web Design & Development",
+      "Copywriting",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "web",
+        type: "video",
+        src: "https://player.vimeo.com/video/744437510",
+      },
+      {
+        type: "image",
+        src: "wellmobile3.jpg",
+      },
+      {
+        type: "image",
+        src: "wellmobile2.jpg",
+      },
+      {
+        type: "image",
+        src: "wellmobile1.jpg",
+      },
+      {
+        type: "image",
+        src: "wellmobile4.jpg",
+      },
+    ],
+  },
+  {
     clientName: "The Big Plan",
     saySomething: "Promising",
     description: "When our new friends told us what they were building, we said, “That’s big.” It was the first and only platform using realtime data to serve up an ideal health insurance plan in minutes. InsureTech that solves the biggest headaches in health insurance. We came up with a brand name and messaging platform worthy of this game-changing technology. Because a big change requires a big plan.",

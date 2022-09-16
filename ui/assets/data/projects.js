@@ -973,73 +973,6 @@ const projects = [
     ],
   },
   {
-    clientName: "OfficeMax",
-    saySomething: "Jolly",
-    description: `“Holiday gifts at an office supply store?” From the start, we knew OfficeMax needed more than a traditional ad campaign. They needed to make a real and lasting connection with holiday shoppers. In 2005, our team at Toy created not one, but 20 holiday-themed websites. Elf Yourself became a phenomenon and has been a cornerstone of the OfficeMax holiday effort ever since.`,
-    folderName: "officemax",
-    hero: "elf_1.jpg",
-    meta: [
-      "Ari Merkin",
-      "Co-Founder, CCO TOY NY",
-    ],
-    metaFooter: [
-      `“Best Ever Social Media Campaigns” - Forbes, 2010<br>“Arguably the Most Successful Viral Campaign in History.” - The Age, 2013`
-    ],
-    awards: [],
-    content: [
-      {
-        type: "video",
-        title: "elf",
-        aspect: "3_4",
-        src: "https://player.vimeo.com/video/444890779",
-      },
-      {
-        type: "image",
-        src: "elf_2.jpg",
-      },
-      {
-        type: "image",
-        src: ["elf_3.png", "elf_4.png", "elf_5.png"],
-      },
-      {
-        type: "image",
-        src: ["elf_6.png", "elf_7.png", "elf_5.png"],
-      },
-      {
-        type: "image",
-        src: ["elf_9.png", "elf_10.png", "elf_11.png"],
-      },
-      {
-        type: "image",
-        src: ["elf_12.png", "elf_13.png", "elf_15.png"],
-      },
-      {
-        type: "image",
-        src: ["elf_8.png", "elf_16.png", "elf_17.png"],
-      },
-    ],
-  },
-  {
-    clientName: "Starbucks",
-    saySomething: "Motivational",
-    description: "We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers’ convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
-    folderName: "starbucks",
-    hero: "",
-    meta: [
-      "Ari Merkin",
-      "ECD, Fallon NY",
-      "Creativity’s Spot of the Year",
-    ],
-    content: [ 
-      {
-        type: "video",
-        title: "Glen",
-        aspect: "3_4",
-        src: "https://player.vimeo.com/video/79852065",
-      }
-    ]
-  },
-  {
     clientName: "Extended Stay Hotels",
     saySomething: "Outrageous",
     description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
@@ -1081,30 +1014,6 @@ const projects = [
   //   ]
   
   // },
-  {
-    clientName: "5th Ave Stamp Gallery",
-    saySomething: "Funny",
-    description: "Great headline writing can involve a single, powerful thought. A flip on the usual. A word play or turn of phrase. For our friends at the 5th Avenue Stamp Gallery, a great headline was the funniest thing that could possibly be said at the intersection of celebrity and stamp. The result was a sales boost for our client. And thanks to its multi-year winning streak at the One Show, an ego boost for us.",
-    folderName: "stamps",
-    hero: "stamps_7.jpg",
-    meta: [
-      "One Show Gold",
-    ],
-    content: [
-      {
-        type: "image",
-        src: ["stamps_6.jpg","stamps_4.jpg"],
-      },
-      {
-        type: "image",
-        src: ["stamps_1.jpg","stamps_5.jpg"],
-      },
-      {
-        type: "image",
-        src: ["stamps_3.jpg","stamps_2.jpg"],
-      },
-    ]
-  },
   // {
   //   clientName: "Past hits",
   //   title: "Say something",

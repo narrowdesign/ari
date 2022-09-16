@@ -1051,6 +1051,7 @@ const projects = [
       },
       {
         type: "image",
+        layout: "2_1",
         src: ["mini_2.jpg", "mini_3.jpg"],
       },
       {
@@ -1080,6 +1081,79 @@ const projects = [
         title: "Wolverine",
         type: "video",
         src: "https://player.vimeo.com/video/79699295",
+      },
+      {
+        type: "video",
+        title: "Matt",
+        src: "https://player.vimeo.com/video/80571914",
+      },
+      {
+        type: "video",
+        title: "Carl",
+        src: "https://player.vimeo.com/video/80571743",
+      },
+      {
+        type: "video",
+        title: "Santa",
+        src: "https://player.vimeo.com/video/79742643",
+      },
+      {
+        type: "video",
+        title: "Headphones",
+        src: "https://player.vimeo.com/video/79752228",
+      },
+      {
+        type: "image",
+        src: "j&r_2.jpg",
+      },
+      {
+        type: "image",
+        src: ["j&r_6.jpg", "j&r_9.jpg"],
+      },
+      {
+        type: "image",
+        src: "j&r_3.jpg",
+      },
+      {
+        type: "image",
+        src: "j&r_1.jpg",
+      },
+      {
+        type: "video",
+        title: "So Relaxed",
+        src: "https://player.vimeo.com/video/80569390",
+      },
+      {
+        type: "image",
+        src: "bell_1.jpg",
+      },
+      {
+        type: "image",
+        src: "bell_2.jpg",
+      },
+      {
+        type: "image",
+        src: "bell_3.jpg",
+      },
+      {
+        type: "image",
+        src: "landrover_3.jpg",
+      },
+      {
+        type: "image",
+        src: "landrover_1.jpg",
+      },
+      {
+        type: "image",
+        src: "landrover_2.jpg",
+      },
+      {
+        type: "image",
+        src: ["stamps_2.jpg", "stamps_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["stamps_3.jpg", "stamps_4.jpg"],
       },
     ]
   },  

@@ -283,6 +283,69 @@ const projects = [
     ],
   },
   {
+    clientName: "Modivcare",
+    saySomething: "Reassuring",
+    description: "The nearly 30,000 person company had just gone through a rebranding only six month earlier. As our first order of business, we were asked to create a new logo, ID system and brand platform that showed the strength and stability of a company committed to doing genuine good in the world. We decided to relaunch Modivcare with a bang instead of a whisper.",
+    folderName: "modivcare",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Postioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+      "Creative Development",
+      "Web Design",
+      "Collateral Design",
+      "Copywriting",
+      "Social Media",
+      "Video & Post Production",
+      "Content Creation",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "ItsTime",
+        type: "video",
+        src: "https://player.vimeo.com/video/622742093",
+      },
+      {
+        type: "image",
+        src: "modivcare_logo.jpg",
+      },
+      {
+        type: "image",
+        src: ["modivcare_roadlogo.jpg","modivcare_pattern_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["modivcare_tag.jpg","modivcare_animation_3.gif"],
+      },
+      {
+        type: "image",
+        src: "modivcare_pattern_2.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_web.jpg",
+      },
+      {
+        type: "image",
+        src: ["modivcare_bizcards.jpg","modivcare_animation_1.gif"],
+      },
+      {
+        type: "image",
+        src: ["modivcare_twitter.jpg","modivcare_pencils.jpg"],
+      },
+      {
+        type: "image",
+        src: "modivcare_social_1.jpg",
+      },
+      {
+        type: "image",
+        src: "modivcare_social_2.jpg",
+},  
+{
     clientName: "Big Oil Big Lies",
     saySomething: "Dishonest",
     description: "With so much misinformation out there, it’s harder than ever to know who to trust when it comes to climate change. So we decided to bring a little bullshit of our own to help course correct the narrative. We started with a few words from Meryl Streep, Leonardo DiCaprio and The Rock.",

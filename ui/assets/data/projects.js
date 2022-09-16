@@ -327,6 +327,10 @@ const projects = [
       },
       {
         type: "image",
+        src: ["modivcare_animation_1.gif","modivcare_pencils.jpg"],
+      },
+      {
+        type: "image",
         src: "modivcare_web.jpg",
       },
       {
@@ -1028,10 +1032,10 @@ const projects = [
   {
     clientName: "Past Hits",
     saySomething: "Classic",
-    description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
+    description: "Copywriting in progress. Come back soon.",
     folderName: "classics",
     hero: "elf_2.jpg",
-    meta: [],
+    meta: ["Have a nice day"],
     content: [ 
       {
         type: "video",

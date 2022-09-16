@@ -1032,7 +1032,7 @@ const projects = [
   {
     clientName: "Past Hits",
     saySomething: "Classic",
-    description: "Copywriting in progress. Come back soon.",
+    description: "Copywriting in progress. Please come back soon.",
     folderName: "classics",
     hero: "elf_2.jpg",
     meta: ["Have a nice day"],

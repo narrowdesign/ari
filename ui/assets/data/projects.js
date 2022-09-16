@@ -331,19 +331,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["modivcare_bizcards.jpg","modivcare_animation_1.gif"],
-      },
-      {
-        type: "image",
-        src: ["modivcare_twitter.jpg","modivcare_pencils.jpg"],
-      },
-      {
-        type: "image",
-        src: "modivcare_social_1.jpg",
-      },
-      {
-        type: "image",
-        src: "modivcare_social_2.jpg",
+        src: ["modivcare_animation_1.gif","modivcare_pencils.jpg"],
       },
     ],
   },
@@ -1043,10 +1031,7 @@ const projects = [
     description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
     folderName: "classics",
     hero: "elf_2.jpg",
-    meta: [
-      "Ari Merkin",
-      "Co-Founder, CCO TOY NY",
-    ],
+    meta: [],
     content: [ 
       {
         type: "video",

@@ -990,6 +990,24 @@ const projects = [
       }
     ]
   },
+  {
+    clientName: "Extended Stay Hotels",
+    saySomething: "Outrageous",
+    description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
+    folderName: "extended_stay_hotels",
+    hero: "",
+    meta: [
+      "Ari Merkin",
+      "Co-Founder, CCO TOY NY",
+    ],
+    content: [ 
+      {
+        type: "video",
+        title: "So Relaxed",
+        src: "https://player.vimeo.com/video/80569390",
+      }
+    ]
+  },  
   // {
   //   clientName: "PDFK",
   //   saySomething: "Instructive",

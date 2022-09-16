@@ -331,11 +331,11 @@ const projects = [
       },
       {
         type: "image",
-        src: "modivcare_web.jpg",
+        src: ["modivcare_animation_1.gif","modivcare_pencils.jpg"],
       },
       {
         type: "image",
-        src: ["modivcare_animation_1.gif","modivcare_pencils.jpg"],
+        src: "modivcare_web.jpg",
       },
     ],
   },

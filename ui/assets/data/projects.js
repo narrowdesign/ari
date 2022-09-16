@@ -344,8 +344,10 @@ const projects = [
       {
         type: "image",
         src: "modivcare_social_2.jpg",
-},  
-{
+      },
+    ],
+  },
+  {
     clientName: "Big Oil Big Lies",
     saySomething: "Dishonest",
     description: "With so much misinformation out there, it’s harder than ever to know who to trust when it comes to climate change. So we decided to bring a little bullshit of our own to help course correct the narrative. We started with a few words from Meryl Streep, Leonardo DiCaprio and The Rock.",

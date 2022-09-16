@@ -991,11 +991,11 @@ const projects = [
     ]
   },
   {
-    clientName: "Extended Stay Hotels",
-    saySomething: "Outrageous",
+    clientName: "Past Hits",
+    saySomething: "Classic",
     description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
-    folderName: "extended_stay_hotels",
-    hero: "",
+    folderName: "classics",
+    hero: "elf_2.jpg",
     meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
@@ -1003,9 +1003,84 @@ const projects = [
     content: [ 
       {
         type: "video",
-        title: "So Relaxed",
-        src: "https://player.vimeo.com/video/80569390",
-      }
+        title: "elf",
+        aspect: "3_4",
+        src: "https://player.vimeo.com/video/444890779",
+      },
+      {
+        title: "IKEA Lamp",
+        type: "video",
+        src: "https://player.vimeo.com/video/83556671",
+      },
+      {
+        title: "Body Bags",
+        type: "video",
+        src: "https://player.vimeo.com/video/79751978",
+      },
+      {
+        type: "image",
+        src: "gt_1.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_2.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_3.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_6.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_8.jpg",
+      },
+      {
+        type: "image",
+        src: ["mini_4.jpg", "mini_7.jpg"],
+      },
+      {
+        type: "image",
+        src: "mini_5.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["mini_2.jpg", "mini_3.jpg"],
+      },
+      {
+        type: "video",
+        title: "Glen",
+        aspect: "3_4",
+        src: "https://player.vimeo.com/video/79852065",
+      },
+      {
+        type: "image",
+        src: "time_3.jpg",
+      },
+      {
+        type: "image",
+        src: "time_1.jpg",
+      },
+      {
+        type: "image",
+        src: "time_2.jpg",
+      },
+      {
+        title: "Everyone",
+        type: "video",
+        src: "https://player.vimeo.com/video/75739839",
+      },
+      {
+        title: "Wolverine",
+        type: "video",
+        src: "https://player.vimeo.com/video/79699295",
+      },
     ]
   },  
   // {

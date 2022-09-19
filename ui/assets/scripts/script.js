@@ -143,7 +143,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
       <img src="${folder}thumbnail.jpg" class="image-fit center-hv pos-a h-100p t-0 l-0" />
         <div class="jsThumbnail__info fx-c j-c-center a-i-center p-h-2">
           <div class="jsThumbnail__client f-s-m">${project.clientName}</div>
-          <div class="jsThumbnail__title f-w-700 white">Say Something<br>${project.saySomething}</div>
+          <div class="jsThumbnail__title f-w-700 white">${project.saySomething}<br>Friend</div>
         </div>
       </div>`
 
@@ -440,7 +440,7 @@ $(function() { // INITIALIZE AFTER JQUERY IS LOADED
     }
     $('.jsProject').scrollTop(0);
     $('.jsProject__client').html(clientName);
-    $('.jsProject__title').html(`Say Something ${title}`);
+    $('.jsProject__title').html(`${title} Friend`);
     $('.jsProject__description').html(description);
     $('.jsProject__content').html('');
 

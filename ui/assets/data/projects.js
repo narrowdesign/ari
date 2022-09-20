@@ -133,7 +133,7 @@ const projects = [
   },
   {
     clientName: "Quil",
-    saySomething: "Independent",
+    saySomething: "Liberating",
     description: "For seniors who value their privacy and freedom, the idea of home monitoring can be a tough pill to swallow. So to launch Quil, we flipped the script and put the seniors in control. The message to caregivers was clear. “Look after us, without being on top of us. Stay in our lives and out of our hair. Quit hoverin’ and start Quillin’.”",
     folderName: "quil",
     hero: "",
@@ -468,7 +468,7 @@ const projects = [
   },
   {
     clientName: "MeWe",
-    saySomething: "Nutty",
+    saySomething: "Do-Gooder",
     description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. Ari&Friends named it MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March, 2019, MeWe quickly secured major retail distribution and began a partnership with Chobani only months later.",
     folderName: "mewe",
     hero: "pattern_1.jpg",
@@ -600,7 +600,7 @@ const projects = [
   },
   {
     clientName: "Binx",
-    saySomething: "Sexy",
+    saySomething: "Provocative",
     description: "Sexually transmitted diseases on college campuses are now being reported in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx at-home test as a personal hygiene product – encouraging young men and women to check themselves before they (sex metaphor goes here).",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
@@ -996,7 +996,7 @@ const projects = [
   },
   {
     clientName: "Kmart",
-    saySomething: "Famous",
+    saySomething: "Buzzworthy",
     description: "Our friends at Kmart wanted to build buzz around Adam Levine’s fashion line. We created “222”, a web series which included experiential events, promotions and BTS stories. The campaign got millions of views, boosted sales and drew over 250MM impressions – getting featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
     folderName: "kmart",
     hero: "",
@@ -1027,7 +1027,7 @@ const projects = [
   },
   {
     clientName: "Past Hits",
-    saySomething: "Classic",
+    saySomething: "Old",
     description: "Copywriting in progress. Please come back soon.",
     folderName: "classics",
     hero: "elf_2.jpg",

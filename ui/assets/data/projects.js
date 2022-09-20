@@ -1030,9 +1030,13 @@ const projects = [
     saySomething: "Old",
     description: "Copywriting in progress. Please come back soon.",
     folderName: "classics",
-    hero: "elf_2.jpg",
+    hero: "header_1.jpg",
     meta: ["Have a nice day"],
     content: [ 
+      {
+        type: "image",
+        src: "elf_2.jpg",
+      },
       {
         type: "video",
         title: "elf",

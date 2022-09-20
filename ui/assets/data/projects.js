@@ -8,7 +8,7 @@
 const projects = [
   {
     clientName: "Propshop",
-    saySomething: "Cheer-Worthy",
+    saySomething: "Betting",
     description: "There’s an expression in the gambling world that says, “The house always wins.” In a category controlled by casinos, Propshop is the sports betting app that makes sure you’re the one with the advantages. Propshop is more immersive and more social. Which means it’s way more fun than those larger sports betting platforms. How do we know? For starters, we had a ton of fun working on it.",
     folderName: "propshop",
     hero: "",
@@ -49,7 +49,7 @@ const projects = [
   },
   {
     clientName: "Well",
-    saySomething: "Well",
+    saySomething: "Healthy",
     description: "There’s nothing more important than your health, right? Seems somebody forgot to tell that to the American healthcare industry, where today’s systems are more focused on process than, well, you. Along comes WELL. A dynamic platform to empower health with personalized guidance that keeps every member well motivated, well organized and well cared for.",
     folderName: "well",
     hero: "",
@@ -82,7 +82,7 @@ const projects = [
   },
   {
     clientName: "The Big Plan",
-    saySomething: "Promising",
+    saySomething: "Brainy",
     description: "When our new friends told us what they were building, we said, “That’s big.” It was the first and only platform using realtime data to serve up an ideal health insurance plan in minutes. InsureTech that solves the biggest headaches in health insurance. We came up with a brand name and messaging platform worthy of this game-changing technology. Because a big change requires a big plan.",
     folderName: "thebigplan",
     hero: "",
@@ -133,7 +133,7 @@ const projects = [
   },
   {
     clientName: "Quil",
-    saySomething: "Liberating",
+    saySomething: "Independent",
     description: "For seniors who value their privacy and freedom, the idea of home monitoring can be a tough pill to swallow. So to launch Quil, we flipped the script and put the seniors in control. The message to caregivers was clear. “Look after us, without being on top of us. Stay in our lives and out of our hair. Quit hoverin’ and start Quillin’.”",
     folderName: "quil",
     hero: "",
@@ -182,7 +182,7 @@ const projects = [
   },
   {
     clientName: "DocGo",
-    saySomething: "Urgent",
+    saySomething: "On-the-Go",
     description: "As the COVID-19 pandemic raged on, one company was mobilizing to bring testing and vaccines to countless people in need. This would be the first time many people heard the name DocGo, but it would be far from the last. For us, it was a chance to give a remarkable company the image it so richly deserved. The project turned us into more than just a marketing partner. It turned us into fans. Go, DocGo.",
     folderName: "docgo",
     hero: "",
@@ -239,7 +239,7 @@ const projects = [
   },
   {
     clientName: "Together Labs",
-    saySomething: "Experimental",
+    saySomething: "Virtual",
     description: "With the promise of the Metaverse looming large, the company that created the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity system, messaging platform and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
     folderName: "together",
     hero: "",
@@ -284,7 +284,7 @@ const projects = [
   },
   {
     clientName: "Modivcare",
-    saySomething: "Reassuring",
+    saySomething: "Reliable",
     description: "The nearly 30,000 person company had just gone through a rebranding only six month earlier. As our first order of business, we were asked to create a new logo, ID system and brand platform that showed the strength and stability of a company committed to doing genuine good in the world. We decided to relaunch Modivcare with a bang instead of a whisper.",
     folderName: "modivcare",
     hero: "",
@@ -409,7 +409,7 @@ const projects = [
   },
   {
     clientName: "Amwell + Google",
-    saySomething: "Grateful",
+    saySomething: "Appreciative",
     description: "Our campaign is a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many are deserving of praise, this piece focuses on a doctor’s willingness to drop everything for a patient. Even when it’s inconvenient, even when it’s life threatening, even when all seems lost, nothing stops a doctor.",
     folderName: "amwell",
     hero: "",
@@ -432,7 +432,7 @@ const projects = [
   },
   {
     clientName: "Buoy",
-    saySomething: "Endearing",
+    saySomething: "Instructive",
     description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
     folderName: "buoy",
     hero: "copy_room_1.jpg",
@@ -468,7 +468,7 @@ const projects = [
   },
   {
     clientName: "MeWe",
-    saySomething: "Purposeful",
+    saySomething: "Nutty",
     description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. Ari&Friends named it MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March, 2019, MeWe quickly secured major retail distribution and began a partnership with Chobani only months later.",
     folderName: "mewe",
     hero: "pattern_1.jpg",
@@ -600,7 +600,7 @@ const projects = [
   },
   {
     clientName: "Binx",
-    saySomething: "Provocative",
+    saySomething: "Sexy",
     description: "Sexually transmitted diseases on college campuses are now being reported in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx at-home test as a personal hygiene product – encouraging young men and women to check themselves before they (sex metaphor goes here).",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
@@ -640,7 +640,7 @@ const projects = [
   },
   {
     clientName: "Nickel",
-    saySomething: "Revolutionary",
+    saySomething: "Patriotic",
     description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We named them Nickel. Our branding idea was simple. Put people ahead of profits. No greed. No confusion. No Americans paying the price for an industry that’s lost its way. We introduced healthcare that costs what healthcare should cost. Not a nickel more.",
     folderName: "nickel",
     hero: "ooh_1.jpg",
@@ -701,7 +701,7 @@ const projects = [
   },
   {
     clientName: "Metlife",
-    saySomething: "Unifying",
+    saySomething: "Everybody's",
     description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s hearts. After the game, The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of Ari’s non-compete (kidding about that last one). Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours.",
     folderName: "metlife_2",
     hero: "",
@@ -721,7 +721,7 @@ const projects = [
   },
   {
     clientName: "Thindown",
-    saySomething: "Game Changing",
+    saySomething: "Fashionable",
     description: "Thin was in, and the demand for down had never been greater. Yet the process of working with down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. We introduced the world’s first down fabric.",
     folderName: "thindown",
     hero: "header_1.jpg",
@@ -768,7 +768,7 @@ const projects = [
   },
   {
     clientName: "Athenahealth",
-    saySomething: "Truthful",
+    saySomething: "Cynical",
     description: "EMRs aren’t exactly user friendly. While Athenahealth was helping to solve for that, they also understood that empathy meant more than empty promises. We created “Let doctors be doctors.” This purpose-driven, activism-based campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
@@ -836,7 +836,7 @@ const projects = [
   },
   {
     clientName: "Recovery Unplugged",
-    saySomething: "Empowering",
+    saySomething: "Musical",
     description: "Our dear friend, Recovery Unplugged CEO Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we asked a simple question of those coping with the complicated issues of addiction: What track are you on?",
     folderName: "recovery_unplugged",
     hero: "recovery_unplugged_busshelter_1.jpg",
@@ -889,7 +889,7 @@ const projects = [
   },
   {
     clientName: "Wishclouds",
-    saySomething: "Entertaining",
+    saySomething: "Enviable",
     description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on to launch the Wishclouds app with a fresh voice. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
     folderName: "wishclouds",
     hero: "",
@@ -910,7 +910,7 @@ const projects = [
   },
   {
     clientName: "Say & Company",
-    saySomething: "Necessary",
+    saySomething: "Outspoken",
     description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own: Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
     folderName: "say",
     hero: "say_hero.jpg",
@@ -996,7 +996,7 @@ const projects = [
   },
   {
     clientName: "Kmart",
-    saySomething: "Buzzworthy",
+    saySomething: "Famous",
     description: "Our friends at Kmart wanted to build buzz around Adam Levine’s fashion line. We created “222”, a web series which included experiential events, promotions and BTS stories. The campaign got millions of views, boosted sales and drew over 250MM impressions – getting featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
     folderName: "kmart",
     hero: "",

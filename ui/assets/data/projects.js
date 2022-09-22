@@ -185,7 +185,7 @@ const projects = [
   {
     clientName: "DocGo",
     saySomething: "On-the-Go",
-    description: "As the COVID-19 pandemic raged on, one company was mobilizing to bring testing and vaccines to countless people in need. This would be the first time many people heard the name DocGo, but it would be far from the last. For us, it was a chance to give a remarkable company the image it so richly deserved. The project turned us into more than just a marketing partner. It turned us into fans. Go, DocGo.",
+    description: "As the COVID-19 pandemic raged on, one company was quickly mobilizing to bring testing and vaccines to the masses. This would be the first time many people heard the name DocGo. We made sure it wouldn’t be the last. We took the chance to make DocGo immediately identifiable – giving the company the awareness it so richly deserved. Go DocGo!",
     folderName: "docgo",
     hero: "",
     metaFooter: [

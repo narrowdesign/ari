@@ -953,7 +953,7 @@ const projects = [
     saySomething: "Chill",
     folderName: "hanes",
     hero: "",
-    description: "Michael Jordan is one of the most famous athletes of all time. Yet for some reason, we were just as excited to work with Facebook Canvas. We jumped at the chance to direct this interactive mobile experience for Hanes and 360i. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself. The effort was featured in Creativity, USA Today, SmartBrief and Printwear.",
+    description: "We jumped at the chance to direct this ambitious interactive mobile experience for Hanes and 360i. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself. The effort was featured in Creativity, USA Today, SmartBrief and Printwear.",
     metaFooter: [
       "Film Direction",
     ],

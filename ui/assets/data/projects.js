@@ -134,7 +134,7 @@ const projects = [
   {
     clientName: "Quil",
     saySomething: "Liberating",
-    description: "For seniors who value privacy and freedom, home monitoring can be a tough pill to swallow. To launch Quil, we flipped the script by putting seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
+    description: "For seniors who value their privacy and freedom, home monitoring can be a tough pill to swallow. To launch Quil, we flipped the script by putting seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
     folderName: "quil",
     hero: "",
     metaFooter: [
@@ -145,11 +145,13 @@ const projects = [
       "Package Design",
       "Interim CMO",
       "Creative Development",
-      "UX, Web Design & Development",
-      "Go To Market Strategy",
+      "Web Design & Development",
       "Social Media",
       "Film Direction",
-      "Video & Post Production",
+      "Video Production",
+      "Social Media",
+      "Email Campaigns",
+      "Performance Marketing",
     ],
     awards: [],
     content: [

@@ -9,7 +9,7 @@ const projects = [
   {
     clientName: "Propshop",
     saySomething: "Betting",
-    description: "There’s an expression that says, “The house always wins.” In a category controlled by casinos, Propshop is the sports betting app that makes sure you’re the one with the advantages. Propshop is more immersive and more social. Which means it’s way more fun than those larger sports betting platforms. How do we know? For starters, we had a ton of fun working on it.",
+    description: "They say the house always wins, but don’t be so sure about that. Propshop is the sports betting app that advantages you, the user. It’s more immersive, more social and way more fun than those larger sports betting platforms. How do we know? For starters, we had a ton of fun working on it. Full experience launching soon.",
     folderName: "propshop",
     hero: "",
     metaFooter: [

@@ -1027,7 +1027,7 @@ const projects = [
   {
     clientName: "Past Hits",
     saySomething: "Old",
-    description: "Copywriting in progress. Please come back soon.",
+    description: "Yes, they may be well past their first run dates, but these ideas have aged gracefully. From Truth “Body Bags”, one of Adge’s top 15 campaigns of the century, to Ikea “Lamp“, a spot featured on virtually all best ads of all time lists to Officemax’s “Elf Yourself”, a viral phenomenon that has endured for nearly twenty years. There are so many to thank, we don’t know where to begin. Perhaps the agencies listed below are a good start.",
     folderName: "classics",
     hero: "header_1.jpg",
     meta: ["Have a nice day"],

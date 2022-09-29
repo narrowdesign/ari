@@ -50,7 +50,7 @@ const projects = [
   {
     clientName: "Well",
     saySomething: "Healthy",
-    description: "There’s nothing more important than your health, right? Seems somebody forgot to tell that to the American healthcare industry, where today’s systems are more focused on process than, well, you. Along comes WELL. A dynamic platform to empower health with personalized guidance that keeps every member well motivated, well organized and well cared for.",
+    description: "There’s nothing more important than your health, right? Seems somebody forgot to tell that to the American healthcare industry, where today’s systems are more focused on process than patients. Along comes Well. A dynamic platform to provide personalized guidance and keep every member well motivated, well organized and well cared for. Well, well, well.",
     folderName: "well",
     hero: "",
     metaFooter: [
@@ -83,7 +83,7 @@ const projects = [
   {
     clientName: "The Big Plan",
     saySomething: "Brainy",
-    description: "When our new friends told us what they were building, we said, “That’s big.” It was the first and only platform using realtime data to serve up an ideal health insurance plan in minutes. InsureTech that solves the biggest headaches in health insurance. We came up with a brand name and messaging platform worthy of this game-changing technology. Because a big change requires a big plan.",
+    description: "It’s a new AI platform promising to serve up the ideal health insurance plan in just minutes, based on realtime marketplace data. In other words, a solution to the biggest headaches in health insurance. It was our job to give this remarkable company the brand name, identity and messaging it deserved. We said, “A big change requires a big plan.” Funding goals were met quickly. Very, very quickly.",
     folderName: "thebigplan",
     hero: "",
     metaFooter: [
@@ -134,7 +134,7 @@ const projects = [
   {
     clientName: "Quil",
     saySomething: "Liberating",
-    description: "For seniors who value their privacy and freedom, home monitoring can be a tough pill to swallow. To launch Quil, we flipped the script by putting seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
+    description: "For seniors who value privacy and freedom, home monitoring can be tough to swallow. To launch Quil, we flipped the script and put seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
     folderName: "quil",
     hero: "",
     metaFooter: [
@@ -185,7 +185,7 @@ const projects = [
   {
     clientName: "DocGo",
     saySomething: "On-the-Go",
-    description: "As the COVID-19 pandemic raged on, one company was quickly mobilizing to bring testing and vaccines to the masses. This would be the first time many people heard the name DocGo. We made sure it wouldn’t be the last. We took the chance to make DocGo immediately identifiable – giving the company the awareness it so richly deserved.",
+    description: "As the COVID-19 pandemic raged on, one company was quickly mobilizing to bring testing and vaccines to the masses. This would be the first time people knew the name DocGo. We wanted to make sure itwouldn’t be the last. We set out to make the brand instantly recognizable by giving the company the brand awareness it so richly deserved.",
     folderName: "docgo",
     hero: "",
     metaFooter: [
@@ -240,7 +240,7 @@ const projects = [
   {
     clientName: "Together Labs",
     saySomething: "Virtual",
-    description: "With the promise of the Metaverse looming large, the company that created the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity system, messaging platform and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
+    description: "With the promise of the Metaverse, crypto and NFTs looming large, the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity, messaging and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
     folderName: "together",
     hero: "",
     metaFooter: [
@@ -337,7 +337,7 @@ const projects = [
   {
     clientName: "Big Oil Big Lies",
     saySomething: "Dishonest",
-    description: "With so much misinformation out there, it’s harder than ever to know who to trust when it comes to climate change. So we decided to bring a little bullshit of our own to help course correct the narrative. We started with a few words from Meryl Streep, Leonardo DiCaprio and The Rock.",
+    description: "With so much misinformation out there, it’s harder than ever to know who to trust when it comes to climate change. So we decided to bring a little bullshit of our own and, in doing so, helped course correct the narrative. We started with a few words from Meryl Streep, Leonardo DiCaprio and The Rock. Kind of.",
     folderName: "bigoilbiglies",
     hero: "",
     metaFooter: [
@@ -367,7 +367,7 @@ const projects = [
   {
     clientName: "Superblue",
     saySomething: "Inclusive",
-    description: "It was a revolutionary idea from Pace Galleries. Our challenge was letting ticket buyers know this immersive experience was more than just an exhibit. So we started by letting visitors know they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.”",
+    description: "It was a revolutionary idea from Pace Galleries. An art exhibit so immersive, you could sell tickets. Our job was to help people people see they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.”",
     folderName: "superblue",
     hero: "",
     metaFooter: [
@@ -409,7 +409,7 @@ const projects = [
   {
     clientName: "Amwell + Google",
     saySomething: "Appreciative",
-    description: "Our campaign is a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many are deserving of praise, this piece focuses on a doctor’s willingness to drop everything for a patient. Even when it’s inconvenient, even when it’s life threatening, even when all seems lost, nothing stops a doctor.",
+    description: "Our campaign was a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many deserve praise, our campaign focused on a doctor’s willingness to drop everything for their patients. Even when it’s inconvenient, even when it’s life threatening, even when all seems lost, nothing stops a doctor. Our message was heard and widely shared.",
     folderName: "amwell",
     hero: "",
     metaFooter: [
@@ -468,7 +468,7 @@ const projects = [
   {
     clientName: "MeWe",
     saySomething: "Do-Gooder",
-    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. Ari&Friends named it MeWe, the nonprofit CPG brand that’s good for me and good for we. Launched in March, 2019, MeWe quickly secured major retail distribution and began a partnership with Chobani only months later.",
+    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. We created MeWe, the non-profit brand of nut butter that’s good for me and good for we. MeWe quickly secured major retail distribution and began a successful partnership with Chobani within just months of launch.",
     folderName: "mewe",
     hero: "pattern_1.jpg",
     metaFooter: [
@@ -549,7 +549,7 @@ const projects = [
   {
     clientName: "Elmhurst",
     saySomething: "Competitive",
-    description: "Elmhurst didn’t have the hype of their competitors. Then again, they didn’t have other things either, like gums, oils and additives. With a culture of sustainability and dietary consciousness in the spotlight, it was time for this Elmhurst to establish a voice of its own. Our campaign helped the company achieve a 70% lift in sales.",
+    description: "At nearly seven bucks a carton, Elmhurst didn’t have the price advantages of its competitors. Then again, the product didn’t have other things either, like gums, oils and additives. In a culture of sustainability, transparency and dietary consciousness, it was time people knew why truly is better. During our campaign’s run, the company saw a 70% lift in sales.",
     folderName: "elmhurst",
     hero: "ooh_1.jpg",
     metaFooter: [
@@ -600,7 +600,7 @@ const projects = [
   {
     clientName: "Binx",
     saySomething: "Provocative",
-    description: "Sexually transmitted diseases on college campuses are now being reported in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx at-home test as a personal hygiene product – encouraging young men and women to check themselves before they (sex metaphor goes here).",
+    description: "Sexually transmitted diseases on college campuses are being reported in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx at-home test as a personal hygiene product – encouraging young men and women to check themselves before they, well, y’know.",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
     metaFooter: [
@@ -679,7 +679,7 @@ const projects = [
   {
     clientName: "Face The Music",
     saySomething: "Heartbreaking",
-    description: "Warning: “I Got This” isn’t easy viewing. We created the video on behalf of a charity organization that provides scholarships and supports music-based recovery. It won AICP and One Show awards. Even before media dollars were spent, “I Got This” got this: An article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. The video was a Creativity Editor’s Pick and was shared on the Facebook pages of Maroon 5, Flo-Rida, Ink, Richie Sambora.",
+    description: "WARNING: “I Got This” isn’t easy viewing. The video was created to raise awareness for Face The Music, a non-profit that provides recovery program scholarships for those in need. Before any media dollars were spent, “I Got This” got this: An article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. It was a Creativity Editor’s Pick and was shared by Maroon 5, Flo-Rida, Ink and Richie Sambora. “I Got This” also scored awards from AICP and One Show.",
     folderName: "face_the_music",
     hero: "",
     metaFooter: [
@@ -701,7 +701,7 @@ const projects = [
   {
     clientName: "Metlife",
     saySomething: "Everybody's",
-    description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s hearts. After the game, The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of Ari’s non-compete (kidding about that last one). Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours.",
+    description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s heart. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of our non-compete ; ).",
     folderName: "metlife_2",
     hero: "",
     metaFooter: [
@@ -721,7 +721,7 @@ const projects = [
   {
     clientName: "Thindown",
     saySomething: "Fashionable",
-    description: "Thin was in, and the demand for down had never been greater. Yet the process of working with down was as complicated as ever. Our friends at Thindown had a new approach. Advanced. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. We introduced the world’s first down fabric.",
+    description: "Thin is in, and the demand for down has never been greater. Yet the process of working with down is as complicated as ever. Thindown had a better idea. Sustainable. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. We introduced the world’s first down fabric. Since the, Thindown been used by countless high end fashion brands you know.",
     folderName: "thindown",
     hero: "header_1.jpg",
     metaFooter: [
@@ -768,7 +768,7 @@ const projects = [
   {
     clientName: "Athenahealth",
     saySomething: "Cynical",
-    description: "EMRs aren’t exactly user friendly. While Athenahealth was helping to solve for that, they also understood that empathy meant more than empty promises. We created “Let doctors be doctors.” This purpose-driven, activism-based campaign was heralded as a major leap forward for healthcare and led to amazing growth in brand health, awareness and favorability.",
+    description: "Electronic health records (EHRs) aren’t exactly user friendly. While Athenahealth was helping to solve for that, they understood that a little empathy meant more to frustrated physicians than empty promises. We created “Let doctors be doctors.” An activism campaign that was heralded as a major leap forward for healthcare marketing and led to amazing growth in brand health, awareness and favorability.",
     folderName: "athenahealth",
     hero: "",
     metaFooter: [
@@ -889,7 +889,7 @@ const projects = [
   {
     clientName: "Wishclouds",
     saySomething: "Enviable",
-    description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on to launch the Wishclouds app with a fresh voice. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
+    description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on for the Wishclouds app to break through with a small budget. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
     folderName: "wishclouds",
     hero: "",
     metaFooter: [
@@ -968,7 +968,7 @@ const projects = [
   {
     clientName: "Tripadvisor",
     saySomething: "Trustworthy",
-    description: "What do the reviews really mean? That was the question to answer for TripAdvisor’s first brand campaign. Our theme, “Every experience counts”, became a company trademark. The campaign far exceeded expectations, leading to more production, global media spending and an exclusive CMO performance of “Rapper’s Delight” on a six-hour car ride to Slovenia.",
+    description: "We had two questions to answer. One, what do reviews on TripAdvisor really mean? And two, why even do a brand campaign? We started by declaring TripAdvisor the people’s travel site. Our campaign theme, “Every experience counts,” quickly became a company trademark as the campaign far exceeded expectations – leading to more production and global media spending.",
     folderName: "tripadvisor",
     hero: "",
     metaFooter: [
@@ -996,7 +996,7 @@ const projects = [
   {
     clientName: "Kmart",
     saySomething: "Buzzworthy",
-    description: "Our friends at Kmart wanted to build buzz around Adam Levine’s fashion line. We created “222”, a web series which included experiential events, promotions and BTS stories. The campaign got millions of views, boosted sales and drew over 250MM impressions – getting featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
+    description: "There was buzz swirling around Adam Levine’s fashion line. We aimed to package it, add to it, and amplify it through social media. We created “222”, a web series which included experiential events, promotions and BTS stories. The campaign got millions of views, jacked up sales and drew over 250MM impressions after being featured by Access Hollywood, People, USA Today, Refinery 29 and LA Times.",
     folderName: "kmart",
     hero: "",
     metaFooter: [

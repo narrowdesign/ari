@@ -600,7 +600,7 @@ const projects = [
   {
     clientName: "Binx",
     saySomething: "Provocative",
-    description: "Sexually transmitted diseases on college campuses are being reported in record numbers. So how do you keep infections from happening? You keep them from spreading in the first place. We positioned the Binx at-home test as a personal hygiene product – encouraging young men and women to check themselves before they, well, y’know.",
+    description: "For most college student, STI testing is a regret and fear based ritual. Something done after sex. We saw an opportunity to change that. With STIs at an all time high on campuses, we positioned Binx as a pre-sex, hygiene ritual. An at-home test to help you put a little clean in your dirty.",
     folderName: "binx",
     hero: "bus_shelter_1.jpg",
     metaFooter: [

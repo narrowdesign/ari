@@ -37,13 +37,6 @@ const people = [
       bio: "Founder of MOCO Global, an advisory firm and marketing network. Mona is an experienced CMO who has held leadership positions at multi billion dollar public companies, VC backed startups, and global advertising agencies. She’s received five medals for running the Boston marathon and a boatload more for being a fantastic mother of three.",
     },
     {
-      name: "Nathaniel Perez",
-      title: "Digital Strategy | Frequent Friend",
-      headshot: "nathaniel_2.jpg",
-      throwback: "nathaniel_1.jpg",
-      bio: "A techie at heart, Nathaniel is an all-purpose digital pioneer. A former Global Head at SapientNitro, Nathaniel has helped over 100 global brands, including Coca-Cola, MARS, Kraft, Unilever, RedBull, ESPN, BK, Sprint, AT&T, T-Mobile, Verizon, Mercedes, Carnival Cruises, BlueCross, Metlife, Citi, to name a few. Dudes got chops.",
-    },
-    {
       name: "Jersey",
       title: "Executive Mutt | Man’s Best Friend",
       headshot: "jersey_2.jpg",

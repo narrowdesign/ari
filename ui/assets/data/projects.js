@@ -7,131 +7,6 @@
 */
 const projects = [
   {
-    clientName: "Propshop",
-    saySomething: "Betting",
-    description: "They say the house always wins, but don’t be so sure about that. Propshop is the sports betting app that advantages you, the user. It’s more immersive, more social and way more fun than those larger sports betting platforms. How do we know? For starters, we had a ton of fun working on it. Full experience launching soon.",
-    folderName: "propshop",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Logo",
-      "ID System",
-      "Brand Messaging",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "big_logo.jpg",
-      },
-      {
-        type: "image",
-        src: ["logo_animation.gif","phone.jpg"],
-      },
-      {
-        type: "image",
-        src: "onestopshop.jpg",
-      },
-      {
-        type: "image",
-        src: "business_cards_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["cup.jpg","tshirt_animation_1.gif"],
-      },
-      {
-        type: "image",
-        src: ["seewhatpropsup.jpg","foamfinger.jpg"],
-      },
-    ],
-  },
-  {
-    clientName: "Well",
-    saySomething: "Healthy",
-    description: "There’s nothing more important than your health, right? Seems somebody forgot to tell that to the American healthcare industry, where today’s systems are more focused on process than patients. Along comes Well. A dynamic platform to provide personalized guidance and keep every member well motivated, well organized and well cared for. Well, well, well.",
-    folderName: "well",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "ID System",
-      "Brand Messaging",
-      "UX",
-      "Web Design & Development",
-      "Copywriting",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "video",
-        autoplay: true,
-        title: "web",
-        src: "https://player.vimeo.com/video/744437510",
-      },
-      {
-        type: "image",
-        src: ["wellmobile3.jpg","wellmobile2.jpg"],
-      },
-      {
-        type: "image",
-        src: ["wellmobile1.jpg","wellmobile4.jpg"],
-      },
-    ],
-  },
-  {
-    clientName: "The Big Plan",
-    saySomething: "Brainy",
-    description: "It’s a new AI platform promising to serve up the ideal health insurance plan in just minutes, based on realtime marketplace data. In other words, a solution to the biggest headaches in health insurance. It was our job to give this remarkable company the brand name, identity and messaging it deserved. We said, “A big change requires a big plan.” Funding goals were met quickly. Very, very quickly.",
-    folderName: "thebigplan",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Logo",
-      "ID System",
-      "Brand Messaging",
-      "UX",
-      "Website Servces",
-      "Copywriting",
-      "Interim CMO Services",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "video",
-        autoplay: true,
-        title: "web",
-        src: "https://player.vimeo.com/video/745540735",
-      },
-      {
-        type: "image",
-        src: "header_image.jpg",
-      },
-      {
-        type: "image",
-        src: ["mobile_animation.gif","squirrel_headgear.gif"],
-      },
-      {
-        type: "image",
-        src: "headline_3.jpg",
-      },
-      {
-        type: "image",
-        src: ["illustrations.gif","tshirt.jpg"],
-      },
-      {
-        type: "image",
-        src: "businesscards.jpg",
-      },
-      {
-        type: "image",
-        src: ["instagram_headline.gif","headline_2.jpg"],
-      },
-    ],
-  },
-  {
     clientName: "Quil",
     saySomething: "Liberating",
     description: "For seniors who value privacy and freedom, home monitoring can be tough to swallow. To launch Quil, we flipped the script and put seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
@@ -179,289 +54,6 @@ const projects = [
         title: "Onboarding",
         type: "video",
         src: "https://player.vimeo.com/video/729331873",
-      },
-    ],
-  },
-  {
-    clientName: "DocGo",
-    saySomething: "On-the-Go",
-    description: "As the COVID-19 pandemic raged on, one company was quickly mobilizing to bring testing and vaccines to the masses. This would be the first time people knew the name DocGo. We wanted to make sure itwouldn’t be the last. We set out to make the brand instantly recognizable by giving the company the brand awareness it so richly deserved.",
-    folderName: "docgo",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Logo",
-      "ID System",
-      "Brand Messaging",
-      "Vehicle Design",
-      "Web Design & Development",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "docgo_header.jpg",
-      },
-      {
-        type: "image",
-        src: "docgo_logo_2.jpg ",
-      },
-      {
-        type: "image",
-        src: ["docgo_image_1.jpg","docgo_logo_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["docgo_animation_3.gif","docgo_tag.jpg"],
-      },
-      {
-        type: "image",
-        src: "docgo_web_1.jpg",
-      },
-      {
-        type: "image",
-        src: "docgo_animation_4.gif",
-      },
-      {
-        type: "image",
-        src: ["docgo_web_2.jpg","docgo_animation_1.gif"],
-      },
-      {
-        type: "image",
-        src: ["docgo_image_3.jpg","docgo_image_2.jpg"],
-      },
-      {
-        type: "image",
-        src: "docgo_van.jpg",
-      },
-    ],
-  },
-  {
-    clientName: "Together Labs",
-    saySomething: "Virtual",
-    description: "With the promise of the Metaverse, crypto and NFTs looming large, the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity, messaging and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
-    folderName: "together",
-    hero: "",
-    metaFooter: [
-      "Logo",
-      "ID System",
-      "Web Design",
-      "Video & Post Production",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "together_header.jpg",
-      },
-      {
-        type: "image",
-        src: "together_logo.jpg",
-      },
-      {
-        type: "image",
-        src: "together_animation_1.gif",
-      },
-      {
-        type: "image",
-        src: ["together_pattern.jpg","together_withme.jpg"],
-      },
-      {
-        type: "image",
-        src: ["together_imvu1.jpg","together_animation_2.gif"],
-      },
-      {
-        type: "image",
-        src: ["together_tag.jpg","together_imvu2.jpg"],
-      },
-      {
-        title: "Escape",
-        type: "video",
-        src: "https://player.vimeo.com/video/523408070",
-      },
-    ],
-  },
-  {
-    clientName: "Modivcare",
-    saySomething: "Reliable",
-    description: "The nearly 30,000 person company had just gone through a rebranding only six month earlier. As our first order of business, we were asked to create a new logo, ID system and brand platform that showed the strength and stability of a company committed to doing genuine good in the world. We decided to relaunch Modivcare with a bang instead of a whisper.",
-    folderName: "modivcare",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Postioning",
-      "Logo",
-      "ID System",
-      "Brand Messaging",
-      "Creative Development",
-      "Web Design",
-      "Collateral Design",
-      "Social Media",
-      "Video Production",
-      "Content Creation",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "ItsTime",
-        type: "video",
-        src: "https://player.vimeo.com/video/622742093",
-      },
-      {
-        type: "image",
-        src: "modivcare_logo.jpg",
-      },
-      {
-        type: "image",
-        src: ["modivcare_roadlogo.jpg","modivcare_pattern_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["modivcare_tag.jpg","modivcare_animation_3.gif"],
-      },
-      {
-        type: "image",
-        src: "modivcare_pattern_2.jpg",
-      },
-      {
-        type: "image",
-        src: ["modivcare_animation_1.gif","modivcare_pencils.jpg"],
-      },
-      {
-        type: "image",
-        src: "modivcare_web.jpg",
-      },
-    ],
-  },
-  {
-    clientName: "Big Oil Big Lies",
-    saySomething: "Dishonest",
-    description: "With so much misinformation out there, it’s harder than ever to know who to trust when it comes to climate change. So we decided to bring a little bullshit of our own and, in doing so, helped course correct the narrative. We started with a few words from Meryl Streep, Leonardo DiCaprio and The Rock. Kind of.",
-    folderName: "bigoilbiglies",
-    hero: "",
-    metaFooter: [
-      "Brand Messaging",
-      "Creative Development",
-      "Video & Post Production",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Dwayne",
-        type: "video",
-        src: "https://player.vimeo.com/video/539171279",
-      },
-      {
-        title: "Meryl",
-        type: "video",
-        src: "https://player.vimeo.com/video/539171640",
-      },
-      {
-        title: "Leo",
-        type: "video",
-        src: "https://player.vimeo.com/video/539171430",
-      },
-    ],
-  },
-  {
-    clientName: "Superblue",
-    saySomething: "Inclusive",
-    description: "It was a revolutionary idea from Pace Galleries. An art exhibit so immersive, you could sell tickets. Our job was to help people people see they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.”",
-    folderName: "superblue",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Brand Messaging",
-      "Creative Development",
-      "Film Direction",
-      "Video & Post Production",
-      "Print Production",
-      "Web Design & Development",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Teaser",
-        type: "video",
-        src: "https://player.vimeo.com/video/515972251",
-      },
-      {
-        type: "image",
-        src: "teaser_1.jpg",
-      },
-      {
-        type: "image",
-        src: "superblue_ooh_1.jpg",
-      },
-      {
-        type: "image",
-        src: "superblue_ooh_2.jpg",
-      },
-      {
-        title: "Sizzle",
-        type: "video",
-        src: "https://player.vimeo.com/video/465207471",
-      },
-    ],
-  },
-  {
-    clientName: "Amwell + Google",
-    saySomething: "Appreciative",
-    description: "Our campaign was a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many deserve praise, our campaign focused on a doctor’s willingness to drop everything for their patients. Even when it’s inconvenient, even when it’s life threatening, even when all seems lost, nothing stops a doctor. Our message was heard and widely shared.",
-    folderName: "amwell",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Brand Messaging",
-      "Creative Development",
-      "Film Direction",  
-      "Video & Post Production",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Nothing Stops a Doctor",
-        type: "video",
-        src: "https://player.vimeo.com/video/526948128",
-      },
-    ],
-  },
-  {
-    clientName: "Buoy",
-    saySomething: "Instructive",
-    description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
-    folderName: "buoy",
-    hero: "copy_room_1.jpg",
-    metaFooter: [
-      "Strategy",
-      "Creative Development",
-      "Video, Post & Print Production",
-      "Social Content",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: ["poster_1.jpg","poster_2.jpg"],
-      },
-      {
-        type: "image",
-        src: "doorhanger_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["poster_3.jpg","poster_4.jpg"],
-      },
-      {
-        type: "image",
-        src: "urinals_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["poster_5.jpg","poster_6.jpg"],
       },
     ],
   },
@@ -547,53 +139,108 @@ const projects = [
     ],
   },
   {
-    clientName: "Elmhurst",
-    saySomething: "Competitive",
-    description: "At nearly seven bucks a carton, Elmhurst didn’t have the price advantages of its competitors. Then again, the product didn’t have other things either, like gums, oils and additives. In a culture of sustainability, transparency and dietary consciousness, it was time people knew why truly is better. During our campaign’s run, the company saw a 70% lift in sales.",
-    folderName: "elmhurst",
-    hero: "ooh_1.jpg",
+    clientName: "The Big Plan",
+    saySomething: "Brainy",
+    description: "It’s a new AI platform promising to serve up the ideal health insurance plan in just minutes, based on realtime marketplace data. In other words, a solution to the biggest headaches in health insurance. It was our job to give this remarkable company the brand name, identity and messaging it deserved. We said, “A big change requires a big plan.” Funding goals were met quickly. Very, very quickly.",
+    folderName: "thebigplan",
+    hero: "",
     metaFooter: [
       "Strategy",
       "Positioning",
+      "Logo",
+      "ID System",
       "Brand Messaging",
-      "Creative Development",
-      "Video & Post Production"
+      "UX",
+      "Website Servces",
+      "Copywriting",
+      "Interim CMO Services",
     ],
     awards: [],
     content: [
       {
-        title: "Wow",
         type: "video",
-        src: "https://player.vimeo.com/video/402200729",
-      },
-      {
-        title: "1925",
-        type: "video",
-        src: "https://player.vimeo.com/video/402204658",
-      },
-      {
-        title: "Nuts",
-        type: "video",
-        src: "https://player.vimeo.com/video/405134581",
+        autoplay: true,
+        title: "web",
+        src: "https://player.vimeo.com/video/745540735",
       },
       {
         type: "image",
-        src: "ooh_2.jpg",
+        src: "header_image.jpg",
       },
       {
         type: "image",
-        src: [
-          "poster_1.jpg",
-          "poster_2.jpg",
-        ]
+        src: ["mobile_animation.gif","squirrel_headgear.gif"],
       },
       {
         type: "image",
-        src: "ooh_3.jpg",
+        src: "headline_3.jpg",
       },
       {
         type: "image",
-        src: "bus_shelter_1.jpg",
+        src: ["illustrations.gif","tshirt.jpg"],
+      },
+      {
+        type: "image",
+        src: "businesscards.jpg",
+      },
+      {
+        type: "image",
+        src: ["instagram_headline.gif","headline_2.jpg"],
+      },
+    ],
+  },
+  {
+    clientName: "DocGo",
+    saySomething: "On-the-Go",
+    description: "As the COVID-19 pandemic raged on, one company was quickly mobilizing to bring testing and vaccines to the masses. This would be the first time people knew the name DocGo. We wanted to make sure itwouldn’t be the last. We set out to make the brand instantly recognizable by giving the company the brand awareness it so richly deserved.",
+    folderName: "docgo",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+      "Vehicle Design",
+      "Web Design & Development",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "docgo_header.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_logo_2.jpg ",
+      },
+      {
+        type: "image",
+        src: ["docgo_image_1.jpg","docgo_logo_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["docgo_animation_3.gif","docgo_tag.jpg"],
+      },
+      {
+        type: "image",
+        src: "docgo_web_1.jpg",
+      },
+      {
+        type: "image",
+        src: "docgo_animation_4.gif",
+      },
+      {
+        type: "image",
+        src: ["docgo_web_2.jpg","docgo_animation_1.gif"],
+      },
+      {
+        type: "image",
+        src: ["docgo_image_3.jpg","docgo_image_2.jpg"],
+      },
+      {
+        type: "image",
+        src: "docgo_van.jpg",
       },
     ],
   },
@@ -638,41 +285,88 @@ const projects = [
     ],
   },
   {
-    clientName: "Nickel",
-    saySomething: "Patriotic",
-    description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We named them Nickel. Our branding idea was simple. Put people ahead of profits. No greed. No confusion. No Americans paying the price for an industry that’s lost its way. We introduced healthcare that costs what healthcare should cost. Not a nickel more.",
-    folderName: "nickel",
-    hero: "ooh_1.jpg",
+    clientName: "Say & Company",
+    saySomething: "Outspoken",
+    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own: Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
+    folderName: "say",
+    hero: "say_hero.jpg",
     metaFooter: [
-      "Strategy",
-      "Naming",
-      "Positioning",
-      "Brand Platform",
-      "Logo & Brand Id",
-      "Creative Development",
-      "Social Content",
+      "Naming","Logo","Id System Design","Brand Messaging","Go To Market Strategy","Creative Development","<nobr>E-Commerce</nobr> Website","Social Media Management",
     ],
     awards: [],
     content: [
       {
         type: "image",
-        src: "logos_1.jpg",
+        src: "say_1.jpg",
       },
       {
         type: "image",
-        src: "duratrans_1.jpg",
+        src: ["say_2.jpg","say_3.jpg","say_4.jpg"],
       },
       {
         type: "image",
-        src: ["poster_2.jpg","poster_1.jpg"],
+        src: ["say_5.jpg","say_6.jpg","say_7.jpg"],
       },
       {
         type: "image",
-        src: "ooh_2.jpg",
+        src: "say_8.jpg",
       },
       {
         type: "image",
-        src: "business_cards_1.jpg",
+        src: ["say_9.jpg","say_10.jpg","say_11.jpg"],
+      },
+      {
+        type: "image",
+        src: ["say_12.jpg","say_13.jpg","say_14.jpg"],
+      },
+      {
+        type: "image",
+        src: "say_15.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "Together Labs",
+    saySomething: "Virtual",
+    description: "With the promise of the Metaverse, crypto and NFTs looming large, the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity, messaging and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
+    folderName: "together",
+    hero: "",
+    metaFooter: [
+      "Logo",
+      "ID System",
+      "Web Design",
+      "Video & Post Production",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "together_header.jpg",
+      },
+      {
+        type: "image",
+        src: "together_logo.jpg",
+      },
+      {
+        type: "image",
+        src: "together_animation_1.gif",
+      },
+      {
+        type: "image",
+        src: ["together_pattern.jpg","together_withme.jpg"],
+      },
+      {
+        type: "image",
+        src: ["together_imvu1.jpg","together_animation_2.gif"],
+      },
+      {
+        type: "image",
+        src: ["together_tag.jpg","together_imvu2.jpg"],
+      },
+      {
+        title: "Escape",
+        type: "video",
+        src: "https://player.vimeo.com/video/523408070",
       },
     ],
   },
@@ -695,73 +389,6 @@ const projects = [
         title: "I got this",
         type: "video",
         src: "https://player.vimeo.com/video/236263407",
-      },
-    ],
-  },
-  {
-    clientName: "Metlife",
-    saySomething: "Everybody's",
-    description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s heart. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of our non-compete ; ).",
-    folderName: "metlife_2",
-    hero: "",
-    metaFooter: [
-      "Brand Messaging",
-      "Creative Development",
-      "Production And Post Production",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Superbowl Anthem:",
-        type: "video",
-        src: "https://player.vimeo.com/video/96031163",
-      },
-    ],
-  },
-  {
-    clientName: "Thindown",
-    saySomething: "Fashionable",
-    description: "Thin is in, and the demand for down has never been greater. Yet the process of working with down is as complicated as ever. Thindown had a better idea. Sustainable. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. We introduced the world’s first down fabric. Since the, Thindown been used by countless high end fashion brands you know.",
-    folderName: "thindown",
-    hero: "header_1.jpg",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Id System Design",
-      "Brand Messaging",
-      "Creative Development",
-      "Website",
-      "Video & Post Production",
-      "Investor Materials",
-      "Content Production",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "logos_1.jpg",
-      },
-      {
-        type: "video",
-        autoplay: true,
-        title: "man",
-        src: "https://player.vimeo.com/video/448925255",
-      },
-      {
-        type: "image",
-        src: ["hangtag_1.jpg", "headline_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["fluff_1.jpg", "model_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["headline_2.jpg", "hanger_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["model_2.jpg", "thindown_1.jpg"],
       },
     ],
   },
@@ -834,6 +461,380 @@ const projects = [
     ],
   },
   {
+    clientName: "Metlife",
+    saySomething: "Everybody's",
+    description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s heart. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of our non-compete ; ).",
+    folderName: "metlife_2",
+    hero: "",
+    metaFooter: [
+      "Brand Messaging",
+      "Creative Development",
+      "Production And Post Production",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Superbowl Anthem:",
+        type: "video",
+        src: "https://player.vimeo.com/video/96031163",
+      },
+    ],
+  },  
+  {
+    clientName: "Nickel",
+    saySomething: "Patriotic",
+    description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We named them Nickel. Our branding idea was simple. Put people ahead of profits. No greed. No confusion. No Americans paying the price for an industry that’s lost its way. We introduced healthcare that costs what healthcare should cost. Not a nickel more.",
+    folderName: "nickel",
+    hero: "ooh_1.jpg",
+    metaFooter: [
+      "Strategy",
+      "Naming",
+      "Positioning",
+      "Brand Platform",
+      "Logo & Brand Id",
+      "Creative Development",
+      "Social Content",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "logos_1.jpg",
+      },
+      {
+        type: "image",
+        src: "duratrans_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_2.jpg","poster_1.jpg"],
+      },
+      {
+        type: "image",
+        src: "ooh_2.jpg",
+      },
+      {
+        type: "image",
+        src: "business_cards_1.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "Elmhurst",
+    saySomething: "Competitive",
+    description: "At nearly seven bucks a carton, Elmhurst didn’t have the price advantages of its competitors. Then again, the product didn’t have other things either, like gums, oils and additives. In a culture of sustainability, transparency and dietary consciousness, it was time people knew why truly is better. During our campaign’s run, the company saw a 70% lift in sales.",
+    folderName: "elmhurst",
+    hero: "ooh_1.jpg",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Brand Messaging",
+      "Creative Development",
+      "Video & Post Production"
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Wow",
+        type: "video",
+        src: "https://player.vimeo.com/video/402200729",
+      },
+      {
+        title: "1925",
+        type: "video",
+        src: "https://player.vimeo.com/video/402204658",
+      },
+      {
+        title: "Nuts",
+        type: "video",
+        src: "https://player.vimeo.com/video/405134581",
+      },
+      {
+        type: "image",
+        src: "ooh_2.jpg",
+      },
+      {
+        type: "image",
+        src: [
+          "poster_1.jpg",
+          "poster_2.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: "ooh_3.jpg",
+      },
+      {
+        type: "image",
+        src: "bus_shelter_1.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "Superblue",
+    saySomething: "Inclusive",
+    description: "It was a revolutionary idea from Pace Galleries. An art exhibit so immersive, you could sell tickets. Our job was to help people people see they were more than just guests. They were collaborators – helping to redefine the way artwork can work. We said, “Welcome to Superblue, the art movement that moves you.”",
+    folderName: "superblue",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Brand Messaging",
+      "Creative Development",
+      "Film Direction",
+      "Video & Post Production",
+      "Print Production",
+      "Web Design & Development",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Teaser",
+        type: "video",
+        src: "https://player.vimeo.com/video/515972251",
+      },
+      {
+        type: "image",
+        src: "teaser_1.jpg",
+      },
+      {
+        type: "image",
+        src: "superblue_ooh_1.jpg",
+      },
+      {
+        type: "image",
+        src: "superblue_ooh_2.jpg",
+      },
+      {
+        title: "Sizzle",
+        type: "video",
+        src: "https://player.vimeo.com/video/465207471",
+      },
+    ],
+  },
+  {
+    clientName: "Hanes | 360i",
+    saySomething: "Chill",
+    folderName: "hanes",
+    hero: "",
+    description: "We jumped at the chance to direct this ambitious interactive mobile experience for Hanes and 360i. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself. The effort was featured in Creativity, USA Today, SmartBrief and Printwear.",
+    metaFooter: [
+      "Film Direction",
+    ],
+    content: [ 
+      {
+        type: "video",
+        title: "Hanes Interactive Film",
+        src: "https://player.vimeo.com/video/251409418",
+      }
+    ]
+  },
+  {
+    clientName: "Wishclouds",
+    saySomething: "Enviable",
+    description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on for the Wishclouds app to break through with a small budget. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
+    folderName: "wishclouds",
+    hero: "",
+    metaFooter: [
+      "Creative Development",
+      "Film Direction",
+      "Video & Post Production",
+      "Influencer Content",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Jane:",
+        type: "video",
+        src: "https://player.vimeo.com/video/703377302",
+      },
+    ],
+  },
+  {
+    clientName: "Tripadvisor",
+    saySomething: "Trustworthy",
+    description: "We had two questions to answer. One, what do reviews on TripAdvisor really mean? And two, why even do a brand campaign? We started by declaring TripAdvisor the people’s travel site. Our campaign theme, “Every experience counts,” quickly became a company trademark as the campaign far exceeded expectations – leading to more production and global media spending.",
+    folderName: "tripadvisor",
+    hero: "",
+    metaFooter: [
+      "Strategy","Positioning","Brand Messaging","Creative Development","Video & Post Production",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Vacation",
+        type: "video",
+        src: "https://player.vimeo.com/video/175623924",
+      },
+      {
+        title: "Toothpaste",
+        type: "video",
+        src: "https://player.vimeo.com/video/175634719",
+      },
+      {
+        title: "Pool",
+        type: "video",
+        src: "https://player.vimeo.com/video/175623922",
+      },
+    ],
+  },
+  {
+    clientName: "Big Oil Big Lies",
+    saySomething: "Dishonest",
+    description: "With so much misinformation out there, it’s harder than ever to know who to trust when it comes to climate change. So we decided to bring a little bullshit of our own and, in doing so, helped course correct the narrative. We started with a few words from Meryl Streep, Leonardo DiCaprio and The Rock. Kind of.",
+    folderName: "bigoilbiglies",
+    hero: "",
+    metaFooter: [
+      "Brand Messaging",
+      "Creative Development",
+      "Video & Post Production",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Dwayne",
+        type: "video",
+        src: "https://player.vimeo.com/video/539171279",
+      },
+      {
+        title: "Meryl",
+        type: "video",
+        src: "https://player.vimeo.com/video/539171640",
+      },
+      {
+        title: "Leo",
+        type: "video",
+        src: "https://player.vimeo.com/video/539171430",
+      },
+    ],
+  },
+  {
+    clientName: "Well",
+    saySomething: "Healthy",
+    description: "There’s nothing more important than your health, right? Seems somebody forgot to tell that to the American healthcare industry, where today’s systems are more focused on process than patients. Along comes Well. A dynamic platform to provide personalized guidance and keep every member well motivated, well organized and well cared for. Well, well, well.",
+    folderName: "well",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "ID System",
+      "Brand Messaging",
+      "UX",
+      "Web Design & Development",
+      "Copywriting",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "video",
+        autoplay: true,
+        title: "web",
+        src: "https://player.vimeo.com/video/744437510",
+      },
+      {
+        type: "image",
+        src: ["wellmobile3.jpg","wellmobile2.jpg"],
+      },
+      {
+        type: "image",
+        src: ["wellmobile1.jpg","wellmobile4.jpg"],
+      },
+    ],
+  },  
+  {
+    clientName: "Propshop",
+    saySomething: "Betting",
+    description: "They say the house always wins, but don’t be so sure about that. Propshop is the sports betting app that advantages you, the user. It’s more immersive, more social and way more fun than those larger sports betting platforms. How do we know? For starters, we had a ton of fun working on it. Full experience launching soon.",
+    folderName: "propshop",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "big_logo.jpg",
+      },
+      {
+        type: "image",
+        src: ["logo_animation.gif","phone.jpg"],
+      },
+      {
+        type: "image",
+        src: "onestopshop.jpg",
+      },
+      {
+        type: "image",
+        src: "business_cards_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["cup.jpg","tshirt_animation_1.gif"],
+      },
+      {
+        type: "image",
+        src: ["seewhatpropsup.jpg","foamfinger.jpg"],
+      },
+    ],
+  },
+  {
+    clientName: "Modivcare",
+    saySomething: "Reliable",
+    description: "The nearly 30,000 person company had just gone through a rebranding only six month earlier. As our first order of business, we were asked to create a new logo, ID system and brand platform that showed the strength and stability of a company committed to doing genuine good in the world. We decided to relaunch Modivcare with a bang instead of a whisper.",
+    folderName: "modivcare",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Postioning",
+      "Logo",
+      "ID System",
+      "Brand Messaging",
+      "Creative Development",
+      "Web Design",
+      "Collateral Design",
+      "Social Media",
+      "Video Production",
+      "Content Creation",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "ItsTime",
+        type: "video",
+        src: "https://player.vimeo.com/video/622742093",
+      },
+      {
+        type: "image",
+        src: "modivcare_logo.jpg",
+      },
+      {
+        type: "image",
+        src: ["modivcare_roadlogo.jpg","modivcare_pattern_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["modivcare_tag.jpg","modivcare_animation_3.gif"],
+      },
+      {
+        type: "image",
+        src: "modivcare_pattern_2.jpg",
+      },
+      {
+        type: "image",
+        src: ["modivcare_animation_1.gif","modivcare_pencils.jpg"],
+      },
+      {
+        type: "image",
+        src: "modivcare_web.jpg",
+      },
+    ],
+  },
+  {
     clientName: "Recovery Unplugged",
     saySomething: "Musical",
     description: "Our dear friend, Recovery Unplugged CEO Andew Sossin said, “We want to create a national chain of rehab centers that will help save thousands of lives each year through the power of music.” The idea seemed a little crazy at first. That’s why we liked it. Turns out, music can save your mortal soul. So we asked a simple question of those coping with the complicated issues of addiction: What track are you on?",
@@ -887,109 +888,108 @@ const projects = [
     ],
   },
   {
-    clientName: "Wishclouds",
-    saySomething: "Enviable",
-    description: "Our friend at Wishclouds said, “We need to go viral.” He was right. With sale alert sites hitting their peak, the pressure was on for the Wishclouds app to break through with a small budget. “Jane” quickly racked up 2.5M views on Youtube, appearing in Campaign, Adage, Shots, Archive, Creativity, Best Ads on TV and countless blogs. Hmm… maybe there was something right about Jane.",
-    folderName: "wishclouds",
-    hero: "",
+    clientName: "Buoy",
+    saySomething: "Instructive",
+    description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID test nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
+    folderName: "buoy",
+    hero: "copy_room_1.jpg",
     metaFooter: [
+      "Strategy",
       "Creative Development",
-      "Film Direction",
+      "Video, Post & Print Production",
+      "Social Content",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: ["poster_1.jpg","poster_2.jpg"],
+      },
+      {
+        type: "image",
+        src: "doorhanger_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_3.jpg","poster_4.jpg"],
+      },
+      {
+        type: "image",
+        src: "urinals_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_5.jpg","poster_6.jpg"],
+      },
+    ],
+  },
+  {
+    clientName: "Thindown",
+    saySomething: "Fashionable",
+    description: "Thin is in, and the demand for down has never been greater. Yet the process of working with down is as complicated as ever. Thindown had a better idea. Sustainable. Efficient. Easy to use. A way to make down as form-fitting as nature intended. It was time to put the age-old inefficiencies to rest. We introduced the world’s first down fabric. Since the, Thindown been used by countless high end fashion brands you know.",
+    folderName: "thindown",
+    hero: "header_1.jpg",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Id System Design",
+      "Brand Messaging",
+      "Creative Development",
+      "Website",
       "Video & Post Production",
-      "Influencer Content",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Jane:",
-        type: "video",
-        src: "https://player.vimeo.com/video/703377302",
-      },
-    ],
-  },
-  {
-    clientName: "Say & Company",
-    saySomething: "Outspoken",
-    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own: Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
-    folderName: "say",
-    hero: "say_hero.jpg",
-    metaFooter: [
-      "Naming","Logo","Id System Design","Brand Messaging","Go To Market Strategy","Creative Development","<nobr>E-Commerce</nobr> Website","Social Media Management",
+      "Investor Materials",
+      "Content Production",
     ],
     awards: [],
     content: [
       {
         type: "image",
-        src: "say_1.jpg",
+        src: "logos_1.jpg",
       },
-      {
-        type: "image",
-        src: ["say_2.jpg","say_3.jpg","say_4.jpg"],
-      },
-      {
-        type: "image",
-        src: ["say_5.jpg","say_6.jpg","say_7.jpg"],
-      },
-      {
-        type: "image",
-        src: "say_8.jpg",
-      },
-      {
-        type: "image",
-        src: ["say_9.jpg","say_10.jpg","say_11.jpg"],
-      },
-      {
-        type: "image",
-        src: ["say_12.jpg","say_13.jpg","say_14.jpg"],
-      },
-      {
-        type: "image",
-        src: "say_15.jpg",
-      },
-    ],
-  },
-  {
-    clientName: "Hanes | 360i",
-    saySomething: "Chill",
-    folderName: "hanes",
-    hero: "",
-    description: "We jumped at the chance to direct this ambitious interactive mobile experience for Hanes and 360i. The choose-your-adventure game let you walk in Michael’s sizable shoes – earning points for being as chill as the legend himself. The effort was featured in Creativity, USA Today, SmartBrief and Printwear.",
-    metaFooter: [
-      "Film Direction",
-    ],
-    content: [ 
       {
         type: "video",
-        title: "Hanes Interactive Film",
-        src: "https://player.vimeo.com/video/251409418",
-      }
-    ]
-  },
+        autoplay: true,
+        title: "man",
+        src: "https://player.vimeo.com/video/448925255",
+      },
+      {
+        type: "image",
+        src: ["hangtag_1.jpg", "headline_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["fluff_1.jpg", "model_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["headline_2.jpg", "hanger_1.jpg"],
+      },
+      {
+        type: "image",
+        src: ["model_2.jpg", "thindown_1.jpg"],
+      },
+    ],
+  },  
   {
-    clientName: "Tripadvisor",
-    saySomething: "Trustworthy",
-    description: "We had two questions to answer. One, what do reviews on TripAdvisor really mean? And two, why even do a brand campaign? We started by declaring TripAdvisor the people’s travel site. Our campaign theme, “Every experience counts,” quickly became a company trademark as the campaign far exceeded expectations – leading to more production and global media spending.",
-    folderName: "tripadvisor",
+    clientName: "Amwell + Google",
+    saySomething: "Appreciative",
+    description: "Our campaign was a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many deserve praise, our campaign focused on a doctor’s willingness to drop everything for their patients. Even when it’s inconvenient, even when it’s life threatening, even when all seems lost, nothing stops a doctor. Our message was heard and widely shared.",
+    folderName: "amwell",
     hero: "",
     metaFooter: [
-      "Strategy","Positioning","Brand Messaging","Creative Development","Video & Post Production",
+      "Strategy",
+      "Positioning",
+      "Brand Messaging",
+      "Creative Development",
+      "Film Direction",  
+      "Video & Post Production",
     ],
     awards: [],
     content: [
       {
-        title: "Vacation",
+        title: "Nothing Stops a Doctor",
         type: "video",
-        src: "https://player.vimeo.com/video/175623924",
-      },
-      {
-        title: "Toothpaste",
-        type: "video",
-        src: "https://player.vimeo.com/video/175634719",
-      },
-      {
-        title: "Pool",
-        type: "video",
-        src: "https://player.vimeo.com/video/175623922",
+        src: "https://player.vimeo.com/video/526948128",
       },
     ],
   },

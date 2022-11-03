@@ -50,11 +50,6 @@ const projects = [
         type: "video",
         src: "https://player.vimeo.com/video/729327499",
       },
-      {
-        title: "Onboarding",
-        type: "video",
-        src: "https://player.vimeo.com/video/729331873",
-      },
     ],
   },
   {

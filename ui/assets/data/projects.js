@@ -180,7 +180,7 @@ const projects = [
       },
       {
         type: "image",
-        src: ["instagram_headline.gif","headline_2.jpg"],
+        src: ["instagram_headline_3.gif","headline_2.jpg"],
       },
     ],
   },

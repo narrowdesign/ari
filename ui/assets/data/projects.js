@@ -11,7 +11,7 @@ const projects = [
     saySomething: "Liberating",
     description: "For seniors who value privacy and freedom, home monitoring can be tough to swallow. To launch Quil, we flipped the script and put seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
     folderName: "quil",
-    hero: "",
+    hero: "pool_lady.jpg",
     metaFooter: [
       "Strategy",
       "Positioning",
@@ -31,10 +31,14 @@ const projects = [
     awards: [],
     content: [
       {
+        type: "image",
+        src: "quil_newspaper.png",
+      },
+      {
         title: "Hoverin",
         type: "video",
         src: "https://player.vimeo.com/video/653972055",
-      },
+      },  
       {
         title: "Wine",
         type: "video",

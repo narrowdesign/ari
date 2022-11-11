@@ -38,6 +38,22 @@ const projects = [
         title: "Hoverin",
         type: "video",
         src: "https://player.vimeo.com/video/653972055",
+      },
+      {
+        type: "image",
+        src: [
+          "quil_social_2.jpg",
+          "quil_social_12.jpg",
+          "quil_social_1.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "quil_social_10.jpg",
+          "quil_social_3.jpg",
+          "quil_social_11.jpg",
+        ]
       },  
       {
         title: "Wine",
@@ -48,6 +64,26 @@ const projects = [
         title: "Meds",
         type: "video",
         src: "https://player.vimeo.com/video/653972188",
+      },
+      {
+        type: "image",
+        src: "laptop_image.jpg",
+      },
+      {
+        type: "image",
+        src: [
+          "quil_social_9.jpg",
+          "quil_social_7.jpg",
+          "quil_social_8.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "quil_social_4.jpg",
+          "quil_social_6.jpg",
+          "quil_social_5.jpg",
+        ]
       },
       {
         title: "Product",

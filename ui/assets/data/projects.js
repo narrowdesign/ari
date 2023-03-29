@@ -62,86 +62,56 @@ const projects = [
     ],
   },
   {
-    clientName: "MeWe",
-    saySomething: "Do-Gooder",
-    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. We created MeWe, the non-profit brand of nut butter that’s good for me and good for we. MeWe quickly secured major retail distribution and began a successful partnership with Chobani within just months of launch.",
-    folderName: "mewe",
-    hero: "pattern_1.jpg",
+    clientName: "The Big Plan",
+    saySomething: "Brainy",
+    description: "It’s a new AI platform promising to serve up the ideal health insurance plan in just minutes, based on realtime marketplace data. In other words, a solution to the biggest headaches in health insurance. It was our job to give this remarkable company the brand name, identity and messaging it deserved. We said, “A big change requires a big plan.” Funding goals were met quickly. Very, very quickly.",
+    folderName: "thebigplan",
+    hero: "",
     metaFooter: [
       "Strategy",
       "Positioning",
-      "Naming",
       "Logo",
-      "Id System",
+      "ID System",
       "Brand Messaging",
-      "Package Design",
-      "Creative Development",
-      "E-Commerce Website",
-      "Direct Mail",
-      "PR Kit",
-      "Social Content",
-      "Investor Materials",
-      "Trade Show Booths",
+      "UX",
+      "Website Servces",
+      "Copywriting",
+      "Interim CMO Services",
     ],
     awards: [],
     content: [
       {
-        type: "slideshow",
-        src: [
-          "logo_2.jpg",
-          "logo_3.jpg",
-          "logo_4.jpg",
-          "logo_5.jpg",
-          "logo_6.jpg",
-          "logo_7.jpg",
-        ]
+        type: "video",
+        autoplay: true,
+        title: "web",
+        src: "https://player.vimeo.com/video/745540735",
       },
       {
         type: "image",
-        src: [
-          "package_1.jpg",
-          "package_2.jpg",
-          "package_3.jpg",
-        ]
+        src: "header_image.jpg",
       },
       {
         type: "image",
-        src: [
-          "package_4.jpg",
-          "package_5.jpg",
-          "package_6.jpg",
-        ]
+        src: ["mobile_animation.gif","squirrel_headgear.gif"],
       },
       {
         type: "image",
-        src: "print_1.jpg"
+        src: "headline_3.jpg",
       },
       {
         type: "image",
-        src: [
-          "instagram_1.jpg",
-          "instagram_2.jpg",
-          "instagram_3.jpg",
-        ],
+        src: ["illustrations.gif","tshirt.jpg"],
       },
       {
         type: "image",
-        src: [
-          "instagram_4.jpg",
-          "instagram_5.jpg",
-          "instagram_6.jpg",
-        ]
+        src: "businesscards.jpg",
       },
       {
         type: "image",
-        src: [
-          "instagram_7.jpg",
-          "instagram_8.jpg",
-          "instagram_9.jpg",
-        ]
-      }, 
+        src: ["instagram_headline_3.gif","headline_2.jpg"],
+      },
     ],
-  },    
+  },
   {
     clientName: "Quil",
     saySomething: "Liberating",
@@ -229,56 +199,108 @@ const projects = [
     ],
   },
   {
-    clientName: "The Big Plan",
-    saySomething: "Brainy",
-    description: "It’s a new AI platform promising to serve up the ideal health insurance plan in just minutes, based on realtime marketplace data. In other words, a solution to the biggest headaches in health insurance. It was our job to give this remarkable company the brand name, identity and messaging it deserved. We said, “A big change requires a big plan.” Funding goals were met quickly. Very, very quickly.",
-    folderName: "thebigplan",
+    clientName: "Face The Music",
+    saySomething: "Heartbreaking",
+    description: "WARNING: “I Got This” isn’t easy viewing. The video was created to raise awareness for Face The Music, a non-profit that provides recovery program scholarships for those in need. Before any media dollars were spent, “I Got This” got this: An article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. It was a Creativity Editor’s Pick and was shared by Maroon 5, Flo-Rida, Ink and Richie Sambora. “I Got This” also scored awards from AICP and One Show.",
+    folderName: "face_the_music",
     hero: "",
+    metaFooter: [
+      "Brand Messaging","Script Writing","Production And Post Production","Digital & Media Strategy",
+    ],
+    awards: [
+      "2018 One Show pencil",
+      "2018 AICP winner",
+      "2018 Webby Award",
+    ],
+    content: [
+      {
+        title: "I got this",
+        type: "video",
+        src: "https://player.vimeo.com/video/236263407",
+      },
+    ],
+  },    
+  {
+    clientName: "MeWe",
+    saySomething: "Do-Gooder",
+    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. We created MeWe, the non-profit brand of nut butter that’s good for me and good for we. MeWe quickly secured major retail distribution and began a successful partnership with Chobani within just months of launch.",
+    folderName: "mewe",
+    hero: "pattern_1.jpg",
     metaFooter: [
       "Strategy",
       "Positioning",
+      "Naming",
       "Logo",
-      "ID System",
+      "Id System",
       "Brand Messaging",
-      "UX",
-      "Website Servces",
-      "Copywriting",
-      "Interim CMO Services",
+      "Package Design",
+      "Creative Development",
+      "E-Commerce Website",
+      "Direct Mail",
+      "PR Kit",
+      "Social Content",
+      "Investor Materials",
+      "Trade Show Booths",
     ],
     awards: [],
     content: [
       {
-        type: "video",
-        autoplay: true,
-        title: "web",
-        src: "https://player.vimeo.com/video/745540735",
+        type: "slideshow",
+        src: [
+          "logo_2.jpg",
+          "logo_3.jpg",
+          "logo_4.jpg",
+          "logo_5.jpg",
+          "logo_6.jpg",
+          "logo_7.jpg",
+        ]
       },
       {
         type: "image",
-        src: "header_image.jpg",
+        src: [
+          "package_1.jpg",
+          "package_2.jpg",
+          "package_3.jpg",
+        ]
       },
       {
         type: "image",
-        src: ["mobile_animation.gif","squirrel_headgear.gif"],
+        src: [
+          "package_4.jpg",
+          "package_5.jpg",
+          "package_6.jpg",
+        ]
       },
       {
         type: "image",
-        src: "headline_3.jpg",
+        src: "print_1.jpg"
       },
       {
         type: "image",
-        src: ["illustrations.gif","tshirt.jpg"],
+        src: [
+          "instagram_1.jpg",
+          "instagram_2.jpg",
+          "instagram_3.jpg",
+        ],
       },
       {
         type: "image",
-        src: "businesscards.jpg",
+        src: [
+          "instagram_4.jpg",
+          "instagram_5.jpg",
+          "instagram_6.jpg",
+        ]
       },
       {
         type: "image",
-        src: ["instagram_headline_3.gif","headline_2.jpg"],
-      },
+        src: [
+          "instagram_7.jpg",
+          "instagram_8.jpg",
+          "instagram_9.jpg",
+        ]
+      }, 
     ],
-  },
+  },    
   {
     clientName: "DocGo",
     saySomething: "On-the-Go",
@@ -457,28 +479,6 @@ const projects = [
         title: "Escape",
         type: "video",
         src: "https://player.vimeo.com/video/523408070",
-      },
-    ],
-  },
-  {
-    clientName: "Face The Music",
-    saySomething: "Heartbreaking",
-    description: "WARNING: “I Got This” isn’t easy viewing. The video was created to raise awareness for Face The Music, a non-profit that provides recovery program scholarships for those in need. Before any media dollars were spent, “I Got This” got this: An article in Billboard, Adweek, Adage, Shots, Shoot and the Fix. It was a Creativity Editor’s Pick and was shared by Maroon 5, Flo-Rida, Ink and Richie Sambora. “I Got This” also scored awards from AICP and One Show.",
-    folderName: "face_the_music",
-    hero: "",
-    metaFooter: [
-      "Brand Messaging","Script Writing","Production And Post Production","Digital & Media Strategy",
-    ],
-    awards: [
-      "2018 One Show pencil",
-      "2018 AICP winner",
-      "2018 Webby Award",
-    ],
-    content: [
-      {
-        title: "I got this",
-        type: "video",
-        src: "https://player.vimeo.com/video/236263407",
       },
     ],
   },

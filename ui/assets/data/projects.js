@@ -62,6 +62,87 @@ const projects = [
     ],
   },
   {
+    clientName: "MeWe",
+    saySomething: "Do-Gooder",
+    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. We created MeWe, the non-profit brand of nut butter that’s good for me and good for we. MeWe quickly secured major retail distribution and began a successful partnership with Chobani within just months of launch.",
+    folderName: "mewe",
+    hero: "pattern_1.jpg",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Naming",
+      "Logo",
+      "Id System",
+      "Brand Messaging",
+      "Package Design",
+      "Creative Development",
+      "E-Commerce Website",
+      "Direct Mail",
+      "PR Kit",
+      "Social Content",
+      "Investor Materials",
+      "Trade Show Booths",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "slideshow",
+        src: [
+          "logo_2.jpg",
+          "logo_3.jpg",
+          "logo_4.jpg",
+          "logo_5.jpg",
+          "logo_6.jpg",
+          "logo_7.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "package_1.jpg",
+          "package_2.jpg",
+          "package_3.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "package_4.jpg",
+          "package_5.jpg",
+          "package_6.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: "print_1.jpg"
+      },
+      {
+        type: "image",
+        src: [
+          "instagram_1.jpg",
+          "instagram_2.jpg",
+          "instagram_3.jpg",
+        ],
+      },
+      {
+        type: "image",
+        src: [
+          "instagram_4.jpg",
+          "instagram_5.jpg",
+          "instagram_6.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "instagram_7.jpg",
+          "instagram_8.jpg",
+          "instagram_9.jpg",
+        ]
+      }, 
+    ],
+  },    
+  {
     clientName: "Quil",
     saySomething: "Liberating",
     description: "For seniors who value privacy and freedom, home monitoring can be tough to swallow. To launch Quil, we flipped the script and put seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
@@ -145,87 +226,6 @@ const projects = [
         type: "video",
         src: "https://player.vimeo.com/video/729327499",
       },
-    ],
-  },
-  {
-    clientName: "MeWe",
-    saySomething: "Do-Gooder",
-    description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. We created MeWe, the non-profit brand of nut butter that’s good for me and good for we. MeWe quickly secured major retail distribution and began a successful partnership with Chobani within just months of launch.",
-    folderName: "mewe",
-    hero: "pattern_1.jpg",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Naming",
-      "Logo",
-      "Id System",
-      "Brand Messaging",
-      "Package Design",
-      "Creative Development",
-      "E-Commerce Website",
-      "Direct Mail",
-      "PR Kit",
-      "Social Content",
-      "Investor Materials",
-      "Trade Show Booths",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "slideshow",
-        src: [
-          "logo_2.jpg",
-          "logo_3.jpg",
-          "logo_4.jpg",
-          "logo_5.jpg",
-          "logo_6.jpg",
-          "logo_7.jpg",
-        ]
-      },
-      {
-        type: "image",
-        src: [
-          "package_1.jpg",
-          "package_2.jpg",
-          "package_3.jpg",
-        ]
-      },
-      {
-        type: "image",
-        src: [
-          "package_4.jpg",
-          "package_5.jpg",
-          "package_6.jpg",
-        ]
-      },
-      {
-        type: "image",
-        src: "print_1.jpg"
-      },
-      {
-        type: "image",
-        src: [
-          "instagram_1.jpg",
-          "instagram_2.jpg",
-          "instagram_3.jpg",
-        ],
-      },
-      {
-        type: "image",
-        src: [
-          "instagram_4.jpg",
-          "instagram_5.jpg",
-          "instagram_6.jpg",
-        ]
-      },
-      {
-        type: "image",
-        src: [
-          "instagram_7.jpg",
-          "instagram_8.jpg",
-          "instagram_9.jpg",
-        ]
-      }, 
     ],
   },
   {

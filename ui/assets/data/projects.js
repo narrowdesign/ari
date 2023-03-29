@@ -7,88 +7,57 @@
 */
 const projects = [
   {
-    clientName: "Quil",
-    saySomething: "Liberating",
-    description: "For seniors who value privacy and freedom, home monitoring can be tough to swallow. To launch Quil, we flipped the script and put seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
-    folderName: "quil",
-    hero: "pool_lady.jpg",
+    clientName: "Firefly",
+    saySomething: "Equitable",
+    description: "The way we understood it, The Fireflyhealth approach was more personalized, more convenient and ultimately, far more effective than the care most of us are accustomed to. We said, “So your patients kinda get the same treatment extremely rich folks do?” They said, “Yeah. Kinda.” Within a week of running our campaign, sign ups skyrocket beyond anything the company had never seen.",
+    folderName: "firefly",
+    hero: "",
     metaFooter: [
       "Strategy",
-      "Positioning",
-      "ID System Design",
-      "Brand Messaging",
-      "Package Design",
-      "Interim CMO",
+      "Advertising",
       "Creative Development",
-      "Web Design & Development",
-      "Social Media",
-      "Film Direction",
       "Video Production",
-      "Social Media",
-      "Email Campaigns",
-      "Performance Marketing",
     ],
     awards: [],
     content: [
       {
-        type: "image",
-        src: "quil_newspaper.png",
-      },
-      {
-        title: "Hoverin",
+        title: "Rich Jerk",
         type: "video",
-        src: "https://player.vimeo.com/video/653972055",
+        src: "https://player.vimeo.com/video/811068704",
+      },
+      {
+        type: "image",
+        src: "firefly_ooh_1.jpg",
+      },
+      {
+        title: "Privilege",
+        type: "video",
+        src: "https://player.vimeo.com/video/811091134",
+      },
+      {
+        type: "image",
+        src: "firefly_transit_1",
+      },
+      {
+        title: "High Society",
+        type: "video",
+        src: "https://player.vimeo.com/video/811077476",
       },
       {
         type: "image",
         src: [
-          "quil_social_2.jpg",
-          "quil_social_12.jpg",
-          "quil_social_1.jpg",
+          "firefly_square_ad_1.jpg",
+          "firefly_iphone_1.jpg",
         ]
       },
       {
-        type: "image",
-        src: [
-          "quil_social_10.jpg",
-          "quil_social_3.jpg",
-          "quil_social_11.jpg",
-        ]
+        title: "Rockstar",
+        type: "video",
+        src: "https://player.vimeo.com/video/811068519",
       },  
       {
-        title: "Wine",
-        type: "video",
-        src: "https://player.vimeo.com/video/653971016",
-      },
-      {
-        title: "Meds",
-        type: "video",
-        src: "https://player.vimeo.com/video/653972188",
-      },
-      {
         type: "image",
-        src: "laptop_image.jpg",
-      },
-      {
-        type: "image",
-        src: [
-          "quil_social_9.jpg",
-          "quil_social_7.jpg",
-          "quil_social_8.jpg",
-        ]
-      },
-      {
-        type: "image",
-        src: [
-          "quil_social_4.jpg",
-          "quil_social_6.jpg",
-          "quil_social_5.jpg",
-        ]
-      },
-      {
-        title: "Product",
-        type: "video",
-        src: "https://player.vimeo.com/video/729327499",
+        src: "firefly_ooh_2.jpg",
       },
     ],
   },

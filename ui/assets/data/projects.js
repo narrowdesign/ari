@@ -7,6 +7,61 @@
 */
 const projects = [
   {
+    clientName: "Firefly",
+    saySomething: "Equitable",
+    description: "The way we understood it, The Fireflyhealth approach was more personalized, more convenient and ultimately, far more effective than the care most of us are accustomed to. We said, “So your patients kinda get the same treatment extremely rich folks do?” They said, “Yeah. Kinda.” Within a week of running our campaign, sign ups skyrocket beyond anything the company had never seen.",
+    folderName: "firefly",
+    hero: "",
+    metaFooter: [
+      "Strategy",
+      "Advertising",
+      "Creative Development",
+      "Video Production",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Rich Jerk",
+        type: "video",
+        src: "https://player.vimeo.com/video/811068704",
+      },
+      {
+        type: "image",
+        src: "firefly_ooh_1.jpg",
+      },
+      {
+        title: "Privilege",
+        type: "video",
+        src: "https://player.vimeo.com/video/811091134",
+      },
+      {
+        type: "image",
+        src: "firefly_transit_1.jpg",
+      },
+      {
+        title: "High Society",
+        type: "video",
+        src: "https://player.vimeo.com/video/811077476",
+      },
+      {
+        type: "image",
+        src: [
+          "firefly_square_ad_1.jpg",
+          "firefly_iphone_1.jpg",
+        ]
+      },
+      {
+        title: "Rockstar",
+        type: "video",
+        src: "https://player.vimeo.com/video/811068519",
+      },  
+      {
+        type: "image",
+        src: "firefly_ooh_2.jpg",
+      },
+    ],
+  },
+  {
     clientName: "Quil",
     saySomething: "Liberating",
     description: "For seniors who value privacy and freedom, home monitoring can be tough to swallow. To launch Quil, we flipped the script and put seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
@@ -89,61 +144,6 @@ const projects = [
         title: "Product",
         type: "video",
         src: "https://player.vimeo.com/video/729327499",
-      },
-    ],
-  },
-  {
-    clientName: "Firefly",
-    saySomething: "Equitable",
-    description: "The way we understood it, The Fireflyhealth approach was more personalized, more convenient and ultimately, far more effective than the care most of us are accustomed to. We said, “So your patients kinda get the same treatment extremely rich folks do?” They said, “Yeah. Kinda.” Within a week of running our campaign, sign ups skyrocket beyond anything the company had never seen.",
-    folderName: "firefly",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Advertising",
-      "Creative Development",
-      "Video Production",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Rich Jerk",
-        type: "video",
-        src: "https://player.vimeo.com/video/811068704",
-      },
-      {
-        type: "image",
-        src: "firefly_ooh_1.jpg",
-      },
-      {
-        title: "Privilege",
-        type: "video",
-        src: "https://player.vimeo.com/video/811091134",
-      },
-      {
-        type: "image",
-        src: "firefly_transit_1.jpg",
-      },
-      {
-        title: "High Society",
-        type: "video",
-        src: "https://player.vimeo.com/video/811077476",
-      },
-      {
-        type: "image",
-        src: [
-          "firefly_square_ad_1.jpg",
-          "firefly_iphone_1.jpg",
-        ]
-      },
-      {
-        title: "Rockstar",
-        type: "video",
-        src: "https://player.vimeo.com/video/811068519",
-      },  
-      {
-        type: "image",
-        src: "firefly_ooh_2.jpg",
       },
     ],
   },

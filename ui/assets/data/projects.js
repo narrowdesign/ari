@@ -219,7 +219,7 @@ const projects = [
         src: "https://player.vimeo.com/video/236263407",
       },
     ],
-  },    
+  },
   {
     clientName: "MeWe",
     saySomething: "Do-Gooder",
@@ -300,7 +300,47 @@ const projects = [
         ]
       }, 
     ],
-  },    
+  },
+  {
+    clientName: "Binx",
+    saySomething: "Provocative",
+    description: "For most college student, STI testing is a regret and fear based ritual. Something done after sex. We saw an opportunity to change that. With STIs at an all time high on campuses, we positioned Binx as a pre-sex, hygiene ritual. An at-home test to help you put a little clean in your dirty.",
+    folderName: "binx",
+    hero: "bus_shelter_1.jpg",
+    metaFooter: [
+      "Strategy & Positioning",
+      "Brand Messaging",
+      "Id System Design",
+      "Campaign Development",
+      "Video & Post Production",
+      "Directing",
+      "Out Of Home",
+      "Social Content",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "wild_postings_1.jpg",
+      },
+      {
+        type: "image",
+        src: ["poster_1.jpg","poster_2.jpg"],
+      },
+      {
+        type: "image",
+        src: "bus_shelter_2.jpg",
+      },
+      {
+        type: "image",
+        src: ["sock_front_1.jpg","sock_back_1.jpg"],
+      },
+      {
+        type: "image",
+        src: "instagram_grid_1.png",
+      },
+    ],
+  },
   {
     clientName: "DocGo",
     saySomething: "On-the-Go",
@@ -357,128 +397,73 @@ const projects = [
     ],
   },
   {
-    clientName: "Binx",
-    saySomething: "Provocative",
-    description: "For most college student, STI testing is a regret and fear based ritual. Something done after sex. We saw an opportunity to change that. With STIs at an all time high on campuses, we positioned Binx as a pre-sex, hygiene ritual. An at-home test to help you put a little clean in your dirty.",
-    folderName: "binx",
-    hero: "bus_shelter_1.jpg",
-    metaFooter: [
-      "Strategy & Positioning",
-      "Brand Messaging",
-      "Id System Design",
-      "Campaign Development",
-      "Video & Post Production",
-      "Directing",
-      "Out Of Home",
-      "Social Content",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "wild_postings_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["poster_1.jpg","poster_2.jpg"],
-      },
-      {
-        type: "image",
-        src: "bus_shelter_2.jpg",
-      },
-      {
-        type: "image",
-        src: ["sock_front_1.jpg","sock_back_1.jpg"],
-      },
-      {
-        type: "image",
-        src: "instagram_grid_1.png",
-      },
-    ],
-  },
-  {
-    clientName: "Say & Company",
-    saySomething: "Outspoken",
-    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own: Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
-    folderName: "say",
-    hero: "say_hero.jpg",
-    metaFooter: [
-      "Naming","Logo","Id System Design","Brand Messaging","Go To Market Strategy","Creative Development","<nobr>E-Commerce</nobr> Website","Social Media Management",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "say_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["say_2.jpg","say_3.jpg","say_4.jpg"],
-      },
-      {
-        type: "image",
-        src: ["say_5.jpg","say_6.jpg","say_7.jpg"],
-      },
-      {
-        type: "image",
-        src: "say_8.jpg",
-      },
-      {
-        type: "image",
-        src: ["say_9.jpg","say_10.jpg","say_11.jpg"],
-      },
-      {
-        type: "image",
-        src: ["say_12.jpg","say_13.jpg","say_14.jpg"],
-      },
-      {
-        type: "image",
-        src: "say_15.jpg",
-      },
-    ],
-  },
-  {
-    clientName: "Together Labs",
-    saySomething: "Virtual",
-    description: "With the promise of the Metaverse, crypto and NFTs looming large, the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity, messaging and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
-    folderName: "together",
+    clientName: "Metlife",
+    saySomething: "Everybody's",
+    description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s heart. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of our non-compete ; ).",
+    folderName: "metlife_2",
     hero: "",
     metaFooter: [
-      "Logo",
-      "ID System",
-      "Web Design",
-      "Video & Post Production",
+      "Brand Messaging",
+      "Creative Development",
+      "Production And Post Production",
     ],
     awards: [],
     content: [
       {
-        type: "image",
-        src: "together_header.jpg",
-      },
-      {
-        type: "image",
-        src: "together_logo.jpg",
-      },
-      {
-        type: "image",
-        src: "together_animation_1.gif",
-      },
-      {
-        type: "image",
-        src: ["together_pattern.jpg","together_withme.jpg"],
-      },
-      {
-        type: "image",
-        src: ["together_imvu1.jpg","together_animation_2.gif"],
-      },
-      {
-        type: "image",
-        src: ["together_tag.jpg","together_imvu2.jpg"],
-      },
-      {
-        title: "Escape",
+        title: "Superbowl Anthem:",
         type: "video",
-        src: "https://player.vimeo.com/video/523408070",
+        src: "https://player.vimeo.com/video/96031163",
+      },
+    ],
+  },
+  {
+    clientName: "Elmhurst",
+    saySomething: "Competitive",
+    description: "At nearly seven bucks a carton, Elmhurst didn’t have the price advantages of its competitors. Then again, the product didn’t have other things either, like gums, oils and additives. In a culture of sustainability, transparency and dietary consciousness, it was time people knew why truly is better. During our campaign’s run, the company saw a 70% lift in sales.",
+    folderName: "elmhurst",
+    hero: "ooh_1.jpg",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "Brand Messaging",
+      "Creative Development",
+      "Video & Post Production"
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Wow",
+        type: "video",
+        src: "https://player.vimeo.com/video/402200729",
+      },
+      {
+        title: "1925",
+        type: "video",
+        src: "https://player.vimeo.com/video/402204658",
+      },
+      {
+        title: "Nuts",
+        type: "video",
+        src: "https://player.vimeo.com/video/405134581",
+      },
+      {
+        type: "image",
+        src: "ooh_2.jpg",
+      },
+      {
+        type: "image",
+        src: [
+          "poster_1.jpg",
+          "poster_2.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: "ooh_3.jpg",
+      },
+      {
+        type: "image",
+        src: "bus_shelter_1.jpg",
       },
     ],
   },
@@ -551,25 +536,50 @@ const projects = [
     ],
   },
   {
-    clientName: "Metlife",
-    saySomething: "Everybody's",
-    description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s heart. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of our non-compete ; ).",
-    folderName: "metlife_2",
+    clientName: "Together Labs",
+    saySomething: "Virtual",
+    description: "With the promise of the Metaverse, crypto and NFTs looming large, the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity, messaging and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
+    folderName: "together",
     hero: "",
     metaFooter: [
-      "Brand Messaging",
-      "Creative Development",
-      "Production And Post Production",
+      "Logo",
+      "ID System",
+      "Web Design",
+      "Video & Post Production",
     ],
     awards: [],
     content: [
       {
-        title: "Superbowl Anthem:",
+        type: "image",
+        src: "together_header.jpg",
+      },
+      {
+        type: "image",
+        src: "together_logo.jpg",
+      },
+      {
+        type: "image",
+        src: "together_animation_1.gif",
+      },
+      {
+        type: "image",
+        src: ["together_pattern.jpg","together_withme.jpg"],
+      },
+      {
+        type: "image",
+        src: ["together_imvu1.jpg","together_animation_2.gif"],
+      },
+      {
+        type: "image",
+        src: ["together_tag.jpg","together_imvu2.jpg"],
+      },
+      {
+        title: "Escape",
         type: "video",
-        src: "https://player.vimeo.com/video/96031163",
+        src: "https://player.vimeo.com/video/523408070",
       },
     ],
-  },  
+  },
   {
     clientName: "Nickel",
     saySomething: "Patriotic",
@@ -610,53 +620,43 @@ const projects = [
     ],
   },
   {
-    clientName: "Elmhurst",
-    saySomething: "Competitive",
-    description: "At nearly seven bucks a carton, Elmhurst didn’t have the price advantages of its competitors. Then again, the product didn’t have other things either, like gums, oils and additives. In a culture of sustainability, transparency and dietary consciousness, it was time people knew why truly is better. During our campaign’s run, the company saw a 70% lift in sales.",
-    folderName: "elmhurst",
-    hero: "ooh_1.jpg",
+    clientName: "Say & Company",
+    saySomething: "Outspoken",
+    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own: Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
+    folderName: "say",
+    hero: "say_hero.jpg",
     metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Brand Messaging",
-      "Creative Development",
-      "Video & Post Production"
+      "Naming","Logo","Id System Design","Brand Messaging","Go To Market Strategy","Creative Development","<nobr>E-Commerce</nobr> Website","Social Media Management",
     ],
     awards: [],
     content: [
       {
-        title: "Wow",
-        type: "video",
-        src: "https://player.vimeo.com/video/402200729",
-      },
-      {
-        title: "1925",
-        type: "video",
-        src: "https://player.vimeo.com/video/402204658",
-      },
-      {
-        title: "Nuts",
-        type: "video",
-        src: "https://player.vimeo.com/video/405134581",
+        type: "image",
+        src: "say_1.jpg",
       },
       {
         type: "image",
-        src: "ooh_2.jpg",
+        src: ["say_2.jpg","say_3.jpg","say_4.jpg"],
       },
       {
         type: "image",
-        src: [
-          "poster_1.jpg",
-          "poster_2.jpg",
-        ]
+        src: ["say_5.jpg","say_6.jpg","say_7.jpg"],
       },
       {
         type: "image",
-        src: "ooh_3.jpg",
+        src: "say_8.jpg",
       },
       {
         type: "image",
-        src: "bus_shelter_1.jpg",
+        src: ["say_9.jpg","say_10.jpg","say_11.jpg"],
+      },
+      {
+        type: "image",
+        src: ["say_12.jpg","say_13.jpg","say_14.jpg"],
+      },
+      {
+        type: "image",
+        src: "say_15.jpg",
       },
     ],
   },

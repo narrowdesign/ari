@@ -93,6 +93,92 @@ const projects = [
     ],
   },
   {
+    clientName: "Quil",
+    saySomething: "Liberating",
+    description: "For seniors who value privacy and freedom, home monitoring can be tough to swallow. To launch Quil, we flipped the script and put seniors in control. Their message to caregivers was clear. “Look after us without being on top of us.” “Stay in our lives and out of our hair.” Quit hoverin’ and start Quillin’. Our goals were reached 2X faster than expected and 60% under cost benchmarks.",
+    folderName: "quil",
+    hero: "pool_lady.jpg",
+    metaFooter: [
+      "Strategy",
+      "Positioning",
+      "ID System Design",
+      "Brand Messaging",
+      "Package Design",
+      "Interim CMO",
+      "Creative Development",
+      "Web Design & Development",
+      "Social Media",
+      "Film Direction",
+      "Video Production",
+      "Social Media",
+      "Email Campaigns",
+      "Performance Marketing",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "quil_newspaper.png",
+      },
+      {
+        title: "Hoverin",
+        type: "video",
+        src: "https://player.vimeo.com/video/653972055",
+      },
+      {
+        type: "image",
+        src: [
+          "quil_social_2.jpg",
+          "quil_social_12.jpg",
+          "quil_social_1.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "quil_social_10.jpg",
+          "quil_social_3.jpg",
+          "quil_social_11.jpg",
+        ]
+      },  
+      {
+        title: "Wine",
+        type: "video",
+        src: "https://player.vimeo.com/video/653971016",
+      },
+      {
+        title: "Meds",
+        type: "video",
+        src: "https://player.vimeo.com/video/653972188",
+      },
+      {
+        type: "image",
+        src: "laptop_image.jpg",
+      },
+      {
+        type: "image",
+        src: [
+          "quil_social_9.jpg",
+          "quil_social_7.jpg",
+          "quil_social_8.jpg",
+        ]
+      },
+      {
+        type: "image",
+        src: [
+          "quil_social_4.jpg",
+          "quil_social_6.jpg",
+          "quil_social_5.jpg",
+        ]
+      },
+      {
+        title: "Product",
+        type: "video",
+        src: "https://player.vimeo.com/video/729327499",
+      },
+    ],
+  },
+  {
     clientName: "MeWe",
     saySomething: "Do-Gooder",
     description: "Can one product save millions abroad while serving the unique needs of people here at home? Our friend, Navyn Salem, was determined to find out. We created MeWe, the non-profit brand of nut butter that’s good for me and good for we. MeWe quickly secured major retail distribution and began a successful partnership with Chobani within just months of launch.",

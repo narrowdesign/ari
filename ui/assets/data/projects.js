@@ -9,7 +9,7 @@ const projects = [
   {
     clientName: "Firefly",
     saySomething: "Equitable", 
-    description: "The Firefly approach to care is more personalized, more convenient and, ultimately, far more effective than the care most of us are used to. We said, “Sounds like your patients get the same treatment rich folks do.” Within one week of running our campaign, sign ups skyrocketed beyond anything previously seen in the company's history.",
+    description: "The Firefly approach to care is more personalized, more convenient and, ultimately, far more effective than the care most of us are used to. We said, “Sounds like your patients get the same treatment rich folks do.” Within one week of running our campaign, sign ups skyrocketed beyond anything previously seen in the company's history. ",
     folderName: "firefly",
     hero: "",
     metaFooter: [

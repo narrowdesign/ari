@@ -36,7 +36,7 @@ const projects = [
       },
       {
         type: "image",
-        src: "firefly_transit_1",
+        src: "firefly_transit_1.jpg",
       },
       {
         title: "High Society",

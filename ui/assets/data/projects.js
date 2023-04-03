@@ -736,7 +736,7 @@ const projects = [
       {
         title: "Jane:",
         type: "video",
-        src: "https://player.vimeo.com/video/703377302",
+        src: "https://player.vimeo.com/video/340950970",
       },
     ],
   },

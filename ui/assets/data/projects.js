@@ -419,7 +419,7 @@ const projects = [
   {
     clientName: "Elmhurst",
     saySomething: "Competitive",
-    description: "At nearly seven bucks a carton, Elmhurst didn’t have the price advantages of its competitors. Then again, the product didn’t have other things either, like gums, oils and additives. In a culture of sustainability, transparency and dietary consciousness, it was time people knew why simpler truly is better. During our campaign’s run, the company saw a 70% lift in sales.",
+    description: "At nearly seven bucks a carton, Elmhurst didn’t have the price advantages of its competitors. Then again, the product didn’t have other things either, like gums, oils and additives. In a culture of sustainability, transparency and dietary consciousness, it was time people knew why simpler truly was better. During our campaign’s run, the company saw a 70% lift in sales.",
     folderName: "elmhurst",
     hero: "ooh_1.jpg",
     metaFooter: [

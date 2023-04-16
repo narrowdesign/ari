@@ -623,7 +623,7 @@ const projects = [
   {
     clientName: "Say & Company",
     saySomething: "Outspoken",
-    description: "With client business largely on hold during the COVID-19 crisis, we took the chance to create a business of our own: Say & Company, a utility apparel brand designed to spread messages that are important to us all. We aimed to do that with clarity, sincerity, cool hats and a simple mission to improve life on earth. It began with the 6ft Away shirt, an anti-social fashion statement for the whole family.",
+    description: "In the early days of COVID, some saw the idea of social distancing as, well, let’s just say, an option. Which made life pretty stressful around the South Florida headquarters of Ari&Friends. To help people stay safe, we created our very own, Official 6ft Away Shirt, and what began as a local effort quickly went national. And with countless customers sharing their shirt pics, viral.",
     folderName: "say",
     hero: "say_hero.jpg",
     metaFooter: [

@@ -623,7 +623,7 @@ const projects = [
   {
     clientName: "Say & Company",
     saySomething: "Outspoken",
-    description: "In the early days of COVID, some saw the idea of social distancing as, well, let’s just say, an option. Which made life pretty stressful around the South Florida headquarters of Ari&Friends. To help people stay safe, we created our very own, Official 6ft Away Shirt, and what began as a local effort quickly went national. And with countless customers sharing their shirt pics, viral.",
+    description: "In the early days of COVID, some saw the idea of social distancing as, well, let’s just say, an option. Which made life pretty stressful around the South Florida headquarters of Ari&Friends. To help people stay safe, we created The Official 6ft Away Shirt, and what began as a local effort quickly went national. And with countless customers sharing their shirt pics, viral.",
     folderName: "say",
     hero: "say_hero.jpg",
     metaFooter: [

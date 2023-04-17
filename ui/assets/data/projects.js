@@ -981,7 +981,7 @@ const projects = [
   {
     clientName: "Buoy",
     saySomething: "Instructive",
-    description: "Buoy is a thoughtful company filled with energetic, brilliant people. Yet for those headed back to work, the name Buoy was nothing more than a mandatory daily online COVID questionnaire nobody wanted to take. Our campaign aimed to give Buoy a more likable voice in the workplace – offering advice in case of contact with objects, food or the dude at the adjacent urinal who just tinkled on your leg.",
+    description: "Our campaign aimed to give Buoy a more likable voice in the workplace – quelling confusion and offering much needed advice in case of contact with office objects, food items or the dude at the adjacent urinal who just tinkled on your leg.",
     folderName: "buoy",
     hero: "copy_room_1.jpg",
     metaFooter: [

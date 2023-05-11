@@ -399,7 +399,7 @@ const projects = [
   },
   {
     clientName: "Metlife",
-    saySomething: "Everybody's",
+    saySomething: "Unifying",
     description: "For a spot on the big game, MetLife gave us four days to concept, four weeks for production and sixty seconds to win America’s heart. Pre-launched on Mashable, “Anthem” was shared 92K times in under 48 hours. The NY Times called it, “charming,” Business Insider called it, “Everything that’s good about America,” and the incumbent agency called it, a violation of our non-compete ; ).",
     folderName: "metlife_2",
     hero: "",
@@ -1259,7 +1259,7 @@ const projects = [
   },
   {
     clientName: "Extended Stay Hotels",
-    saySomething: "Outrageous",
+    saySomething: "Relaxed",
     description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
     folderName: "extended_stay_hotels",
     hero: "",
@@ -1503,179 +1503,6 @@ const projects = [
       },
     ]
   },
-  {
-    clientName: "Past Hits",
-    saySomething: "Old",
-    description: "They may be well past their first run dates, but these ideas have aged gracefully. There’s Truth “Body Bags”, one of Adge’s top 15 campaigns of the century. There’s Ikea “Lamp“, a spot featured on virtually all best ads of all time lists. There’s Officemax’s “Elf Yourself”, a viral phenomenon that has endured for nearly 20 years. And there’s way too many people to thank for it all. Perhaps the agencies listed below are a good start.",
-    folderName: "classics",
-    hero: "header_1.jpg",
-    metaFooter: [
-      "Grace & Rothschild",
-      "CP+B",
-      "Fallon NY",
-      "TOY NY",
-    ],
-    content: [ 
-      {
-        type: "image",
-        src: "elf_2.jpg",
-      },
-      {
-        type: "video",
-        title: "elf",
-        aspect: "3_4",
-        src: "https://player.vimeo.com/video/444890779",
-      },
-      {
-        title: "IKEA Lamp",
-        type: "video",
-        src: "https://player.vimeo.com/video/83556671",
-      },
-      {
-        title: "Body Bags",
-        type: "video",
-        src: "https://player.vimeo.com/video/79751978",
-      },
-      {
-        type: "image",
-        src: "gt_1.jpg",
-      },
-      {
-        type: "image",
-        src: "gt_2.jpg",
-      },
-      {
-        type: "image",
-        src: "gt_3.jpg",
-      },
-      {
-        type: "image",
-        src: "mini_6.jpg",
-      },
-      {
-        type: "image",
-        src: "mini_8.jpg",
-      },
-      {
-        type: "image",
-        src: ["mini_4.jpg", "mini_7.jpg"],
-      },
-      {
-        type: "image",
-        src: "mini_5.jpg",
-      },
-      {
-        type: "image",
-        src: "mini_1.jpg",
-      },
-      {
-        type: "image",
-        layout: "2_1",
-        src: ["mini_2.jpg", "mini_3.jpg"],
-      },
-      {
-        type: "video",
-        title: "Glen",
-        aspect: "3_4",
-        src: "https://player.vimeo.com/video/79852065",
-      },
-      {
-        type: "image",
-        src: "time_3.jpg",
-      },
-      {
-        type: "image",
-        src: "time_1.jpg",
-      },
-      {
-        type: "image",
-        src: "time_2.jpg",
-      },
-      {
-        title: "Everyone",
-        type: "video",
-        src: "https://player.vimeo.com/video/75739839",
-      },
-      {
-        title: "Wolverine",
-        type: "video",
-        src: "https://player.vimeo.com/video/79699295",
-      },
-      {
-        type: "video",
-        title: "Matt",
-        src: "https://player.vimeo.com/video/80571914",
-      },
-      {
-        type: "video",
-        title: "Carl",
-        src: "https://player.vimeo.com/video/80571743",
-      },
-      {
-        type: "video",
-        title: "Santa",
-        src: "https://player.vimeo.com/video/79742643",
-      },
-      {
-        type: "video",
-        title: "Headphones",
-        src: "https://player.vimeo.com/video/79752228",
-      },
-      {
-        type: "image",
-        src: "j&r_2.jpg",
-      },
-      {
-        type: "image",
-        src: ["j&r_6.jpg", "j&r_9.jpg"],
-      },
-      {
-        type: "image",
-        src: "j&r_3.jpg",
-      },
-      {
-        type: "image",
-        src: "j&r_1.jpg",
-      },
-      {
-        type: "video",
-        title: "So Relaxed",
-        src: "https://player.vimeo.com/video/80569390",
-      },
-      {
-        type: "image",
-        src: "bell_1.jpg",
-      },
-      {
-        type: "image",
-        src: "bell_2.jpg",
-      },
-      {
-        type: "image",
-        src: "bell_5.jpg",
-      },
-      {
-        type: "image",
-        src: "landrover_3.jpg",
-      },
-      {
-        type: "image",
-        src: "landrover_1.jpg",
-      },
-      {
-        type: "image",
-        src: "landrover_2.jpg",
-      },
-      {
-        type: "image",
-        src: ["stamps_2.jpg", "stamps_1.jpg"],
-      },
-      {
-        type: "image",
-        src: ["stamps_3.jpg", "stamps_4.jpg"],
-      },
-    ]
-  },  
   // {
   //   clientName: "PDFK",
   //   saySomething: "Instructive",

@@ -537,51 +537,6 @@ const projects = [
     ],
   },
   {
-    clientName: "Together Labs",
-    saySomething: "Virtual",
-    description: "With the promise of the Metaverse, crypto and NFTs looming large, the wildly popular avatar platform, IMVU, was looking to expand its horizons with an umbrella company called Together Labs. We created the identity, messaging and, given that Together Labs just made Time’s “100 Most Influential Companies”, quite possibly a monster.",
-    folderName: "together",
-    hero: "",
-    metaFooter: [
-      "Logo",
-      "ID System",
-      "Web Design",
-      "Video & Post Production",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "together_header.jpg",
-      },
-      {
-        type: "image",
-        src: "together_logo.jpg",
-      },
-      {
-        type: "image",
-        src: "together_animation_1.gif",
-      },
-      {
-        type: "image",
-        src: ["together_pattern.jpg","together_withme.jpg"],
-      },
-      {
-        type: "image",
-        src: ["together_imvu1.jpg","together_animation_2.gif"],
-      },
-      {
-        type: "image",
-        src: ["together_tag.jpg","together_imvu2.jpg"],
-      },
-      {
-        title: "Escape",
-        type: "video",
-        src: "https://player.vimeo.com/video/523408070",
-      },
-    ],
-  },
-  {
     clientName: "Nickel",
     saySomething: "Patriotic",
     description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We named them Nickel. Our branding idea was simple. Put people ahead of profits. No greed. No confusion. No Americans paying the price for an industry that’s lost its way. We introduced healthcare that costs what healthcare should cost. Not a nickel more.",
@@ -1258,22 +1213,53 @@ const projects = [
     ]
   },
   {
-    clientName: "Extended Stay Hotels",
-    saySomething: "Relaxed",
-    description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
-    folderName: "extended_stay_hotels",
-    hero: "",
+    clientName: "J&R",
+    saySomething: "New Yorker",
+    description: "When it comes to capturing the voice of a brand, nothing is more powerful than authenticity. What excited us most about working on this iconic NYC brand was its complete lack of big box retail polish. LPs sitting in old milk crates. Ripped commercial carpeting. Water stained ceilings. The passion and attitude of its oh-so-New-York-salesstaff. J&R was a branding goldmine and will remain forever in our hearts.",
+    folderName: "j_and_r",
+    hero: "j_and_r_5.jpg",
     meta: [
       "Ari Merkin",
       "Co-Founder, CCO TOY NY",
-    ],
-    content: [ 
+    ],  
+    content: [
       {
         type: "video",
-        title: "So Relaxed",
-        src: "https://player.vimeo.com/video/80569390",
-      }
-    ]
+        title: "Santa",
+        src: "https://player.vimeo.com/video/79742643",
+      },
+      {
+        type: "video",
+        title: "Headphones",
+        src: "https://player.vimeo.com/video/79752228",
+      },
+      {
+        type: "video",
+        title: "Wall St.",
+        src: "https://player.vimeo.com/video/79750519",
+      },
+      {
+        type: "video",
+        title: "Air Guitar",
+        src: "https://player.vimeo.com/video/79741074",
+      },
+      {
+        type: "image",
+        src: "j_and_r_7.jpg",
+      },
+      {
+        type: "image",
+        src: "j_and_r_6.jpg",
+      },
+      {
+        type: "image",
+        src: ["j_and_r_8.jpg", "j_and_r_9.jpg"],
+      },
+      {
+        type: "image",
+        src: "j_and_r_4.jpg",
+      },
+    ],
   },
   {
     clientName: "TIME",

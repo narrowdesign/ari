@@ -1116,6 +1116,394 @@ const projects = [
     ],
   },
   {
+    clientName: "Virgin Mobile",
+    saySomething: "Gullible",
+    description: "No matter how good the plan, cell phone companies are getting the better end of the deal. So it’s no wonder audiences were numb to the endless barrage of incentives. This was the insight that drove our Virgin Mobile campaign centered around real, honest to goodness benefits. We said: Most cell phones take advantage of customers. At Virgin Mobile we let you take advantage of us.",
+    folderName: "virgin_mobile",
+    hero: "",
+    meta: [
+      "Ari Merkin",
+      "Co-Founder, CCO TOY NY",
+    ],
+    content: [
+      {
+        type: "video",
+        title: "Matt",
+        src: "https://player.vimeo.com/video/80571914",
+      },
+      {
+        type: "video",
+        title: "Janice",
+        src: "https://player.vimeo.com/video/80571812",
+      },
+      {
+        type: "video",
+        title: "Carl",
+        src: "https://player.vimeo.com/video/80571743",
+      },
+      {
+        type: "video",
+        title: "Steve",
+        src: "https://player.vimeo.com/video/80572269",
+      },
+    ]
+  },
+  {
+    clientName: "MetLife",
+    saySomething: "Everyone's",
+    description: "For over 150 years, MetLife had been working to make sure everyone had access to health insurance. Yet the company was known more for Charles Schultz’s Peanuts characters than its own historic and powerful intentions. It was time to widen the cartoon universe and give the company the voice it deserved. For the first time in its history, MetLife was headed to the Superbowl.",
+    folderName: "metlife_1",
+    hero: "",
+    meta: [
+      "Ari Merkin, Writer, ECD",
+      "CP+B",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Everyone",
+        type: "video",
+        src: "https://player.vimeo.com/video/75739839",
+      },
+      {
+        title: "Five cents",
+        type: "video",
+        src: "https://player.vimeo.com/video/79645423",
+      },
+    ],
+  },
+  {
+    clientName: "Activision",
+    saySomething: "Violent",
+    description: "Video games based on movies that are based on comic books tend to, well, suck. Our friends at Activision challenged us to convince cynical gamers that the first person gameplay of “Wolverine” would exceed their expectations. Shot in a Mexican prison, this film showcases the realistic, rated M for mature, violent nature of the game – featuring in-camera action sequences in the POV of its title character.",
+    folderName: "activision",
+    hero: "",
+    meta: [
+      "Ari Merkin",
+      "Co-Founder, CCO TOY NY",
+    ],
+    content: [
+      {
+        title: "Wolverine",
+        type: "video",
+        src: "https://player.vimeo.com/video/79699295",
+      },
+    ],
+  },
+  {
+    clientName: "OfficeMax",
+    saySomething: "Cheerful",
+    description: `“Holiday gifts at an office supply store?” From the start, we knew OfficeMax needed more than a traditional ad campaign. They needed to make a real and lasting connection with holiday shoppers. In 2005, our team at Toy created not one, but 20 holiday-themed websites. Elf Yourself became a phenomenon and has been a cornerstone of the OfficeMax holiday effort ever since.`,
+    folderName: "officemax",
+    hero: "elf_1.jpg",
+    meta: [
+      "Ari Merkin",
+      "Co-Founder, CCO TOY NY",
+    ],
+    metaFooter: [
+      `“Best Ever Social Media Campaigns” - Forbes, 2010<br>“Arguably the Most Successful Viral Campaign in History.” - The Age, 2013`
+    ],
+    awards: [],
+    content: [
+      {
+        type: "video",
+        title: "elf",
+        aspect: "3_4",
+        src: "https://player.vimeo.com/video/444890779",
+      },
+      {
+        type: "image",
+        src: "elf_2.jpg",
+      },
+      {
+        type: "image",
+        src: ["elf_3.png", "elf_4.png", "elf_5.png"],
+      },
+      {
+        type: "image",
+        src: ["elf_6.png", "elf_7.png", "elf_5.png"],
+      },
+      {
+        type: "image",
+        src: ["elf_9.png", "elf_10.png", "elf_11.png"],
+      },
+      {
+        type: "image",
+        src: ["elf_12.png", "elf_13.png", "elf_15.png"],
+      },
+      {
+        type: "image",
+        src: ["elf_8.png", "elf_16.png", "elf_17.png"],
+      },
+    ],
+  },
+  {
+    clientName: "Starbucks",
+    saySomething: "Upbeat",
+    description: "We had a good feeling the ad would be a hit. But when it premiered at 7am for 800 people attending a Vegas bottlers’ convention, we worried the early time slot might bring more headaches than smiles. “Glen” was met with a rousing standing ovation and went on to become one of the most popular ads of the year.",
+    folderName: "starbucks",
+    hero: "",
+    meta: [
+      "Ari Merkin",
+      "ECD, Fallon NY",
+      "Creativity’s Spot of the Year",
+    ],
+    content: [ 
+      {
+        type: "video",
+        title: "Glen",
+        aspect: "3_4",
+        src: "https://player.vimeo.com/video/79852065",
+      }
+    ]
+  },
+  {
+    clientName: "Extended Stay Hotels",
+    saySomething: "Outrageous",
+    description: "“What benefit does Extended Stay Hotels enjoy by positioning itself as Your Hindquarters Headquarters?” asked Adage’s Bob Garfield, in an otherwise scathing review. ”Well, actually, a fair amount. Operating in a crowded category, burdened with a generic brand name, Extended Stay will, for the first time in its history, stand out in the crowd… as the old expression goes: Now you're cookin' with gas.”",
+    folderName: "extended_stay_hotels",
+    hero: "",
+    meta: [
+      "Ari Merkin",
+      "Co-Founder, CCO TOY NY",
+    ],
+    content: [ 
+      {
+        type: "video",
+        title: "So Relaxed",
+        src: "https://player.vimeo.com/video/80569390",
+      }
+    ]
+  },
+  {
+    clientName: "TIME",
+    saySomething: "Vigilant",
+    description: "While doing our watch on the legendary Time red border campaign, we decided to take it to the streets – bringing Time’s social commentary literally everywhere. Storefronts. Building sides. Construction sites. Yet it was this piece that got people talking, including David Letterman who complained about the traffic on the West Side Highway saying, “Every commuter slows to look at this blasted billboard.”",
+    folderName: "time",
+    hero: "time_3.jpg",
+    meta: [
+      "Ari Merkin",
+      "ECD, Fallon NY",
+      "Cannes Gold Lion",
+    ],
+    content: [
+      {
+        type: "image",
+        src: "time_1.jpg",
+      },
+      {
+        type: "image",
+        src: "time_2.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "MINI",
+    saySomething: "Little",
+    description: `“Why does the exhaust pipe look like a can?” Once the first full scale clay model of the MINI was complete, the team had a few beers to celebrate. As they stood, admiring their work, they noticed the missing exhaust pipe and quickly stuck an empty beer can in its place. Sometimes, the biggest ideas are born of a series of small, inspired moments. Never was this more true than the US launch of the MINI.`,
+    folderName: "mini",
+    hero: "mini_2.jpg",
+    meta: [
+      "Ari Merkin",
+      "Writer, CP+B",
+      "One Show Best of Show",
+    ],
+    awards: [],
+    content: [
+      {
+        type: "image",
+        src: "mini_14.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_13.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_15.jpg",
+      },
+      {
+        type: "image",
+        src: ["mini_10.jpg", "mini_8.jpg"],
+      },
+      {
+        type: "image",
+        src: "mini_1.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_16.jpg",
+      },
+      {
+        type: "image",
+        src: "mini_3.jpg",
+      },
+      {
+        type: "image",
+        layout: "2_1",
+        src: ["mini_4.jpg", "mini_7.jpg"],
+      },
+    ],
+  },
+  {
+    clientName: "Bell",
+    saySomething: "Proven",
+    description: "Unlike its new crop of sexy competitors, Bell had been around for 66 years. Painstakingly handcrafted from metal-type cast on an old timey letterpress, our campaign aimed to tell the company’s story – listing its deep generational roots as America’s most trusted helmet. After all, with that kind of staying power, the folks at Bell obviously know a thing or two about survival.",
+    folderName: "bell",
+    hero: "bell_3.jpg",
+    meta: [
+      "Ari Merkin",
+      "Writer, CP+B",
+      "One Show Gold",
+    ],
+    content: [
+      {
+        type: "image",
+        src: ["bell_1.jpg", "bell_2.jpg"],
+      },
+      {
+        type: "image",
+        src: "bell_4.jpg",
+      },
+      {
+        type: "image",
+        src: "bell_5.jpg",
+      },
+    ]
+  },
+{
+    clientName: "Ikea",
+    saySomething: "Rational",
+    description: "Suggesting that people have an unnatural attachment to their furniture takes guts, especially when it’s the first ad announcing the US arrival of Ikea. Lamp may well be “the best rug-pull in advertising history” (Adweek, 2017). It’s also a shining example of what can happen when everything goes right from strategy through production. And if you disagree, that is because you’re, well, y’know.",
+    folderName: "ikea",
+    hero: "",
+    meta: [
+      "Ari Merkin",
+      "Writer, CP+B",
+      "Winner of the Cannes Grand Prix and Grand Clio",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "IKEA Lamp",
+        type: "video",
+        src: "https://player.vimeo.com/video/83556671",
+      },
+    ],
+  },
+  {
+    clientName: "Truth",
+    saySomething: "Activist",
+    description: "As the seven-foot sacks piled up by the hundreds outside Phillip Morris, a horrified woman approached and asked what was going on. We shared with her the idea behind ‘Truth’, and she stared at us blankly. She said, “My sister died of lung cancer. Do you mind if I carry one of those bags?” For many, ‘Truth’ was life changing. Especially those of us who had the privilege of working on this campaign.",
+    folderName: "truth",
+    hero: "truth_4.jpg",
+    meta: [
+      "Writer, CP+B",
+      "AdAge Magazine’s 15 Best Campaigns of the 21st Century",
+    ],
+    awards: [],
+    content: [
+      {
+        title: "Body Bags",
+        type: "video",
+        src: "https://player.vimeo.com/video/79751978",
+      },
+      {
+        type: "image",
+        src: "truth_1.jpg",
+      },
+      {
+        type: "image",
+        src: "truth_2.jpg",
+      },
+      {
+        type: "image",
+        src: "truth_3.jpg",
+      },
+    ],
+  },
+  {
+    clientName: "GT",
+    saySomething: "Fast",
+    description: "There’s a school of thought that says advertising has to be all about the customer, all the time. Nah, that’s silly. Product benefits can easily be expressed with a powerful statement about what your company stands for. So go ahead and beat your chest. Prattle on. Make it all about you. Just do it in a way that people want to hear.",
+    folderName: "gt",
+    hero: "gt_4.jpg",
+    meta: [
+      "Ari Merkin",
+      "Writer, CP+B",
+      "Cannes Gold",
+    ],
+    content: [
+      {
+        type: "image",
+        src: "gt_5.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_1.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_7.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_6.jpg",
+      },
+      {
+        type: "image",
+        src: "gt_3.jpg",
+      },
+    ]
+  },
+  {
+    clientName: "Land Rover",
+    saySomething: "British",
+    description: "When going downhill in a mudslide, you are told to genty accelerate your Land Rover, even when every bone in your body is telling you to brake. It’s counterintuitive. And so were the concepts in this long running ad campaign. A vehicle covered in mud? Pelted with snowballs? In an industry that glamorizes sheet metal, this campaign dared to focus on the most glamorous thing a product can be. Honest.",
+    folderName: "land_rover",
+    hero: "landrover_3.jpg",
+    meta: [
+      "Ari Merkin",
+      "Writer",
+      "Grace and Rothschild",
+      "Comm Arts and One Show",
+    ],
+    content: [
+      {
+        type: "image",
+        src: "landrover_1.jpg",
+      },
+      {
+        type: "image",
+        src: "landrover_2.jpg",
+      },
+    ]
+  },
+  {
+    clientName: "5th Ave Stamp Gallery",
+    saySomething: "Clever",
+    description: "Great headline writing can involve a single, powerful thought. A flip on the usual. A word play or turn of phrase. For our friends at the 5th Avenue Stamp Gallery, a great headline was the funniest thing that could possibly be said at the intersection of celebrity and stamp. The result was a sales boost for our client. And thanks to its multi-year winning streak at the One Show, an ego boost for us.",
+    folderName: "stamps",
+    hero: "stamps_7.jpg",
+    meta: [
+      "One Show Gold",
+    ],
+    content: [
+      {
+        type: "image",
+        src: ["stamps_6.jpg","stamps_4.jpg"],
+      },
+      {
+        type: "image",
+        src: ["stamps_1.jpg","stamps_5.jpg"],
+      },
+      {
+        type: "image",
+        src: ["stamps_3.jpg","stamps_2.jpg"],
+      },
+    ]
+  },
+  {
     clientName: "Past Hits",
     saySomething: "Old",
     description: "They may be well past their first run dates, but these ideas have aged gracefully. There’s Truth “Body Bags”, one of Adge’s top 15 campaigns of the century. There’s Ikea “Lamp“, a spot featured on virtually all best ads of all time lists. There’s Officemax’s “Elf Yourself”, a viral phenomenon that has endured for nearly 20 years. And there’s way too many people to thank for it all. Perhaps the agencies listed below are a good start.",

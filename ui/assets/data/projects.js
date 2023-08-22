@@ -537,45 +537,6 @@ const projects = [
     ],
   },
   {
-    clientName: "Nickel",
-    saySomething: "Patriotic",
-    description: "Our client came to us with an idea to make healthcare attainable by making it affordable. We named them Nickel. Our branding idea was simple. Put people ahead of profits. No greed. No confusion. No Americans paying the price for an industry that’s lost its way. We introduced healthcare that costs what healthcare should cost. Not a nickel more.",
-    folderName: "nickel",
-    hero: "ooh_1.jpg",
-    metaFooter: [
-      "Strategy",
-      "Naming",
-      "Positioning",
-      "Brand Platform",
-      "Logo & Brand Id",
-      "Creative Development",
-      "Social Content",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "image",
-        src: "logos_1.jpg",
-      },
-      {
-        type: "image",
-        src: "duratrans_1.jpg",
-      },
-      {
-        type: "image",
-        src: ["poster_2.jpg","poster_1.jpg"],
-      },
-      {
-        type: "image",
-        src: "ooh_2.jpg",
-      },
-      {
-        type: "image",
-        src: "business_cards_1.jpg",
-      },
-    ],
-  },
-  {
     clientName: "Say & Company",
     saySomething: "Outspoken",
     description: "In the early days of COVID, some saw the idea of social distancing as, well, let’s just say, an option. Which made life pretty stressful around the South Florida headquarters of Ari&Friends. To help people stay safe, we created The Official 6ft Away Shirt, and what began as a local effort quickly went national. And with countless customers sharing their shirt pics, viral.",
@@ -754,39 +715,6 @@ const projects = [
       },
     ],
   },
-  {
-    clientName: "Well",
-    saySomething: "Healthy",
-    description: "There’s nothing more important than your health, right? Seems somebody forgot to tell that to the American healthcare industry, where today’s systems are more focused on process than patients. Along comes Well. A dynamic platform to provide personalized guidance and keep every member well motivated, well organized and well cared for. Well, well, well.",
-    folderName: "well",
-    hero: "",
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "ID System",
-      "Brand Messaging",
-      "UX",
-      "Web Design & Development",
-      "Copywriting",
-    ],
-    awards: [],
-    content: [
-      {
-        type: "video",
-        autoplay: true,
-        title: "web",
-        src: "https://player.vimeo.com/video/744437510",
-      },
-      {
-        type: "image",
-        src: ["wellmobile3.jpg","wellmobile2.jpg"],
-      },
-      {
-        type: "image",
-        src: ["wellmobile1.jpg","wellmobile4.jpg"],
-      },
-    ],
-  },  
   {
     clientName: "Propshop",
     saySomething: "Betting",
@@ -1016,29 +944,6 @@ const projects = [
       },
     ],
   },  
-  {
-    clientName: "Amwell + Google",
-    saySomething: "Appreciative",
-    description: "Our campaign was a love letter to celebrate the determination and resilience of healthcare providers in the time of COVID. While so many deserve praise, our campaign focused on a doctor’s willingness to drop everything for their patients. Even when it’s inconvenient, even when it’s life threatening, even when all seems lost, nothing stops a doctor. Our message was heard and widely shared.",
-    folderName: "amwell",
-    hero: "", 
-    metaFooter: [
-      "Strategy",
-      "Positioning",
-      "Brand Messaging",
-      "Creative Development",
-      "Film Direction",  
-      "Video & Post Production",
-    ],
-    awards: [],
-    content: [
-      {
-        title: "Nothing Stops a Doctor",
-        type: "video",
-        src: "https://player.vimeo.com/video/526948128",
-      },
-    ],
-  },
   {
     clientName: "Kmart",
     saySomething: "Buzzworthy",
